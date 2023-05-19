@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/CSZ181.xml-->
+                    <!-- CSZ-181 off-road -->
+<PLA_CSZ181OffRoad.label>CSZ-181 вездеход</PLA_CSZ181OffRoad.label>
+                          <!-- Plural CSZ-181 off-road -->
+<PLA_CSZ181OffRoad.labelPlural>CSZ-181 вездеходы</PLA_CSZ181OffRoad.labelPlural>
+                        <!-- Male CSZ-181 off-road -->
+<PLA_CSZ181OffRoad.labelMale>CSZ-181 вездеход</PLA_CSZ181OffRoad.labelMale>
+                              <!-- Male Plural CSZ-181 off-road -->
+<PLA_CSZ181OffRoad.labelMalePlural>CSZ-181 вездеходы</PLA_CSZ181OffRoad.labelMalePlural>
+                          <!-- Female CSZ-181 off-road -->
+<PLA_CSZ181OffRoad.labelFemale>CSZ-181 вездеход</PLA_CSZ181OffRoad.labelFemale>
+                                <!-- Female Plural CSZ-181 off-road -->
+<PLA_CSZ181OffRoad.labelFemalePlural>CSZ-181 вездеходы</PLA_CSZ181OffRoad.labelFemalePlural>
+
+</LanguageData>

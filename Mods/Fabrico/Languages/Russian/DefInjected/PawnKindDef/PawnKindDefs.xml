@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<NewbornAutomatonWorker.label>Автоматон рабочий</NewbornAutomatonWorker.label>
+	<!---->
+	<AutomatonWorker.label>Автоматон рабочий</AutomatonWorker.label>
+	<!---->
+	<NewbornAutomatonSoldier.label>Автоматон солдат</NewbornAutomatonSoldier.label>
+	<!---->
+	<AutomatonSoldier.label>Автоматон солдат</AutomatonSoldier.label>
+	<!---->
+	<AutomatonSoldier_Guard.label>Автоматон защитник</AutomatonSoldier_Guard.label>
+	<!---->
+	<AutomatonSoldier_Stormtrooper.label>Автоматон штурмовик</AutomatonSoldier_Stormtrooper.label>
+	<!---->
+	<NewbornAutomatonMedic.label>Автоматон медик</NewbornAutomatonMedic.label>
+	<!---->
+	<AutomatonMedic.label>Автоматон медик</AutomatonMedic.label>
+	<!---->
+	<AutomatonMedic_Combat.label>Автоматон медик</AutomatonMedic_Combat.label>
+	<!---->
+	<!---->
+	<!---->
+	<NewbornRobotWorker.label>Робот рабочий</NewbornRobotWorker.label>
+	<!---->
+	<RobotWorker.label>Робот рабочий</RobotWorker.label>
+	<!---->
+	<NewbornRobotSoldier.label>Робот солдат</NewbornRobotSoldier.label>
+	<!---->
+	<RobotSoldier.label>Робот солдат</RobotSoldier.label>
+	<!---->
+	<RobotSoldier_Guard.label>Робот защитник</RobotSoldier_Guard.label>
+	<!---->
+	<RobotSoldier_Stormtrooper.label>Робот штурмовик</RobotSoldier_Stormtrooper.label>
+	<!---->
+	<NewbornRobotMedic.label>Робот медик</NewbornRobotMedic.label>
+	<!---->
+	<RobotMedic.label>Робот медик</RobotMedic.label>
+	<!---->
+	<RobotMedic_Combat.label>Робот медик</RobotMedic_Combat.label>
+	<!---->
+	<NewbornRobotAI.label>Робот ИИ</NewbornRobotAI.label>
+	<!---->
+	<RobotAI.label>Робот ИИ</RobotAI.label>
+	<!---->
+	<RobotAI_Leader.label>Робот лидер</RobotAI_Leader.label>
+	<!---->
+	<StrangerInBlack_Automaton.label>Робот в черном</StrangerInBlack_Automaton.label>
+	<!---->
+	<!---->
+	<!---->
+	<BarnOwl.label>Сова</BarnOwl.label>
+	<!---->
+	<EagleOwl.label>Филин</EagleOwl.label>
+	<!---->
+	<Kestrel.label>Пустельга</Kestrel.label>
+	<!---->
+	<Crow.label>Ворон</Crow.label>
+	<!---->
+	<Cockatoo.label>Какаду</Cockatoo.label>
+	<!---->
+	<Hornbill.label>Птица-носорог</Hornbill.label>
+	<!---->
+	<Parrot.label>Папугай</Parrot.label>
+	<!---->
+	<Toucan.label>Тукан</Toucan.label>
+	<!---->
+	<GreatBustard.label>Дрофа</GreatBustard.label>
+	<!---->
+	<Jerboa.label>Тушканчик</Jerboa.label>
+	<!---->
+	<!---->
+	<!---->
+	<Medieval_King.label>Король</Medieval_King.label>
+	<!---->
+	<Medieval_Baron.label>Барон</Medieval_Baron.label>
+	<!---->
+	<Medieval_Knight.label>Рыцарь</Medieval_Knight.label>
+	<!---->
+	<Medieval_Shooter.label>Лучник</Medieval_Shooter.label>
+	<!---->
+	<Medieval_Peasant.label>Крестьянин</Medieval_Peasant.label>
+	<!---->
+	<Medieval_Grenadier.label>Гренадер</Medieval_Grenadier.label>
+	<!---->
+	<Medieval_Priest.label>Священник</Medieval_Priest.label>
+	<!---->
+	<Medieval_Philosopher.label>Философ</Medieval_Philosopher.label>
+	<!---->
+	<Medieval_Burger.label>Бюргер</Medieval_Burger.label>
+	<!---->
+	<!---->
+	<!---->
+</LanguageData>

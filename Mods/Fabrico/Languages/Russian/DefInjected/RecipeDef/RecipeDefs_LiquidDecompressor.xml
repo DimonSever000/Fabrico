@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<LiquidDecompressor_DecompressionChemfuel.label>Декомпрессия химического топлива</LiquidDecompressor_DecompressionChemfuel.label>
+	<LiquidDecompressor_DecompressionChemfuel.description>Декомпрессия химического топлива. Позволяет выкачать канистры с жидкостью в хранилища.</LiquidDecompressor_DecompressionChemfuel.description>
+	<LiquidDecompressor_DecompressionChemfuel.jobString>Декомпрессия химического топлива</LiquidDecompressor_DecompressionChemfuel.jobString>
+	<!---->
+	<LiquidDecompressor_DecompressionBiofuel.label>Декомпрессия биотоплива</LiquidDecompressor_DecompressionBiofuel.label>
+	<LiquidDecompressor_DecompressionBiofuel.description>Декомпрессия биотоплива. Позволяет выкачать канистры с жидкостью в хранилища.</LiquidDecompressor_DecompressionBiofuel.description>
+	<LiquidDecompressor_DecompressionBiofuel.jobString>Декомпрессия биотопливо</LiquidDecompressor_DecompressionBiofuel.jobString>
+	<!---->
+	<LiquidDecompressor_DecompressionCreosote.label>Декомпрессия креозота</LiquidDecompressor_DecompressionCreosote.label>
+	<LiquidDecompressor_DecompressionCreosote.description>Декомпрессия креозота. Позволяет выкачать канистры с жидкостью в хранилища.</LiquidDecompressor_DecompressionCreosote.description>
+	<LiquidDecompressor_DecompressionCreosote.jobString>Декомпрессия креозота</LiquidDecompressor_DecompressionCreosote.jobString>
+	<!---->
+</LanguageData>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Crusher_CrushRocks.label>Дробление каменных обломков</Crusher_CrushRocks.label>
+	<Crusher_CrushRocks.description>Дробление каменных обломков.</Crusher_CrushRocks.description>
+	<Crusher_CrushRocks.jobString>Дробит каменные обломки</Crusher_CrushRocks.jobString>
+	<!---->
+	<Crusher_TetrahedriteOre.label>Дробление тетраэдритовой руды</Crusher_TetrahedriteOre.label>
+	<Crusher_TetrahedriteOre.description>Дробление тетраэдритовой руды.</Crusher_TetrahedriteOre.description>
+	<Crusher_TetrahedriteOre.jobString>Дробит тетраэдритовую руду</Crusher_TetrahedriteOre.jobString>
+	<!---->
+	<Crusher_GoldOre.label>Дробление золотой руды</Crusher_GoldOre.label>
+	<Crusher_GoldOre.description>Дробление золотой руды.</Crusher_GoldOre.description>
+	<Crusher_GoldOre.jobString>Дробит золотую руду</Crusher_GoldOre.jobString>
+	<!---->
+	<Crusher_CassiteriteOre.label>Дробление касситеритовой руды</Crusher_CassiteriteOre.label>
+	<Crusher_CassiteriteOre.description>Дробление касситеритовой руды.</Crusher_CassiteriteOre.description>
+	<Crusher_CassiteriteOre.jobString>Дробит касситеритовую руду</Crusher_CassiteriteOre.jobString>
+	<!---->
+	<Crusher_LimoniteOre.label>Дробление лимонитовой руды</Crusher_LimoniteOre.label>
+	<Crusher_LimoniteOre.description>Дробление лимонитовой руды.</Crusher_LimoniteOre.description>
+	<Crusher_LimoniteOre.jobString>Дробит лимонитовую руду</Crusher_LimoniteOre.jobString>
+	<!---->
+	<Crusher_DiamondOre.label>Дробление алмазной руды</Crusher_DiamondOre.label>
+	<Crusher_DiamondOre.description>Дробление алмазной руды.</Crusher_DiamondOre.description>
+	<Crusher_DiamondOre.jobString>Дробит алмазную руду</Crusher_DiamondOre.jobString>
+	<!---->
+	<Crusher_SilverOre.label>Дробление серебряной руды</Crusher_SilverOre.label>
+	<Crusher_SilverOre.description>Дробление серебряной руды.</Crusher_SilverOre.description>
+	<Crusher_SilverOre.jobString>Дробит серебряную руду</Crusher_SilverOre.jobString>
+	<!---->
+	<Crusher_GalenaOre.label>Дробление галенитовой руды</Crusher_GalenaOre.label>
+	<Crusher_GalenaOre.description>Дробление галенитовой руды.</Crusher_GalenaOre.description>
+	<Crusher_GalenaOre.jobString>Дробит галенитовую руду</Crusher_GalenaOre.jobString>
+	<!---->
+	<Crusher_Coal.label>Дробление угля</Crusher_Coal.label>
+	<Crusher_Coal.description>Дробление угля.</Crusher_Coal.description>
+	<Crusher_Coal.jobString>Дробит уголь</Crusher_Coal.jobString>
+	<!---->
+	<Crusher_Wheat.label>Измельчение пшеницы</Crusher_Wheat.label>
+	<Crusher_Wheat.description>Измельчение пшеницы.</Crusher_Wheat.description>
+	<Crusher_Wheat.jobString>Измельчает пшеницу</Crusher_Wheat.jobString>
+	<!---->
+</LanguageData>

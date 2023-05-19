@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<!---->
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>QuarrySoil</defName>
+		<label>quarry soil</label>
+		<texturePath>Terrains/Surfaces/QuarrySoil</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>20</pathCost>
+		<scatterType>Rocky</scatterType>
+		<statBases>
+			<Beauty>-10</Beauty>
+			<Cleanliness>-10</Cleanliness>
+		</statBases>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0</fertility>
+		<takeFootprints>false</takeFootprints>
+		<avoidWander>true</avoidWander>
+		<modExtensions>
+			<li Class="SteamRim.Things.DefModExtension_Terraform">
+				<terraformingOptions>
+					<li>
+						<terrainDef>Sand</terrainDef>
+						<costList>
+							<Sand>75</Sand>
+						</costList>
+						<workAmount>1000</workAmount>
+					</li>
+				</terraformingOptions>
+			</li>
+		</modExtensions>
+	</TerrainDef>
+	<!---->
+</Defs>

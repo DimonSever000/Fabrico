@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!---->
+	<Adulthood_RobotWorker.title>Робот рабочий</Adulthood_RobotWorker.title>
+	<Adulthood_RobotWorker.titleFemale>Робот рабочий</Adulthood_RobotWorker.titleFemale>
+	<Adulthood_RobotWorker.titleShort>Робот</Adulthood_RobotWorker.titleShort>
+	<Adulthood_RobotWorker.titleShortFemale>Робот</Adulthood_RobotWorker.titleShortFemale>
+	<Adulthood_RobotWorker.baseDesc>[PAWN_nameDef] {PAWN_gender ? был собран : была собрана} на фабрике, как и остальные роботы.</Adulthood_RobotWorker.baseDesc>
+	<!---->
+	<Adulthood_RobotSoldier.title>Робот солдат</Adulthood_RobotSoldier.title>
+	<Adulthood_RobotSoldier.titleFemale>Робот солдат</Adulthood_RobotSoldier.titleFemale>
+	<Adulthood_RobotSoldier.titleShort>Робот</Adulthood_RobotSoldier.titleShort>
+	<Adulthood_RobotSoldier.titleShortFemale>Робот</Adulthood_RobotSoldier.titleShortFemale>
+	<Adulthood_RobotSoldier.baseDesc>[PAWN_nameDef] {PAWN_gender ? был собран : была собрана} на фабрике, как и остальные роботы.</Adulthood_RobotSoldier.baseDesc>
+	<!---->
+	<Adulthood_RobotMedic.title>Робот медик</Adulthood_RobotMedic.title>
+	<Adulthood_RobotMedic.titleFemale>Робот медик</Adulthood_RobotMedic.titleFemale>
+	<Adulthood_RobotMedic.titleShort>Робот</Adulthood_RobotMedic.titleShort>
+	<Adulthood_RobotMedic.titleShortFemale>Робот</Adulthood_RobotMedic.titleShortFemale>
+	<Adulthood_RobotMedic.baseDesc>[PAWN_nameDef] {PAWN_gender ? был собран : была собрана} на фабрике, как и остальные роботы.</Adulthood_RobotMedic.baseDesc>
+	<!---->
+	<Adulthood_RobotAI.title>Робот ИИ</Adulthood_RobotAI.title>
+	<Adulthood_RobotAI.titleFemale>Робот ИИ</Adulthood_RobotAI.titleFemale>
+	<Adulthood_RobotAI.titleShort>Робот</Adulthood_RobotAI.titleShort>
+	<Adulthood_RobotAI.titleShortFemale>Робот</Adulthood_RobotAI.titleShortFemale>
+	<Adulthood_RobotAI.baseDesc>[PAWN_nameDef] {PAWN_gender ? был собран : была собрана} на фабрике, как и остальные роботы.</Adulthood_RobotAI.baseDesc>
+	<!---->
+</LanguageData>

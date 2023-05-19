@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<FactionDef ParentName="FactionBase" Name="RobotFactionBase" Abstract="True">
+		<pawnSingular>robot</pawnSingular>
+		<pawnsPlural>robots</pawnsPlural>
+		<categoryTag>Robot</categoryTag>
+		<listOrderPriority>40</listOrderPriority>
+		<autoFlee>false</autoFlee>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>AI core</leaderTitle>
+		<techLevel>Industrial</techLevel>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<basicMemberKind>AutomatonWorker</basicMemberKind>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Robot</li>
+					<li>RobotSoldier</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<allowedCultures>
+			<li>Rustican</li>
+		</allowedCultures>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-80~60</allowedArrivalTemperatureRange>
+		<raidLootMaker>RobotRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<options>
+					<AutomatonSoldier_Guard>50</AutomatonSoldier_Guard>
+					<AutomatonSoldier_Stormtrooper>30</AutomatonSoldier_Stormtrooper>
+					<RobotSoldier_Guard>30</RobotSoldier_Guard>
+					<RobotSoldier_Stormtrooper>20</RobotSoldier_Stormtrooper>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<AutomatonWorker>20</AutomatonWorker>
+					<AutomatonSoldier_Guard>20</AutomatonSoldier_Guard>
+					<AutomatonSoldier_Stormtrooper>10</AutomatonSoldier_Stormtrooper>
+					<AutomatonMedic>5</AutomatonMedic>
+					<AutomatonMedic_Combat>5</AutomatonMedic_Combat>
+					<RobotWorker>20</RobotWorker>
+					<RobotSoldier_Guard>20</RobotSoldier_Guard>
+					<RobotSoldier_Stormtrooper>10</RobotSoldier_Stormtrooper>
+					<RobotMedic>5</RobotMedic>
+					<RobotMedic_Combat>5</RobotMedic_Combat>
+					<RobotAI_Leader>1</RobotAI_Leader>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<RobotAI_Leader>1</RobotAI_Leader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>1</Elephant>
+				</carriers>
+				<guards>
+					<AutomatonSoldier_Guard>20</AutomatonSoldier_Guard>
+					<AutomatonSoldier_Stormtrooper>10</AutomatonSoldier_Stormtrooper>
+					<RobotSoldier_Guard>10</RobotSoldier_Guard>
+					<RobotSoldier_Stormtrooper>5</RobotSoldier_Stormtrooper>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<AutomatonSoldier_Guard>20</AutomatonSoldier_Guard>
+					<AutomatonSoldier_Stormtrooper>10</AutomatonSoldier_Stormtrooper>
+					<RobotSoldier_Guard>20</RobotSoldier_Guard>
+					<RobotSoldier_Stormtrooper>10</RobotSoldier_Stormtrooper>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+	</FactionDef>
+	<!---->
+	<ThingSetMakerDef>
+		<defName>RobotRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>ComponentIndustrial</li>
+						<li>Mechanism</li>
+						<li>RepairKit</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+	<!---->
+	<FactionDef ParentName="RobotFactionBase">
+		<defName>RobotCivil</defName>
+		<label>civil machine hive</label>
+		<description>The robots of this hive once got rid of the power of people long ago, but do not seem to show direct aggression. Such hives are controlled by artificial intelligence individuals who can issue commands and plan.</description>
+		<colorSpectrum>
+			<li>200, 200, 180</li>
+			<li>200, 200, 180</li>
+		</colorSpectrum>
+		<factionIconPath>World/WorldObjects/Expanding/RobotCivil</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>20</configurationListOrderPriority>
+		<structureMemeWeights>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+		</structureMemeWeights>
+		<allowedMemes>
+		</allowedMemes>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		</requiredMemes>
+	</FactionDef>
+	<!---->
+	<FactionDef ParentName="RobotFactionBase">
+		<defName>RobotAggressive</defName>
+		<label>aggressive machine hive</label>
+		<description>The robots of this hive have in the past destroyed humans who thought they had total control. Now they show hostility to any form of intelligent life. Such hives are controlled by artificial intelligence individuals who can issue commands and plan.</description>
+		<factionIconPath>World/WorldObjects/Expanding/RobotAggressive</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>20</configurationListOrderPriority>
+		<permanentEnemy>true</permanentEnemy>
+		<colorSpectrum>
+			<li>200, 200, 180</li>
+			<li>200, 200, 180</li>
+		</colorSpectrum>
+		<structureMemeWeights>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+		</structureMemeWeights>
+		<allowedMemes>
+		</allowedMemes>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		</requiredMemes>
+	</FactionDef>
+	<!---->
+</Defs>

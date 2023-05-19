@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Apparel_PlateHelmet.label>Пластинчатый шлем</Apparel_PlateHelmet.label>
+	<Apparel_PlateHelmet.description>Шлем из тяжелых металлических пластин.</Apparel_PlateHelmet.description>
+	<!---->
+	<Apparel_ChainArmor.label>Кольчуга</Apparel_ChainArmor.label>
+	<Apparel_ChainArmor.description>Прочная кольчуга из металлических колец. Довольно тяжелая.</Apparel_ChainArmor.description>
+	<!---->
+	<Apparel_ChainCoif.label>Кольчужный шлем</Apparel_ChainCoif.label>
+	<Apparel_ChainCoif.description>Шлем, состоящий из подкладки и металлических колец.</Apparel_ChainCoif.description>
+	<!---->
+	<Apparel_LeatherArmor.label>Кожанная броня</Apparel_LeatherArmor.label>
+	<Apparel_LeatherArmor.description>Кожанная броня из прочных сшитых пластин.</Apparel_LeatherArmor.description>
+	<!---->
+	<Apparel_LeatherHelmet.label>Кожанный шлем</Apparel_LeatherHelmet.label>
+	<Apparel_LeatherHelmet.description>Пластичный шлем из твердой кожи.</Apparel_LeatherHelmet.description>
+	<!---->
+	<Apparel_WorkerGloves.label>Рабочие перчатки</Apparel_WorkerGloves.label>
+	<Apparel_WorkerGloves.description>Перчатки, помогающие носителю в работе.</Apparel_WorkerGloves.description>
+	<!---->
+	<Apparel_Boots.label>Рабочие ботинки</Apparel_Boots.label>
+	<Apparel_Boots.description>Удобные кожанные ботинки, повышающие продуктивность.</Apparel_Boots.description>
+	<!---->
+	<Apparel_SteamPack.label>Паровой ранец</Apparel_SteamPack.label>
+	<Apparel_SteamPack.description>Ранец для коротких полетов на паровой тяге.</Apparel_SteamPack.description>
+	<Apparel_SteamPack.comps.CompReloadable.chargeNoun>Прыжок</Apparel_SteamPack.comps.CompReloadable.chargeNoun>
+	<Apparel_SteamPack.verbs.Verb_Jump.label>Прыжок</Apparel_SteamPack.verbs.Verb_Jump.label>
+	<!---->
+	<Apparel_PowerGloves.label>Силовые перчатки</Apparel_PowerGloves.label>
+	<Apparel_PowerGloves.description>Силовые металлические перчатки, повышающие способности носителя.</Apparel_PowerGloves.description>
+	<!---->
+	<Apparel_PowerBoots.label>Силовые ботинки</Apparel_PowerBoots.label>
+	<Apparel_PowerBoots.description>Силовые металлические ботинки, повышающие способности носителя.</Apparel_PowerBoots.description>
+	<!---->
+</LanguageData>

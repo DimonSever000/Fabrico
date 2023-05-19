@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>WindPump_WaterProduction</defName>
+		<label>Water production</label>
+		<description>Water production.</description>
+		<jobString>Produces water.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>WindPump</li>
+		</recipeUsers>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>WaterWell_WaterProduction</defName>
+		<label>Water production</label>
+		<description>Water production.</description>
+		<jobString>Produces water.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>WaterWell</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>2</Steam>
+		</liquidsIngredients>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>IndustrialPump_WaterProduction</defName>
+		<label>Water production</label>
+		<description>Water production.</description>
+		<jobString>Produces water.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>IndustrialPump</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>5</Steam>
+		</liquidsIngredients>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

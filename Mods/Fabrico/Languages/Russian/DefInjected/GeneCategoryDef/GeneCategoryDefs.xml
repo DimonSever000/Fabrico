@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<WeaponPreference.label>Предпочтения в оружии</WeaponPreference.label>
+	<!---->
+	<VerbalConflict.label>Вербальная конфликтность</VerbalConflict.label>
+	<!---->
+	<Psychopath.label>Психопатия</Psychopath.label>
+	<!---->
+	<DislikesMen.label>Ненависть к мужчинам</DislikesMen.label>
+	<!---->
+	<DislikesWomen.label>Ненависть к женщинам</DislikesWomen.label>
+	<!---->
+	<BodyStrength.label>Сила тела</BodyStrength.label>
+	<!---->
+	<Gourmand.label>Обжорство</Gourmand.label>
+	<!---->
+	<YouthAging.label>Хз</YouthAging.label>
+	<!---->
+	<AdultAging.label>Хз</AdultAging.label>
+	<!---->
+	<Pyromaniac.label>Пиромания</Pyromaniac.label>
+	<!---->
+	<PsychicTraits.label>Психологические черты</PsychicTraits.label>
+	<!---->
+	<SlowLearner.label>Медленная обучаемость</SlowLearner.label>
+	<!---->
+	<BodyModification.label>Модификации тела</BodyModification.label>
+	<!---->
+	<GrowthRate.label>Скорость роста</GrowthRate.label>
+	<!---->
+	<Lifespan.label>Продолжительность жизни</Lifespan.label>
+	<!---->
+	<Mental.label>Ментальность</Mental.label>
+	<!---->
+	<Relationship.label>Отношения</Relationship.label>
+	<!---->
+	<Works.label>Рабочие черты</Works.label>
+	<!---->
+	<Living.label>Жадность</Living.label>
+	<!---->
+	<Neurotic.label>Невротичность</Neurotic.label>
+	<!---->
+	<Speed.label>Скорость</Speed.label>
+	<!---->
+</LanguageData>

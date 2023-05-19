@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Ship_Reactor.label>Корабельный реактор</Ship_Reactor.label>
+	<Ship_Reactor.description>Топливный реактор для питания корабля электричеством. Для отправки требуется заправить его жидким топливом и водой.</Ship_Reactor.description>
+	<!---->
+	<Ship_Engine.label>Корабельный двигатель</Ship_Engine.label>
+	<Ship_Engine.description>Топливный двигатель, выбрасывающий топливо в окружающую среду во время полета. Заправьте его жидким топливом.</Ship_Engine.description>
+	<!---->
+</LanguageData>

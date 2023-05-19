@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<LiquidPipe.label>Жидкостная труба</LiquidPipe.label>
+	<LiquidPipe.description>Труба для транспортировки жидкостей.</LiquidPipe.description>
+	<!---->
+	<SmallLiquidStorage.label>Малое хранилище жидкостей</SmallLiquidStorage.label>
+	<SmallLiquidStorage.description>Массивный металлический бак для хранения жидкости.</SmallLiquidStorage.description>
+	<!---->
+	<LargeLiquidStorage.label>Большое хранилище жидкостей</LargeLiquidStorage.label>
+	<LargeLiquidStorage.description>Массивный металлический бак для хранения жидкости.</LargeLiquidStorage.description>
+	<!---->
+	<SmallSteamBoiler.label>Малый паровой котел</SmallSteamBoiler.label>
+	<SmallSteamBoiler.description>Небольшой металлический паровой котел низкого давления. Производит пар, сжигая твердое топливо и потребляя воду.</SmallSteamBoiler.description>
+	<!---->
+	<WoodFiredGenerator.label>Большой паровой котел</WoodFiredGenerator.label>
+	<WoodFiredGenerator.description>Огромный металлический паровой котел высокого давления. Производит пар, сжигая твердое топливо и потребляя воду.</WoodFiredGenerator.description>
+	<!---->
+	<ChemfuelPoweredGenerator.label>Большой жидкостный паровой котел</ChemfuelPoweredGenerator.label>
+	<ChemfuelPoweredGenerator.description>Огромный металлический паровой котел высокого давления. Производит пар, сжигая горючие жидкости и потребляя воду.</ChemfuelPoweredGenerator.description>
+	<!---->
+	<WindPump.label>Ветряная помпа</WindPump.label>
+	<WindPump.description>Механическое устройство, работающее на энергии ветра. Добывает воду из-под земли.</WindPump.description>
+	<!---->
+	<WaterWell.label>Водяная скважина</WaterWell.label>
+	<WaterWell.description>Промышленная машина, выкачивающая воду из-под земли благодаря паровой тяге.</WaterWell.description>
+	<!---->
+	<GeothermalGenerator.label>Геотермальный генератор</GeothermalGenerator.label>
+	<GeothermalGenerator.description>Производит пар из геотермальных паровых гейзеров. Должен быть размещен на паровом гейзере.</GeothermalGenerator.description>
+	<!---->
+	<IndustrialPump.label>Промышленная помпа</IndustrialPump.label>
+	<IndustrialPump.description>Тяжелая промышленная установка для выкачивания воды из земной коры.</IndustrialPump.description>
+	<!---->
+	<LiquidCompressor.label>Жидкостный компрессор</LiquidCompressor.label>
+	<LiquidCompressor.description>Промышленная установка для компрессирования жидкостей.</LiquidCompressor.description>
+	<!---->
+	<LiquidDecompressor.label>Жидкостный декомпрессор</LiquidDecompressor.label>
+	<LiquidDecompressor.description>Промышленная установка для декомпрессирования жидкостей.</LiquidDecompressor.description>
+	<!---->
+</LanguageData>

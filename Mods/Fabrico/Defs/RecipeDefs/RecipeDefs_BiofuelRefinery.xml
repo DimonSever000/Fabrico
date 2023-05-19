@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>BiofuelRefinery_Biofuel</defName>
+		<label>Synthesis of biofuel</label>
+		<description>Synthesis of biofuel.</description>
+		<jobString>Synthesizes biofuel.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>12000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantMatter</li>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>PlantMatter</li>
+				<li>FoodRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<liquidsProducts>
+			<Biofuel>10</Biofuel>
+		</liquidsProducts>
+		<liquidsIngredients>
+			<Water>10</Water>
+			<Steam>50</Steam>
+		</liquidsIngredients>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+		<pollutionProgressPerIteration>0.1</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>BiofuelRefinery_Chemfuel</defName>
+		<label>Synthesis of chemfuel</label>
+		<description>Synthesis of chemfuel.</description>
+		<jobString>Synthesizes chemfuel.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>20000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Coal</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Coal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<liquidsProducts>
+			<Chemfuel>10</Chemfuel>
+		</liquidsProducts>
+		<liquidsIngredients>
+			<Water>10</Water>
+			<Steam>50</Steam>
+		</liquidsIngredients>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+		<pollutionProgressPerIteration>0.3</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>BiofuelRefinery_Creosote</defName>
+		<label>Synthesis of creosote</label>
+		<description>Synthesis of creosote.</description>
+		<jobString>Synthesizes creosote.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>6000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Coal</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Coal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<liquidsProducts>
+			<Creosote>10</Creosote>
+		</liquidsProducts>
+		<liquidsIngredients>
+			<Water>10</Water>
+			<Steam>50</Steam>
+		</liquidsIngredients>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+		<pollutionProgressPerIteration>0.15</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>BiofuelRefinery_Neutroamine</defName>
+		<label>Synthesis of neutroamine</label>
+		<description>Synthesis of neutroamine.</description>
+		<jobString>Synthesizes neutroamine.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>16000</workAmount>
+		<products>
+			<Neutroamine>10</Neutroamine>
+		</products>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>300</Steam>
+			<Chemfuel>30</Chemfuel>
+			<Chlorine>30</Chlorine>
+		</liquidsIngredients>
+		<researchPrerequisite>MedicineProduction</researchPrerequisite>
+		<pollutionProgressPerIteration>0.5</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

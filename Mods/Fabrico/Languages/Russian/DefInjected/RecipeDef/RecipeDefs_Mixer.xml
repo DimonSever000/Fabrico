@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SteamMixer_ProduceConcrete.label>Производство бетона</SteamMixer_ProduceConcrete.label>
+	<SteamMixer_ProduceConcrete.description>Производство бетона.</SteamMixer_ProduceConcrete.description>
+	<SteamMixer_ProduceConcrete.jobString>Производит бетон</SteamMixer_ProduceConcrete.jobString>
+	<!---->
+	<SteamMixer_ProduceGunpowder.label>Производство пороха</SteamMixer_ProduceGunpowder.label>
+	<SteamMixer_ProduceGunpowder.description>Производство пороха.</SteamMixer_ProduceGunpowder.description>
+	<SteamMixer_ProduceGunpowder.jobString>Производит порох</SteamMixer_ProduceGunpowder.jobString>
+	<!---->
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<GroundPenetratingScanner.label>Минеральный сканер</GroundPenetratingScanner.label>
+	<GroundPenetratingScanner.description>Машина, состоящая из множества механизмов. Она производит меточные физические колебания грунта для фиксации местонахождения неглубоких минералов. Прибор работает медленно и потребляет пар, открывая информацию о подземных залежах.</GroundPenetratingScanner.description>
+	<!---->
+	<LongRangeMineralScanner.label>Продвинутый минеральный сканер</LongRangeMineralScanner.label>
+	<LongRangeMineralScanner.description>Машина способна создавать ритмичные волны определенной частоты благодаря сложным механизмам. Эти колебания позволяют изучить строение пород глубоко под землей.</LongRangeMineralScanner.description>
+	<!---->
+	<SmallPedestal.label>Малый пьедестал</SmallPedestal.label>
+	<SmallPedestal.description>Небольшой каменный пьедестал.</SmallPedestal.description>
+	<!---->
+	<SmallStatue.label>Малая статуя</SmallStatue.label>
+	<SmallStatue.description>Фигура человека, олицетворяющая род деятельности.</SmallStatue.description>
+	<!---->
+	<LargeStatue.label>Большая статуя</LargeStatue.label>
+	<LargeStatue.description>Фигура человека, олицетворяющая род деятельности.</LargeStatue.description>
+	<!---->
+	<LargePedestal.label>Большой пьедестал</LargePedestal.label>
+	<LargePedestal.description>Большой каменный пьедестал.</LargePedestal.description>
+	<!---->
+	<Tomb.label>Гробница</Tomb.label>
+	<Tomb.description>Большой и изысканно украшенный погребальный комплекс для высокопоставленных лиц.</Tomb.description>
+	<!---->
+</LanguageData>

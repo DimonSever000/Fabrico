@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="ResourceBase" Name="MeatBase" Abstract="true">
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MeatBase">
+		<defName>Meat_Animal</defName>
+		<label>Animal meat</label>
+		<description>Animal meat is a rich source of food and spoils rather quickly.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/MeatFoodRaw/Meat_Big</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>2.0</MarketValue>
+			<Nutrition>0.05</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.03</FoodPoisonChanceFixedHuman>
+			<Mass>0.07</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2.0</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MeatBase">
+		<defName>Meat_Human</defName>
+		<label>Humanoid meat</label>
+		<description>Humanoid flesh is rich in protein, however only rare sick people would consume it for ethical reasons.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/MeatFoodRaw/Meat_Human</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>1.0</MarketValue>
+			<Nutrition>0.05</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.05</FoodPoisonChanceFixedHuman>
+			<Mass>0.07</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>RawBad</preferability>
+			<sourceDef>Human</sourceDef>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2.0</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MeatBase">
+		<defName>Meat_Megaspider</defName>
+		<label>Insect meat</label>
+		<description>Insect meat is a controversial source of food, but if there is nothing to eat, you can sacrifice comfort for the sake of survival.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/MeatFoodRaw/Meat_Insect</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>1.3</MarketValue>
+			<Nutrition>0.05</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+			<Mass>0.07</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>RawBad</preferability>
+			<sourceDef>Megaspider</sourceDef>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2.0</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+</Defs>

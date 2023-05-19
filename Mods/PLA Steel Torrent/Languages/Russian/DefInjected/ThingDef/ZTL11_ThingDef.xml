@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/ZTL11.xml-->
+                               <!-- vehicle modification kit - 105mm cannon -->
+<PLA_VehicleWeapon105mmCannon.label>набор модификации ZTL11 - 105мм пушка</PLA_VehicleWeapon105mmCannon.label>
+                                     <!-- A modification toolkit that can be used to install the 105mm cannon on vehicle. -->
+<PLA_VehicleWeapon105mmCannon.description>Инструментарий для модификации, который можно использовать для установки 105мм пушку на технику</PLA_VehicleWeapon105mmCannon.description>
+                                  <!-- vehicle modification kit - 40mm auto CT cannon -->
+<PLA_VehicleWeapon40mmAutoCannon.label>набор модификации ZTL11 - 40мм CT автопушка</PLA_VehicleWeapon40mmAutoCannon.label>
+                                        <!-- A modification toolkit that can be used to install the 40mm auto CT cannon on vehicle. -->
+<PLA_VehicleWeapon40mmAutoCannon.description>Инструментарий для модификации, который можно использовать для установки 40мм CT автопушку на технику</PLA_VehicleWeapon40mmAutoCannon.description>
+
+
+<!--/1.4/Defs/Vehicles/ZTL11.xml-->
+<!-- ZTL-11 IFV -->
+<PLA_ZTL11IFV.label>ZTL-11 БМП</PLA_ZTL11IFV.label>
+<!-- A infantry fighting vehicle. -->
+<PLA_ZTL11IFV.description>Боевая Машина Пехоты</PLA_ZTL11IFV.description>
+<!-- Body -->
+<PLA_ZTL11IFV.tools.0.label>Корпус</PLA_ZTL11IFV.tools.0.label>
+<!-- 105mm cannon -->
+<PLA_TurretGun105mmCannon.label>105мм пушка</PLA_TurretGun105mmCannon.label>
+<!-- Use main cannon -->
+<PLA_TurretGun105mmCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.mainWeaponLabel>Использовать основное орудие</PLA_TurretGun105mmCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.mainWeaponLabel>
+<!-- Use coaxial machine gun -->
+<PLA_TurretGun105mmCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.secondaryWeaponLabel>Использовать спаренный пулемет</PLA_TurretGun105mmCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.secondaryWeaponLabel>
+<!-- barrel -->
+<PLA_TurretGun105mmCannon.tools.0.label>ствол</PLA_TurretGun105mmCannon.tools.0.label>
+<!-- 105mm shell -->
+<PLA_ZTL105mmShell_HEAT.label>105мм снаряд</PLA_ZTL105mmShell_HEAT.label>
+<!-- 40mm auto CT cannon -->
+<PLA_TurretGun40mmAutoCannon.label>40мм СТ автопушка</PLA_TurretGun40mmAutoCannon.label>
+<!-- Use auto cannon -->
+<PLA_TurretGun40mmAutoCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.mainWeaponLabel>Использовать автопушку</PLA_TurretGun40mmAutoCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.mainWeaponLabel>
+<!-- Use coaxial machine gun -->
+<PLA_TurretGun40mmAutoCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.secondaryWeaponLabel>Использовать спаренный пулемет</PLA_TurretGun40mmAutoCannon.comps.PLA.Vehicle.Comp_SecondaryVerb.secondaryWeaponLabel>
+<!-- barrel -->
+<PLA_TurretGun40mmAutoCannon.tools.0.label>ствол</PLA_TurretGun40mmAutoCannon.tools.0.label>
+
+</LanguageData>

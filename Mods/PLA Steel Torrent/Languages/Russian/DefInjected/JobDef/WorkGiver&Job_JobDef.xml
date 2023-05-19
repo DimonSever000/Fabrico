@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/WorkGiver&Job.xml-->
+                           <!-- Repairing vehicle. -->
+<PLA_RepairVehicle.reportString>Починка техники.</PLA_RepairVehicle.reportString>
+                          <!-- entering vehicle. -->
+<PLA_EnterVehicle.reportString>залезание в технику.</PLA_EnterVehicle.reportString>
+                                <!-- return to parking lot. -->
+<PLA_ReturnToParkingLot.reportString>вернуть на стоянку.</PLA_ReturnToParkingLot.reportString>
+
+</LanguageData>

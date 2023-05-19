@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/HediffDef_Durability.xml-->
+                  <!-- vehicle wear -->
+<PLA_VehicleWear.label>износ техники</PLA_VehicleWear.label>
+                        <!-- The rate of wear and tear of the vehicle, which decreases the protection of the vehicle. It can be repaired. -->
+<PLA_VehicleWear.description>Скорость износа транспортного средства, при износе снижается защита техники. Можно починить.</PLA_VehicleWear.description>
+
+</LanguageData>

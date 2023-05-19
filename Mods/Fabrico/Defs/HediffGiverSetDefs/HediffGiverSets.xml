@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicRobot</defName>
+		<hediffGivers>
+			<li Class="HediffGiver_Hypothermia">
+				<hediff>Hypothermia</hediff>
+			</li>
+			<li Class="HediffGiver_Heat">
+				<hediff>Heatstroke</hediff>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>Defect</hediff>
+				<countToAffect>1</countToAffect>
+				<partsToAffect>
+					<li>Brain</li>
+					<li>Stomach</li>
+					<li>Heart</li>
+					<li>Lung</li>
+					<li>Kidney</li>
+					<li>Liver</li>
+					<li>Leg</li>
+					<li>Shoulder</li>
+				</partsToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0,    0.05)</li>
+						<li>(1,    0.1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>0.001~1</severity>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>AIDefect</hediff>
+				<countToAffect>1</countToAffect>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0,    0.01)</li>
+						<li>(1,    0.03)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>0.001~0.25</severity>
+			</li>
+			<li Class="HediffGiver_Birthday">
+				<hediff>Defect</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+					<li>Stomach</li>
+					<li>Heart</li>
+					<li>Lung</li>
+					<li>Kidney</li>
+					<li>Liver</li>
+					<li>Leg</li>
+					<li>Shoulder</li>
+				</partsToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0,    0.00016)</li>
+						<li>(0.5,  0.00001)</li>
+						<li>(1,    0.000001)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<averageSeverityPerDayBeforeGeneration>0.0000001</averageSeverityPerDayBeforeGeneration>
+			</li>
+			<li Class="HediffGiver_Birthday">
+				<hediff>AIDefect</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0,    0.00001)</li>
+						<li>(0.5,  0.00001)</li>
+						<li>(1,    0.000001)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<averageSeverityPerDayBeforeGeneration>0.0000001</averageSeverityPerDayBeforeGeneration>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicAutomatonWorker</defName>
+		<hediffGivers>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>AutomatonWorker</hediff>
+				<countToAffect>1</countToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>1</severity>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicAutomatonSoldier</defName>
+		<hediffGivers>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>AutomatonSoldier</hediff>
+				<countToAffect>1</countToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>1</severity>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicAutomatonMedic</defName>
+		<hediffGivers>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>AutomatonMedic</hediff>
+				<countToAffect>1</countToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>1</severity>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+	<!---->
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicRobotWorker</defName>
+		<hediffGivers>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>RobotWorker</hediff>
+				<countToAffect>1</countToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>1</severity>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicRobotSoldier</defName>
+		<hediffGivers>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>RobotSoldier</hediff>
+				<countToAffect>1</countToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>1</severity>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicRobotMedic</defName>
+		<hediffGivers>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>RobotMedic</hediff>
+				<countToAffect>1</countToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>1</severity>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+	<HediffGiverSetDef>
+		<defName>InorganicRobotAI</defName>
+		<hediffGivers>
+			<li Class="SteamRim.Hediffs.HediffGivers.HediffGiver_JustAddHediffOnPawnGenerated">
+				<hediff>RobotAI</hediff>
+				<countToAffect>1</countToAffect>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<severity>1</severity>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+	<!---->
+</Defs>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>*/BackstoryDef[defName="Hunter89"]</xpath>
+				<value>
+					<BackstoryDef>
+						<defName>Hunter89</defName>
+						<title>hunter</title>
+						<titleShort>hunter</titleShort>
+						<baseDesc>[PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season.</baseDesc>
+						<slot>Adulthood</slot>
+						<requiredWorkTags>
+							<li>Violent</li>
+							<li>Animals</li>
+						</requiredWorkTags>
+						<skillGains>
+							<li>
+								<key>Animals</key>
+								<value>3</value>
+								<key>Shooting</key>
+								<value>5</value>
+							</li>
+						</skillGains>
+						<spawnCategories>
+							<li>Offworld</li>
+							<li>Outlander</li>
+							<li>Pirate</li>
+							<li>Scientist</li>
+							<li>Hunter</li>
+						</spawnCategories>
+						<bodyTypeMale>Male</bodyTypeMale>
+						<bodyTypeFemale>Female</bodyTypeFemale>
+					</BackstoryDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/BackstoryDef[defName="MuffaloResearcher67"]</xpath>
+				<value>
+					<BackstoryDef>
+						<defName>MuffaloResearcher67</defName>
+						<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
+						<identifier>MuffaloResearcher67</identifier>
+						<slot>Adulthood</slot>
+						<title>muffalo researcher</title>
+						<titleShort>researcher</titleShort>
+						<baseDesc>[PAWN_nameDef] specialized in studying and manipulating the genetic code of the muffalo.
+
+[PAWN_possessive] work left little time to develop an appreciation for the arts or other people's company.</baseDesc>
+						<skillGains>
+							<li>
+								<key>Intellectual</key>
+								<value>5</value>
+							</li>
+							<li>
+								<key>Melee</key>
+								<value>-3</value>
+							</li>
+							<li>
+								<key>Medicine</key>
+								<value>4</value>
+							</li>
+							<li>
+								<key>Animals</key>
+								<value>4</value>
+							</li>
+						</skillGains>
+						<workDisables>Social, Artistic</workDisables>
+						<requiredWorkTags>None</requiredWorkTags>
+						<spawnCategories>
+							<li>Offworld</li>
+							<li>Outlander</li>
+						</spawnCategories>
+						<bodyTypeGlobal>Thin</bodyTypeGlobal>
+						<bodyTypeFemale>Thin</bodyTypeFemale>
+						<bodyTypeMale>Thin</bodyTypeMale>
+						<shuffleable>False</shuffleable>
+					</BackstoryDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/BackstoryDef[defName="ExoticChef96"]</xpath>
+				<value>
+					<BackstoryDef>
+						<defName>ExoticChef96</defName>
+						<ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
+						<identifier>ExoticChef96</identifier>
+						<slot>Adulthood</slot>
+						<title>exotic chef</title>
+						<titleShort>chef</titleShort>
+						<baseDesc>[PAWN_nameDef] has always gone overboard when it comes to food. [PAWN_pronoun] is always seeking new and exotic ingredients.
+
+[PAWN_possessive] quest for ingredients has brought [PAWN_objective] into some close calls with local flora and fauna.</baseDesc>
+						<skillGains>
+							<li>
+								<key>Cooking</key>
+								<value>6</value>
+							</li>
+							<li>
+								<key>Artistic</key>
+								<value>2</value>
+							</li>
+							<li>
+								<key>Crafting</key>
+								<value>1</value>
+							</li>
+						</skillGains>
+						<workDisables>None</workDisables>
+						<requiredWorkTags>None</requiredWorkTags>
+						<spawnCategories>
+							<li>Offworld</li>
+							<li>Outlander</li>
+						</spawnCategories>
+						<bodyTypeGlobal>Male</bodyTypeGlobal>
+						<bodyTypeFemale>Male</bodyTypeFemale>
+						<bodyTypeMale>Male</bodyTypeMale>
+						<shuffleable>False</shuffleable>
+					</BackstoryDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/BackstoryDef[defName="Butcher40"]</xpath>
+				<value>
+					<BackstoryDef>
+						<defName>Butcher40</defName>
+						<title>butcher</title>
+						<titleShort>butcher</titleShort>
+						<baseDesc>[PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time.</baseDesc>
+						<slot>Adulthood</slot>
+						<spawnCategories>
+							<li>Tribal</li>
+							<li>TribalHunter</li>
+						</spawnCategories>
+						<bodyTypeMale>Male</bodyTypeMale>
+						<bodyTypeFemale>Female</bodyTypeFemale>
+						<skillGains>
+							<li>
+								<key>Cooking</key>
+								<value>6</value>
+							</li>
+							<li>
+								<key>Animals</key>
+								<value>3</value>
+							</li>
+						</skillGains>
+						<requiredWorkTags>
+							<li>Violent</li>
+							<li>Animals</li>
+						</requiredWorkTags>
+					</BackstoryDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/BackstoryDef[defName="Slaughterer58"]</xpath>
+				<value>
+					<BackstoryDef>
+						<defName>Slaughterer58</defName>
+						<title>slaughterer</title>
+						<titleShort>slaughterer</titleShort>
+						<baseDesc>[PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple.</baseDesc>
+						<slot>Adulthood</slot>
+						<requiredWorkTags>
+							<li>Violent</li>
+							<li>Animals</li>
+						</requiredWorkTags>
+						<skillGains>
+							<li>
+								<key>Animals</key>
+								<value>5</value>
+								<key>Shooting</key>
+								<value>3</value>
+							</li>
+						</skillGains>
+						<spawnCategories>
+							<li>Offworld</li>
+							<li>Outlander</li>
+							<li>Pirate</li>
+							<li>Scientist</li>
+							<li>Hunter</li>
+						</spawnCategories>
+						<bodyTypeMale>Male</bodyTypeMale>
+						<bodyTypeFemale>Female</bodyTypeFemale>
+					</BackstoryDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

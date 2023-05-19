@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<WorkGiverDef Abstract="true" Name="CollectBase">
+		<workType>Mining</workType>
+		<priorityInType>20</priorityInType>
+		<verb>collect</verb>
+		<gerund>collecting</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<!---->
+	<WorkGiverDef ParentName="CollectBase">
+		<defName>CollectSand</defName>
+		<label>collect sand</label>
+		<giverClass>SteamRim.AI.WorkGivers.WorkGiver_CollectSand</giverClass>
+	</WorkGiverDef>
+	<!---->
+	<WorkGiverDef ParentName="CollectBase">
+		<defName>CollectClay</defName>
+		<label>collect clay</label>
+		<giverClass>SteamRim.AI.WorkGivers.WorkGiver_CollectClay</giverClass>
+	</WorkGiverDef>
+	<!---->
+	<WorkGiverDef ParentName="CollectBase">
+		<defName>CollectDirt</defName>
+		<label>collect dirt</label>
+		<giverClass>SteamRim.AI.WorkGivers.WorkGiver_CollectDirt</giverClass>
+	</WorkGiverDef>
+	<!---->
+</Defs>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LiquidDecompressor_DecompressionBiofuel</defName>
+		<label>Decompression of biofuel</label>
+		<description>Decompression of biofuel.</description>
+		<jobString>Decompression biofuel.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Biofuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Biofuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>LiquidDecompressor</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>10</Steam>
+		</liquidsIngredients>
+		<liquidsProducts>
+			<Biofuel>10</Biofuel>
+		</liquidsProducts>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LiquidDecompressor_DecompressionChemfuel</defName>
+		<label>Decompression of chemfuel</label>
+		<description>Decompression of chemfuel.</description>
+		<jobString>Decompression chemfuel.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>LiquidDecompressor</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>10</Steam>
+		</liquidsIngredients>
+		<liquidsProducts>
+			<Chemfuel>10</Chemfuel>
+		</liquidsProducts>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LiquidDecompressor_DecompressionCreosote</defName>
+		<label>Decompression of creosote</label>
+		<description>Decompression of creosote.</description>
+		<jobString>Decompression creosote.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Creosote</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Creosote</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>LiquidDecompressor</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>10</Steam>
+		</liquidsIngredients>
+		<liquidsProducts>
+			<Creosote>10</Creosote>
+		</liquidsProducts>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

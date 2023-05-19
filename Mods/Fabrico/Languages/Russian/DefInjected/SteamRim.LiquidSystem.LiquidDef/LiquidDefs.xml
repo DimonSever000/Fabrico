@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Creosote.label>Креозот</Creosote.label>
+	<Creosote.description>Креозот это горючая жидкость, применяемая как топливо, смазка или ингредиент в промышленности.</Creosote.description>
+	<!---->
+	<Water.label>Вода</Water.label>
+	<Water.description>Вода это единственный источник пара, поэтому ее значение сложно переоценить. Она применяется также и в производстве.</Water.description>
+	<!---->
+	<Steam.label>Пар</Steam.label>
+	<Steam.description>Водяной пар приводит в движение механизмы и питает энергией машины.</Steam.description>
+	<!---->
+	<Chlorine.label>Хлор</Chlorine.label>
+	<Chlorine.description>Едкий и опасный газ, незаменимый для нужд химической промышленности. Используется и для производства сложных сплавов.</Chlorine.description>
+	<!---->
+	<Biofuel.label>Биотопливо</Biofuel.label>
+	<Biofuel.description>Топливо, полученное из растительных и природных элементов. Обладает достаточно хорошими свойствами и меньше загрязняет окружающую среду.</Biofuel.description>
+	<!---->
+	<Chemfuel.label>Химическое топливо</Chemfuel.label>
+	<Chemfuel.description>Продукт химической промышленности и отличное топливо. Довольно грязный вид топлива.</Chemfuel.description>
+	<!---->
+</LanguageData>

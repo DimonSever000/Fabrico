@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>LiquidPipe</defName>
+		<label>Liquid pipe</label>
+		<description>Pipe for transporting liquids.</description>
+		<thingClass>SteamRim.LiquidSystem.Building_Pipe</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Linked/PowerConduit_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<rotatable>false</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<clearBuildingArea>false</clearBuildingArea>
+		<designationCategory>Liquids</designationCategory>
+		<uiIconPath>Things/Building/Linked/PowerConduit_MenuIcon</uiIconPath>
+		<placeWorkers>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_Pipe</li>
+		</placeWorkers>
+		<costList>
+			<Steel>2</Steel>
+		</costList>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>BasicsHydromechanics</li>
+		</researchPrerequisites>
+		<interactionCellIcon isNull="true"/>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase" Name="LiquidStorageBase" Abstract="true">
+		<thingClass>SteamRim.Things.Building_LiquidTank</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<tickerType>Normal</tickerType>
+		<interactionCellIcon isNull="true"/>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="LiquidStorageBase">
+		<defName>SmallLiquidStorage</defName>
+		<label>Small liquid storage</label>
+		<description>Massive metal tank for storing liquids.</description>
+		<graphicData>
+			<texPath>Buildings/LiquidsStorage/LiquidsStorage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.85,2.85)</drawSize>
+			<drawOffset>0, 0, 0.135</drawOffset>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>2.0</Flammability>
+			<Beauty>-15</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<SimplePlates>30</SimplePlates>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_LiquidStorage">
+				<maxStorage>500</maxStorage>
+				<fillBarSize>0.8, 0.25</fillBarSize>
+				<drawOffSet>0, 0, -0.5</drawOffSet>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>BasicsHydromechanics</li>
+		</researchPrerequisites>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="LiquidStorageBase">
+		<defName>LargeLiquidStorage</defName>
+		<label>Large liquid storage</label>
+		<description>Massive metal tank for storing liquids.</description>
+		<graphicData>
+			<texPath>Buildings/LiquidsStorage/LiquidsStorage</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.3,4.3)</drawSize>
+			<drawOffset>0, 0, 0.2</drawOffset>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Flammability>2.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<size>(3,3)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+			<Concrete>100</Concrete>
+			<StrongPlates>30</StrongPlates>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_LiquidStorage">
+				<maxStorage>1500</maxStorage>
+				<fillBarSize>1.3, 0.4</fillBarSize>
+				<drawOffSet>0, 0, -0.7</drawOffSet>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<staticSunShadowHeight>0.4</staticSunShadowHeight>
+		<researchPrerequisites>
+			<li>LiquidsStorages</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BenchBase" Name="SteamBoilerBase" Abstract="true">
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>true</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<tickerType>Normal</tickerType>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellIcon isNull="true"/>
+		<minifiedDef/>
+		<thingCategories Inherit="false"/>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="SteamBoilerBase">
+		<defName>SmallSteamBoiler</defName>
+		<label>Small steam boiler</label>
+		<description>Small metal low pressure steam boiler. Produces steam by burning solid fuel and consuming water.</description>
+		<thingClass>SteamRim.Things.Building_SolidFuelSteamBoiler</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Buildings/SmallSteamBoiler/SmallSteamBoiler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4,4</drawSize>
+			<drawOffset>0, 0, -0.05</drawOffset>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>150</costStuffCount>
+		<costList>
+			<Concrete>50</Concrete>
+			<SimplePlates>20</SimplePlates>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<uiIconScale>0.8</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_SolidFuelSteamBoiler</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_SteamBoiler">
+				<steamMax>200</steamMax>
+				<waterMax>100</waterMax>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Coal</li>
+						<li>CokeCoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<minTemperature>0</minTemperature>
+				<maxTemperature>170</maxTemperature>
+				<minWorkTemp>100</minWorkTemp>
+				<maxWorkTemp>170</maxWorkTemp>
+				<progressDefaultPerSecondMult>2</progressDefaultPerSecondMult>
+				<temperaturePerSecondInWork>0.2</temperaturePerSecondInWork>
+				<temperaturePerSecond>-0.25</temperaturePerSecond>
+				<steamPerIteration>30</steamPerIteration>
+				<explosionRange>3~6</explosionRange>
+				<damage>10~30</damage>
+				<explosionWaterIteration>5</explosionWaterIteration>
+				<progressTemperatureCurve>
+					<points>
+						<li>0, 2</li>
+						<li>100, 1</li>
+						<li>130, 0.7</li>
+						<li>200, 0.5</li>
+					</points>
+				</progressTemperatureCurve>
+				<steamTemperatureCurve>
+					<points>
+						<li>0, 0</li>
+						<li>100, 0</li>
+						<li>200, 1</li>
+					</points>
+				</steamTemperatureCurve>
+			</li>
+			<li Class="SteamRim.Things.CompProperties_BillProducer">
+				<storageCellOffset>0, 0, 2</storageCellOffset>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>SteamRim.Things.CompHeatPusherExtended</compClass>
+				<heatPerSecond>12</heatPerSecond>
+				<heatPushMaxTemperature>100</heatPushMaxTemperature>
+			</li>
+			<li Class="SteamRim.Things.CompProperties_ToxifierExtended">
+				<solidWaste>true</solidWaste>
+			</li>
+		</comps>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<researchPrerequisites>
+			<li>SteamMachines</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_ToxifierExtended</li>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_StorageInput</li>
+		</placeWorkers>
+		<staticSunShadowHeight>0.25</staticSunShadowHeight>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="SteamBoilerBase">
+		<defName>WoodFiredGenerator</defName>
+		<label>Large steam boiler</label>
+		<description>Huge high pressure metal steam boiler. Produces steam by burning solid fuel and consuming water.</description>
+		<thingClass>SteamRim.Things.Building_SolidFuelSteamBoiler</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Buildings/LargeSteamBoiler/LargeSteamBoiler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4.35,4.35</drawSize>
+			<drawOffset>0, 0, 0</drawOffset>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<size>(3,3)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<Concrete>150</Concrete>
+			<StrongPlates>40</StrongPlates>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<uiIconScale>1</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_SolidFuelSteamBoiler</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_SteamBoiler">
+				<steamMax>400</steamMax>
+				<waterMax>200</waterMax>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Coal</li>
+						<li>CokeCoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<minTemperature>0</minTemperature>
+				<maxTemperature>250</maxTemperature>
+				<minWorkTemp>100</minWorkTemp>
+				<maxWorkTemp>250</maxWorkTemp>
+				<progressDefaultPerSecondMult>6</progressDefaultPerSecondMult>
+				<temperaturePerSecondInWork>0.25</temperaturePerSecondInWork>
+				<temperaturePerSecond>-0.2</temperaturePerSecond>
+				<steamPerIteration>100</steamPerIteration>
+				<explosionRange>4~7</explosionRange>
+				<damage>30~70</damage>
+				<explosionWaterIteration>5</explosionWaterIteration>
+				<progressTemperatureCurve>
+					<points>
+						<li>0, 2</li>
+						<li>100, 1</li>
+						<li>130, 0.7</li>
+						<li>200, 0.5</li>
+						<li>250, 0.4</li>
+					</points>
+				</progressTemperatureCurve>
+				<steamTemperatureCurve>
+					<points>
+						<li>0, 0</li>
+						<li>100, 0</li>
+						<li>200, 1</li>
+						<li>250, 1.5</li>
+					</points>
+				</steamTemperatureCurve>
+			</li>
+			<li Class="SteamRim.Things.CompProperties_BillProducer">
+				<storageCellOffset>0, 0, 2</storageCellOffset>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>SteamRim.Things.CompHeatPusherExtended</compClass>
+				<heatPerSecond>20</heatPerSecond>
+				<heatPushMaxTemperature>100</heatPushMaxTemperature>
+			</li>
+			<li Class="SteamRim.Things.CompProperties_ToxifierExtended">
+				<solidWaste>true</solidWaste>
+			</li>
+		</comps>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<researchPrerequisites>
+			<li>IndustrialSteamBoilers</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_ToxifierExtended</li>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_StorageInput</li>
+		</placeWorkers>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="SteamBoilerBase">
+		<defName>ChemfuelPoweredGenerator</defName>
+		<label>Large liquid steam boiler</label>
+		<description>Huge high pressure metal steam boiler. Produces steam by burning flammable liquids and consuming water.</description>
+		<thingClass>SteamRim.Things.Building_LiquidFuelSteamBoiler</thingClass>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Buildings/LargeLiquidSteamBoiler/LargeLiquidSteamBoiler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4.35,4.35</drawSize>
+			<drawOffset>0, 0, 0</drawOffset>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>25000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<size>(3,3)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<Concrete>150</Concrete>
+			<StrongPlates>40</StrongPlates>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<uiIconScale>1</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_LiquidFuelSteamBoiler</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="SteamRim.LiquidSystem.CompProperties_SteamBoiler">
+				<steamMax>400</steamMax>
+				<waterMax>200</waterMax>
+				<liquidFuelMax>200</liquidFuelMax>
+				<liquidFuelPerIteration>4</liquidFuelPerIteration>
+				<fuelFilter>
+				</fuelFilter>
+				<minTemperature>0</minTemperature>
+				<maxTemperature>250</maxTemperature>
+				<minWorkTemp>100</minWorkTemp>
+				<maxWorkTemp>250</maxWorkTemp>
+				<progressDefaultPerSecondMult>1</progressDefaultPerSecondMult>
+				<temperaturePerSecondInWork>0.25</temperaturePerSecondInWork>
+				<temperaturePerSecond>-0.2</temperaturePerSecond>
+				<steamPerIteration>100</steamPerIteration>
+				<explosionRange>4~7</explosionRange>
+				<damage>30~70</damage>
+				<explosionWaterIteration>5</explosionWaterIteration>
+				<progressTemperatureCurve>
+					<points>
+						<li>0, 2</li>
+						<li>100, 1</li>
+						<li>130, 0.7</li>
+						<li>250, 0.5</li>
+					</points>
+				</progressTemperatureCurve>
+				<steamTemperatureCurve>
+					<points>
+						<li>0, 0</li>
+						<li>100, 0.5</li>
+						<li>200, 1</li>
+						<li>250, 1.5</li>
+					</points>
+				</steamTemperatureCurve>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>SteamRim.Things.CompHeatPusherExtended</compClass>
+				<heatPerSecond>20</heatPerSecond>
+				<heatPushMaxTemperature>100</heatPushMaxTemperature>
+			</li>
+			<li Class="SteamRim.Things.CompProperties_ToxifierExtended">
+				<solidWaste>true</solidWaste>
+			</li>
+		</comps>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<researchPrerequisites>
+			<li>IndustrialSteamBoilers</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_ToxifierExtended</li>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_StorageInput</li>
+		</placeWorkers>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>WindPump</defName>
+		<label>Wind pump</label>
+		<description>Machines for extracting water from under the earth's surface are necessary for the needs of the steam industry.</description>
+		<thingClass>SteamRim.Things.Building_WindPump</thingClass>
+		<graphicData>
+			<texPath>Buildings/WindPump/WindPump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(0.6, 1.0, 1.6)</volume>
+				<offset>(-0.1,0,-0.08)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>true</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(3, 2)</size>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<tickerType>Normal</tickerType>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>150</costStuffCount>
+		<costList>
+			<SimplePlates>30</SimplePlates>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<uiIconScale>1.5</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_WindPump</li>
+			<li>ITab_Bills</li>
+			<li>ITab_WindTurbineAutoCut</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_WaterSystemPart</li>
+			<li>PlaceWorker_WindTurbine</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_WaterSystemPart">
+			</li>
+			<li>
+				<compClass>CompAutoCutWindTurbine</compClass>
+			</li>
+		</comps>
+		<hasInteractionCell>false</hasInteractionCell>
+		<researchPrerequisites>
+			<li>WaterProduction</li>
+		</researchPrerequisites>
+		<interactionCellIcon isNull="true"/>
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+		</building>
+		<minifiedDef isNull="true"/>
+		<thingCategories isNull="true"/>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>WaterWell</defName>
+		<label>Water well</label>
+		<description>An industrial machine that pumps water out of the ground thanks to steam traction.</description>
+		<thingClass>SteamRim.Things.Building_WaterWell</thingClass>
+		<graphicData>
+			<texPath>Buildings/WaterWell/WaterWell</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>2,2</drawSize>
+			<drawOffset>0, 0, 0</drawOffset>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(2,2)</size>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>150</costStuffCount>
+		<costList>
+			<Concrete>50</Concrete>
+			<StrongPlates>20</StrongPlates>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<uiIconScale>0.8</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_WaterWell</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_WaterSystemPart">
+			</li>
+		</comps>
+		<hasInteractionCell>false</hasInteractionCell>
+		<researchPrerequisites>
+			<li>DrillingWells</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_WaterSystemPart</li>
+		</placeWorkers>
+		<interactionCellIcon isNull="true"/>
+		<minifiedDef/>
+		<thingCategories Inherit="false"/>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>GeothermalGenerator</defName>
+		<label>geothermal generator</label>
+		<description>Produces steam from geothermal steam geysers. Must be placed on a steam geyser.</description>
+		<thingClass>SteamRim.Things.Building_GeothermalGenerator</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Power/GeothermalPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(6,6)</drawSize>
+			<shadowData>
+				<volume>(6.03,1.0,5.25)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,5.4,6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-30</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(6,6)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>300</costStuffCount>
+		<costList>
+			<Concrete>300</Concrete>
+			<StrongPlates>100</StrongPlates>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_GeothermalGenerator</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>PlaceWorker_OnSteamGeyser</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>GeothermalPower</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>IndustrialPump</defName>
+		<label>Industrial pump</label>
+		<description>Heavy industrial installation for pumping water from the earth's crust.</description>
+		<thingClass>SteamRim.Things.Building_IndustrialPump</thingClass>
+		<graphicData>
+			<texPath>Buildings/IndustrialPump/IndustrialPump</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>5.1,5.1</drawSize>
+			<drawOffset>0, 0, 0.27</drawOffset>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>25000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(2,2)</size>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+			<Concrete>200</Concrete>
+			<TechnicalPlates>50</TechnicalPlates>
+			<SolarCell>25</SolarCell>
+			<ComponentSpacer>4</ComponentSpacer>
+			<MechanismSpacer>2</MechanismSpacer>
+		</costList>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<uiIconScale>0.8</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_IndustrialPump</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_WaterSystemPart">
+			</li>
+		</comps>
+		<hasInteractionCell>false</hasInteractionCell>
+		<researchPrerequisites>
+			<li>SolarPanels</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>SteamRim.PlaceWorkers.PlaceWorker_WaterSystemPart</li>
+		</placeWorkers>
+		<interactionCellIcon isNull="true"/>
+		<minifiedDef/>
+		<thingCategories Inherit="false"/>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>WatermillGenerator</defName>
+		<label>watermill generator</label>
+		<description>Mechanical pump for autonomous pumping of water from the course of rivers.</description>
+		<thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Power/WatermillGenerator/WatermillGeneratorBody</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(5,6)</drawSize>
+			<shadowData>
+				<volume>(2.6,1,2.16)</volume>
+				<offset>(-0.20,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rectN>(0.1,1.2,4.75,3.25)</rectN>
+				<rectE>(1.25,0.2,3.5,4.7)</rectE>
+				<rectS>(0.2,1.2,4.7,3.25)</rectS>
+				<rectW>(1.25,0.2,3.5,4.7)</rectW>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(5,6)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<WoodLog>250</WoodLog>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe"/>
+			<li Class="SteamRim.Things.CompProperties_LiquidConsumer">
+				<liquidCounts>
+					<Water>-0.3</Water>
+				</liquidCounts>
+			</li>
+		</comps>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded/>
+		<designationCategory>Liquids</designationCategory>
+		<uiOrder>2100</uiOrder>
+		<placeWorkers>
+			<li>PlaceWorker_WatermillGenerator</li>
+		</placeWorkers>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>WatermillGenerator</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>LiquidCompressor</defName>
+		<label>Liquid compressor</label>
+		<description>Industrial installation for compressing liquids.</description>
+		<thingClass>SteamRim.Things.Building_LiquidCompressor</thingClass>
+		<graphicData>
+			<texPath>Buildings/LiquidCompressor/LiquidCompressor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>8,8</drawSize>
+			<drawOffset>0, 0, 0.27</drawOffset>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>true</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(4,6)</size>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+			<Concrete>200</Concrete>
+			<StrongPlates>50</StrongPlates>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<uiIconScale>0.8</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_LiquidCompressor</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+		</comps>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
+		<researchPrerequisites>
+			<li>SteamMachines</li>
+		</researchPrerequisites>
+		<interactionCellIcon isNull="true"/>
+		<minifiedDef/>
+		<thingCategories Inherit="false"/>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>LiquidDecompressor</defName>
+		<label>Liquid decompressor</label>
+		<description>Industrial installation for decompressing liquids.</description>
+		<thingClass>SteamRim.Things.Building_LiquidDecompressor</thingClass>
+		<graphicData>
+			<texPath>Buildings/LiquidDecompressor/LiquidDecompressor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>8,8</drawSize>
+			<drawOffset>0, 0, 0.27</drawOffset>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>true</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(4,6)</size>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Liquids</designationCategory>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+			<Concrete>200</Concrete>
+			<StrongPlates>50</StrongPlates>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<uiIconScale>0.8</uiIconScale>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_LiquidCompressor</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe">
+			</li>
+		</comps>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-3)</interactionCellOffset>
+		<researchPrerequisites>
+			<li>SteamMachines</li>
+		</researchPrerequisites>
+		<interactionCellIcon isNull="true"/>
+		<minifiedDef/>
+		<thingCategories Inherit="false"/>
+	</ThingDef>
+	<!---->
+</Defs>

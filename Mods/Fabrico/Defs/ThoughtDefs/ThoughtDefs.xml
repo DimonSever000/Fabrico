@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<ThoughtDef>
+		<defName>DeathOfDistantStar</defName>
+		<durationDays>5</durationDays>
+		<stages>
+			<li>
+				<label>death of distant star</label>
+				<description>It is extraordinarily exciting to watch the death of a star years after its actual death.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!---->
+	<ThoughtDef>
+		<defName>ParadeOfPlanets</defName>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>parade of planets</label>
+				<description>I happened to look at the parade of the planets. An interesting sight.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!---->
+	<ThoughtDef>
+		<defName>CatJoin</defName>
+		<durationDays>3</durationDays>
+		<stages>
+			<li>
+				<label>lost cat</label>
+				<description>An abandoned cat joined us. Nicely.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!---->
+</Defs>

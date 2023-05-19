@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<ComponentIndustrial.label>Компонент</ComponentIndustrial.label>
+	<ComponentIndustrial.description>Металлические детали, рычаги и простые механические предметы.</ComponentIndustrial.description>
+	<!---->
+	<Mechanism.label>Механизм</Mechanism.label>
+	<Mechanism.description>Шестеренки, системы металлических валов и другие механизмы, позволяющие собрать полезные машины.</Mechanism.description>
+	<!---->
+	<MechanismSpacer.label>Продвинутый механизм</MechanismSpacer.label>
+	<MechanismSpacer.description>Прочные и миниатюрные шестеренки, составляющие важную часть всех продвинутых механизмов.</MechanismSpacer.description>
+	<!---->
+	<SimplePlates.label>Простые пластины</SimplePlates.label>
+	<SimplePlates.description>Листы малопрочного металла, используемые при обшивке некоторых строений.</SimplePlates.description>
+	<!---->
+	<StrongPlates.label>Прочные пластины</StrongPlates.label>
+	<StrongPlates.description>Прочный листовой металл, созданный для обшивки множества машин.</StrongPlates.description>
+	<!---->
+	<TechnicalPlates.label>Технические пластины</TechnicalPlates.label>
+	<TechnicalPlates.description>Специализированные листы металла, применяемые при создании высокотехнологичных зданий и проектов.</TechnicalPlates.description>
+	<!---->
+	<Biofuel.label>Биотопливо</Biofuel.label>
+	<Biofuel.description>Жидкое топливо, состоящее из природных элементов. Обладает достаточной теплоемкостью.</Biofuel.description>
+	<!---->
+	<Creosote.label>Креозот</Creosote.label>
+	<Creosote.description>Жидкость, используемая в качестве смазки и примитивного жидкого топлива. Обладает малой теплоемкостью и большим коэффициентом загрязнения.</Creosote.description>
+	<!---->
+	<RepairKit.label>Ремонтный набор</RepairKit.label>
+	<RepairKit.description>Набор компонентов для ремонта снаряжения.</RepairKit.description>
+	<!---->
+	<SolarCell.label>Солнечная ячейка</SolarCell.label>
+	<SolarCell.description>Светопоглощающее сверхпрочное стекло в виде гексоида. Используется в некоторых точных приборах и строительстве космических аппаратов.</SolarCell.description>
+	<!---->
+</LanguageData>

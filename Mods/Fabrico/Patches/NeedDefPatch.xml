@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="Mood"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_MoodExtended</needClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="Joy"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_JoyExtended</needClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="Beauty"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_BeautyExtended</needClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="Comfort"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_ComfortExtended</needClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="Outdoors"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_OutdoorsExtended</needClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="Indoors"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_IndoorsExtended</needClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="DrugDesire"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_Chemical_AnyExtended</needClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/NeedDef[defName="RoomSize"]/needClass</xpath>
+				<value>
+					<needClass>SteamRim.Needs.Need_RoomSizeExtended</needClass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

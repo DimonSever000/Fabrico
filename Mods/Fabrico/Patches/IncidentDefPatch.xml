@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_Flu"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_Plague"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_Malaria"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_SleepingSickness"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_FibrousMechanites"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_SensoryMechanites"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_GutWorms"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/IncidentDef[defName="Disease_MuscleParasites"]</xpath>
+				<value>
+					<li Class="SteamRim.Things.DefModExtension_DiseaseIncident">
+						<allowFlesh>true</allowFlesh>
+						<allowMechanical>false</allowMechanical>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

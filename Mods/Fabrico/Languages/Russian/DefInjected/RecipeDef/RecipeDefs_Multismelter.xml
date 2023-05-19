@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Multismelter_Glass.label>Выплавить стекло</Multismelter_Glass.label>
+	<Multismelter_Glass.description>Выплавить стекло.</Multismelter_Glass.description>
+	<Multismelter_Glass.jobString>Выплавляет стекло</Multismelter_Glass.jobString>
+	<!---->
+	<Multismelter_CopperIngot.label>Выплавить медные слитки</Multismelter_CopperIngot.label>
+	<Multismelter_CopperIngot.description>Выплавить медные слитки.</Multismelter_CopperIngot.description>
+	<Multismelter_CopperIngot.jobString>Выплавляет медные слитки</Multismelter_CopperIngot.jobString>
+	<!---->
+	<Multismelter_TinIngot.label>Выплавить оловянные слитки</Multismelter_TinIngot.label>
+	<Multismelter_TinIngot.description>Выплавить оловянные слитки.</Multismelter_TinIngot.description>
+	<Multismelter_TinIngot.jobString>Выплавляет оловянные слитки</Multismelter_TinIngot.jobString>
+	<!---->
+	<Multismelter_BronzeIngot.label>Выплавить бронзовые слитки</Multismelter_BronzeIngot.label>
+	<Multismelter_BronzeIngot.description>Выплавить бронзовые слитки.</Multismelter_BronzeIngot.description>
+	<Multismelter_BronzeIngot.jobString>Выплавляет бронзовые слитки</Multismelter_BronzeIngot.jobString>
+	<!---->
+	<Multismelter_SteelIngot.label>Выплавить стальные слитки</Multismelter_SteelIngot.label>
+	<Multismelter_SteelIngot.description>Выплавить стальные слитки.</Multismelter_SteelIngot.description>
+	<Multismelter_SteelIngot.jobString>Выплавляет стальные слитки</Multismelter_SteelIngot.jobString>
+	<!---->
+	<Multismelter_LeadIngot.label>Выплавить свинцовые слитки</Multismelter_LeadIngot.label>
+	<Multismelter_LeadIngot.description>Выплавить свинцовые слитки.</Multismelter_LeadIngot.description>
+	<Multismelter_LeadIngot.jobString>Выплавляет свинцовые слитки</Multismelter_LeadIngot.jobString>
+	<!---->
+	<Multismelter_Plasteel.label>Выплавить титановые слитки</Multismelter_Plasteel.label>
+	<Multismelter_Plasteel.description>Выплавить титановые слитки.</Multismelter_Plasteel.description>
+	<Multismelter_Plasteel.jobString>Выплавляет титановые слитки</Multismelter_Plasteel.jobString>
+	<!---->
+	<Multismelter_AluminumIngot.label>Выплавить алюминиевые слитки</Multismelter_AluminumIngot.label>
+	<Multismelter_AluminumIngot.description>Выплавить алюминиевые слитки.</Multismelter_AluminumIngot.description>
+	<Multismelter_AluminumIngot.jobString>Выплавляет алюминиевые слитки</Multismelter_AluminumIngot.jobString>
+	<!---->
+	<Multismelter_Uranium.label>Выплавить инваровые слитки</Multismelter_Uranium.label>
+	<Multismelter_Uranium.description>Выплавить инваровые слитки.</Multismelter_Uranium.description>
+	<Multismelter_Uranium.jobString>Выплавляет инваровые слитки</Multismelter_Uranium.jobString>
+	<!---->
+</LanguageData>

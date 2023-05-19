@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SteamForge_ComponentIndustrial.label>Производство компонентов</SteamForge_ComponentIndustrial.label>
+	<SteamForge_ComponentIndustrial.description>Производство компонентов.</SteamForge_ComponentIndustrial.description>
+	<SteamForge_ComponentIndustrial.jobString>Производит компоненты</SteamForge_ComponentIndustrial.jobString>
+	<!---->
+	<SteamForge_Mechanism.label>Производство механизмов</SteamForge_Mechanism.label>
+	<SteamForge_Mechanism.description>Производство механизмов.</SteamForge_Mechanism.description>
+	<SteamForge_Mechanism.jobString>Производит механизмы</SteamForge_Mechanism.jobString>
+	<!---->
+	<SteamForge_MechanismSpacer.label>Производство продвинутых механизмов</SteamForge_MechanismSpacer.label>
+	<SteamForge_MechanismSpacer.description>Производство продвинутых механизмов.</SteamForge_MechanismSpacer.description>
+	<SteamForge_MechanismSpacer.jobString>Производит продвинутые механизмы</SteamForge_MechanismSpacer.jobString>
+	<!---->
+	<SteamForge_ComponentSpacer.label>Производство продвинутых компонентов</SteamForge_ComponentSpacer.label>
+	<SteamForge_ComponentSpacer.description>Производство продвинутых компонентов.</SteamForge_ComponentSpacer.description>
+	<SteamForge_ComponentSpacer.jobString>Производит продвинутые компоненты</SteamForge_ComponentSpacer.jobString>
+	<!---->
+	<SteamForge_SimplePlates.label>Производство простых пластин</SteamForge_SimplePlates.label>
+	<SteamForge_SimplePlates.description>Производство простых пластин.</SteamForge_SimplePlates.description>
+	<SteamForge_SimplePlates.jobString>Производит простые пластины</SteamForge_SimplePlates.jobString>
+	<!---->
+	<SteamForge_StrongPlates.label>Производство прочных пластин</SteamForge_StrongPlates.label>
+	<SteamForge_StrongPlates.description>Производство прочных пластин.</SteamForge_StrongPlates.description>
+	<SteamForge_StrongPlates.jobString>Производит прочные пластины</SteamForge_StrongPlates.jobString>
+	<!---->
+	<SteamForge_TechnicalPlates.label>Производство технических пластин</SteamForge_TechnicalPlates.label>
+	<SteamForge_TechnicalPlates.description>Производство технических пластин.</SteamForge_TechnicalPlates.description>
+	<SteamForge_TechnicalPlates.jobString>Производит технические пластины</SteamForge_TechnicalPlates.jobString>
+	<!---->
+	<SteamForge_RepairKit.label>Производство ремонтных наборов</SteamForge_RepairKit.label>
+	<SteamForge_RepairKit.description>Производство ремонтных наборов.</SteamForge_RepairKit.description>
+	<SteamForge_RepairKit.jobString>Производит ремонтные наборы</SteamForge_RepairKit.jobString>
+	<!---->
+	<SteamForge_SolarCell.label>Производство солнечных ячеек</SteamForge_SolarCell.label>
+	<SteamForge_SolarCell.description>Производство солнечных ячеек.</SteamForge_SolarCell.description>
+	<SteamForge_SolarCell.jobString>Производит солнечные ячейки</SteamForge_SolarCell.jobString>
+	<!---->
+</LanguageData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/General.xml-->
+                                  <!-- advanced fire-control computer -->
+<PLA_AdvancedFireControlComputer.label>усовершенствованный СУО</PLA_AdvancedFireControlComputer.label>
+                                      <!-- advanced fire-control computer -->
+<PLA_AdvancedFireControlComputer.labelNoun>усовершенствованный СУО</PLA_AdvancedFireControlComputer.labelNoun>
+                                        <!-- An installed advanced fire-control computer. -->
+<PLA_AdvancedFireControlComputer.description>Установлен усовершенствованный компьютер управления огнем.</PLA_AdvancedFireControlComputer.description>
+                     <!-- composite armor -->
+<PLA_CompositeArmor.label>композитная броня</PLA_CompositeArmor.label>
+                         <!-- composite armor -->
+<PLA_CompositeArmor.labelNoun>композитная броня</PLA_CompositeArmor.labelNoun>
+                           <!-- The composite armor, it can give better protection for vehicle. -->
+<PLA_CompositeArmor.description>Композитная броня, которая может обеспечить лучшую защиту транспортного средства.</PLA_CompositeArmor.description>
+
+</LanguageData>

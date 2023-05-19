@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/Bodies&BodyParts.xml-->
+                 <!-- vehicle -->
+<PLA_VehicleCar.label>техника</PLA_VehicleCar.label>
+                  <!-- vehicle -->
+<PLA_VehicleTank.label>техника</PLA_VehicleTank.label>
+
+</LanguageData>

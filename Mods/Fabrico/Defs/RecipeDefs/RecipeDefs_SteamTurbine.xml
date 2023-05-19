@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>SteamTurbine_ProduceElectricity</defName>
+		<label>Produce electricity</label>
+		<description>Produce electricity.</description>
+		<jobString>Produces electricity.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>WindTurbine</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>200</Steam>
+		</liquidsIngredients>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>SteamReactor_ProduceElectricity</defName>
+		<label>Produce electricity</label>
+		<description>Produce electricity.</description>
+		<jobString>Produces electricity.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>SolarGenerator</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>300</Steam>
+			<Water>20</Water>
+		</liquidsIngredients>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

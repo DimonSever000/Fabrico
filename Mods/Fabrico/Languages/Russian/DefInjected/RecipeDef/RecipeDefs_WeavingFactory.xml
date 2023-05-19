@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<WeavingFactory_DevilstrandCloth.label>Производство дьявлоткани</WeavingFactory_DevilstrandCloth.label>
+	<WeavingFactory_DevilstrandCloth.description>Производство дьявлоткани.</WeavingFactory_DevilstrandCloth.description>
+	<WeavingFactory_DevilstrandCloth.jobString>Производит дьявлоткань</WeavingFactory_DevilstrandCloth.jobString>
+	<!---->
+	<WeavingFactory_Cloth.label>Производство ткани</WeavingFactory_Cloth.label>
+	<WeavingFactory_Cloth.description>Производство ткани.</WeavingFactory_Cloth.description>
+	<WeavingFactory_Cloth.jobString>Производит ткань</WeavingFactory_Cloth.jobString>
+	<!---->
+	<WeavingFactory_Synthread.label>Производство синткани</WeavingFactory_Synthread.label>
+	<WeavingFactory_Synthread.description>Производство синткани.</WeavingFactory_Synthread.description>
+	<WeavingFactory_Synthread.jobString>Производит синткань</WeavingFactory_Synthread.jobString>
+	<!---->
+</LanguageData>

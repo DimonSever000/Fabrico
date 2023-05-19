@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SteamMiner_Mining.label>Добыча горных пород</SteamMiner_Mining.label>
+	<SteamMiner_Mining.description>Добыча горных пород.</SteamMiner_Mining.description>
+	<SteamMiner_Mining.jobString>Добывает горные породы</SteamMiner_Mining.jobString>
+	<!---->
+	<SteamDrill_Mining.label>Добыча горных пород</SteamDrill_Mining.label>
+	<SteamDrill_Mining.description>Добыча горных пород.</SteamDrill_Mining.description>
+	<SteamDrill_Mining.jobString>Добывает горные породы</SteamDrill_Mining.jobString>
+	<!---->
+	<DeepDrill_Mining.label>Добыча горных пород</DeepDrill_Mining.label>
+	<DeepDrill_Mining.description>Добыча горных пород.</DeepDrill_Mining.description>
+	<DeepDrill_Mining.jobString>Добывает горные породы</DeepDrill_Mining.jobString>
+	<!---->
+</LanguageData>

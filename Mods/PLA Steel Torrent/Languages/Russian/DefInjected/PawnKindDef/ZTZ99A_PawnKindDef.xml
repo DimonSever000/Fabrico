@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/ZTZ99A.xml-->
+                 <!-- ZTZ-99A main battle tank -->
+<PLA_ZTZ99ATank.label>ZTZ-99A основной боевой танк</PLA_ZTZ99ATank.label>
+                       <!-- Plural ZTZ-99A main battle tank -->
+<PLA_ZTZ99ATank.labelPlural>ZTZ-99A основные боевые танки</PLA_ZTZ99ATank.labelPlural>
+                     <!-- Male ZTZ-99A main battle tank -->
+<PLA_ZTZ99ATank.labelMale>ZTZ-99A основной боевой танк</PLA_ZTZ99ATank.labelMale>
+                           <!-- Male Plural ZTZ-99A main battle tank -->
+<PLA_ZTZ99ATank.labelMalePlural>ZTZ-99A основные боевые танки</PLA_ZTZ99ATank.labelMalePlural>
+                       <!-- Female ZTZ-99A main battle tank -->
+<PLA_ZTZ99ATank.labelFemale>ZTZ-99A основной боевой танк</PLA_ZTZ99ATank.labelFemale>
+                             <!-- Female Plural ZTZ-99A main battle tank -->
+<PLA_ZTZ99ATank.labelFemalePlural>ZTZ-99A основные боевые танки</PLA_ZTZ99ATank.labelFemalePlural>
+
+</LanguageData>

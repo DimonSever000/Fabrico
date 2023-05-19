@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<AutomatonFactory_AutomatonWorker.label>Сборка автоматона рабочего</AutomatonFactory_AutomatonWorker.label>
+	<AutomatonFactory_AutomatonWorker.description>Сборка автоматона рабочего.</AutomatonFactory_AutomatonWorker.description>
+	<AutomatonFactory_AutomatonWorker.jobString>Собирает автоматона рабочего</AutomatonFactory_AutomatonWorker.jobString>
+	<!---->
+	<AutomatonFactory_AutomatonSoldier.label>Сборка автоматона солдата</AutomatonFactory_AutomatonSoldier.label>
+	<AutomatonFactory_AutomatonSoldier.description>Сборка автоматона солдата.</AutomatonFactory_AutomatonSoldier.description>
+	<AutomatonFactory_AutomatonSoldier.jobString>Собирает автоматона солдата</AutomatonFactory_AutomatonSoldier.jobString>
+	<!---->
+	<AutomatonFactory_AutomatonMedic.label>Сборка автоматона медика</AutomatonFactory_AutomatonMedic.label>
+	<AutomatonFactory_AutomatonMedic.description>Сборка автоматона медика.</AutomatonFactory_AutomatonMedic.description>
+	<AutomatonFactory_AutomatonMedic.jobString>Собирает автоматона медика</AutomatonFactory_AutomatonMedic.jobString>
+	<!---->
+	<!---->
+	<!---->
+	<RobotFactory_RobotWorker.label>Сборка робота рабочего</RobotFactory_RobotWorker.label>
+	<RobotFactory_RobotWorker.description>Сборка робота рабочего.</RobotFactory_RobotWorker.description>
+	<RobotFactory_RobotWorker.jobString>Собирает робота рабочего</RobotFactory_RobotWorker.jobString>
+	<!---->
+	<RobotFactory_RobotSoldier.label>Сборка робота солдата</RobotFactory_RobotSoldier.label>
+	<RobotFactory_RobotSoldier.description>Сборка робота солдата.</RobotFactory_RobotSoldier.description>
+	<RobotFactory_RobotSoldier.jobString>Собирает робота солдата</RobotFactory_RobotSoldier.jobString>
+	<!---->
+	<RobotFactory_RobotMedic.label>Сборка робота медика</RobotFactory_RobotMedic.label>
+	<RobotFactory_RobotMedic.description>Сборка робота медика.</RobotFactory_RobotMedic.description>
+	<RobotFactory_RobotMedic.jobString>Собирает робота медика</RobotFactory_RobotMedic.jobString>
+	<!---->
+	<RobotFactory_RobotAI.label>Сборка робота ИИ</RobotFactory_RobotAI.label>
+	<RobotFactory_RobotAI.description>Сборка робота ИИ.</RobotFactory_RobotAI.description>
+	<RobotFactory_RobotAI.jobString>Собирает робота ИИ</RobotFactory_RobotAI.jobString>
+	<!---->
+</LanguageData>

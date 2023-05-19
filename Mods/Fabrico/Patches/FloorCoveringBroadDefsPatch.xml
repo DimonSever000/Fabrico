@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[@Name="BuildingFloorCoveringMediumBase"]</xpath>
+				<value>
+					<researchPrerequisites inherit="false">
+						<li>StoneFloors</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[@Name="BuildingFloorCoveringBroadBase"]</xpath>
+				<value>
+					<researchPrerequisites inherit="false">
+						<li>StoneFloors</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="MorbidSlab_Medium"]</xpath>
+				<value>
+					<ThingDef ParentName="BuildingFloorCoveringMediumBase">
+						<defName>MorbidSlab_Medium</defName>
+						<label>morbid slab (medium)</label>
+						<description>A stone bas relief of morbid imagery for decorating a floor.</description>
+						<dominantStyleCategory>Morbid</dominantStyleCategory>
+						<graphicData>
+							<graphicClass>Graphic_Random</graphicClass>
+							<texPath>Things/Building/FloorCoverings/SlabMorbidMedium</texPath>
+							<drawSize>(3,3)</drawSize>
+						</graphicData>
+						<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+						<stuffCategories>
+							<li>Stony</li>
+						</stuffCategories>
+						<costStuffCount>100</costStuffCount>
+						<researchPrerequisites>
+							<li>StoneFloors</li>
+						</researchPrerequisites>
+					</ThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="MorbidSlab_Broad"]</xpath>
+				<value>
+					<ThingDef ParentName="BuildingFloorCoveringBroadBase">
+						<defName>MorbidSlab_Broad</defName>
+						<label>morbid slab (broad)</label>
+						<description>A stone bas relief of morbid imagery for decorating a floor.</description>
+						<dominantStyleCategory>Morbid</dominantStyleCategory>
+						<graphicData>
+							<graphicClass>Graphic_Random</graphicClass>
+							<texPath>Things/Building/FloorCoverings/SlabMorbidBroad</texPath>
+							<drawSize>(4,4)</drawSize>
+						</graphicData>
+						<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+						<stuffCategories>
+							<li>Stony</li>
+						</stuffCategories>
+						<costStuffCount>150</costStuffCount>
+						<researchPrerequisites>
+							<li>StoneFloors</li>
+						</researchPrerequisites>
+					</ThingDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/Lynx6x6ATV.xml-->
+                                  <!-- install 23mm autocannon -->
+<PLA_InstallWeapon23mmAutocannon.label>установить 23мм автопушку</PLA_InstallWeapon23mmAutocannon.label>
+                                        <!-- Install the 23mm autocannon. -->
+<PLA_InstallWeapon23mmAutocannon.description>Установить 23мм автопушку</PLA_InstallWeapon23mmAutocannon.description>
+                                      <!-- Installing 23mm autocannon -->
+<PLA_InstallWeapon23mmAutocannon.jobString>Устанавливаю 23мм автопушку</PLA_InstallWeapon23mmAutocannon.jobString>
+                              <!-- install 40mm CT cannon -->
+<PLA_InstallWeapon40mmCannon.label>установить 40мм CT автопушку</PLA_InstallWeapon40mmCannon.label>
+                                    <!-- Install the 40mm CT cannon on vehicle. -->
+<PLA_InstallWeapon40mmCannon.description>Установить 40мм CT автопушку на технику</PLA_InstallWeapon40mmCannon.description>
+                                  <!-- Installing 40mm CT cannon -->
+<PLA_InstallWeapon40mmCannon.jobString>Устанавливаю 40мм CT автопушку</PLA_InstallWeapon40mmCannon.jobString>
+                                       <!-- install 107mm rocket launcher -->
+<PLA_InstallWeapon107mmRocketLauncher.label>установить 107мм гранатомёт</PLA_InstallWeapon107mmRocketLauncher.label>
+                                             <!-- Install the 107mm rocket launcher on vehicle. -->
+<PLA_InstallWeapon107mmRocketLauncher.description>Установить 107мм гранатомёт на технику</PLA_InstallWeapon107mmRocketLauncher.description>
+                                           <!-- Installing 107mm rocket launcher -->
+<PLA_InstallWeapon107mmRocketLauncher.jobString>Устанавливаю 107мм гранатомёт</PLA_InstallWeapon107mmRocketLauncher.jobString>
+
+</LanguageData>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>SolidFuelSteamBoilers_ProduceSteam</defName>
+		<label>Produce steam</label>
+		<description>Produce steam.</description>
+		<jobString>Producing steam.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Coal</li>
+						<li>CokeCoal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Coal</li>
+				<li>CokeCoal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>SmallSteamBoiler</li>
+			<li>WoodFiredGenerator</li>
+		</recipeUsers>
+		<pollutionProgressPerIteration>0.01</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LiquidSteamBoilers_ProduceSteam</defName>
+		<label>Produce steam</label>
+		<description>Produce steam.</description>
+		<jobString>Producing steam.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>ChemfuelPoweredGenerator</li>
+		</recipeUsers>
+		<pollutionProgressPerIteration>0.01</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>GeothermalGenerator_ProduceSteam</defName>
+		<label>Produce steam</label>
+		<description>Produce steam.</description>
+		<jobString>Producing steam.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<recipeUsers>
+			<li>GeothermalGenerator</li>
+		</recipeUsers>
+		<liquidsProducts>
+			<Steam>100</Steam>
+		</liquidsProducts>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>Heater</defName>
+		<label>Steam heater</label>
+		<description>This device works by means of hot steam circulating inside.</description>
+		<thingClass>SteamRim.Things.Building_SteamHeater</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Misc/TempControl/Heater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.5,0.3,0.7)</volume>
+				<offset>(0,0,-0.15)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.234375,0,0.515625,0.984375)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>30</pathCost>
+		<blockWind>true</blockWind>
+		<rotatable>false</rotatable>
+		<fillPercent>0.4</fillPercent>
+		<thingCategories>
+			<li>BuildingsTemperature</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>5000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>6</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+		</building>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<compClass>SteamRim.Things.CompGlowerExtended</compClass>
+				<glowRadius>3</glowRadius>
+				<glowColor>(255,150,100,0)</glowColor>
+			</li>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>21</energyPerSecond>
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe"/>
+			<li Class="SteamRim.Things.CompProperties_LiquidConsumer">
+				<liquidCounts>
+					<Steam>0.1</Steam>
+				</liquidCounts>
+			</li>
+		</comps>
+		<designationCategory>Temperature</designationCategory>
+		<researchPrerequisites>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>Cooler</defName>
+		<label>cooler</label>
+		<description>The mechanism cools the air due to the condensation of steam and the use of certain gases.</description>
+		<thingClass>SteamRim.Things.Building_SteamCooler</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Misc/TempControl/Cooler</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<statBases>
+			<WorkToBuild>6000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>PlaceWorker_Cooler</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="CompProperties_Breakdownable">
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>-21</energyPerSecond>
+			</li>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe"/>
+			<li Class="SteamRim.Things.CompProperties_LiquidConsumer">
+				<liquidCounts>
+					<Steam>0.1</Steam>
+				</liquidCounts>
+			</li>
+		</comps>
+		<designationCategory>Temperature</designationCategory>
+		<researchPrerequisites>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+	<!---->
+</Defs>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<FactionDef ParentName="OutlanderFactionBase">
+		<defName>OutlanderPhytox</defName>
+		<label>Phytox outlander union</label>
+		<description>These people probably arrived on this planet many hundreds of years ago, actively participating in its terraforming. Phytoxes have a set of genes that allow them to survive on sunlight. They prefer not to use machine technology, preferring pure nature.</description>
+		<colorSpectrum>
+			<li>90, 180, 75</li>
+			<li>20, 150, 0</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>10</configurationListOrderPriority>
+		<xenotypeSet>
+			<xenotypeChances Inherit="false">
+				<Phytox MayRequire="Ludeon.RimWorld.Biotech">0.8</Phytox>
+				<!--<Photos MayRequire="Ludeon.RimWorld.Biotech">0.1</Photos>-->
+				<Planter>0.2</Planter>
+			</xenotypeChances>
+		</xenotypeSet>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.95</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.05</commonality>
+			</li>
+		</backstoryFilters>
+	</FactionDef>
+	<!---->
+</Defs>

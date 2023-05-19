@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/PawnKindDef_Vehicle.xml-->
+                      <!-- machine -->
+<PLA_TraitWarMachine.label>машина</PLA_TraitWarMachine.label>
+                                    <!-- war machine -->
+<PLA_TraitWarMachine.degreeDatas.0.label>боевая машина</PLA_TraitWarMachine.degreeDatas.0.label>
+                                          <!-- This is a machine. -->
+<PLA_TraitWarMachine.degreeDatas.0.description>это машина</PLA_TraitWarMachine.degreeDatas.0.description>
+
+</LanguageData>

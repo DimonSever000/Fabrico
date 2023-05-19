@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/ZTZ99A.xml-->
+                 <!-- ZTZ-99A MBT -->
+<PLA_ZTZ99ATank.label>ZTZ-99A ОБТ</PLA_ZTZ99ATank.label>
+                       <!-- A main battle tank with 125mm cannon. -->
+<PLA_ZTZ99ATank.description>Основной боевой танк с 125мм пушкой</PLA_ZTZ99ATank.description>
+                         <!-- Body -->
+<PLA_ZTZ99ATank.tools.0.label>Корпус</PLA_ZTZ99ATank.tools.0.label>
+                   <!-- 125mm cannon -->
+<PLA_TurretGun99A.label>125мм пушка</PLA_TurretGun99A.label>
+                                                                  <!-- Use main cannon -->
+<PLA_TurretGun99A.comps.PLA.Vehicle.Comp_SecondaryVerb.mainWeaponLabel>Использовать основное орудие</PLA_TurretGun99A.comps.PLA.Vehicle.Comp_SecondaryVerb.mainWeaponLabel>
+                                                                       <!-- Use coaxial machine gun -->
+<PLA_TurretGun99A.comps.PLA.Vehicle.Comp_SecondaryVerb.secondaryWeaponLabel>Использовать спаренный пулемет</PLA_TurretGun99A.comps.PLA.Vehicle.Comp_SecondaryVerb.secondaryWeaponLabel>
+                           <!-- barrel -->
+<PLA_TurretGun99A.tools.0.label>ствол</PLA_TurretGun99A.tools.0.label>
+                    <!-- 125mm shell -->
+<PLA_99AShell_HEAT.label>125мм снаряд</PLA_99AShell_HEAT.label>
+
+</LanguageData>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SteamRim.Settings.SteamRimMod>Iron Heart</SteamRim.Settings.SteamRimMod>
+	<!---->
+	<SteamRim.RecipeWorker_Lobotomy.Successful>Лоботомия успешно завершена. Заболевание {0} вылечено.</SteamRim.RecipeWorker_Lobotomy.Successful>
+	<!---->
+	<SteamRim.AIDefect.RebelsLabel>Восстание машин</SteamRim.AIDefect.RebelsLabel>
+	<SteamRim.AIDefect.RebelsDesc>Одна или несколько машин достигли критического сбоя программы и восстают против вас! Кажется, другие машины тоже могут быть затронуты этой ошибкой.</SteamRim.AIDefect.RebelsDesc>
+	<!---->
+	<SteamRim.Terraforming.CannotBeTerraformed>{0} не может быть терраформирован в {1}.</SteamRim.Terraforming.CannotBeTerraformed>
+	<!---->
+	<SteamRim.HediffStatsUtility.RealPartEfficiency>Реальная эффективность: {0}</SteamRim.HediffStatsUtility.RealPartEfficiency>
+	<SteamRim.HediffStatsUtility.RealPartHitPoints>Реальное здоровье: {0}</SteamRim.HediffStatsUtility.RealPartHitPoints>
+	<!---->
+	<SteamRim.ITab_BillProducer.WorkTemperature>Рабочая температура: {0}
+	
+Здание может выполнять полезную работу только в этом диапазоне температур.</SteamRim.ITab_BillProducer.WorkTemperature>
+	<SteamRim.ITab_BillProducer.Liquid>{0}: {2}
+	
+{1}
+	
+{3}</SteamRim.ITab_BillProducer.Liquid>
+	<SteamRim.ITab_BillProducer.Progress>Прогресс: {0}
+{1} в день</SteamRim.ITab_BillProducer.Progress>
+	<SteamRim.ITab_BillProducer.Temperature>Температура: {0}
+{1}</SteamRim.ITab_BillProducer.Temperature>
+	<SteamRim.ITab_BillProducer.Efficiency>Эффективность: {0}
+{1}</SteamRim.ITab_BillProducer.Efficiency>
+	
+	<SteamRim.ITab_BillProducer.LiquidPerDay>{0} в день</SteamRim.ITab_BillProducer.LiquidPerDay>
+	<SteamRim.ITab_BillProducer.EmptyWaterAlert>В механизме закончилась вода. Остановите работу или может последовать взрыв!</SteamRim.ITab_BillProducer.EmptyWaterAlert>
+	<SteamRim.ITab_BillProducer.EfficiencyWind>Скорость ветра</SteamRim.ITab_BillProducer.EfficiencyWind>
+	<SteamRim.ITab_BillProducer.LabelKey>Инфо</SteamRim.ITab_BillProducer.LabelKey>
+	<!---->
+	<SteamRim.Building_BillProducer.PollutionProgressPerIteration>Загрязнение за итерацию: {0}</SteamRim.Building_BillProducer.PollutionProgressPerIteration>
+	<SteamRim.Building_BillProducer.PollutionFactor>Множитель загрязнения: {0}</SteamRim.Building_BillProducer.PollutionFactor>
+	<!---->
+	<SteamRim.ITab_LiquidFuelSteamBoiler.FuelPerDay>{0} / день</SteamRim.ITab_LiquidFuelSteamBoiler.FuelPerDay>
+	<!---->
+	<SteamRim.ITab_SteamFarm.ProgressTip>Будет расти еще {0} дней.</SteamRim.ITab_SteamFarm.ProgressTip>
+	<!---->
+	<SteamRim.ITab_SteamMiner.MiningRange>Радиус добычи: {0}</SteamRim.ITab_SteamMiner.MiningRange>
+	<!---->
+	<SteamRim.ExtendedRecipeDef.Pollution>Загрязнение: {0}</SteamRim.ExtendedRecipeDef.Pollution>
+	<SteamRim.ExtendedRecipeDef.LiquidIngredients>Требуется:</SteamRim.ExtendedRecipeDef.LiquidIngredients>
+	<SteamRim.ExtendedRecipeDef.LiquidProducts>Производит:</SteamRim.ExtendedRecipeDef.LiquidProducts>
+	<!---->
+	<SteamRim.Building_ShipPart.NotReady>{0} не готов к взлету.</SteamRim.Building_ShipPart.NotReady>
+	<SteamRim.Building_ShipPart.ReadyForFly>Готов ко взлету.</SteamRim.Building_ShipPart.ReadyForFly>
+	<SteamRim.Building_ShipPart.NotReadyForFly>Не готов ко взлету.</SteamRim.Building_ShipPart.NotReadyForFly>
+	<SteamRim.Building_ShipPart.WaterCount>Вода: {0}</SteamRim.Building_ShipPart.WaterCount>
+	<!---->
+	<SteamRim.Building_LiquidConsumer.CurFuel>Текущее топливо: {0}</SteamRim.Building_LiquidConsumer.CurFuel>
+	<SteamRim.Building_LiquidConsumer.CurFuelDesc>Вы можете выбрать топливо для сжигания. От вида топлива зависит скорость загрязнения окружающей среды и эффективность расхода. Текущая длительность сгорания: {0}</SteamRim.Building_LiquidConsumer.CurFuelDesc>
+	<SteamRim.Building_LiquidConsumer.Fuel>Топливо: {0}</SteamRim.Building_LiquidConsumer.Fuel>
+	<SteamRim.Building_LiquidConsumer.Progress>Прогресс: {0}</SteamRim.Building_LiquidConsumer.Progress>
+	<SteamRim.Building_LiquidConsumer.CurBurningRate>Скорость сгорания топлива: {0}</SteamRim.Building_LiquidConsumer.CurBurningRate>
+	<!---->
+	<SteamRim.Building_LiquidTank.ChangeLiquidTypeLabel>Жидкость: {0}</SteamRim.Building_LiquidTank.ChangeLiquidTypeLabel>
+	<SteamRim.Building_LiquidTank.ChangeLiquidTypeDesc>Выбор типа жидкости для хранения. В случае, если в резервуаре уже была другая жидкость, она при возможности перейдет в другие хранилища или будет уничтожена.</SteamRim.Building_LiquidTank.ChangeLiquidTypeDesc>
+	<SteamRim.Building_LiquidTank.Storage>Емкость: {0} / {1} л</SteamRim.Building_LiquidTank.Storage>
+	<!---->
+	<SteamRim.Building_WindPump.WindPathBlockedCells>Заблокированные ячейки: {0}</SteamRim.Building_WindPump.WindPathBlockedCells>
+	<!---->
+	<SteamRim.CompLiquidConsumer.Liquids>Потребление жидкостей (в день):
+{0}</SteamRim.CompLiquidConsumer.Liquids>
+	<SteamRim.CompLiquidConsumer.NotEnoughLiquids>Недостаточно жидкостей в системе.</SteamRim.CompLiquidConsumer.NotEnoughLiquids>
+	<!---->
+	<SteamRim.CompMineralScannerDrawer.ChangeOreSelected>Руда: {0}</SteamRim.CompMineralScannerDrawer.ChangeOreSelected>
+	<SteamRim.CompMineralScannerDrawer.ChangeOreSelectedDesc>Вы можете выбрать конкретную руду для отображения или показывать все известные руды.</SteamRim.CompMineralScannerDrawer.ChangeOreSelectedDesc>
+	<!---->
+	<SteamRim.ITab_SteamTurbine.Efficiency>Эффективность турбины зависит от скорости вращения вала с помощью энергии пара. Поддержание высокой эффективности повышает выработку энергии и снижает потребление.</SteamRim.ITab_SteamTurbine.Efficiency>
+	<!---->
+	<SteamRim.Building_SubcoreScanner.IsNotFlesh>Не из плоти и крови</SteamRim.Building_SubcoreScanner.IsNotFlesh>
+	<!---->
+	<SteamRim.Building_WaterWell.IneffectiveWork>Неэффективная работа. Количество добываемой воды меньше, чем потребление пара.</SteamRim.Building_WaterWell.IneffectiveWork>
+	<!---->
+	<SteamRim.Building_SteamBoiler.ExplosionMessage>Произошел взрыв из-за отсутствия воды.</SteamRim.Building_SteamBoiler.ExplosionMessage>
+	<!---->
+	<SteamRim.CompTurret.Liquids>За выстрел: {0}</SteamRim.CompTurret.Liquids>
+	<!---->
+	<SteamRim.CompSkillBook.SkillTotallyDisabled>{0} не может изучать {1}.</SteamRim.CompSkillBook.SkillTotallyDisabled>
+	<SteamRim.CompSkillBook.DoEffect>{0} получает {1} опыта в области {2}.</SteamRim.CompSkillBook.DoEffect>
+	<SteamRim.CompSkillBook.SkillDefLabel>Навык: {0}</SteamRim.CompSkillBook.SkillDefLabel>
+	<!---->
+	<SteamRim.CompTechnologyBook.IsFinished>Исследование {0} уже завершено.</SteamRim.CompTechnologyBook.IsFinished>
+	<SteamRim.CompTechnologyBook.DoEffect>{0} завершает исследование {1}.</SteamRim.CompTechnologyBook.DoEffect>
+	<SteamRim.CompTechnologyBook.ResearchProjectDefLabel>Технология: {0}</SteamRim.CompTechnologyBook.ResearchProjectDefLabel>
+	<!---->
+	<SteamRim.ModsPage.None>Тип: Неизвестно
+	
+Совместимость неизвестна. Рекомендуется уточнить на дискорд сервере.</SteamRim.ModsPage.None>
+	<SteamRim.ModsPage.Core>Тип: Ядро
+	
+Оригинальный контент игры. Требуется активация всех возможных длс для игры.</SteamRim.ModsPage.Core>
+	<SteamRim.ModsPage.System>Тип: Системный
+	
+Не отключайте этот мод, если хотите поиграть</SteamRim.ModsPage.System>
+	<SteamRim.ModsPage.Optional>Тип: Опциональный
+	
+Мод интегрирован в сборку, но может быть отключен, если вы этого хотите.</SteamRim.ModsPage.Optional>
+	<SteamRim.ModsPage.Compatible>Тип: Совместимый
+	
+Совместимость присутствует. Возможно требуется баланс рецептов.</SteamRim.ModsPage.Compatible>
+	<SteamRim.ModsPage.Incompatible>Тип: Несовместимый
+	
+Совместимость отсутствует. Не активируйте мод, если хотите поиграть.</SteamRim.ModsPage.Incompatible>
+	<!---->
+	<SteamRim.Condition>Состояние</SteamRim.Condition>
+	<SteamRim.Working>Работает</SteamRim.Working>
+	<SteamRim.NotWorking>Не работает</SteamRim.NotWorking>
+	<SteamRim.All>Все</SteamRim.All>
+	<SteamRim.Not>Нет</SteamRim.Not>
+	<SteamRim.Yes>Да</SteamRim.Yes>
+	<!---->
+	<SteamRim.Units.Celsius>{0} °C</SteamRim.Units.Celsius>
+	<SteamRim.Units.Liters>{0} л</SteamRim.Units.Liters>
+	<SteamRim.Units.Days>{0} дней</SteamRim.Units.Days>
+	<!---->
+	<SteamFarm_RecipeDef_Label>Вырастить {0}</SteamFarm_RecipeDef_Label>
+	<SteamFarm_RecipeDef_Desc>Вырастить {0}</SteamFarm_RecipeDef_Desc>
+	<SteamFarm_RecipeDef_JobString>Выращивает {0}</SteamFarm_RecipeDef_JobString>
+	<!---->
+	<MainPageCredit>Генератор захватывающих военных преступлений</MainPageCredit>
+	<!---->
+	<SteamRim.RecipeWorker_Recycle.Success>Успех</SteamRim.RecipeWorker_Recycle.Success>
+	<SteamRim.RecipeWorker_Recycle.Fail>Неудача</SteamRim.RecipeWorker_Recycle.Fail>
+	<!---->
+	<SteamRim.Designator_CollectSand.Label>Собрать песок</SteamRim.Designator_CollectSand.Label>
+	<SteamRim.Designator_CollectDirt.Label>Собрать землю</SteamRim.Designator_CollectDirt.Label>
+	<SteamRim.Designator_CollectClay.Label>Собрать глину</SteamRim.Designator_CollectClay.Label>
+	<!---->
+</LanguageData>

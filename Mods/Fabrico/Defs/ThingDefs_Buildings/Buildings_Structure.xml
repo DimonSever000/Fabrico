@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="Wall">
+		<defName>ReinforcedConcreteWall</defName>
+		<label>Reinforced concrete wall</label>
+		<description>An impassable wall. Capable of holding up a roof.</description>
+		<graphicData>
+			<color>(192,192,192)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1800</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Concrete>10</Concrete>
+			<Steel>10</Steel>
+		</costList>
+		<costStuffCount>0</costStuffCount>
+		<stuffCategories Inherit="false"/>
+		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+		<researchPrerequisites>
+			<li>SteamMixer</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<!---->
+</Defs>

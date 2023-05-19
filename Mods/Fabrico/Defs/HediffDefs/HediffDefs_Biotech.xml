@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<HediffDef>
+		<defName>BandNode</defName>
+		<hediffClass>SteamRim.Hediffs.Hediff_BandNodeExtended</hediffClass>
+		<label>band node (tuned)</label>
+		<description>This mechanitor's bandwidth is being increased thanks to the influence of a band node structure.</description>
+		<isBad>false</isBad>
+	</HediffDef>
+	<!---->
+</Defs>

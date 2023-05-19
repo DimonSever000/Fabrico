@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="ResourceBase" Name="ComponentBase" Abstract="true">
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<allowedArchonexusCount>10</allowedArchonexusCount>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>ComponentIndustrial</defName>
+		<label>Component</label>
+		<description>Metal parts, levers and simple mechanical objects.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ComponentIndustrial</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>Mechanism</defName>
+		<label>Mechanism</label>
+		<description>Gears, metal shaft systems and other mechanisms that allow you to assemble useful machines.</description>
+		<graphicData>
+			<texPath>Things/Mechanism/Mechanism</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>MechanismSpacer</defName>
+		<label>Advanced mechanism</label>
+		<description>Durable and miniature gears, which are an important part of all advanced mechanisms.</description>
+		<graphicData>
+			<texPath>Things/MechanismSpacer/MechanismSpacer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>230</MarketValue>
+			<Mass>0.6</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>SolarCell</defName>
+		<label>Solar cell</label>
+		<description>Light-absorbing heavy-duty glass in the form of a hexoid. Used in some precision instruments and spacecraft construction.</description>
+		<graphicData>
+			<texPath>Things/SolarCell</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Mass>0.25</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>SimplePlates</defName>
+		<label>Simple plates</label>
+		<description>Sheets of low-strength metal used in the sheathing of some buildings.</description>
+		<graphicData>
+			<texPath>Things/Plates</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>200, 200, 200</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>StrongPlates</defName>
+		<label>Strong plates</label>
+		<description>Durable sheet metal designed to cover a wide range of vehicles.</description>
+		<graphicData>
+			<texPath>Things/Plates</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>130, 130, 130</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>TechnicalPlates</defName>
+		<label>Technical plates</label>
+		<description>Specialized metal sheets used in the creation of high-tech buildings and projects.</description>
+		<graphicData>
+			<texPath>Things/Plates</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(172,220,220)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Creosote</defName>
+		<label>Creosote</label>
+		<description>A liquid used as a industrial lubricant and primitive liquid fuel. It has low heat capacity and high pollution factor.</description>
+		<possessionCount>20</possessionCount>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Creosote/Creosote</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<intricate>true</intricate>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>1.4</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>2.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<BurningDuration>1</BurningDuration>
+			<PollutionFactor>2.5</PollutionFactor>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<ingestible>
+		  <preferability>MealSimple</preferability>
+		  <foodType>Processed</foodType>
+		  <optimalityOffsetHumanlikes>12</optimalityOffsetHumanlikes>
+		</ingestible>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+		<modExtensions>
+			<li Class="SteamRim.Things.DefModExtension_Ingestible">
+				<animalCanEat>false</animalCanEat>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Chemfuel</defName>
+		<label>Chemfuel</label>
+		<description>A volatile liquid chemical. Used to fuel engines and rockets, or to transmute into propellant for projectiles, or as an incendiary weapon.</description>
+		<possessionCount>20</possessionCount>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Resource/Chemfuel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<intricate>true</intricate>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>2.3</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>2.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<BurningDuration>3</BurningDuration>
+			<PollutionFactor>2</PollutionFactor>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<ingestible>
+		  <preferability>MealLavish</preferability>
+		  <foodType>Processed</foodType>
+		  <optimalityOffsetHumanlikes>20</optimalityOffsetHumanlikes>
+		</ingestible>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+		<modExtensions>
+			<li Class="SteamRim.Things.DefModExtension_Ingestible">
+				<animalCanEat>false</animalCanEat>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ResourceBase">
+		<defName>Biofuel</defName>
+		<label>Biofuel</label>
+		<description>Liquid fuel, consisting of natural elements. It has sufficient heat capacity.</description>
+		<possessionCount>20</possessionCount>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Biofuel/Biofuel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<intricate>true</intricate>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>1.8</MarketValue>
+			<Mass>0.05</Mass>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<BurningDuration>2</BurningDuration>
+			<PollutionFactor>0.5</PollutionFactor>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<ingestible>
+		  <preferability>MealFine</preferability>
+		  <foodType>Processed</foodType>
+		  <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+		</ingestible>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>70~150</wickTicks>
+			</li>
+		</comps>
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+		<modExtensions>
+			<li Class="SteamRim.Things.DefModExtension_Ingestible">
+				<animalCanEat>false</animalCanEat>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ComponentBase">
+		<defName>RepairKit</defName>
+		<label>Repair kit</label>
+		<description>A set of components for equipment repair.</description>
+		<graphicData>
+			<texPath>Things/RepairKit</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+</Defs>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<RawOnions.label>Лук</RawOnions.label>
+	<RawOnions.description>Репчатый лук.</RawOnions.description>
+	<!---->
+	<RawLentils.label>Чечевица</RawLentils.label>
+	<RawLentils.description>Бобы чечевицы.</RawLentils.description>
+	<!---->
+	<RawMushrooms.label>Грибы</RawMushrooms.label>
+	<RawMushrooms.description>Сырые грибы.</RawMushrooms.description>
+	<!---->
+	<RawWheat.label>Пшеница</RawWheat.label>
+	<RawWheat.description>Зерна пшеницы.</RawWheat.description>
+	<!---->
+	<RawSugarcane.label>Тростник</RawSugarcane.label>
+	<RawSugarcane.description>Сахарный тростник.</RawSugarcane.description>
+	<!---->
+	<RawCarrots.label>Морковь</RawCarrots.label>
+	<RawCarrots.description>Морковь.</RawCarrots.description>
+	<!---->
+	<RawGrapes.label>Виноград</RawGrapes.label>
+	<RawGrapes.description>Плоды винограда.</RawGrapes.description>
+	<!---->
+	<RawGooseberry.label>Крыжовник</RawGooseberry.label>
+	<RawGooseberry.description>Ягоды крыжовника.</RawGooseberry.description>
+	<!---->
+	<RawTomatoes.label>Томаты</RawTomatoes.label>
+	<RawTomatoes.description>Плоды томатов.</RawTomatoes.description>
+	<!---->
+	<RawCucumbers.label>Огурцы</RawCucumbers.label>
+	<RawCucumbers.description>Огурцы.</RawCucumbers.description>
+	<!---->
+	<RawCabbages.label>Капуста</RawCabbages.label>
+	<RawCabbages.description>Качаны капусты.</RawCabbages.description>
+	<!---->
+	<RawPumpkins.label>Тыква</RawPumpkins.label>
+	<RawPumpkins.description>Тыква.</RawPumpkins.description>
+	<!---->
+	<RawMelons.label>Арбуз</RawMelons.label>
+	<RawMelons.description>Арбуз.</RawMelons.description>
+	<!---->
+	<RawApples.label>Яблоко</RawApples.label>
+	<RawApples.description>Яблочные плоды.</RawApples.description>
+	<!---->
+	<RawLemons.label>Лимон</RawLemons.label>
+	<RawLemons.description>Лимоны.</RawLemons.description>
+	<!---->
+	<RawOranges.label>Апельсин</RawOranges.label>
+	<RawOranges.description>Апельсины.</RawOranges.description>
+	<!---->
+	<RawBananas.label>Банан</RawBananas.label>
+	<RawBananas.description>Бананы.</RawBananas.description>
+	<!---->
+	<RawCotton.label>Хлопок</RawCotton.label>
+	<RawCotton.description>Технический хлопок.</RawCotton.description>
+	<!---->
+	<RawDevilstrand.label>Сырой дьявлонитник</RawDevilstrand.label>
+	<RawDevilstrand.description>Сырой дьявлонитник.</RawDevilstrand.description>
+	<!---->
+	<RawMacci.label>Маис</RawMacci.label>
+	<RawMacci.description>Зерна маиса.</RawMacci.description>
+	<!---->
+	<RawSpruceOycher.label>Вешенки</RawSpruceOycher.label>
+	<RawSpruceOycher.description>Грибы вешенки.</RawSpruceOycher.description>
+	<!---->
+	<RawNutrifungus.label>Нутригриб</RawNutrifungus.label>
+	<RawNutrifungus.description>Питательные грибы.</RawNutrifungus.description>
+	<!---->
+	<RawTinctoria.label>Сырой краситель</RawTinctoria.label>
+	<RawTinctoria.description>Технический краситель.</RawTinctoria.description>
+	<!---->
+	<RawCocoa.label>Какао-бобы</RawCocoa.label>
+	<RawCocoa.description>Вкусные и сладкие какао-бобы.</RawCocoa.description>
+	<!---->
+</LanguageData>

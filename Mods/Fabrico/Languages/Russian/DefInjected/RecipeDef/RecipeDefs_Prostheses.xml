@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<InstallSimpleProstheticLung.label>Установить простой протез легкого</InstallSimpleProstheticLung.label>
+	<InstallSimpleProstheticLung.description>Установить простой протез легкого.</InstallSimpleProstheticLung.description>
+	<InstallSimpleProstheticLung.jobString>Устанавливает простой протез легкого</InstallSimpleProstheticLung.jobString>
+	<!---->
+	<InstallSimpleProstheticKidney.label>Установить простой протез почки</InstallSimpleProstheticKidney.label>
+	<InstallSimpleProstheticKidney.description>Установить простой протез почки.</InstallSimpleProstheticKidney.description>
+	<InstallSimpleProstheticKidney.jobString>Устанавливает простой протез почки</InstallSimpleProstheticKidney.jobString>
+	<!---->
+	<InstallSimpleProstheticLiver.label>Установить простой протез печени</InstallSimpleProstheticLiver.label>
+	<InstallSimpleProstheticLiver.description>Установить простой протез печени.</InstallSimpleProstheticLiver.description>
+	<InstallSimpleProstheticLiver.jobString>Устанавливает простой протез печени</InstallSimpleProstheticLiver.jobString>
+	<!---->
+	<!---->
+	<!---->
+	<InstallBionicKidney.label>Установить бионическую почку</InstallBionicKidney.label>
+	<InstallBionicKidney.description>Установить бионическую почку.</InstallBionicKidney.description>
+	<InstallBionicKidney.jobString>Устанавливает бионическую почку</InstallBionicKidney.jobString>
+	<!---->
+	<InstallBionicLung.label>Установить бионическое легкое</InstallBionicLung.label>
+	<InstallBionicLung.description>Установить бионическое легкое.</InstallBionicLung.description>
+	<InstallBionicLung.jobString>Устанавливает бионическое легкое</InstallBionicLung.jobString>
+	<!---->
+	<InstallBionicLiver.label>Установить бионическую печень</InstallBionicLiver.label>
+	<InstallBionicLiver.description>Установить бионическую печень.</InstallBionicLiver.description>
+	<InstallBionicLiver.jobString>Устанавливает бионическую печень</InstallBionicLiver.jobString>
+	<!---->
+	<!---->
+	<!---->
+	<InstallSyntheticEye.label>Установить синтетический глаз</InstallSyntheticEye.label>
+	<InstallSyntheticEye.description>Установить синтетический глаз.</InstallSyntheticEye.description>
+	<InstallSyntheticEye.jobString>Устанавливает синтетический глаз</InstallSyntheticEye.jobString>
+	<!---->
+	<InstallSyntheticArm.label>Установить синтетическую руку</InstallSyntheticArm.label>
+	<InstallSyntheticArm.description>Установить синтетическую руку.</InstallSyntheticArm.description>
+	<InstallSyntheticArm.jobString>Устанавливает синтетическую руку</InstallSyntheticArm.jobString>
+	<!---->
+	<InstallSyntheticLeg.label>Установить синтетическую ногу</InstallSyntheticLeg.label>
+	<InstallSyntheticLeg.description>Установить синтетическую ногу.</InstallSyntheticLeg.description>
+	<InstallSyntheticLeg.jobString>Устанавливает синтетическую ногу</InstallSyntheticLeg.jobString>
+	<!---->
+	<InstallSyntheticSpine.label>Установить синтетический позвоночник</InstallSyntheticSpine.label>
+	<InstallSyntheticSpine.description>Установить синтетический позвоночник.</InstallSyntheticSpine.description>
+	<InstallSyntheticSpine.jobString>Устанавливает синтетический позвоночник</InstallSyntheticSpine.jobString>
+	<!---->
+	<InstallSyntheticHeart.label>Установить синтетическое сердце</InstallSyntheticHeart.label>
+	<InstallSyntheticHeart.description>Установить синтетическое сердце.</InstallSyntheticHeart.description>
+	<InstallSyntheticHeart.jobString>Устанавливает синтетическое сердце</InstallSyntheticHeart.jobString>
+	<!---->
+	<InstallSyntheticStomach.label>Установить синтетический желудок</InstallSyntheticStomach.label>
+	<InstallSyntheticStomach.description>Установить синтетический желудок.</InstallSyntheticStomach.description>
+	<InstallSyntheticStomach.jobString>Устанавливает синтетический желудок</InstallSyntheticStomach.jobString>
+	<!---->
+	<InstallSyntheticEar.label>Установить синтетическое ухо</InstallSyntheticEar.label>
+	<InstallSyntheticEar.description>Установить синтетическое ухо.</InstallSyntheticEar.description>
+	<InstallSyntheticEar.jobString>Устанавливает синтетическое ухо</InstallSyntheticEar.jobString>
+	<!---->
+	<InstallSyntheticTongue.label>Установить синтетический язык</InstallSyntheticTongue.label>
+	<InstallSyntheticTongue.description>Установить синтетический язык.</InstallSyntheticTongue.description>
+	<InstallSyntheticTongue.jobString>Устанавливает синтетический язык</InstallSyntheticTongue.jobString>
+	<!---->
+	<InstallSyntheticKidney.label>Установить синтетическую почку</InstallSyntheticKidney.label>
+	<InstallSyntheticKidney.description>Установить синтетическую почку.</InstallSyntheticKidney.description>
+	<InstallSyntheticKidney.jobString>Устанавливает синтетическую почку</InstallSyntheticKidney.jobString>
+	<!---->
+	<InstallSyntheticLung.label>Установить синтетическое легкое</InstallSyntheticLung.label>
+	<InstallSyntheticLung.description>Установить синтетическое легкое.</InstallSyntheticLung.description>
+	<InstallSyntheticLung.jobString>Устанавливает синтетическое легкое</InstallSyntheticLung.jobString>
+	<!---->
+	<InstallSyntheticLiver.label>Установить синтетическую печень</InstallSyntheticLiver.label>
+	<InstallSyntheticLiver.description>Установить синтетическую печень.</InstallSyntheticLiver.description>
+	<InstallSyntheticLiver.jobString>Устанавливает синтетическую печень</InstallSyntheticLiver.jobString>
+	<!---->
+</LanguageData>

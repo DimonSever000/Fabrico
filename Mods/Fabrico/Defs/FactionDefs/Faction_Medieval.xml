@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<FactionDef ParentName="FactionBase">
+		<defName>Kingdom</defName>
+		<label>Kingdom</label>
+		<description>Medieval society with feudal orders. There is a strict nobility hierarchy.</description>
+		<pawnSingular>Villager</pawnSingular>
+		<pawnsPlural>Villagers</pawnsPlural>
+		<listOrderPriority>11</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>king</leaderTitle>
+		<basicMemberKind>Medieval_Peasant</basicMemberKind>
+		<allowedCultures>
+			<li>Rustican</li>
+		</allowedCultures>
+		<structureMemeWeights>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+		</structureMemeWeights>
+		<allowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</allowedMemes>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+		</requiredMemes>
+		<factionIconPath>World/WorldObjects/Expanding/Kingdom</factionIconPath>
+		<colorSpectrum>
+			<li>170,57,54</li>
+			<li>140,50,50</li>
+		</colorSpectrum>
+		<permanentEnemy>false</permanentEnemy>
+		<factionNameMaker>FactionKingdomNamer</factionNameMaker>
+		<settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
+		<techLevel>Medieval</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Pirate</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>KingdomRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,1000)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Medieval_Peasant>40</Medieval_Peasant>
+					<Medieval_Shooter>10</Medieval_Shooter>
+					<Medieval_Grenadier>5</Medieval_Grenadier>
+					<Medieval_Knight>10</Medieval_Knight>
+					<Medieval_Baron>5</Medieval_Baron>
+					<Medieval_Priest>5</Medieval_Priest>
+					<Medieval_King>1</Medieval_King>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Medieval_Peasant>30</Medieval_Peasant>
+					<Medieval_Shooter>10</Medieval_Shooter>
+					<Medieval_Grenadier>5</Medieval_Grenadier>
+					<Medieval_Philosopher>3</Medieval_Philosopher>
+					<Medieval_Burger>2</Medieval_Burger>
+					<Medieval_Knight>10</Medieval_Knight>
+					<Medieval_Baron>5</Medieval_Baron>
+					<Medieval_Priest>5</Medieval_Priest>
+					<Medieval_King>1</Medieval_King>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Medieval_Priest>1</Medieval_Priest>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2.5</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Medieval_Peasant>30</Medieval_Peasant>
+					<Medieval_Shooter>10</Medieval_Shooter>
+					<Medieval_Grenadier>5</Medieval_Grenadier>
+					<Medieval_Knight>10</Medieval_Knight>
+					<Medieval_Baron>5</Medieval_Baron>
+					<Medieval_Priest>10</Medieval_Priest>
+					<Medieval_Burger>15</Medieval_Burger>
+					<Medieval_Philosopher>5</Medieval_Philosopher>
+					<Medieval_King>1</Medieval_King>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Medieval_Peasant>50</Medieval_Peasant>
+					<Medieval_Shooter>10</Medieval_Shooter>
+					<Medieval_Grenadier>5</Medieval_Grenadier>
+					<Medieval_Philosopher>5</Medieval_Philosopher>
+					<Medieval_Burger>5</Medieval_Burger>
+					<Medieval_Knight>10</Medieval_Knight>
+					<Medieval_Baron>5</Medieval_Baron>
+					<Medieval_Priest>5</Medieval_Priest>
+					<Medieval_King>1</Medieval_King>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<caravanTraderKinds>
+			<li>KingdomTrader</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>KingdomVisitor</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>KingdomTrader</li>
+		</baseTraderKinds>
+	</FactionDef>
+	<!---->
+	<RulePackDef>
+		<defName>FactionKingdomNamer</defName>
+		<include>
+			<li>EmpireNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[kingdom] of [ofThing]</li>
+				<li>r_name->The [Color] [kingdom] of [ofThing]</li>
+				<li>r_name->The [Color] [kingdom]</li>
+				<li>kingdom->Kingdom</li>
+				<li>kingdom->Imperium</li>
+				<li>kingdom->Tsardom</li>
+				<li>kingdom->Duchy</li>
+				<li>kingdom->County</li>
+				<li>ofThing->[WordImperial]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<!---->
+	<TraderKindDef>
+		<defName>KingdomTrader</defName>
+		<label>trader</label>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~3000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>200~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>WoodLog</thingDef>
+				<countRange>500~600</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>200~300</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Gold</thingDef>
+				<countRange>-40~120</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MealSimple</thingDef>
+				<countRange>10~30</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineHerbal</thingDef>
+				<countRange>15~30</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Textiles</categoryDef>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<totalPriceRange>300~700</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>ResourcesRaw</categoryDef>
+				<thingDefCountRange>3~3</thingDefCountRange>
+				<totalPriceRange>200~600</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Manufactured</categoryDef>
+				<thingDefCountRange>3~3</thingDefCountRange>
+				<totalPriceRange>200~600</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>FoodRaw</categoryDef>
+				<excludedCategories>
+					<li>EggsFertilized</li>
+				</excludedCategories>
+				<thingDefCountRange>3~5</thingDefCountRange>
+				<totalPriceRange>300~800</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<totalPriceRange>400~1000</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>2</count>
+						<chance>0.5</chance>
+					</li>
+					<li>
+						<count>3</count>
+						<chance>0.5</chance>
+					</li>
+				</countChances>
+			</li>
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>WeaponRanged</tradeTag>
+				<maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
+				<countRange>2~5</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>WeaponsMelee</categoryDef>
+				<maxTechLevelGenerate>Medieval</maxTechLevelGenerate>
+				<thingDefCountRange>2~4</thingDefCountRange>
+				<countRange>3~5</countRange>
+			</li>
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>BasicClothing</tradeTag>
+				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+				<countRange>5~10</countRange>
+			</li>
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Clothing</tradeTag>
+				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+				<countRange>3~5</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Artifact</tradeTag>
+				<thingDefCountRange>0~3</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+			<li Class="StockGenerator_Slaves">
+				<respectPopulationIntent>true</respectPopulationIntent>
+				<countRange>-1~4</countRange>
+			</li>
+			<li Class="StockGenerator_Animals">
+				<maxWildness>0.70</maxWildness>
+				<tradeTagsSell>
+					<li>AnimalFarm</li>
+					<li>AnimalPet</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>AnimalUncommon</li>
+					<li>AnimalExotic</li>
+				</tradeTagsBuy>
+				<kindCountRange>3~4</kindCountRange>
+				<countRange>2~4</countRange>
+				<createMatingPair>
+					<li>AnimalFarm</li>
+				</createMatingPair>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple"/>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>MusicalInstrument</tag>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+	<!---->
+	<TraderKindDef>
+		<defName>KingdomVisitor</defName>
+		<label>trader</label>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>100~250</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineHerbal</thingDef>
+				<countRange>2~5</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MealSimple</thingDef>
+				<countRange>2~5</countRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+	<!---->
+	<ThingSetMakerDef>
+		<defName>KingdomRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+	<!---->
+</Defs>

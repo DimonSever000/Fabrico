@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<CokeFurnace.label>Коксовая печь</CokeFurnace.label>
+	<CokeFurnace.description>Огромная инертная печь, в которой производят коксовый уголь и креозот.</CokeFurnace.description>
+	<!---->
+	<FueledSmithy.label>Каменная плавильня</FueledSmithy.label>
+	<FueledSmithy.description>Большая каменная печь, работающая на твердом топливе. Конструкция примитивна и потребляет много топлива, а также использует ручной труд.</FueledSmithy.description>
+	<!---->
+	<Anvil.label>Наковальня</Anvil.label>
+	<Anvil.description>Массивная металлическая наковальня, служащая для изготовления простых инструментов и оружия, а также доспехов.</Anvil.description>
+	<!---->
+	<SeedExtractionSpot.label>Стол агронома</SeedExtractionSpot.label>
+	<SeedExtractionSpot.description>Место для извлечения семян растений.</SeedExtractionSpot.description>
+	<!---->
+	<SteamCrusher.label>Паровой дробитель</SteamCrusher.label>
+	<SteamCrusher.description>Большой и сложный механизм, основанный на паровой тяге. Предназначен для измельчения руды или других предметов.</SteamCrusher.description>
+	<!---->
+	<SteamMultismelter.label>Паровая мультиплавильня</SteamMultismelter.label>
+	<SteamMultismelter.description>Огромный и сложный механизм, работающий на энергии пара. Машина предназначена для создания сплавов из порошков.</SteamMultismelter.description>
+	<!---->
+	<SteamForge.label>Паровая кузница</SteamForge.label>
+	<SteamForge.description>Комплексная машина для сжатия, вытягивания и формовки заготовок. Кузница может автономно производить различные промышленные товары.</SteamForge.description>
+	<!---->
+	<SteamMiner.label>Паровой шахтер</SteamMiner.label>
+	<SteamMiner.description>Машина, способная проводить добычу горных пород на поверхности планеты. Шахтер работает только в назначенном радиусе, выполняя ваши приказы на добычу.</SteamMiner.description>
+	<!---->
+	<DeepDrill.label>Буровая установка</DeepDrill.label>
+	<DeepDrill.description>Паровая бурильная машина для добычи полезных ископаемых на небольшой глубине под поверхностью планеты. Постройте минеральный сканер, чтобы увидеть расположение минералов под землей.</DeepDrill.description>
+	<!---->
+	<SteamMixer.label>Паровой смеситель</SteamMixer.label>
+	<SteamMixer.description>Простая и эффективная машина для получения различных смесей в промышленных масштабах.</SteamMixer.description>
+	<!---->
+	<SteamOven.label>Паровая печь</SteamOven.label>
+	<SteamOven.description>Машина, способная заменить повара. Потребляет воду и пар, производя для вас еду.</SteamOven.description>
+	<!---->
+	<SteamFarm.label>Паровая ферма</SteamFarm.label>
+	<SteamFarm.description>Автоматическая машина для выращивания растений. Потребляет пар, воду и семена для работы.</SteamFarm.description>
+	<!---->
+	<Composter.label>Компостер</Composter.label>
+	<Composter.description>Механизм для производства компоста из сырья с течением времени.</Composter.description>
+	<!---->
+	<Electrolyzer.label>Электролизер</Electrolyzer.label>
+	<Electrolyzer.description>Метод электролиза позволяет получать хлор и восстанавливать металлы путем подачи тока.</Electrolyzer.description>
+	<!---->
+	<AutomatonFactory.label>Фабрика автоматонов</AutomatonFactory.label>
+	<AutomatonFactory.description>Большая машина по производству и настройке автоматонов для работы.</AutomatonFactory.description>
+	<!---->
+	<BiofuelRefinery.label>Химический завод</BiofuelRefinery.label>
+	<BiofuelRefinery.description>Химический завод по производству жидкого топлива.</BiofuelRefinery.description>
+	<!---->
+	<ProstheticsMachine.label>Мастерская протезирования</ProstheticsMachine.label>
+	<ProstheticsMachine.description>Станок для сборки протезов с полным набором нужных инструментов.</ProstheticsMachine.description>
+	<!---->
+	<ToxifierGenerator.label>Переработчик отходов</ToxifierGenerator.label>
+	<ToxifierGenerator.description>Машина для химической обработки и извлечения хлора из отходов. В случае переполнения баков с хлором, местность будет заражена.</ToxifierGenerator.description>
+	<!---->
+	<SteamDrill.label>Паровой бур</SteamDrill.label>
+	<SteamDrill.description>Паровая бурильная машина для добычи полезных ископаемых на большой глубине под поверхностью планеты. Постройте продвинутый минеральный сканер, чтобы увидеть расположение минералов под землей.</SteamDrill.description>
+	<!---->
+	<WeavingFactory.label>Швейная фабрика</WeavingFactory.label>
+	<WeavingFactory.description>Паровая механическая фабрика по производству тканей. Функционал слишком мал для пошива одежды.</WeavingFactory.description>
+	<!---->
+	<WatermillGenerator.label>Водяной генератор</WatermillGenerator.label>
+	<WatermillGenerator.description>Механическая помпа для автономного выкачивания воды из течения рек.</WatermillGenerator.description>
+	<!---->
+	<ElectricCrematorium.label>Паровой крематорий</ElectricCrematorium.label>
+	<ElectricCrematorium.description>Машина для сожжения тел с помощью высоких температур. Работает благодаря водяному пару.</ElectricCrematorium.description>
+	<!---->
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SkillBook.label>Книга навыков</SkillBook.label>
+	<SkillBook.description>Обрывочная информация о некоторых приемах в работе, которые могут помочь освоить специальность.</SkillBook.description>
+	<SkillBook.comps.CompUsable.useLabel>Читать</SkillBook.comps.CompUsable.useLabel>
+	<!---->
+	<TechnologyBook.label>Книга технологий</TechnologyBook.label>
+	<TechnologyBook.description>Комплекс знаний, изложенный на бумаге. Изучив книгу, вы сможете быстро освоить технологию.</TechnologyBook.description>
+	<TechnologyBook.comps.CompUsable.useLabel>Читать</TechnologyBook.comps.CompUsable.useLabel>
+	<!---->
+</LanguageData>

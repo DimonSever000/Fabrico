@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Plant_Onions.label>Лук</Plant_Onions.label>
+	<Plant_Onions.description>Лук является универсальным ингредиентом и хорошей основой для овощных блюд, а также прекрасным дополнением к мясным блюдам.</Plant_Onions.description>
+	<!---->
+	<Plant_Lentils.label>Чечевица</Plant_Lentils.label>
+	<Plant_Lentils.description>Маленькое лиственное растение, которое сменяется многочисленными маленькими побегами. Продукты из чечевицы удивительно питательны и, как говорят, полезны как для тела, так и для души.</Plant_Lentils.description>
+	<!---->
+	<Plant_Mushrooms.label>Грибы</Plant_Mushrooms.label>
+	<Plant_Mushrooms.description>Люди выращивали несколько разновидностей грибов для медицинских или кулинарных целей. Они безопасны для переваривания и являются богатым дополнением к любой еде.</Plant_Mushrooms.description>
+	<!---->
+	<Plant_SpruceOycher.label>Вешенки</Plant_SpruceOycher.label>
+	<Plant_SpruceOycher.description>Эти грибы любят темноту и долго растут, производя большое количество грибов, когда они полностью созреют.</Plant_SpruceOycher.description>
+	<!---->
+	<Plant_Wheat.label>Пшеница</Plant_Wheat.label>
+	<Plant_Wheat.description>Тонкое, хрупкое зерновое растение, дающее мелкие желтые семена. Для выращивания требуется относительно много времени, а зерно требует дальнейшей обработки, чтобы его можно было есть. Нуждается в плодородной почве для хорошего роста.</Plant_Wheat.description>
+	<!---->
+	<Plant_Sugarcane.label>Тростник</Plant_Sugarcane.label>
+	<Plant_Sugarcane.description>Сладкие крепкие стебли волокнистых растений. Хотя сами по себе они практически несъедобны, их часто перерабатывают в сахар для использования во многих блюдах.</Plant_Sugarcane.description>
+	<!---->
+	<Plant_Carrots.label>Морковь</Plant_Carrots.label>
+	<Plant_Carrots.description>Короткие стебли, корень которых состоит из ярко окрашенного оранжевого клубня. Они являются полезными закусками сами по себе или хорошим дополнением к любой еде, когда их варят, тушат или обжаривают.</Plant_Carrots.description>
+	<!---->
+	<Plant_Grape.label>Виноград</Plant_Grape.label>
+	<Plant_Grape.description>Виноградная лоза среднего размера, которая дает урожай при сборе — важный ингредиент для производства вина, а также имеет приятный вкус в сыром виде. Сначала требуется много времени, чтобы вырасти, но его можно собирать неоднократно в течение жизни растения.</Plant_Grape.description>
+	<!---->
+	<Plant_Gooseberry.label>Крыжовник</Plant_Gooseberry.label>
+	<Plant_Gooseberry.description>Кусты крыжовника растут на участках лесов и лугов, а их плоды обладают целебными свойствами.</Plant_Gooseberry.description>
+	<!---->
+	<Plant_Tomatoes.label>Томаты</Plant_Tomatoes.label>
+	<Plant_Tomatoes.description>Толстая, облиственная зеленая лиана, на которой рождается много крупных луковичных красных плодов. Хотя вопрос о том, существует ли он как фрукт или овощ, является предметом горячих споров, известно, что помидоры сочные и вкусные.</Plant_Tomatoes.description>
+	<!---->
+	<Plant_Cucumbers.label>Огурцы</Plant_Cucumbers.label>
+	<Plant_Cucumbers.description>Зеленые водянистые плоды этого растения появляются после достаточного созревания растения и имеют свой особый вкус.</Plant_Cucumbers.description>
+	<!---->
+	<Plant_Cabbages.label>Капуста</Plant_Cabbages.label>
+	<Plant_Cabbages.description>Зеленые кочаны капусты. Овощ, состоящий из множества листьев, сложенных друг на друга. Капуста особенно хороша в качестве ингредиента для салатов и супов.</Plant_Cabbages.description>
+	<!---->
+	<Plant_Pumpkins.label>Тыква</Plant_Pumpkins.label>
+	<Plant_Pumpkins.description>Тонкая зеленая лоза, уступающая место характерно массивному оранжевому овощу. Сам по себе плод не очень вкусный, но из него получаются разнообразные сытные сезонные блюда.</Plant_Pumpkins.description>
+	<!---->
+	<Plant_Melons.label>Арбуз</Plant_Melons.label>
+	<Plant_Melons.description>Арбуз это крупная ягода, растущая на тонкой зеленой ножке. Его вкус узнаваем многими.</Plant_Melons.description>
+	<!---->
+	<Tree_Apple.label>Яблоня</Tree_Apple.label>
+	<Tree_Apple.description>Лиственное дерево, известное своими удивительно сладкими ярко-красными плодами, которые хороши как сами по себе, так и в составе различных десертов.</Tree_Apple.description>
+	<!---->
+	<Tree_Lemon.label>Лимоновое дерево</Tree_Lemon.label>
+	<Tree_Lemon.description>Небольшое лиственное дерево, которое обрастает кислыми на вкус желтыми цитрусовыми плодами. Лимоны часто употребляют из-за их диетических преимуществ и для предотвращения таких заболеваний, как цинга, а также часто используют в качестве ингредиента или глазури для многих различных готовых блюд.</Tree_Lemon.description>
+	<!---->
+	<Tree_Orange.label>Апельсиновое дерево</Tree_Orange.label>
+	<Tree_Orange.description>Цитрусовое дерево из джунглей, дающее ярко-оранжевые плоды. Отличный источник витаминов.</Tree_Orange.description>
+	<!---->
+	<Tree_Banana.label>Банановая пальма</Tree_Banana.label>
+	<Tree_Banana.description>Банановые пальмы встречаются в редких пустынных оазисах и возле водоемов саванны.</Tree_Banana.description>
+	<!---->
+	<MacciPlant.label>Маис</MacciPlant.label>
+	<MacciPlant.description>Высокое зерновое растение, производящее початки с мягкими съедобными семенами. Хотя для выращивания маиса требуется много времени, он дает много питательных плодов по сравнению с другими культурами. Собранные зерна долго портятся.</MacciPlant.description>
+	<!---->
+	<Plant_Clover.label>Клевер</Plant_Clover.label>
+	<Plant_Clover.description>Розовый луговой цветок, часто выращиваемый для кормовых целей.</Plant_Clover.description>
+	<!---->
+	<Humpshroom.label>Красногриб</Humpshroom.label>
+	<Humpshroom.description>Лесной гриб, который любит темноту. Имеет красноватый цвет для отпугивания животных. Не обладает токсическими свойствами.</Humpshroom.description>
+	<!---->
+</LanguageData>

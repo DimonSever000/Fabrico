@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/General.xml-->
+                       <!-- dismantle -->
+<PLA_DismantleVehicle.label>демонтировать</PLA_DismantleVehicle.label>
+                             <!-- dismantle vehicle and recycle the material. -->
+<PLA_DismantleVehicle.description>демонтировать технику и вернуть ресурсы</PLA_DismantleVehicle.description>
+                           <!-- dismantling vehicle. -->
+<PLA_DismantleVehicle.jobString>демонтирую технику</PLA_DismantleVehicle.jobString>
+                                         <!-- install advanced fire-control computer -->
+<PLA_InstallAdvancedFireControlComputer.label>установить усовершенственное СУО</PLA_InstallAdvancedFireControlComputer.label>
+                                               <!-- Install a advanced fire-control computer. -->
+<PLA_InstallAdvancedFireControlComputer.description>Установить продвинутую систему управления огнём</PLA_InstallAdvancedFireControlComputer.description>
+                                             <!-- Installing advanced fire-control computer. -->
+<PLA_InstallAdvancedFireControlComputer.jobString>Устанавливаю СУО</PLA_InstallAdvancedFireControlComputer.jobString>
+                            <!-- install composite armor -->
+<PLA_InstallCompositeArmor.label>установить композитную броню</PLA_InstallCompositeArmor.label>
+                                  <!-- Install the composite armor. -->
+<PLA_InstallCompositeArmor.description>Установить композитную броню</PLA_InstallCompositeArmor.description>
+                                <!-- Installing advanced fire-control computer. -->
+<PLA_InstallCompositeArmor.jobString>Устанавливаю композитную броню</PLA_InstallCompositeArmor.jobString>
+
+</LanguageData>

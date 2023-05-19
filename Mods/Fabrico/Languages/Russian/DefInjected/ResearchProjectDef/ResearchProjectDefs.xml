@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Agriculture.label>Земледелие</Agriculture.label>
+	<Agriculture.description>Выращивание растений для пропитания или производства. Выращивание растений и улучшение их свойств начинается с земледелия.</Agriculture.description>
+	<!---->
+	<TreeSowing.label>Деревья</TreeSowing.label>
+	<TreeSowing.description>Высаживайте на своих полях естественные деревья местного биома.</TreeSowing.description>
+	<!---->
+	<Fruits.label>Фрукты</Fruits.label>
+	<Fruits.description>Знание плодовых растений и способов их выращивания.</Fruits.description>
+	<!---->
+	<Cocoa.label>Фруктовые деревья</Cocoa.label>
+	<Cocoa.description>Знание культурных плодовых деревьев и способов их выращивания.</Cocoa.description>
+	<!---->
+	<Vegetables.label>Овощи</Vegetables.label>
+	<Vegetables.description>Овощи богаты клетчаткой и микроэлементами. Кроме того, их относительно легко выращивать в больших масштабах.</Vegetables.description>
+	<!---->
+	<Mushrooms.label>Грибы</Mushrooms.label>
+	<Mushrooms.description>Грибоводство – сложное, но потенциально прибыльное занятие, позволяющее получить грибы в условиях культурного возделывания.</Mushrooms.description>
+	<!---->
+	<Melons.label>Бахчевые</Melons.label>
+	<Melons.description>Бахчевые растут достаточно долго, но их плоды вырастают до огромных размеров.</Melons.description>
+	<!---->
+	<Cereals.label>Злаковые</Cereals.label>
+	<Cereals.description>Злаковые культуры с древности человечества пользовались большим спросом и возделывались повсеместно.</Cereals.description>
+	<!---->
+	<IndustrialCropsI.label>Промышленные культуры I</IndustrialCropsI.label>
+	<IndustrialCropsI.description>Хлопок и другие технические культуры не предназначены для прокорма населения, но пригодятся для большего.</IndustrialCropsI.description>
+	<!---->
+	<Devilstrand.label>Промышленные культуры II</Devilstrand.label>
+	<Devilstrand.description>Технические культуры необходимы для развития производства.</Devilstrand.description>
+	<!---->
+	<DrugCropsI.label>Наркотические растения I</DrugCropsI.label>
+	<DrugCropsI.description>Наркотики использовались человечеством с древности в качестве ритуальных снадобий. Теперь их можно использовать для лечения болезней или снятия стресса.</DrugCropsI.description>
+	<!---->
+	<DrugCropsII.label>Наркотические растения II</DrugCropsII.label>
+	<DrugCropsII.description>Наркотики использовались человечеством с древности в качестве ритуальных снадобий. Теперь их можно использовать для лечения болезней или снятия стресса.</DrugCropsII.description>
+	<!---->
+	<Storages.label>Хранилища</Storages.label>
+	<Storages.description>Строения для компактного и надежного хранения предметов.</Storages.description>
+	<!---->
+	<WoodenFloors.label>Деревянные покрытия</WoodenFloors.label>
+	<WoodenFloors.description>Деревянные покрытия разных конфигураций могут создать интерьер и облагородить помещения.</WoodenFloors.description>
+	<!---->
+	<StoneFloors.label>Каменные покрытия</StoneFloors.label>
+	<StoneFloors.description>Жаростойкие каменные покрытия отлично подойдут для мастерской. Кроме того, они весьма привлекательны.</StoneFloors.description>
+	<!---->
+	<MetallicFloors.label>Металлические покрытия</MetallicFloors.label>
+	<MetallicFloors.description>Прочные покрытия для пола, отличающиеся чистотой.</MetallicFloors.description>
+	<!---->
+	<Instruments.label>Инструменты</Instruments.label>
+	<Instruments.description>Создание простых, но полезных инструментов поможет лучше распоряжаться временем и работать эффективно.</Instruments.description>
+	<!---->
+	<LongBlades.label>Холодное оружие</LongBlades.label>
+	<LongBlades.description>Разнообразные виды холодного оружия для ведения боя. Можно подобрать идеал для каждого.</LongBlades.description>
+	<!---->
+	<BasicsMechanics.label>Основы механики</BasicsMechanics.label>
+	<BasicsMechanics.description>Знания о работе механических устройств, их базовых элементах и их применении.</BasicsMechanics.description>
+	<!---->
+	<BasicsHydromechanics.label>Основы гидромеханики</BasicsHydromechanics.label>
+	<BasicsHydromechanics.description>Система знаний о поведении жидкостей, законах физики и способах их применения.</BasicsHydromechanics.description>
+	<!---->
+	<LiquidsStorages.label>Хранение жидкостей</LiquidsStorages.label>
+	<LiquidsStorages.description>Чертежи по сборке больших хранилищ жидкостей.</LiquidsStorages.description>
+	<!---->
+	<SteamMachines.label>Паровые машины</SteamMachines.label>
+	<SteamMachines.description>Пар это основная движущая сила для механизмов. Некоторые из них способны на потрясающие вещи.</SteamMachines.description>
+	<!---->
+	<IndustrialSteamBoilers.label>Промышленные паровые котлы</IndustrialSteamBoilers.label>
+	<IndustrialSteamBoilers.description>Эффективное расходование угля и горючих жидкостей поможет избежать скорого истощения запасов.</IndustrialSteamBoilers.description>
+	<!---->
+	<IndustrialStorages.label>Промышленные хранилища</IndustrialStorages.label>
+	<IndustrialStorages.description>Технология строительства больших и вместительных хранилищ для промышленных нужд.</IndustrialStorages.description>
+	<!---->
+	<DeepDrilling.label>Паровые шахтеры</DeepDrilling.label>
+	<DeepDrilling.description>Автономные паровые комплексы по добыче полезных ископаемых в горах.</DeepDrilling.description>
+	<!---->
+	<GroundPenetratingScanner.label>Поверхностное бурение</GroundPenetratingScanner.label>
+	<GroundPenetratingScanner.description>Автономные паровые комплексы по добыче полезных ископаемых под землей.</GroundPenetratingScanner.description>
+	<!---->
+	<WaterProduction.label>Производство воды</WaterProduction.label>
+	<WaterProduction.description>Машины для извлечения воды из-под земной поверхности необходимы для нужд паровой промышленности.</WaterProduction.description>
+	<!---->
+	<DrillingWells.label>Бурение скважин</DrillingWells.label>
+	<DrillingWells.description>Скважины работают на паровой тяге, выкачивая воду из-под земли стабильно, не завися от скорости ветра.</DrillingWells.description>
+	<!---->
+	<SteamMixer.label>Смеситель</SteamMixer.label>
+	<SteamMixer.description>Смеситель может использоваться для получения бетона, или других смесей.</SteamMixer.description>
+	<!---->
+	<IndustrialCooking.label>Промышленная кулинария</IndustrialCooking.label>
+	<IndustrialCooking.description>Паровые механизмы могут заменить человека и в производстве пищи, производя шаблонные рецепты.</IndustrialCooking.description>
+	<!---->
+	<FuelLamps.label>Топливные лампы</FuelLamps.label>
+	<FuelLamps.description>Твердотопливные и жидкостные светильники сделают вашу жизнь гораздо лучше.</FuelLamps.description>
+	<!---->
+	<AirConditioning.label>Паровое отопление</AirConditioning.label>
+	<AirConditioning.description>Системы водяного отопления и кондиционирования помещений жизненно необходимы для жизни в суровых регионах планеты.</AirConditioning.description>
+	<!---->
+	<BasicsBiology.label>Основы биологии</BasicsBiology.label>
+	<BasicsBiology.description>Система знаний об устройстве биологических организмов. Позволяет извлекать органы и пересаживать их.</BasicsBiology.description>
+	<!---->
+	<SteamFarm.label>Паровая ферма</SteamFarm.label>
+	<SteamFarm.description>Автоматическая машина для выращивания растений. Потребляет пар, воду, семена и удобрения для работы.</SteamFarm.description>
+	<!---->
+	<FertilizerProduction.label>Производство удобрений</FertilizerProduction.label>
+	<FertilizerProduction.description>Удобрения применяются для повышения плодородности почвы и для искусственных сред выращивания растений.</FertilizerProduction.description>
+	<!---->
+	<GeothermalPower.label>Геотермальная энергия</GeothermalPower.label>
+	<GeothermalPower.description>Геотермальные источники позволяют добывать горячий пар без затрат.</GeothermalPower.description>
+	<!---->
+	<Chemistry.label>Химия</Chemistry.label>
+	<Chemistry.description>Электролизация, химические реакции и процессы лежат в основе прогресса и преобразования.</Chemistry.description>
+	<!---->
+	<AdvancedAlloys.label>Продвинутые сплавы</AdvancedAlloys.label>
+	<AdvancedAlloys.description>Развитие сплаволитейных технологий позволяет производить качественные технические сплавы для сложных инструментов и машин.</AdvancedAlloys.description>
+	<!---->
+	<BiofuelRefining.label>Переработка топлива</BiofuelRefining.label>
+	<BiofuelRefining.description>Химическое сжижение угля позволяет производить качественное жидкое топливо для питания машин.</BiofuelRefining.description>
+	<!---->
+	<Machining.label>Продвинутая механика</Machining.label>
+	<Machining.description>Научитесь создавать новые механические машины и обслуживать их.</Machining.description>
+	<!---->
+	<ToxifierGenerator.label>Переработка отходов</ToxifierGenerator.label>
+	<ToxifierGenerator.description>Сконструируйте машину для обработки ядовитых отходов и их преобразования в полезный хлор.</ToxifierGenerator.description>
+	<!---->
+	<MicroelectronicsBasics.label>Основы микромеханики</MicroelectronicsBasics.label>
+	<MicroelectronicsBasics.description>Конструирование миниатюрных механизмов позволяет создавать действительно потрясающие машины.</MicroelectronicsBasics.description>
+	<!---->
+	<LongRangeMineralScanner.label>Продвинутое бурение</LongRangeMineralScanner.label>
+	<LongRangeMineralScanner.description>Эти сканеры способны анализировать грунт на много километров вниз.</LongRangeMineralScanner.description>
+	<!---->
+	<ToxGas.label>Боевой хлор</ToxGas.label>
+	<ToxGas.description>Применение хлора в качестве ядовитого и убийственного газа позволит массово уничтожать противников из плоти и крови.</ToxGas.description>
+	<!---->
+	<WeavingIndustry.label>Ткацкая промышленность</WeavingIndustry.label>
+	<WeavingIndustry.description>Использование автоматизированного механизма гораздо удобнее и практичнее, чем ручной труд рабочего.</WeavingIndustry.description>
+	<!---->
+	<Synthetics.label>Синтетика</Synthetics.label>
+	<Synthetics.description>Изготовление искусственных синтетических волокон для пошива одежды.</Synthetics.description>
+	<!---->
+	<SteamReactors.label>Паровые реакторы</SteamReactors.label>
+	<SteamReactors.description>Большие реакторы для производства энергии из механического движения валов.</SteamReactors.description>
+	<!---->
+	<WatermillGenerator.label>Водяные генераторы</WatermillGenerator.label>
+	<WatermillGenerator.description>Большие механические мельницы для автономной добычи воды из течения рек.</WatermillGenerator.description>
+	<!---->
+	<SolarPanels.label>Промышленные помпы</SolarPanels.label>
+	<SolarPanels.description>Машины для добычи воды из недр земли.</SolarPanels.description>
+	<!---->
+	<SyntheticProstheses.label>Синтетическое протезирование</SyntheticProstheses.label>
+	<SyntheticProstheses.description>Гибкие, прочные и практически совершенные протезы на основе технологии микромеханики.</SyntheticProstheses.description>
+	<!---->
+	<AutomatonProduction.label>Производство автоматонов</AutomatonProduction.label>
+	<AutomatonProduction.description>Автоматоны это бездушные машины, созданные для служения человеку и выполнения грязной работы.</AutomatonProduction.description>
+	<!---->
+	<AutomatonWorkers.label>Автоматоны рабочие</AutomatonWorkers.label>
+	<AutomatonWorkers.description>Базовые рабочие роботы с набором команд и инструкций, выстроенных с помощью шестеренок.</AutomatonWorkers.description>
+	<!---->
+	<AutomatonSoldiers.label>Автоматоны солдаты</AutomatonSoldiers.label>
+	<AutomatonSoldiers.description>Базовые боевые роботы с набором команд и инструкций, выстроенных с помощью шестеренок.</AutomatonSoldiers.description>
+	<!---->
+	<AutomatonMedics.label>Автоматоны медики</AutomatonMedics.label>
+	<AutomatonMedics.description>Базовые медицинские роботы, способные лечить ранения и проводить операции.</AutomatonMedics.description>
+	<!---->
+	<RobotsProduction.label>Производство роботов</RobotsProduction.label>
+	<RobotsProduction.description>Продвинутые роботы, обладающие большим спектром задач.</RobotsProduction.description>
+	<!---->
+	<RobotWorkers.label>Роботы рабочие</RobotWorkers.label>
+	<RobotWorkers.description>Продвинутые рабочие роботы, способные к эффективной и точной работе.</RobotWorkers.description>
+	<!---->
+	<RobotSoldiers.label>Роботы солдаты</RobotSoldiers.label>
+	<RobotSoldiers.description>Продвинутые боевые роботы с дополнительными сенсорами и программой ведения боя.</RobotSoldiers.description>
+	<!---->
+	<RobotMedics.label>Роботы медики</RobotMedics.label>
+	<RobotMedics.description>Продвинутые роботы, которые занимаются лечением и проведением операций.</RobotMedics.description>
+	<!---->
+	<RobotAI.label>Роботы ИИ</RobotAI.label>
+	<RobotAI.description>Роботы, обладающие подобием разума. Сложно сказать, действительно ли они разумны. Эти роботы способны проводить исследования и испытывают эмоции. Может ли это быть опасно для нас?</RobotAI.description>
+	<!---->
+	<ShipEngine.label>Ракетный двигатель</ShipEngine.label>
+	<ShipEngine.description>Топливный ракетный двигатель, работающий за счет реактивной тяги. Достаточно экономный, чтобы дрейфовать в космосе очень длительное время.</ShipEngine.description>
+	<!---->
+	<ShipReactor.label>Корабельный реактор</ShipReactor.label>
+	<ShipReactor.description>Корабль питает себя энергией за счет огромного парового реактора, работающего за счет сжигания сжатого топлива. Достаточно экономный, чтобы работать в космосе очень длительное время.</ShipReactor.description>
+	<!---->
+	<Airships.label>Дирижабли</Airships.label>
+	<Airships.description>Огромные воздушные корабли, поднимаемые в воздух за счет летучих газов. Такие дирижабли управляются двигателями, которые потребляют топливо.</Airships.description>
+	<!---->
+	<MechanicalEngineering.label>Машиностроение</MechanicalEngineering.label>
+	<MechanicalEngineering.description>Основы индустриального машиностроения. Позволяет собирать небольшой транспорт.</MechanicalEngineering.description>
+	<!---->
+	<AdvancedMechanicalEngineering.label>Продвинутое машиностроение</AdvancedMechanicalEngineering.label>
+	<AdvancedMechanicalEngineering.description>Точное и сложное машиностроение, позволяющиее сооружать крупный транспорт.</AdvancedMechanicalEngineering.description>
+	<!---->
+	<Tanks.label>Танки</Tanks.label>
+	<Tanks.description>Огромные боевые машины, разрушающие поле боя своими орудиями.</Tanks.description>
+	<!---->
+</LanguageData>

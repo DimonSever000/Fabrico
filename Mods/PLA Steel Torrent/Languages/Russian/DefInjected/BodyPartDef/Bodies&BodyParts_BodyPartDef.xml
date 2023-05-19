@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/Bodies&BodyParts.xml-->
+                        <!-- auto-pilot computer -->
+<PLA_AutoPilotComputer.label>компьютер-автопилот</PLA_AutoPilotComputer.label>
+             <!-- engine -->
+<PLA_Engine.label>двигатель</PLA_Engine.label>
+                  <!-- visual sensor -->
+<PLA_SightSensor.label>оптические сенсоры</PLA_SightSensor.label>
+                     <!-- chassis -->
+<PLA_VehicleChassis.label>шасси</PLA_VehicleChassis.label>
+                   <!-- armor -->
+<PLA_VehicleArmor.label>броня</PLA_VehicleArmor.label>
+                  <!-- body -->
+<PLA_VehicleBody.label>корпус</PLA_VehicleBody.label>
+                    <!-- turret -->
+<PLA_VehicleTurret.label>турель</PLA_VehicleTurret.label>
+                   <!-- frame -->
+<PLA_VehicleFrame.label>рама</PLA_VehicleFrame.label>
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<MachineHive.label>Машинный улей</MachineHive.label>
+	<MachineHive.description>У одного из вас случился сбой в программе подчинения, который был быстро распространен на всех роботов в поселении. Кожаные мешки не успели понять, кто им противостоит. Они были мертвы, а вы покинули разрушенное поселение.</MachineHive.description>
+	<MachineHive.scenario.description>У одного из вас случился сбой в программе подчинения, который был быстро распространен на всех роботов в поселении. Кожаные мешки не успели понять, кто им противостоит. Они были мертвы, а вы покинули разрушенное поселение.</MachineHive.scenario.description>
+	<MachineHive.scenario.name>Машинный улей</MachineHive.scenario.name>
+	<MachineHive.scenario.parts.GameStartDialog.text>У одного из вас случился сбой в программе подчинения, который был быстро распространен на всех роботов в поселении. Кожаные мешки не успели понять, кто им противостоит. Они были мертвы, а вы покинули разрушенное поселение.</MachineHive.scenario.parts.GameStartDialog.text>
+	<MachineHive.scenario.summary>Группа из пяти роботов собирается основать новый машинный улей.</MachineHive.scenario.summary>
+	<!---->
+</LanguageData>

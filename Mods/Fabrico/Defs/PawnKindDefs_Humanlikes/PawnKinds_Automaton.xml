@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<PawnKindDef Name="AutomatonBase" Abstract="True">
+		<defaultFactionType>RobotAggressive</defaultFactionType>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		<isFighter>false</isFighter>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<invNutrition>0.0</invNutrition>
+		<biocodeWeaponChance>0.0</biocodeWeaponChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>15~30</initialResistanceRange>
+		<apparelMoney>0</apparelMoney>
+		<allowOldAgeInjuries>false</allowOldAgeInjuries>
+		<apparelIgnorePollution>true</apparelIgnorePollution>
+		<favoriteColor>(58,58,58)</favoriteColor>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef Name="AutomatonWorkerBase" ParentName="AutomatonBase" Abstract="True">
+		<race>AutomatonWorker</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AutomatonWorker</li>
+					<li>Automaton</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonWorkerBase">
+		<defName>AutomatonWorker</defName>
+		<label>Automaton worker</label>
+		<combatPower>60</combatPower>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonWorkerBase">
+		<defName>NewbornAutomatonWorker</defName>
+		<label>Automaton worker</label>
+		<combatPower>60</combatPower>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef Name="AutomatonSoldierBase" ParentName="AutomatonBase" Abstract="True">
+		<isFighter>true</isFighter>
+		<race>AutomatonSoldier</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AutomatonSoldier</li>
+					<li>Automaton</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonSoldierBase">
+		<defName>AutomatonSoldier</defName>
+		<label>Automaton soldier</label>
+		<combatPower>80</combatPower>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonSoldierBase">
+		<defName>AutomatonSoldier_Guard</defName>
+		<label>Automaton guard</label>
+		<combatPower>100</combatPower>
+		<gearHealthRange>0.6~2</gearHealthRange>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+		</apparelTags>
+		<apparelMoney>400~600</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<weaponMoney>250~400</weaponMoney>
+		<techHediffsChance>0.02</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonSoldierBase">
+		<defName>AutomatonSoldier_Stormtrooper</defName>
+		<label>Automaton stormtrooper</label>
+		<combatPower>120</combatPower>
+		<gearHealthRange>1</gearHealthRange>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>600~1200</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<weaponMoney>400~700</weaponMoney>
+		<techHediffsChance>0.02</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonSoldierBase">
+		<defName>NewbornAutomatonSoldier</defName>
+		<label>Automaton soldier</label>
+		<combatPower>80</combatPower>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef Name="AutomatonMedicBase" ParentName="AutomatonBase" Abstract="True">
+		<race>AutomatonMedic</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AutomatonMedic</li>
+					<li>Automaton</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonMedicBase">
+		<defName>AutomatonMedic</defName>
+		<label>Automaton Medic</label>
+		<combatPower>60</combatPower>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonMedicBase">
+		<defName>AutomatonMedic_Combat</defName>
+		<label>Automaton Medic</label>
+		<combatPower>60</combatPower>
+		<gearHealthRange>0.6~2</gearHealthRange>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+		</apparelTags>
+		<apparelMoney>400~600</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<techHediffsChance>0.02</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	<PawnKindDef ParentName="AutomatonMedicBase">
+		<defName>NewbornAutomatonMedic</defName>
+		<label>Automaton Medic</label>
+		<combatPower>60</combatPower>
+	</PawnKindDef>
+	<!---->
+	<!---->
+	<!---->
+	<PawnKindDef Name="RobotBase" Abstract="True">
+		<defaultFactionType>RobotAggressive</defaultFactionType>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		<isFighter>false</isFighter>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<invNutrition>0.0</invNutrition>
+		<biocodeWeaponChance>0.0</biocodeWeaponChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>7~12</initialResistanceRange>
+		<apparelMoney>0</apparelMoney>
+		<allowOldAgeInjuries>false</allowOldAgeInjuries>
+		<apparelIgnorePollution>true</apparelIgnorePollution>
+		<favoriteColor>(58,58,58)</favoriteColor>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef Name="RobotWorkerBase" ParentName="RobotBase" Abstract="True">
+		<race>RobotWorker</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>RobotWorker</li>
+					<li>Robot</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotWorkerBase">
+		<defName>RobotWorker</defName>
+		<label>Robot worker</label>
+		<combatPower>80</combatPower>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotWorkerBase">
+		<defName>NewbornRobotWorker</defName>
+		<label>Robot worker</label>
+		<combatPower>80</combatPower>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef Name="RobotSoldierBase" ParentName="RobotBase" Abstract="True">
+		<race>RobotSoldier</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>RobotSoldier</li>
+					<li>Robot</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotSoldierBase">
+		<defName>RobotSoldier</defName>
+		<label>Robot soldier</label>
+		<combatPower>120</combatPower>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotSoldierBase">
+		<defName>RobotSoldier_Guard</defName>
+		<label>Robot soldier</label>
+		<combatPower>140</combatPower>
+		<gearHealthRange>1</gearHealthRange>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>600~1200</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<weaponMoney>400~700</weaponMoney>
+		<techHediffsChance>0.02</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotSoldierBase">
+		<defName>RobotSoldier_Stormtrooper</defName>
+		<label>Robot soldier</label>
+		<combatPower>160</combatPower>
+		<apparelMoney>0~3800</apparelMoney>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponMoney>300~900</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+		<techHediffsChance>0.40</techHediffsChance>
+		<factionLeader>true</factionLeader>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotSoldierBase">
+		<defName>NewbornRobotSoldier</defName>
+		<label>Robot soldier</label>
+		<combatPower>120</combatPower>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef Name="RobotMedicBase" ParentName="RobotBase" Abstract="True">
+		<race>RobotMedic</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>RobotMedic</li>
+					<li>Robot</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotMedicBase">
+		<defName>RobotMedic</defName>
+		<label>Robot medic</label>
+		<combatPower>60</combatPower>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotMedicBase">
+		<defName>RobotMedic_Combat</defName>
+		<label>Robot medic</label>
+		<combatPower>60</combatPower>
+		<gearHealthRange>1</gearHealthRange>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>600~1200</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<techHediffsChance>0.02</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotMedicBase">
+		<defName>NewbornRobotMedic</defName>
+		<label>Robot medic</label>
+		<combatPower>80</combatPower>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef Name="RobotAIBase" ParentName="RobotBase" Abstract="True">
+		<race>RobotAI</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>RobotAI</li>
+					<li>Robot</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotAIBase">
+		<defName>RobotAI</defName>
+		<label>Robot AI</label>
+		<combatPower>100</combatPower>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotAIBase">
+		<defName>RobotAI_Leader</defName>
+		<label>Robot AI</label>
+		<combatPower>120</combatPower>
+		<apparelMoney>0~3800</apparelMoney>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+		<techHediffsChance>0.40</techHediffsChance>
+		<trader>true</trader>
+	</PawnKindDef>
+	<PawnKindDef ParentName="RobotAIBase">
+		<defName>NewbornRobotAI</defName>
+		<label>Robot AI</label>
+		<combatPower>100</combatPower>
+	</PawnKindDef>
+	<!---->
+	<PawnKindDef ParentName="RobotMedicBase">
+		<defName>StrangerInBlack_Automaton</defName>
+		<label>robot in black</label>
+		<labelMale>robot in black</labelMale>
+		<defaultFactionType>OutlanderCivil</defaultFactionType>
+		<combatPower>55</combatPower>
+		<isFighter>false</isFighter>
+		<inventoryOptions>
+			<subOptionsTakeAll>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>5</countRange>
+				</li>
+				<li>
+					<thingDef>Coal</thingDef>
+					<countRange>50</countRange>
+				</li>
+			</subOptionsTakeAll>
+		</inventoryOptions>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Apparel_CollarShirt</li>
+			<li>Apparel_Pants</li>
+			<li>Apparel_Duster</li>
+			<li>Apparel_FlakVest</li>
+			<li>Apparel_CowboyHat</li>
+		</apparelRequired>
+		<apparelColor>(58,58,58)</apparelColor>
+		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+		<favoriteColor>(58,58,58)</favoriteColor>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>0~2</initialResistanceRange>
+	</PawnKindDef>
+	<!---->
+</Defs>

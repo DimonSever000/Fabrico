@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>Composter_Compost</defName>
+		<label>Produce biosolids</label>
+		<description>Produce biosolids.</description>
+		<jobString>Produces biosolids.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>30000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+						<li>SeedsCategory</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Dirt</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+				<li>SeedsCategory</li>
+			</categories>
+			<thingDefs>
+				<li>Dirt</li>
+				<li>Sulfur</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Biosolids>20</Biosolids>
+		</products>
+		<recipeUsers>
+			<li>Composter</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Water>20</Water>
+			<Steam>50</Steam>
+		</liquidsIngredients>
+		<researchPrerequisite>FertilizerProduction</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

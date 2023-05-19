@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<XenotypeDef>
+		<defName>Pyrofagus</defName>
+		<label>Pyrofagus</label>
+		<description>These people adore fire and everything connected with it. They are genetically better protected from the effects of heat, and can also use fire to a limited extent in combat.</description>
+		<iconPath>Xenotypes/Pyrofagus</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>FireSpew</li>
+			<li>Hair_LongOnly</li>
+			<li>Skin_SheerWhite</li>
+			<li>Eyes_Red</li>
+			<li>Body_Thin</li>
+			<li>Headbone_MiniHorns</li>
+			<li>FireResistant</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>Aggression_Aggressive</li>
+			<li>Hair_BrightRed</li>
+			<li>Pyromaniac</li>
+		</genes>
+	</XenotypeDef>
+	<!---->
+</Defs>

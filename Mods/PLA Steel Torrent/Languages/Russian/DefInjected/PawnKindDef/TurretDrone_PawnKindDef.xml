@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/TurretDrone.xml-->
+                  <!-- turret drone -->
+<PLA_TurretDrone.label>дистанционно управляемый модуль</PLA_TurretDrone.label>
+                        <!-- Plural turret drone -->
+<PLA_TurretDrone.labelPlural>дистанционно управляемые модули</PLA_TurretDrone.labelPlural>
+                      <!-- Male turret drone -->
+<PLA_TurretDrone.labelMale>дистанционно управляемый модуль</PLA_TurretDrone.labelMale>
+                            <!-- Male Plural turret drone -->
+<PLA_TurretDrone.labelMalePlural>дистанционно управляемые модули</PLA_TurretDrone.labelMalePlural>
+                        <!-- Female turret drone -->
+<PLA_TurretDrone.labelFemale>дистанционно управляемый модуль</PLA_TurretDrone.labelFemale>
+                              <!-- Female Plural turret drone -->
+<PLA_TurretDrone.labelFemalePlural>дистанционно управляемые модули</PLA_TurretDrone.labelFemalePlural>
+
+</LanguageData>

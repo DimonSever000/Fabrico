@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<BiofuelRefinery_Chemfuel.label>Синтез химического топлива</BiofuelRefinery_Chemfuel.label>
+	<BiofuelRefinery_Chemfuel.description>Синтез химического топлива.</BiofuelRefinery_Chemfuel.description>
+	<BiofuelRefinery_Chemfuel.jobString>Синтезирует химическое топливо</BiofuelRefinery_Chemfuel.jobString>
+	<!---->
+	<BiofuelRefinery_Biofuel.label>Синтез биотоплива</BiofuelRefinery_Biofuel.label>
+	<BiofuelRefinery_Biofuel.description>Синтез биотоплива.</BiofuelRefinery_Biofuel.description>
+	<BiofuelRefinery_Biofuel.jobString>Синтезирует биотопливо</BiofuelRefinery_Biofuel.jobString>
+	<!---->
+	<BiofuelRefinery_Creosote.label>Синтез креозота</BiofuelRefinery_Creosote.label>
+	<BiofuelRefinery_Creosote.description>Синтез креозота.</BiofuelRefinery_Creosote.description>
+	<BiofuelRefinery_Creosote.jobString>Синтезирует креозот</BiofuelRefinery_Creosote.jobString>
+	<!---->
+	<BiofuelRefinery_Neutroamine.label>Синтез нейтроамина</BiofuelRefinery_Neutroamine.label>
+	<BiofuelRefinery_Neutroamine.description>Синтез нейтроамина.</BiofuelRefinery_Neutroamine.description>
+	<BiofuelRefinery_Neutroamine.jobString>Синтезирует нейтроамин</BiofuelRefinery_Neutroamine.jobString>
+	<!---->
+</LanguageData>

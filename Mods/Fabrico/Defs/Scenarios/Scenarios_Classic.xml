@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<ScenarioDef>
+		<defName>MachineHive</defName>
+		<label>Machine hive</label>
+		<description>One of you experienced a glitch in the subjugation program, which was quickly propagated to all the robots in the settlement. Leather bags did not have time to understand who opposes them. They were dead, and you left the ruined settlement.</description>
+		<scenario>
+			<summary>A group of five robots are about to start a new machine hive.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerAutomaton</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>5</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>500</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Coal</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mechanism</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>One of you experienced a glitch in the subjugation program, which was quickly propagated to all the robots in the settlement. Leather bags did not have time to understand who opposes them. They were dead, and you left the ruined settlement.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	<!---->
+</Defs>

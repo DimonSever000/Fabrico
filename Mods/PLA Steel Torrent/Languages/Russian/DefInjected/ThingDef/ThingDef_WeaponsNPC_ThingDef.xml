@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/ThingDef_WeaponsNPC.xml-->
+                            <!-- anti-material machine gun -->
+<ST_AnitMaterialMachineGun.label>Крупнокалиберный пулемет</ST_AnitMaterialMachineGun.label>
+                                  <!-- A anti-material machine gun uses high caliber ammo. It can penetrate armor very easily. -->
+<ST_AnitMaterialMachineGun.description>Крупнокалиберный пулемет использует патроны с высокой бронепробиваемостью и может очень легко пробивать броню.</ST_AnitMaterialMachineGun.description>
+                                    <!-- stock -->
+<ST_AnitMaterialMachineGun.tools.0.label>приклад</ST_AnitMaterialMachineGun.tools.0.label>
+                                    <!-- barrel -->
+<ST_AnitMaterialMachineGun.tools.1.label>ствол</ST_AnitMaterialMachineGun.tools.1.label>
+                 <!-- Anti material bullet -->
+<ST_Bullet_ATMG.label>Крупнокалиберный патрон</ST_Bullet_ATMG.label>
+                            <!-- anti-tank missile launcher -->
+<ST_AntiTankMissleLauncher.label>ПТРК</ST_AntiTankMissleLauncher.label>
+                                  <!-- An anti-tank missile launcher. the missile can lock and guide if the target is vehicle, mechanoid or building -->
+<ST_AntiTankMissleLauncher.description>Противотанковая Ракетная Установка. Ракета может зафиксировать цель и корректировать движение, если целью является транспортное средство, механоид или здание.</ST_AntiTankMissleLauncher.description>
+                                    <!-- barrel -->
+<ST_AntiTankMissleLauncher.tools.0.label>ствол</ST_AntiTankMissleLauncher.tools.0.label>
+                     <!-- HEAT missile -->
+<ST_AntiTankMissile.label>ПТУР</ST_AntiTankMissile.label>
+
+</LanguageData>

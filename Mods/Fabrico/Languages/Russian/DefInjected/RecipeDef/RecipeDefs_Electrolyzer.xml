@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Electrolyzer_Chlorine.label>Производство хлора</Electrolyzer_Chlorine.label>
+	<Electrolyzer_Chlorine.description>Производство хлора.</Electrolyzer_Chlorine.description>
+	<Electrolyzer_Chlorine.jobString>Производит хлор</Electrolyzer_Chlorine.jobString>
+	<!---->
+	<Electrolyzer_Aluminum.label>Производство алюминиевого порошка</Electrolyzer_Aluminum.label>
+	<Electrolyzer_Aluminum.description>Производство алюминиевого порошка.</Electrolyzer_Aluminum.description>
+	<Electrolyzer_Aluminum.jobString>Производит алюминиевый порошок</Electrolyzer_Aluminum.jobString>
+	<!---->
+	<Electrolyzer_Titan.label>Производство титанового порошка</Electrolyzer_Titan.label>
+	<Electrolyzer_Titan.description>Производство титанового порошка.</Electrolyzer_Titan.description>
+	<Electrolyzer_Titan.jobString>Производит титановый порошок</Electrolyzer_Titan.jobString>
+	<!---->
+</LanguageData>

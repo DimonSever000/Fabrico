@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/PawnKindDef[defName="Empire_Fighter_Cataphract"]</xpath>
+				<value>
+					<weaponMoney>9999</weaponMoney>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<CopperPowder.label>Медный порошок</CopperPowder.label>
+	<CopperPowder.description>Медный порошок.</CopperPowder.description>
+	<!---->
+	<TinPowder.label>Оловянный порошок</TinPowder.label>
+	<TinPowder.description>Оловянный порошок.</TinPowder.description>
+	<!---->
+	<GoldPowder.label>Золотой порошок</GoldPowder.label>
+	<GoldPowder.description>Золотой порошок.</GoldPowder.description>
+	<!---->
+	<IronPowder.label>Железный порошок</IronPowder.label>
+	<IronPowder.description>Железный порошок.</IronPowder.description>
+	<!---->
+	<TitanPowder.label>Титановый порошок</TitanPowder.label>
+	<TitanPowder.description>Титановый порошок.</TitanPowder.description>
+	<!---->
+	<AluminumPowder.label>Алюминиевый порошок</AluminumPowder.label>
+	<AluminumPowder.description>Алюминиевый порошок.</AluminumPowder.description>
+	<!---->
+	<DiamondPowder.label>Алмазный порошок</DiamondPowder.label>
+	<DiamondPowder.description>Алмазный порошок.</DiamondPowder.description>
+	<!---->
+	<SilverPowder.label>Серебряный порошок</SilverPowder.label>
+	<SilverPowder.description>Серебряный порошок.</SilverPowder.description>
+	<!---->
+	<LeadPowder.label>Свинцовый порошок</LeadPowder.label>
+	<LeadPowder.description>Свинцовый порошок.</LeadPowder.description>
+	<!---->
+	<CoalPowder.label>Угольный порошок</CoalPowder.label>
+	<CoalPowder.description>Угольный порошок.</CoalPowder.description>
+	<!---->
+</LanguageData>

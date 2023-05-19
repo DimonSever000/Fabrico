@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/CSZ181.xml-->
+                          <!-- vehicle modification kit - Type 89 HMG -->
+<PLA_VehicleWeapon89HMG.label>набор модификации CSZ181 - Тип-89</PLA_VehicleWeapon89HMG.label>
+                               <!-- A modification toolkit that can be used to install the Type 89 HMG on vehicle. -->
+<PLA_VehicleWeapon89HMG.description>Инструментарий для модификации, который можно использовать для установки тяжелого пулемёта Тип-89 на технику</PLA_VehicleWeapon89HMG.description>
+                        <!-- vehicle modification kit - Type-04 grenade launcher -->
+<PLA_VehicleWeapon04GL.label>набор модификации CSZ181 - Тип-04</PLA_VehicleWeapon04GL.label>
+                              <!-- A modification toolkit that can be used to install the Type-04 grenade launcher on vehicle. -->
+<PLA_VehicleWeapon04GL.description>Инструментарий для модификации, который можно использовать для установки гранатомёта Тип-04 на технику</PLA_VehicleWeapon04GL.description>
+                                  <!-- vehicle modification kit - 30mm autocannon -->
+<PLA_VehicleWeapon30mmAutocannon.label>набор модификации CSZ181 - 30мм автопушка</PLA_VehicleWeapon30mmAutocannon.label>
+                                        <!-- A modification toolkit that can be used to install the 30mm autocannon on vehicle. -->
+<PLA_VehicleWeapon30mmAutocannon.description>Инструментарий для модификации, который можно использовать для установки 30мм автопушки на технику</PLA_VehicleWeapon30mmAutocannon.description>
+
+
+<!--/1.4/Defs/Vehicles/CSZ181.xml-->
+<!-- CSZ-181 off-road -->
+<PLA_CSZ181OffRoad.label>CSZ-181 вездеход</PLA_CSZ181OffRoad.label>
+<!-- A off-road vehicles developed by Dongfeng Motor Group. -->
+<PLA_CSZ181OffRoad.description>вездеход разработанный Dongfeng Motor Group.</PLA_CSZ181OffRoad.description>
+<!-- Body -->
+<PLA_CSZ181OffRoad.tools.0.label>Корпус</PLA_CSZ181OffRoad.tools.0.label>
+<!-- type 89 heavy machine gun -->
+<PLA_Gun89HMGForVehicle.label>Тип-89 тяжелый пулемёт</PLA_Gun89HMGForVehicle.label>
+<!-- barrel -->
+<PLA_Gun89HMGForVehicle.tools.0.label>ствол</PLA_Gun89HMGForVehicle.tools.0.label>
+<!-- Anti material bullet -->
+<PLA_Bullet_89HMG.label>крупнокалиберный патрон</PLA_Bullet_89HMG.label>
+<!-- type 04 grenade launcher -->
+<PLA_Gun04GLForVehicle.label>гранатомёт Тип-04</PLA_Gun04GLForVehicle.label>
+<!-- barrel -->
+<PLA_Gun04GLForVehicle.tools.0.label>ствол</PLA_Gun04GLForVehicle.tools.0.label>
+<!-- high-explosive grenade -->
+<PLA_Grenade_04GL.label>осколочно-фугасная граната</PLA_Grenade_04GL.label>
+<!-- 30mm autocannon -->
+<PLA_Gun30mmAutocannon.label>30мм автопушка</PLA_Gun30mmAutocannon.label>
+<!-- barrel -->
+<PLA_Gun30mmAutocannon.tools.0.label>ствол</PLA_Gun30mmAutocannon.tools.0.label>
+<!-- 30mm shell -->
+<PLA_Bullet_30mmShell.label>30мм снаряд</PLA_Bullet_30mmShell.label>
+
+</LanguageData>

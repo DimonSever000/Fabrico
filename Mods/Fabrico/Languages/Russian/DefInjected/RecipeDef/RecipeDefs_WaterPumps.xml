@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<WindPump_WaterProduction.label>Добыча воды</WindPump_WaterProduction.label>
+	<WindPump_WaterProduction.description>Добыча воды.</WindPump_WaterProduction.description>
+	<WindPump_WaterProduction.jobString>Добывает воду</WindPump_WaterProduction.jobString>
+	<!---->
+	<WaterWell_WaterProduction.label>Добыча воды</WaterWell_WaterProduction.label>
+	<WaterWell_WaterProduction.description>Добыча воды.</WaterWell_WaterProduction.description>
+	<WaterWell_WaterProduction.jobString>Добывает воду</WaterWell_WaterProduction.jobString>
+	<!---->
+	<IndustrialPump_WaterProduction.label>Добыча воды</IndustrialPump_WaterProduction.label>
+	<IndustrialPump_WaterProduction.description>Добыча воды.</IndustrialPump_WaterProduction.description>
+	<IndustrialPump_WaterProduction.jobString>Добывает воду</IndustrialPump_WaterProduction.jobString>
+	<!---->
+</LanguageData>

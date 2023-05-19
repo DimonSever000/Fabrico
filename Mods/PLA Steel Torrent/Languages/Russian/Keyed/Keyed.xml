@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PLA_Uninstall>Удалить </PLA_Uninstall>
+    <PLA_AnyVehicle>Доступно любой технике</PLA_AnyVehicle>
+    <PLA_Allow>Только разрешенным</PLA_Allow>
+    <PLA_SelectVehicleDesc>Установите разрешение на парковку транспортного средства</PLA_SelectVehicleDesc>
+    <PLA_VehicleSection>Машины</PLA_VehicleSection>
+    <PLA_ReducedProtection>Сниженная защита</PLA_ReducedProtection>
+    <PLA_EnterVehicle>Влезть в машину</PLA_EnterVehicle>
+    <PLA_CannotEnterVehicle_NoSeat>Невозможно занять технику - нет доступных мест</PLA_CannotEnterVehicle_NoSeat>
+    <PLA_CannotEnterVehicle_OnCaravanLoading>Невозможно занять технику - караван загружается</PLA_CannotEnterVehicle_OnCaravanLoading>
+    <PLA_Crew>Экипаж</PLA_Crew>
+    <PLA_ReservedCrew>Резервный экипаж</PLA_ReservedCrew>
+    <PLA_VehicleSetting>PLA Steel Torrent</PLA_VehicleSetting>
+    <PLA_Settings_UseCrew_Title>Использовать экипаж (Бета)</PLA_Settings_UseCrew_Title>
+    <PLA_Settings_UseCrew_Desc>Для некоторых транспортных средств требуются водитель и наводчики, если опция включена</PLA_Settings_UseCrew_Desc>
+    <PLA_VehicleRunOutOfFuel>Техника ездит и без топлива</PLA_VehicleRunOutOfFuel>
+    <PLA_NeedDriver>Нужен водитель</PLA_NeedDriver>
+    <PLA_NeedGunner>Нужен наводчик</PLA_NeedGunner>
+    <PLA_Undrafted>Не занятый</PLA_Undrafted>
+    <PLA_LeaveAllCrew>Высадить весь экипаж</PLA_LeaveAllCrew>
+    <PLA_SpeedLimit>Ограничить скорость</PLA_SpeedLimit>
+    <PLA_VehicleSeatsCapacity>Доступно мест:</PLA_VehicleSeatsCapacity>
+    <PLA_VehicleDriverRequired>Водитель требуется:</PLA_VehicleDriverRequired>
+    <PLA_VehicleGunnerRequired>Стрелок требуется:</PLA_VehicleGunnerRequired>
+    <PLA_ReserveCrewsForVehicleTitle>Резервировать экипаж для техники</PLA_ReserveCrewsForVehicleTitle>
+    <PLA_ReserveCrewsForVehicleDesc>Когда вам понадобится экипаж для транспортного средства, вы можете быстро вызвать зарезервированный экипаж</PLA_ReserveCrewsForVehicleDesc>
+    <PLA_CrewThatCanReserved>Экипаж, который может быть зарезервирован</PLA_CrewThatCanReserved>
+    <PLA_ButtonReserveCrews>Резервный экипаж</PLA_ButtonReserveCrews>
+    <PLA_CallReservedCrews>Вызвать резервный экипаж</PLA_CallReservedCrews>
+    <PLA_DriverNotEnough>Недостаточно водителей</PLA_DriverNotEnough>
+    <PLA_ColonistInVehicle>Колонист в технике</PLA_ColonistInVehicle>
+    <PLA_FoodAteInTheVehicle>{0} находится {1} в технике</PLA_FoodAteInTheVehicle>
+    <PLA_DrugUsedTheVehicle>{0} использует {1} в технике</PLA_DrugUsedTheVehicle>
+</LanguageData>

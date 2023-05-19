@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<IceStorm.label>Ледяной шторм</IceStorm.label>
+	<IceStorm.description>Вас настиг ледяной шторм. Он несет с собой невероятно низкие температуры и острые обломки льда. Не выходите из дома! У вас есть несколько часов, чтобы спрятаться.</IceStorm.description>
+	<IceStorm.letterText>Вас настиг ледяной шторм. Он несет с собой невероятно низкие температуры и острые обломки льда. Не выходите из дома! У вас есть несколько часов, чтобы спрятаться.</IceStorm.letterText>
+	<IceStorm.endMessage>Ледяной шторм закончился.</IceStorm.endMessage>
+	<!---->
+</LanguageData>

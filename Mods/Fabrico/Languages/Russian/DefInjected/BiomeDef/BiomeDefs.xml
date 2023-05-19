@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<BorealForest.label>Хвойный лес</BorealForest.label>
+	<BorealForest.description>Хвойные леса почти целиком состоят из хвойных деревьев. Здесь довольно холодно зимой, но разнообразие животных впечатляет.</BorealForest.description>
+	<!---->
+	<DeciduousForest.label>Лиственный лес</DeciduousForest.label>
+	<DeciduousForest.description>Эти леса состоят из лиственных деревьев и имеют довольно мягкий климат и большое биоразнообразие.</DeciduousForest.description>
+	<!---->
+	<TemperateForest.label>Смешанный лес</TemperateForest.label>
+	<TemperateForest.description>Эти леса являются домом для многих растений и животных, обладая богатой экосистемой и нормальными погодными условиями.</TemperateForest.description>
+	<!---->
+	<ForestSteppe.label>Лесостепь</ForestSteppe.label>
+	<ForestSteppe.description>Районы низкорослой растительности, сочетающей редкие деревья и кустарники.</ForestSteppe.description>
+	<!---->
+	<Oasis.label>Пустынный оазис</Oasis.label>
+	<Oasis.description>Райское место посреди пустыни, имеющее источники воды и богатую почву вокруг. Оазисы часто являются прибежищем крупных животных.</Oasis.description>
+	<!---->
+	<Meadow.label>Луг</Meadow.label>
+	<Meadow.description>Районы травянистых равнин и склонов, ставшие прибежищем множества диких животных.</Meadow.description>
+	<!---->
+</LanguageData>

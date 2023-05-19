@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ScenPartDef>
+		<defName>FixedStartPawnKindDefs</defName>
+		<label>fixed start pawn kinds</label>
+		<scenPartClass>SteamRim.Scenario.ScenPart_FixedStartPawnKindDefs</scenPartClass>
+		<selectionWeight>1</selectionWeight>
+		<category>Fixed</category>
+		<summaryPriority>500</summaryPriority>
+	</ScenPartDef>
+</Defs>

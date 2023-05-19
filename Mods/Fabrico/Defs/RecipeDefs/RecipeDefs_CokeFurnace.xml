@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>CokeFurnace_CokeCoal</defName>
+		<label>Coal coking</label>
+		<description>Coal coking.</description>
+		<jobString>Coking coal.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>30000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Coal</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Coal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CokeCoal>10</CokeCoal>
+		</products>
+		<recipeUsers>
+			<li>CokeFurnace</li>
+		</recipeUsers>
+		<liquidsProducts>
+			<Creosote>5</Creosote>
+		</liquidsProducts>
+		<researchPrerequisite>BasicsMechanics</researchPrerequisite>
+		<pollutionProgressPerIteration>0.25</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

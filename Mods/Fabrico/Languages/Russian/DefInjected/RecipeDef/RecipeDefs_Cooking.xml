@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SteamOven_CookMealSimple.label>Приготовить простое блюдо</SteamOven_CookMealSimple.label>
+	<SteamOven_CookMealSimple.description>Приготовить простое блюдо.</SteamOven_CookMealSimple.description>
+	<SteamOven_CookMealSimple.jobString>Готовит простое блюдо</SteamOven_CookMealSimple.jobString>
+	<!---->
+	<SteamOven_CookMealFine.label>Приготовить вкусное блюдо</SteamOven_CookMealFine.label>
+	<SteamOven_CookMealFine.description>Приготовить вкусное блюдо.</SteamOven_CookMealFine.description>
+	<SteamOven_CookMealFine.jobString>Готовит вкусное блюдо</SteamOven_CookMealFine.jobString>
+	<!---->
+	<SteamOven_CookMealFine_Veg.label>Приготовить вкусное вегетарианское блюдо</SteamOven_CookMealFine_Veg.label>
+	<SteamOven_CookMealFine_Veg.description>Приготовить вкусное вегетарианское блюдо.</SteamOven_CookMealFine_Veg.description>
+	<SteamOven_CookMealFine_Veg.jobString>Готовит вкусное вегетарианское блюдо</SteamOven_CookMealFine_Veg.jobString>
+	<!---->
+	<SteamOven_CookMealFine_Meat.label>Приготовить вкусное мясное блюдо</SteamOven_CookMealFine_Meat.label>
+	<SteamOven_CookMealFine_Meat.description>Приготовить вкусное мясное блюдо.</SteamOven_CookMealFine_Meat.description>
+	<SteamOven_CookMealFine_Meat.jobString>Готовит вкусное мясное блюдо</SteamOven_CookMealFine_Meat.jobString>
+	<!---->
+	<SteamOven_CookMealLavish.label>Приготовить шикарное блюдо</SteamOven_CookMealLavish.label>
+	<SteamOven_CookMealLavish.description>Приготовить шикарное блюдо.</SteamOven_CookMealLavish.description>
+	<SteamOven_CookMealLavish.jobString>Готовит шикарное блюдо</SteamOven_CookMealLavish.jobString>
+	<!---->
+	<SteamOven_CookMealLavish_Veg.label>Приготовить шикарное вегетарианское блюдо</SteamOven_CookMealLavish_Veg.label>
+	<SteamOven_CookMealLavish_Veg.description>Приготовить шикарное вегетарианское блюдо.</SteamOven_CookMealLavish_Veg.description>
+	<SteamOven_CookMealLavish_Veg.jobString>Готовит шикарное вегетарианское блюдо</SteamOven_CookMealLavish_Veg.jobString>
+	<!---->
+	<SteamOven_CookMealLavish_Meat.label>Приготовить шикарное мясное блюдо</SteamOven_CookMealLavish_Meat.label>
+	<SteamOven_CookMealLavish_Meat.description>Приготовить шикарное мясное блюдо.</SteamOven_CookMealLavish_Meat.description>
+	<SteamOven_CookMealLavish_Meat.jobString>Готовит шикарное мясное блюдо</SteamOven_CookMealLavish_Meat.jobString>
+	<!---->
+	<SteamOven_CookBabyFood.label>Приготовить детское питание</SteamOven_CookBabyFood.label>
+	<SteamOven_CookBabyFood.description>Приготовить детское питание.</SteamOven_CookBabyFood.description>
+	<SteamOven_CookBabyFood.jobString>Готовит детское питание</SteamOven_CookBabyFood.jobString>
+	<!---->
+	<SteamOven_CookMealSurvival.label>Приготовить сухой паек</SteamOven_CookMealSurvival.label>
+	<SteamOven_CookMealSurvival.description>Приготовить сухой паек.</SteamOven_CookMealSurvival.description>
+	<SteamOven_CookMealSurvival.jobString>Готовит сухой паек</SteamOven_CookMealSurvival.jobString>
+	<!---->
+	<SteamOven_MakeKibble.label>Приготовить комбикорм</SteamOven_MakeKibble.label>
+	<SteamOven_MakeKibble.description>Приготовить комбикорм.</SteamOven_MakeKibble.description>
+	<SteamOven_MakeKibble.jobString>Готовит комбикорм</SteamOven_MakeKibble.jobString>
+	<!---->
+	<SteamOven_MakePemmican.label>Приготовить пеммикан</SteamOven_MakePemmican.label>
+	<SteamOven_MakePemmican.description>Приготовить пеммикан.</SteamOven_MakePemmican.description>
+	<SteamOven_MakePemmican.jobString>Готовит пеммикан</SteamOven_MakePemmican.jobString>
+	<!---->
+</LanguageData>

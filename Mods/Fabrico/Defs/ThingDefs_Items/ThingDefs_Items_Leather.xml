@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="WoolBase">
+		<defName>Wool</defName>
+		<label>Wool</label>
+		<description>Animal fur warming in cold weather. Good for sewing clothes.</description>
+		<graphicData>
+			<color>(219,214,209)</color>
+			<texPath>Things/Leathers/Wool</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>8.0</MarketValue>
+			<StuffPower_Armor_Sharp>0.3</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(219,214,209)</color>
+			<commonality>0.15</commonality>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Beauty>1.25</Beauty>
+				<Flammability>3.0</Flammability>
+				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="WoolBase">
+		<defName>Fur</defName>
+		<label>Fur</label>
+		<description>Rough animal fur processed for tailoring.</description>
+		<graphicData>
+			<color>(237,216,174)</color>
+			<texPath>Things/Leathers/Fur</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+			<StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(237,216,174)</color>
+			<commonality>0.2</commonality>
+			<statFactors>
+				<MaxHitPoints>1.0</MaxHitPoints>
+				<Beauty>1.3</Beauty>
+				<Flammability>2.0</Flammability>
+				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="WoolBase">
+		<defName>WarmFur</defName>
+		<label>Warm fur</label>
+		<description>Soft and warm animal fur. Looks stylish and keeps you warm in winter.</description>
+		<graphicData>
+			<color>(179,192,186)</color>
+			<texPath>Things/Leathers/WarmFur</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15.0</MarketValue>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(179,192,186)</color>
+			<commonality>0.1</commonality>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Beauty>1.5</Beauty>
+				<Flammability>2.0</Flammability>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef ParentName="WoolBase">
+		<defName>ThrumboFur</defName>
+		<label>Thrumbo fur</label>
+		<description>Extremely durable and warm fur of a huge trumpet. External rigidity and hardness allow the fur to be used as a protective coating.</description>
+		<graphicData>
+			<color>(171,183,192)</color>
+			<texPath>Things/Leathers/ThrumboFur</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20.0</MarketValue>
+			<StuffPower_Armor_Sharp>2.08</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(171,183,192)</color>
+			<commonality>0.005</commonality>
+			<statFactors>
+				<MaxHitPoints>2</MaxHitPoints>
+				<Beauty>8</Beauty>
+				<Flammability>1.0</Flammability>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+</Defs>

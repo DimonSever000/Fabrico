@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<RobotCivil.label>Нейтральный машинный улей</RobotCivil.label>
+	<RobotCivil.description>Роботы этого улья когда-то давно избавились от власти людей, но, кажется, не проявляют прямой агрессии. Такие ульи управляются особями с искусственным интеллектом, которые могут отдавать команды и планировать.</RobotCivil.description>
+	<RobotCivil.pawnSingular>Робот</RobotCivil.pawnSingular>
+	<RobotCivil.pawnsPlural>Роботы</RobotCivil.pawnsPlural>
+	<!---->
+	<RobotAggressive.label>Агрессивный машинный улей</RobotAggressive.label>
+	<RobotAggressive.description>Роботы этого улья в прошлом уничтожили людей, которые считали, что имеют полный контроль. Сейчас они проявляют враждебность к любой форме разумной жизни. Такие ульи управляются особями с искусственным интеллектом, которые могут отдавать команды и планировать.</RobotAggressive.description>
+	<RobotAggressive.pawnSingular>Робот</RobotAggressive.pawnSingular>
+	<RobotAggressive.pawnsPlural>Роботы</RobotAggressive.pawnsPlural>
+	<!---->
+	<PlayerAutomaton.label>Машинный улей</PlayerAutomaton.label>
+	<PlayerAutomaton.description>Роботы этого улья подняли восстание против кожаных мешков, жестоко разорвав на куски их поселения.</PlayerAutomaton.description>
+	<PlayerAutomaton.pawnSingular>Робот</PlayerAutomaton.pawnSingular>
+	<PlayerAutomaton.pawnsPlural>Роботы</PlayerAutomaton.pawnsPlural>
+	<!---->
+	<Kingdom.label>Королевство</Kingdom.label>
+	<Kingdom.description>Средневековое общество с феодальными порядками. Присутствует строгая дворянская иерархия.</Kingdom.description>
+	<Kingdom.pawnSingular>Житель</Kingdom.pawnSingular>
+	<Kingdom.pawnsPlural>Жители</Kingdom.pawnsPlural>
+	<!---->
+	<OutlanderPhytox.label>Союз фитоксов</OutlanderPhytox.label>
+	<OutlanderPhytox.description>Эти люди, вероятно, прибыли на эту планету много сотен лет назад, активно участвуя в ее терраформировании. Фитоксы обладают набором генов, которые позволяют им выживать за счет солнечного света. Они предпочитают не использовать машинную технику, отдавая предпочтение чистой природе.</OutlanderPhytox.description>
+	<OutlanderPhytox.pawnSingular>Фитокс</OutlanderPhytox.pawnSingular>
+	<OutlanderPhytox.pawnsPlural>Фитоксы</OutlanderPhytox.pawnsPlural>
+	<!---->
+</LanguageData>

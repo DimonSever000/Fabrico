@@ -1,0 +1,3395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticLeg</defName>
+		<label>prosthetic leg</label>
+		<description>A leg prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSimpleProstheticLeg</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SimpleProstheticLeg</defName>
+		<label>prosthetic leg</label>
+		<labelNoun>a prosthetic leg</labelNoun>
+		<description>An installed prosthetic leg.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticLeg</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.85</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>0.5</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticArm</defName>
+		<label>prosthetic arm</label>
+		<description>An arm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real arm.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSimpleProstheticArm</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SimpleProstheticArm</defName>
+		<label>prosthetic arm</label>
+		<labelNoun>a prosthetic arm</labelNoun>
+		<description>An installed prosthetic arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticArm</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8.2</power>
+						<!-- Same as natural fist -->
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>0.5</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.50</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticHeart</defName>
+		<label>prosthetic heart</label>
+		<description>A heart prosthesis. It contains an electric motor that pumps blood smoothly around the body. Users often report feeling tired, but it's better than the alternative.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSimpleProstheticHeart</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SimpleProstheticHeart</defName>
+		<label>prosthetic heart</label>
+		<labelNoun>a prosthetic heart</labelNoun>
+		<description>An installed prosthetic heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHeart</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.80</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>0.5</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>CochlearImplant</defName>
+		<label>cochlear implant</label>
+		<description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCochlearImplant</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>CochlearImplant</defName>
+		<label>cochlear implant</label>
+		<labelNoun>a cochlear implant</labelNoun>
+		<description>An installed cochlear implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>CochlearImplant</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>CochlearImplant</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>0.5</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>PowerClaw</defName>
+		<label>power claw</label>
+		<description>A combat-oriented hand replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainliness slows down movement slightly.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallPowerClaw</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>PowerClaw</defName>
+		<label>power claw</label>
+		<labelNoun>a power claw</labelNoun>
+		<description>An installed power claw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>PowerClaw</ThingDef>
+		</descriptionHyperlinks>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claw</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>22</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>Pawn_Melee_PowerClaw_Hit</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_PowerClaw_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>PowerClaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.00</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SimpleProstheticLung</defName>
+		<label>prosthetic lung</label>
+		<labelNoun>a prosthetic lung</labelNoun>
+		<description>An installed prosthetic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticLung</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.80</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>0.5</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticLung</defName>
+		<label>prosthetic lung</label>
+		<description>A lightweight metal frame holds a sophisticated ventilation system that allows the wearer to breathe normally.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSimpleProstheticLung</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Mechanism>3</Mechanism>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticLung</defName>
+		<label>install prosthetic lung</label>
+		<description>Install a prosthetic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticLung</ThingDef>
+			<HediffDef>SimpleProstheticLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic lung.</jobString>
+		<deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticLung</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SimpleProstheticKidney</defName>
+		<label>prosthetic kidney</label>
+		<labelNoun>a prosthetic kidney</labelNoun>
+		<description>An installed prosthetic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticKidney</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.80</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>0.5</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticKidney</defName>
+		<label>prosthetic kidney</label>
+		<description>Fluid filtration system from gears and watch mechanisms.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSimpleProstheticKidney</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticKidney</defName>
+		<label>install prosthetic kidney</label>
+		<description>Install a prosthetic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticKidney</ThingDef>
+			<HediffDef>SimpleProstheticKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic kidney.</jobString>
+		<deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticKidney</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SimpleProstheticLiver</defName>
+		<label>prosthetic liver</label>
+		<labelNoun>a prosthetic liver</labelNoun>
+		<description>An installed prosthetic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticLiver</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.80</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>0.5</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticLiver</defName>
+		<label>prosthetic liver</label>
+		<description>Cleansing system consisting of gears and watch mechanisms.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSimpleProstheticLiver</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticLiver</defName>
+		<label>install prosthetic liver</label>
+		<description>Install a prosthetic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticLiver</ThingDef>
+			<HediffDef>SimpleProstheticLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic liver.</jobString>
+		<deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticLiver</addsHediff>
+	</RecipeDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>Mindscrew</defName>
+		<label>mindscrew</label>
+		<description>Inflicts continuous pain on the user. Mindscrews are used by some authorities as a long-term punishment. Some even install them voluntarily as a demonstration of ideological or religious devotion.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallMindscrew</RecipeDef>
+		</descriptionHyperlinks>
+		<techHediffsTags>
+			<li>PainCauser</li>
+		</techHediffsTags>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>BrainWiring</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>DrillArm</defName>
+		<label>drill arm</label>
+		<description>A mechanical arm replacement for speeding up mining. It has a built-in snake drill, which allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDrillArm</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>SpecializedLimbs</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>DrillArm</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DrillArm</defName>
+		<label>drill arm</label>
+		<labelNoun>a drill arm</labelNoun>
+		<description>An installed drill arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DrillArm</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MiningSpeed>1.60</MiningSpeed>
+					<DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>drill</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>13</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>DrillArm</spawnThingOnRemoved>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>FieldHand</defName>
+		<label>field hand</label>
+		<description>This mechanical hand replacement is made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallFieldHand</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>SpecializedLimbs</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>FieldHand</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FieldHand</defName>
+		<label>field hand</label>
+		<labelNoun>a field hand</labelNoun>
+		<description>An installed field hand.</description>
+		<descriptionHyperlinks>
+			<ThingDef>FieldHand</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PlantWorkSpeed>1.60</PlantWorkSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.08</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>knuckle</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+						<soundMeleeHit>MeleeHit_FieldHand</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_FieldHand</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>FieldHand</spawnThingOnRemoved>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>HandTalon</defName>
+		<label>hand talon</label>
+		<description>A razor-sharp talon which extends from a hidden opening between the middle and ring fingers. The talon is longer than the palm, but it becomes flexible upon retracting, allowing the user to curl it up and conceal it inside the hand. It can perform rapid slashing attacks, but is poor at penetrating armor.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallHandTalon</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>CompactWeaponry</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<violentTechHediff>true</violentTechHediff>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>HandTalon</defName>
+		<label>hand talon</label>
+		<labelNoun>a hand talon</labelNoun>
+		<description>An installed hand talon.</description>
+		<descriptionHyperlinks>
+			<ThingDef>HandTalon</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>talon</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>15</power>
+						<!-- Lower damage means lower AP than other compact weapons, but it's faster with more raw DPS -->
+						<armorPenetration>0.15</armorPenetration>
+						<cooldownTime>1.5</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>HandTalon</spawnThingOnRemoved>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>ElbowBlade</defName>
+		<label>elbow blade</label>
+		<description>A razor-sharp blade that extends at will from a hidden opening at the end of the ulna. Appearing without warning, it can be used for devastating slice attacks.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallElbowBlade</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>CompactWeaponry</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<violentTechHediff>true</violentTechHediff>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>ElbowBlade</defName>
+		<label>elbow blade</label>
+		<labelNoun>an elbow blade</labelNoun>
+		<description>An installed elbow blade.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ElbowBlade</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>blade</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>ElbowBlade</spawnThingOnRemoved>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>KneeSpike</defName>
+		<label>knee spike</label>
+		<description>A spike that extends at will from a hidden opening on the front of the knee. Appearing without warning, it can be used for devastating stabbing attacks which penetrate even thick armor.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallKneeSpike</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>CompactWeaponry</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<violentTechHediff>true</violentTechHediff>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>KneeSpike</defName>
+		<label>knee spike</label>
+		<labelNoun>a knee spike</labelNoun>
+		<description>An installed knee spike.</description>
+		<descriptionHyperlinks>
+			<ThingDef>KneeSpike</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>spike</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>22</power>
+						<!-- More power and AP but slower than other compact weapons -->
+						<armorPenetration>0.38</armorPenetration>
+						<cooldownTime>2.6</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>KneeSpike</spawnThingOnRemoved>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>VenomFangs</defName>
+		<label>venom fangs</label>
+		<description>A pair of injectors implanted through the canine teeth, connected to a venom pump. The user can bite an enemy, extend the injectors, and pump venom into the target.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallVenomFangs</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>VenomSynthesis</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<violentTechHediff>true</violentTechHediff>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>VenomFangs</defName>
+		<label>venom fangs</label>
+		<labelNoun>a set of venom fangs</labelNoun>
+		<description>An installed set of venom fangs.</description>
+		<descriptionHyperlinks>
+			<ThingDef>VenomFangs</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venom fangs</label>
+						<capacities>
+							<li>ToxicBite</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>VenomFangs</spawnThingOnRemoved>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticImperialBase">
+		<defName>VenomTalon</defName>
+		<label>venom talon</label>
+		<description>A retractable finger talon connected to a venom pump in the lower arm. The user can scratch an enemy while squirting venom into the wound. The talon is designed to be installed in the middle finger. It's fast, but poor at penetrating armor.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallVenomTalon</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>VenomSynthesis</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<violentTechHediff>true</violentTechHediff>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>VenomTalon</defName>
+		<label>venom talon</label>
+		<labelNoun>a venom talon</labelNoun>
+		<description>An installed venom talon.</description>
+		<descriptionHyperlinks>
+			<ThingDef>VenomTalon</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venom talon</label>
+						<capacities>
+							<li>ScratchToxic</li>
+						</capacities>
+						<power>11</power>
+						<!-- Toxic and fast but with poor armor penetration -->
+						<armorPenetration>0.15</armorPenetration>
+						<cooldownTime>1.5</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>VenomTalon</spawnThingOnRemoved>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>Joywire</defName>
+		<label>joywire</label>
+		<description>A brain implant that stimulates the brain's pleasure centers. While it dramatically improves a user's mood, the blanket of happiness makes it hard to concentrate on anything real. Joywires are illegal on many worlds, and are known for destroying whole cultures.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallJoywire</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>Painstopper</defName>
+		<label>painstopper</label>
+		<description>A brain implant which inhibits nociception, or pain sensation. While it does allow the user to accomplish more, it turns out pain has a purpose. When you don't feel it, you can get hurt really bad really easily.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallPainstopper</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicEye</defName>
+		<label>bionic eye</label>
+		<description>An advanced artificial eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicEye</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicEye</defName>
+		<label>bionic eye</label>
+		<labelNoun>a bionic eye</labelNoun>
+		<description>An installed bionic eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicEye</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
+		<woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<eyeGraphicSouth>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+		</eyeGraphicSouth>
+		<eyeGraphicEast>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+		</eyeGraphicEast>
+		<eyeGraphicScale>0.2</eyeGraphicScale>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicArm</defName>
+		<label>bionic arm</label>
+		<description>An advanced artificial arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicArm</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicArm</defName>
+		<label>bionic arm</label>
+		<labelNoun>a bionic arm</labelNoun>
+		<description>An installed bionic arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicArm</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicLeg</defName>
+		<label>bionic leg</label>
+		<description>An advanced artificial leg. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicLeg</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicLeg</defName>
+		<label>bionic leg</label>
+		<labelNoun>a bionic leg</labelNoun>
+		<description>An installed bionic leg.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicLeg</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicSpine</defName>
+		<label>bionic spine</label>
+		<description>An advanced artificial spine. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It matches the performance of a biological spine.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicSpine</defName>
+		<label>bionic spine</label>
+		<labelNoun>a bionic spine</labelNoun>
+		<description>An installed bionic spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicHeart</defName>
+		<label>bionic heart</label>
+		<description>An advanced artificial heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It is better than a biological heart in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicHeart</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicHeart</defName>
+		<label>bionic heart</label>
+		<labelNoun>a bionic heart</labelNoun>
+		<description>An installed bionic heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicHeart</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicStomach</defName>
+		<label>bionic stomach</label>
+		<description>An advanced artificial stomach. A set of sensors and chemical synthesizers efficiently digest nearly any energy-bearing foodstuff. An integrated lattice-dust healing system automatically repairs any damage caused by the powerful acids. It is better than a biological stomach in almost every way.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<MechanismSpacer>3</MechanismSpacer>
+			<Plasteel>10</Plasteel>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicStomach</defName>
+		<label>bionic stomach</label>
+		<labelNoun>a bionic stomach</labelNoun>
+		<description>An installed bionic stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<makeImmuneTo>
+					<li>GutWorms</li>
+				</makeImmuneTo>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicEar</defName>
+		<label>bionic ear</label>
+		<description>An advanced artificial ear implant. A collection of invisible subdermal microphones capture sound and transmit it to a biogel nerve interface that links directly with the auditory nerve. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicEar</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<MechanismSpacer>3</MechanismSpacer>
+			<Plasteel>10</Plasteel>
+		</costList>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicEar</defName>
+		<label>bionic ear</label>
+		<labelNoun>a bionic ear</labelNoun>
+		<description>An installed bionic ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicEar</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicKidney</defName>
+		<label>bionic kidney</label>
+		<labelNoun>a bionic kidney</labelNoun>
+		<description>An installed bionic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicKidney</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicKidney</defName>
+		<label>bionic kidney</label>
+		<description>An advanced artificial kidney.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicKidney</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallBionicKidney</defName>
+		<label>install bionic kidney</label>
+		<description>Install a bionic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicKidney</ThingDef>
+			<HediffDef>BionicKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicKidney</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicLung</defName>
+		<label>bionic lung</label>
+		<labelNoun>a bionic lung</labelNoun>
+		<description>An installed bionic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicLung</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicLung</defName>
+		<label>bionic lung</label>
+		<description>An advanced artificial lung.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicLung</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallBionicLung</defName>
+		<label>install bionic lung</label>
+		<description>Install a bionic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicLung</ThingDef>
+			<HediffDef>BionicLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicLung</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicLiver</defName>
+		<label>bionic liver</label>
+		<labelNoun>a bionic liver</labelNoun>
+		<description>An installed bionic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicLiver</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicLiver</defName>
+		<label>bionic liver</label>
+		<description>An advanced artificial liver.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicLiver</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<MechanismSpacer>4</MechanismSpacer>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallBionicLiver</defName>
+		<label>install bionic liver</label>
+		<description>Install a bionic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicLiver</ThingDef>
+			<HediffDef>BionicLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicLiver</addsHediff>
+	</RecipeDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicTongue</defName>
+		<label>bionic tongue</label>
+		<description>An artificial tongue replacement. Made of synthetic smooth-fibers and connected through a neurogel interface, it can match the performance of a natural tongue in speaking, eating, and tasting.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallBionicTongue</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<MechanismSpacer>2</MechanismSpacer>
+			<Plasteel>5</Plasteel>
+		</costList>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicTongue</defName>
+		<label>bionic tongue</label>
+		<labelNoun>a bionic tongue</labelNoun>
+		<description>An installed bionic tongue.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicTongue</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicTongue</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>DetoxifierLung</defName>
+		<label>detoxifier lung</label>
+		<description>An advanced artificial lung that uses microfilters to reduce the intake of environmental toxins, allowing the user to survive longer in polluted environments. Additionally, it negates the irritation of acidic smog and prevents lung rot in this lung.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDetoxifierLung</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<MarketValue>925</MarketValue>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>ToxFiltration</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DetoxifierLung</defName>
+		<label>detoxifier lung</label>
+		<labelNoun>a detoxifier lung</labelNoun>
+		<description>An installed detoxifier lung. Prevents lung rot in this lung and negates the irritation of acidic smog.\n\nNote that the detoxifier lung does not prevent the irritating effect of tox gas.</description>
+		<preventsLungRot>true</preventsLungRot>
+		<descriptionHyperlinks>
+			<ThingDef>DetoxifierLung</ThingDef>
+			<HediffDef>LungRot</HediffDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>DetoxifierLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicEnvironmentResistance>0.6</ToxicEnvironmentResistance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>DetoxifierKidney</defName>
+		<label>detoxifier kidney</label>
+		<description>An advanced artificial kidney. Using a series of nanofilters, it can rapidly remove a vast range of toxins from the blood, making it effective against environmental toxins, venoms, and injected poisons.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDetoxifierKidney</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<MarketValue>1080</MarketValue>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>ToxFiltration</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>2</MechanismSpacer>
+		</costList>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DetoxifierKidney</defName>
+		<label>detoxifier kidney</label>
+		<labelNoun>a detoxifier kidney</labelNoun>
+		<description>An installed detoxifier kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DetoxifierKidney</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>DetoxifierKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicResistance>0.5</ToxicResistance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>Neurocalculator</defName>
+		<label>neurocalculator</label>
+		<description>A non-intelligent microcomputer controlled by a visual/tactile neural interface. It assists with memory and calculation, like a calculator and notepad embedded in the brain.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallNeurocalculator</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(189,169,118)</color>
+		</graphicData>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>NeuralComputation</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>LearningAssistant</defName>
+		<label>learning assistant</label>
+		<description>A sensory recording system that replays important experiences during sleep, strengthening the formation of new memories.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallLearningAssistant</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>NeuralComputation</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>GastroAnalyzer</defName>
+		<label>gastro-analyzer</label>
+		<description>This bionic nose implant enhances the sense of smell, with a focus towards food-related smells. A multi-layered ultrafine absorption mesh detects compounds in the air. A microprocessor formats the readings into an olfactory nerve signal to send to the brain through a nerve-link interface. The result is that the user can smell foods with a depth, richness, and precision unknown among unenhanced humans, allowing them to cook more effectively. The whole unit is small enough to be installed in the nose without affecting the user's appearance.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallGastroAnalyzer</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>3</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MolecularAnalysis</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>Immunoenhancer</defName>
+		<label>immunoenhancer</label>
+		<description>An analysis computer inspects the bloodstream, classifies pathogens, and rapidly prompts the body's natural immune system to respond to them faster than it could alone. This speeds immunity gain significantly.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallImmunoenhancer</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MolecularAnalysis</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>Coagulator</defName>
+		<label>coagulator</label>
+		<description>Releases coagulating factors in response to blood loss, reducing bleeding rates significantly.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCoagulator</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>HealingFactors</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>HealingEnhancer</defName>
+		<label>healing enhancer</label>
+		<description>Releases nanomachines and healing factors that speed up wound healing. This implant only helps with physical wounds, and does nothing to combat disease or other health problems.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallHealingEnhancer</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>HealingFactors</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>ToughskinGland</defName>
+		<label>toughskin gland</label>
+		<description>This bionic gland releases chemicals and nanomachines that toughen the skin, making it somewhat more resistant to damage. While it doesn't add as much protection as some other skin-hardening glands, the toughskin gland has the advantage of not noticeably altering the user's appearance.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallToughskinGland</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>SkinHardening</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>ToughskinGland</defName>
+		<label>toughskin gland</label>
+		<labelNoun>a toughskin gland</labelNoun>
+		<description>An installed toughskin gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ToughskinGland</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>ToughskinGland</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.95</postFactor>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.3</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>ArmorGland</li>
+		</tags>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>ArmorskinGland</defName>
+		<label>armorskin gland</label>
+		<description>This bionic gland releases chemicals and nanomachines that toughen the skin and add flexible subdermal keratin plates at strategic points. This makes the user more resistant to damage across their whole body. Unfortunately, these changes make the skin appear leathery, with wrinkles across the whole body and face, which is generally considered ugly.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallArmorskinGland</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Plasteel>20</Plasteel>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>SkinHardening</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>ArmorskinGland</defName>
+		<label>armorskin gland</label>
+		<labelNoun>a armorskin gland</labelNoun>
+		<description>An installed armorskin gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ArmorskinGland</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>ArmorskinGland</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.90</postFactor>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.52</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.4</ArmorRating_Heat>
+					<PawnBeauty>-1</PawnBeauty>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>ArmorGland</li>
+		</tags>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>StoneskinGland</defName>
+		<label>stoneskin gland</label>
+		<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face. While it's very difficult to physically hurt someone using this implant, the plates and hard skin significantly reduces the user's physical attractiveness.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallStoneskinGland</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<MechanismSpacer>8</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>SkinHardening</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>StoneskinGland</defName>
+		<label>stoneskin gland</label>
+		<labelNoun>a stoneskin gland</labelNoun>
+		<description>An installed stoneskin gland.</description>
+		<descriptionHyperlinks>
+			<ThingDef>StoneskinGland</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>StoneskinGland</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.85</postFactor>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.5</ArmorRating_Heat>
+					<PawnBeauty>-2</PawnBeauty>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>ArmorGland</li>
+		</tags>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>AestheticShaper</defName>
+		<label>aesthetic shaper</label>
+		<description>A sophisticated package of hormonal and mechanite influences shapes the muscles and fat on the body, adding non-functional aesthetic tissue where needed to achieve a desired appearance. This implant can be configured to form various body shapes according to the user's taste - or that of their partner.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallAestheticShaper</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>3</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>FleshShaping</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>AestheticNose</defName>
+		<label>aesthetic nose</label>
+		<description>The nose is shaped to the user's desired form, matching prevalent beauty standards and enhancing physical impressions.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallAestheticNose</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<MechanismSpacer>2</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>FleshShaping</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>LoveEnhancer</defName>
+		<label>love enhancer</label>
+		<description>Humans have always tried to use every new technology to enhance sexual satisfaction. Bionics were no exception. This implant makes physical and chemical changes to the body which enhance the experience of lovin' for both partners - both physically and psychologically. The implant unit can adapt to enhance both men and women upon being implanted.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallLoveEnhancer</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>FleshShaping</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>DetoxifierStomach</defName>
+		<label>sterilizing stomach</label>
+		<description>An artificial stomach replacement with a broad-spectrum filtration and sterilization system. It allows the user to eat almost anything without ever worrying about food poisoning.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallDetoxifierStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>DetoxifierStomach</defName>
+		<label>sterilizing stomach</label>
+		<labelNoun>a sterilizing stomach</labelNoun>
+		<description>An installed sterilizing stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DetoxifierStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>DetoxifierStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<vomit>true</vomit>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>ReprocessorStomach</defName>
+		<label>reprocessor stomach</label>
+		<description>An advanced chemical processing system breaks down nutrients the body could normally never use, leading to increased efficiency.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallReprocessorStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>ReprocessorStomach</defName>
+		<label>reprocessor stomach</label>
+		<labelNoun>a reprocessor stomach</labelNoun>
+		<description>An installed reprocessor stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ReprocessorStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>ReprocessorStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<hungerRateFactor>0.75</hungerRateFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<vomit>true</vomit>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>NuclearStomach</defName>
+		<label>nuclear stomach</label>
+		<description>A micro-nuclear reactor combined with complex chemical synthesis replaces the body's need for food energy. Food is required only to replace matter lost from the body, reducing the user's intake needs significantly. This artificial stomach cannot get food poisoning. However, there is little room to shield the reactor, so the radiation increases the risk of cancer.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallNuclearStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>NuclearStomach</defName>
+		<label>nuclear stomach</label>
+		<labelNoun>a nuclear stomach</labelNoun>
+		<description>An installed nuclear stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>NuclearStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>NuclearStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<hediffGivers>
+			<li Class="HediffGiver_Random">
+				<mtbDays>120</mtbDays>
+				<hediff>Carcinoma</hediff>
+				<partsToAffect>
+					<li>Torso</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+		<stages>
+			<li>
+				<hungerRateFactor>0.25</hungerRateFactor>
+				<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<vomit>true</vomit>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>CircadianAssistant</defName>
+		<label>circadian assistant</label>
+		<description>An artificial gland. Produces chemicals and nanomachines that clear toxin buildup from the brain.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCircadianAssistant</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>CircadianInfluence</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BodyPartBionicImperialBase">
+		<defName>CircadianHalfCycler</defName>
+		<label>circadian half-cycler</label>
+		<description>A signal redirector which isolates half of the brain, allowing the other half to sleep while the user remains outwardly awake. By alternating brain halves, the user never needs to sleep. Unfortunately, two hemispheres are better than one - working with half a brain causes a reduction in consciousness.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCircadianHalfCycler</RecipeDef>
+		</descriptionHyperlinks>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>CircadianInfluence</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ControlSublinkBase">
+		<defName>ControlSublink</defName>
+		<label>control sublink (standard)</label>
+		<description>A neural implant which gives a mechanitor an additional control group. Additionally, the sublink slightly increases the work speed of any mechanoids controlled by the mechanitor.\n\nThis standard-tier sublink can only increase the control group count up to 3. To go higher, a higher-tier sublink implant must be used.\n\nIt can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its effect.</description>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>StandardMechtech</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<compClass>CompUsableImplant</compClass>
+				<useJob>UseItem</useJob>
+				<useLabel>Implant sublink</useLabel>
+				<userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+			</li>
+			<li Class="CompProperties_UseEffectInstallImplant">
+				<hediffDef>ControlSublinkImplant</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<canUpgrade>true</canUpgrade>
+				<maxSeverity>3</maxSeverity>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="ControlSublinkBase">
+		<defName>ControlSublinkHigh</defName>
+		<label>control sublink (high)</label>
+		<description>A neural implant which gives a mechanitor an additional control group. Additionally, the sublink slightly increases the work speed of any mechanoids controlled by the mechanitor.\n\nThis high-tier implant can increase the control group count up to 6.\n\nIt can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its effect.</description>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<PowerfocusChip>1</PowerfocusChip>
+			<Mechanism>3</Mechanism>
+			<MechanismSpacer>3</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>HighMechtech</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<compClass>CompUsableImplant</compClass>
+				<useJob>UseItem</useJob>
+				<useLabel>Implant high sublink</useLabel>
+				<userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+			</li>
+			<li Class="CompProperties_UseEffectInstallImplant">
+				<hediffDef>ControlSublinkImplant</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<canUpgrade>true</canUpgrade>
+				<requiresExistingHediff>true</requiresExistingHediff>
+				<minSeverity>3</minSeverity>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MechanitorImplantCraftableBase">
+		<defName>RemoteRepairer</defName>
+		<label>remote repairer</label>
+		<description>A mechlink upgrade which allows the mechanitor to repair mechs from a distance. The user links with the mechanoid and uses their own brain to psychically guide its self-repair mechanites.\n\nThis implant can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its range.</description>
+		<descriptionHyperlinks>
+			<HediffDef>RemoteRepairerImplant</HediffDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<PowerfocusChip>1</PowerfocusChip>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<statBases>
+			<MaxInstallCount>3</MaxInstallCount>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>HighMechtech</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<compClass>CompUsableImplant</compClass>
+				<useJob>UseItem</useJob>
+				<useLabel>Implant {0_label}</useLabel>
+				<userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+			</li>
+			<li Class="CompProperties_UseEffectInstallImplant">
+				<hediffDef>RemoteRepairerImplant</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<canUpgrade>true</canUpgrade>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MechanitorImplantCraftableBase">
+		<defName>MechFormfeeder</defName>
+		<label>mech gestation processor</label>
+		<description>An implant which increases the speed at which a mechanitor can produce mechs in a mech gestator. The processor optimizes the behavior of the mechanites in the mech forming tank.\n\nThis implant can be self-installed in the same way as the mechlink.\n\nThis implant can be installed up to 6 times to increase its effect.</description>
+		<descriptionHyperlinks>
+			<HediffDef>MechFormfeederImplant</HediffDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<SignalChip>1</SignalChip>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<statBases>
+			<MaxInstallCount>6</MaxInstallCount>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>StandardMechtech</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<compClass>CompUsableImplant</compClass>
+				<useJob>UseItem</useJob>
+				<useLabel>Implant {0_label}</useLabel>
+				<userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+			</li>
+			<li Class="CompProperties_UseEffectInstallImplant">
+				<hediffDef>MechFormfeederImplant</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<canUpgrade>true</canUpgrade>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MechanitorImplantCraftableBase">
+		<defName>RemoteShielder</defName>
+		<label>remote shielder</label>
+		<description>An implant which allows the mechanitor to place a personal defense shield on a mech. The mechanitor must continuously focus on the mech in order to maintain the shield.\n\nPlacing a shield at a distance requires a substantial amount of focused energy. It can be used to save a mech at a critical moment.\n\nThis implant can be self-installed in the same way as the mechlink.\n\nThis implant can be installed up to 3 times to increase its range and shield energy.</description>
+		<descriptionHyperlinks>
+			<HediffDef>RemoteShielderImplant</HediffDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<PowerfocusChip>1</PowerfocusChip>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>HighMechtech</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<MaxInstallCount>3</MaxInstallCount>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<compClass>CompUsableImplant</compClass>
+				<useJob>UseItem</useJob>
+				<useLabel>Implant {0_label}</useLabel>
+				<userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+			</li>
+			<li Class="CompProperties_UseEffectInstallImplant">
+				<hediffDef>RemoteShielderImplant</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<canUpgrade>true</canUpgrade>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MechanitorImplantCraftableBase">
+		<defName>RepairProbe</defName>
+		<label>repair probe</label>
+		<description>An implant which increases the speed at which a mechanitor can repair a mechanoid. This does not affect the overall energy needed to repair a mechanoid.\n\nThe implant allows the mechanitor to plug directly into a mechanoid while they are repairing it. This allows them to more quickly understand the mech's injuries, and better-direct the mech's self-repair mechanites to assist with the repair.\n\nThis implant can be self-installed in the same way as the mechlink.\n\nThis implant can be installed up to 6 times to increase its effect.</description>
+		<descriptionHyperlinks>
+			<HediffDef>RepairProbeImplant</HediffDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<NanostructuringChip>1</NanostructuringChip>
+			<MechanismSpacer>2</MechanismSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>UltraMechtech</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<MaxInstallCount>6</MaxInstallCount>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<compClass>CompUsableImplant</compClass>
+				<useJob>UseItem</useJob>
+				<useLabel>Implant {0_label}</useLabel>
+				<userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+			</li>
+			<li Class="CompProperties_UseEffectInstallImplant">
+				<hediffDef>RepairProbeImplant</hediffDef>
+				<bodyPart>Brain</bodyPart>
+				<canUpgrade>true</canUpgrade>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef Name="BodyPartSyntheticBase" ParentName="BodyPartBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<thingCategories>
+			<li>BodyPartsUltra</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Prostheses/T3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+			<WorkToMake>56000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>SyntheticProstheses</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>ProstheticsMachine</li>
+			</recipeUsers>
+			<displayPriority>300</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticEye</defName>
+		<label>synthetic eye</label>
+		<labelNoun>a synthetic eye</labelNoun>
+		<description>An installed synthetic eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticEye</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticEye</spawnThingOnRemoved>
+		<woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<eyeGraphicSouth>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+		</eyeGraphicSouth>
+		<eyeGraphicEast>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+		</eyeGraphicEast>
+		<eyeGraphicScale>0.2</eyeGraphicScale>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticEye</defName>
+		<label>synthetic eye</label>
+		<description>Synthetic eye.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticEye</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticEye</defName>
+		<label>install synthetic eye</label>
+		<description>Install a synthetic eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticEye</ThingDef>
+			<HediffDef>SyntheticEye</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic eye.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticEye</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticArm</defName>
+		<label>synthetic arm</label>
+		<labelNoun>a synthetic arm</labelNoun>
+		<description>An installed synthetic arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticArm</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<soundMeleeHit>MeleeHit_SyntheticPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_SyntheticPunch</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>SyntheticArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticArm</defName>
+		<label>synthetic arm</label>
+		<description>Synthetic arm.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticArm</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticArm</defName>
+		<label>install synthetic arm</label>
+		<description>Install a synthetic arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticArm</ThingDef>
+			<HediffDef>SyntheticArm</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticArm</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticLeg</defName>
+		<label>synthetic leg</label>
+		<labelNoun>a synthetic leg</labelNoun>
+		<description>An installed synthetic leg.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLeg</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticLeg</defName>
+		<label>synthetic leg</label>
+		<description>Synthetic leg.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticLeg</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticLeg</defName>
+		<label>install synthetic leg</label>
+		<description>Install a synthetic leg.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLeg</ThingDef>
+			<HediffDef>SyntheticLeg</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic leg.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticLeg</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticSpine</defName>
+		<label>synthetic spine</label>
+		<labelNoun>a synthetic spine</labelNoun>
+		<description>An installed synthetic spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticSpine</defName>
+		<label>synthetic spine</label>
+		<description>Synthetic spine.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticSpine</defName>
+		<label>install synthetic spine</label>
+		<description>Install a synthetic spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticSpine</ThingDef>
+			<HediffDef>SyntheticSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticSpine</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticHeart</defName>
+		<label>synthetic heart</label>
+		<labelNoun>a synthetic heart</labelNoun>
+		<description>An installed synthetic heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticHeart</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticHeart</defName>
+		<label>synthetic heart</label>
+		<description>Synthetic heart.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticHeart</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticHeart</defName>
+		<label>install synthetic heart</label>
+		<description>Install a synthetic heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticHeart</ThingDef>
+			<HediffDef>SyntheticHeart</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticHeart</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticStomach</defName>
+		<label>synthetic stomach</label>
+		<labelNoun>a synthetic stomach</labelNoun>
+		<description>An installed synthetic stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticStomach</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<makeImmuneTo>
+					<li>GutWorms</li>
+				</makeImmuneTo>
+			</li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticStomach</defName>
+		<label>synthetic stomach</label>
+		<description>Synthetic stomach.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Synthread>10</Synthread>
+			<MechanismSpacer>5</MechanismSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticStomach</defName>
+		<label>install synthetic stomach</label>
+		<description>Install a synthetic stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticStomach</ThingDef>
+			<HediffDef>SyntheticStomach</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticStomach</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticEar</defName>
+		<label>synthetic ear</label>
+		<labelNoun>a synthetic ear</labelNoun>
+		<description>An installed synthetic ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticEar</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticEar</defName>
+		<label>synthetic ear</label>
+		<description>Synthetic ear.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticEar</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Synthread>10</Synthread>
+			<MechanismSpacer>5</MechanismSpacer>
+		</costList>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticEar</defName>
+		<label>install synthetic ear</label>
+		<description>Install a synthetic ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticEar</ThingDef>
+			<HediffDef>SyntheticEar</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticEar</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticTongue</defName>
+		<label>synthetic tongue</label>
+		<labelNoun>a synthetic tongue</labelNoun>
+		<description>An installed synthetic tongue.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticTongue</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticTongue</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticTongue</defName>
+		<label>synthetic tongue</label>
+		<description>Synthetic tongue.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticTongue</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<Synthread>10</Synthread>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticTongue</defName>
+		<label>install synthetic tongue</label>
+		<description>Install a synthetic tongue.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticTongue</ThingDef>
+			<HediffDef>SyntheticTongue</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic tongue.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticTongue</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticTongue</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tongue</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticTongue</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticKidney</defName>
+		<label>synthetic kidney</label>
+		<labelNoun>a synthetic kidney</labelNoun>
+		<description>An installed synthetic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticKidney</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticKidney</defName>
+		<label>synthetic kidney</label>
+		<description>An advanced artificial kidney.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticKidney</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticKidney</defName>
+		<label>install synthetic kidney</label>
+		<description>Install a synthetic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticKidney</ThingDef>
+			<HediffDef>SyntheticKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticKidney</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<labelNoun>a synthetic lung</labelNoun>
+		<description>An installed synthetic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLung</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<description>An advanced artificial lung.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticLung</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticLung</defName>
+		<label>install synthetic lung</label>
+		<description>Install a synthetic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLung</ThingDef>
+			<HediffDef>SyntheticLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticLung</addsHediff>
+	</RecipeDef>
+	<!---->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>SyntheticLiver</defName>
+		<label>synthetic liver</label>
+		<labelNoun>a synthetic liver</labelNoun>
+		<description>An installed synthetic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLiver</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.4</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="SteamRim.Hediffs.HediffCompProperties_PartHitPoints">
+				<multiplier>1.25</multiplier>
+			</li>
+		</comps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartSyntheticBase">
+		<defName>SyntheticLiver</defName>
+		<label>synthetic liver</label>
+		<description>An advanced artificial liver.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallSyntheticLiver</RecipeDef>
+		</descriptionHyperlinks>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Synthread>15</Synthread>
+			<MechanismSpacer>6</MechanismSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticLiver</defName>
+		<label>install synthetic liver</label>
+		<description>Install a synthetic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLiver</ThingDef>
+			<HediffDef>SyntheticLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticLiver</addsHediff>
+	</RecipeDef>
+	<!---->
+</Defs>

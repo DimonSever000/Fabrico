@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>WeavingFactory_Cloth</defName>
+		<label>Produce cloth</label>
+		<description>Produce cloth.</description>
+		<jobString>Produces cloth.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCotton</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCotton</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Cloth>20</Cloth>
+		</products>
+		<recipeUsers>
+			<li>WeavingFactory</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>100</Steam>
+			<Water>5</Water>
+		</liquidsIngredients>
+		<researchPrerequisite>WeavingIndustry</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>WeavingFactory_DevilstrandCloth</defName>
+		<label>Produce devilstrand cloth</label>
+		<description>Produce devilstrand cloth.</description>
+		<jobString>Produces devilstrand cloth.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>5000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawDevilstrand</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawDevilstrand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<DevilstrandCloth>20</DevilstrandCloth>
+		</products>
+		<recipeUsers>
+			<li>WeavingFactory</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>200</Steam>
+			<Water>10</Water>
+		</liquidsIngredients>
+		<researchPrerequisite>WeavingIndustry</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>WeavingFactory_Synthread</defName>
+		<label>Produce synthread</label>
+		<description>Produce synthread.</description>
+		<jobString>Produces synthread.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>12000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Synthread>20</Synthread>
+		</products>
+		<recipeUsers>
+			<li>WeavingFactory</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>400</Steam>
+			<Chlorine>10</Chlorine>
+		</liquidsIngredients>
+		<researchPrerequisite>Synthetics</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

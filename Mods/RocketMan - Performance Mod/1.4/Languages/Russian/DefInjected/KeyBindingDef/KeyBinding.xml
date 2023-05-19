@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RocketKeyBindingDisable.label>Переключить ракетчика</RocketKeyBindingDisable.label>
+  <RocketKeyToggleAlerts.label>Переключать все оповещения</RocketKeyToggleAlerts.label>
+  <RocketKeyToggleDebugging.label>Переключить режим отладки RocketMan</RocketKeyToggleDebugging.label>
+  <RocketKeyToggleForcedSlowdowns.label>Переключение глобальных принудительных замедлений</RocketKeyToggleForcedSlowdowns.label>
+
+
+</LanguageData>

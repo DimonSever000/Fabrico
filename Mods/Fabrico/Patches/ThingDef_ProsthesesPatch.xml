@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="BodyPartProstheticMakeableBase"]</xpath>
+				<value>
+					<ThingDef Name="BodyPartProstheticMakeableBase" ParentName="BodyPartProstheticBase" Abstract="True">
+						<recipeMaker>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<recipeUsers>
+								<li>ProstheticsMachine</li>
+							</recipeUsers>
+							<skillRequirements>
+								<Crafting>5</Crafting>
+							</skillRequirements>
+							<unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+							<researchPrerequisite>Prosthetics</researchPrerequisite>
+						</recipeMaker>
+					</ThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[@Name="SurgeryInstallWoodenPartBase"]</xpath>
+				<value>
+					<researchPrerequisite>BasicsBiology</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName="RemoveBodyPart"]</xpath>
+				<value>
+					<researchPrerequisite>BasicsBiology</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[@Name="SurgeryInstallBodyPartNaturalBase"]</xpath>
+				<value>
+					<researchPrerequisite>BasicsBiology</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="BodyPartNaturalBase"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Prostheses/Organic</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[@Name="SurgeryInstallBodyPartProstheticBase"]</xpath>
+				<value>
+					<researchPrerequisite>Prosthetics</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="BodyPartProstheticBase"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Prostheses/T1</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="BodyPartBionicBase"]</xpath>
+				<value>
+					<ThingDef Name="BodyPartBionicBase" ParentName="BodyPartBase" Abstract="True">
+						<techLevel>Spacer</techLevel>
+						<thingCategories>
+							<li>BodyPartsBionic</li>
+						</thingCategories>
+						<graphicData>
+							<texPath>Things/Prostheses/T2</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<drawSize>1</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+						</graphicData>
+						<tradeTags>
+							<li>Bionic</li>
+						</tradeTags>
+						<techHediffsTags>
+							<li>Advanced</li>
+						</techHediffsTags>
+						<statBases>
+							<WorkToMake>26000</WorkToMake>
+						</statBases>
+						<recipeMaker>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+							<skillRequirements>
+								<Crafting>8</Crafting>
+							</skillRequirements>
+							<researchPrerequisite>Bionics</researchPrerequisite>
+							<recipeUsers>
+								<li>ProstheticsMachine</li>
+							</recipeUsers>
+							<displayPriority>300</displayPriority>
+						</recipeMaker>
+					</ThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="BodyPartArchotechBase"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Prostheses/T4</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Neurocalculator"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Prostheses/T3</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[@Name="BodyPartBionicImperialBase"]</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Prostheses/T3</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Mechlink"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Prostheses/T3</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="MechanitorImplantCraftableBase"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Prostheses/T3</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

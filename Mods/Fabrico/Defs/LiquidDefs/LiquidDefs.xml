@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.LiquidSystem.LiquidDef>
+		<defName>Creosote</defName>
+		<label>Creosote</label>
+		<description>Creosote is a flammable liquid used as a fuel, lubricant or ingredient in industry.</description>
+		<color>110, 110, 110</color>
+		<burningDuration>1</burningDuration>
+		<pollutionFactor>2.5</pollutionFactor>
+	</SteamRim.LiquidSystem.LiquidDef>
+	<!---->
+	<SteamRim.LiquidSystem.LiquidDef>
+		<defName>Water</defName>
+		<label>Water</label>
+		<description>Water is the only source of steam, so its importance cannot be overestimated. It is also used in production.</description>
+		<color>90, 112, 167</color>
+	</SteamRim.LiquidSystem.LiquidDef>
+	<!---->
+	<SteamRim.LiquidSystem.LiquidDef>
+		<defName>Steam</defName>
+		<label>Steam</label>
+		<description>Water steam sets the mechanisms in motion and energizes the machines.</description>
+		<color>0.823, 0.823, 0.823</color>
+	</SteamRim.LiquidSystem.LiquidDef>
+	<!---->
+	<SteamRim.LiquidSystem.LiquidDef>
+		<defName>Chlorine</defName>
+		<label>Chlorine</label>
+		<description>A corrosive and dangerous gas, indispensable for the needs of the chemical industry. It is also used for the production of complex alloys.</description>
+		<color>90,124,84</color>
+	</SteamRim.LiquidSystem.LiquidDef>
+	<!---->
+	<SteamRim.LiquidSystem.LiquidDef>
+		<defName>Biofuel</defName>
+		<label>Biofuel</label>
+		<description>Fuel derived from vegetable and natural elements. It has fairly good properties and less pollutes the environment.</description>
+		<color>150,70,60</color>
+		<burningDuration>2</burningDuration>
+		<pollutionFactor>0.5</pollutionFactor>
+	</SteamRim.LiquidSystem.LiquidDef>
+	<!---->
+	<SteamRim.LiquidSystem.LiquidDef>
+		<defName>Chemfuel</defName>
+		<label>Chemfuel</label>
+		<description>A product of the chemical industry and an excellent fuel. Pretty dirty fuel.</description>
+		<color>110,80,75</color>
+		<burningDuration>3</burningDuration>
+		<pollutionFactor>2</pollutionFactor>
+	</SteamRim.LiquidSystem.LiquidDef>
+	<!---->
+</Defs>

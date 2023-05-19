@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<AutomatonWorker.label>Автоматон рабочий</AutomatonWorker.label>
+	<AutomatonWorker.description>Базовая версия рабочих роботов не может похвастаться эффективностью.</AutomatonWorker.description>
+	<!---->
+	<AutomatonSoldier.label>Автоматон солдат</AutomatonSoldier.label>
+	<AutomatonSoldier.description>Базовая версия боевых роботов не может похвастаться эффективностью.</AutomatonSoldier.description>
+	<!---->
+	<AutomatonMedic.label>Автоматон медик</AutomatonMedic.label>
+	<AutomatonMedic.description>Базовая версия медицинских роботов не может похвастаться эффективностью.</AutomatonMedic.description>
+	<!---->
+	<!---->
+	<!---->
+	<RobotWorker.label>Робот рабочий</RobotWorker.label>
+	<RobotWorker.description>Продвинутая версия рабочих роботов, превосходящая человека в эффективности.</RobotWorker.description>
+	<!---->
+	<RobotSoldier.label>Робот солдат</RobotSoldier.label>
+	<RobotSoldier.description>Продвинутая версия боевых роботов, превосходящая человека в эффективности.</RobotSoldier.description>
+	<!---->
+	<RobotMedic.label>Робот медик</RobotMedic.label>
+	<RobotMedic.description>Продвинутая версия медицинских роботов, превосходящая человека в эффективности.</RobotMedic.description>
+	<!---->
+	<RobotAI.label>Робот ИИ</RobotAI.label>
+	<RobotAI.description>Продвинутая версия роботов, превосходящая человека в эффективности и способная к самообучению.</RobotAI.description>
+	<!---->
+	<!---->
+	<!---->
+	<Defect.label>Неисправность</Defect.label>
+	<Defect.description>Часть компонентов вышла из строя и не подлежит восстановлению. Требуется полная замена части тела.</Defect.description>
+	<Defect.stages.easy.label>легкая</Defect.stages.easy.label>
+	<Defect.stages.medium.label>средняя</Defect.stages.medium.label>
+	<Defect.stages.severe.label>серьезная</Defect.stages.severe.label>
+	<Defect.stages.critical.label>критическая</Defect.stages.critical.label>
+	<!---->
+	<AIDefect.label>Ошибка ИИ</AIDefect.label>
+	<AIDefect.description>Накопление сбоев в программе может привести к враждебности и агрессии, что в конечном счете приведет к мятежу.</AIDefect.description>
+	<AIDefect.stages.easy.label>легкая</AIDefect.stages.easy.label>
+	<AIDefect.stages.medium.label>средняя</AIDefect.stages.medium.label>
+	<AIDefect.stages.severe.label>серьезная</AIDefect.stages.severe.label>
+	<AIDefect.stages.critical.label>критическая</AIDefect.stages.critical.label>
+	<!---->
+</LanguageData>

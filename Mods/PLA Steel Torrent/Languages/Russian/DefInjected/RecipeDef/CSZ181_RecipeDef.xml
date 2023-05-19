@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/CSZ181.xml-->
+                         <!-- install Type 89 HMG -->
+<PLA_InstallWeapon89HMG.label>установить Тип-89</PLA_InstallWeapon89HMG.label>
+                               <!-- Install the Type 89 HMG on vehicle. -->
+<PLA_InstallWeapon89HMG.description>Установить тяжелый пулемёт Тип-89 на технику</PLA_InstallWeapon89HMG.description>
+                             <!-- Installing Type 89 HMG. -->
+<PLA_InstallWeapon89HMG.jobString>Устанавливаю Тип-89</PLA_InstallWeapon89HMG.jobString>
+                        <!-- install Type-04 grenade launcher -->
+<PLA_InstallWeapon04GL.label>установить Тип-4</PLA_InstallWeapon04GL.label>
+                              <!-- Install the Type-04 grenade launcher on vehicle. -->
+<PLA_InstallWeapon04GL.description>Установить гранатомёт Тип-4 на технику</PLA_InstallWeapon04GL.description>
+                            <!-- Installing Type-04 grenade launcher. -->
+<PLA_InstallWeapon04GL.jobString>Устанавливаю гранатомёт Тип-4</PLA_InstallWeapon04GL.jobString>
+                                  <!-- install 30mm autocannon -->
+<PLA_InstallWeapon30mmAutocannon.label>установить автопушку</PLA_InstallWeapon30mmAutocannon.label>
+                                        <!-- Install the 30mm autocannon on vehicle. -->
+<PLA_InstallWeapon30mmAutocannon.description>Установить 30мм автопушку на технику</PLA_InstallWeapon30mmAutocannon.description>
+                                      <!-- Installing 30mm autocannon. -->
+<PLA_InstallWeapon30mmAutocannon.jobString>Устанавливаю 30мм автопушку</PLA_InstallWeapon30mmAutocannon.jobString>
+
+</LanguageData>

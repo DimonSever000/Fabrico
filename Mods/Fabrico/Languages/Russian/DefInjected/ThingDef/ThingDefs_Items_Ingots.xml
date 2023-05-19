@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<CopperIngot.label>Медный слиток</CopperIngot.label>
+	<CopperIngot.description>Слиток очищенной меди, используемый для создания инструментов, сплавов и индустрии.</CopperIngot.description>
+	<CopperIngot.stuffProps.stuffAdjective>меди</CopperIngot.stuffProps.stuffAdjective>
+	<!---->
+	<TinIngot.label>Оловянный слиток</TinIngot.label>
+	<TinIngot.description>Слиток олова, являющийся частым компонентом сплавов. В чистом виде почти не применяется.</TinIngot.description>
+	<TinIngot.stuffProps.stuffAdjective>олова</TinIngot.stuffProps.stuffAdjective>
+	<!---->
+	<BronzeIngot.label>Бронзовый слиток</BronzeIngot.label>
+	<BronzeIngot.description>Слиток чистой бронзы. Прочный металл, отлично подходящий для сложного строительства.</BronzeIngot.description>
+	<BronzeIngot.stuffProps.stuffAdjective>бронзы</BronzeIngot.stuffProps.stuffAdjective>
+	<!---->
+	<Steel.label>Стальной слиток</Steel.label>
+	<Steel.description>Сплав железа с углеродом, используемый для создания огромного разнообразия конструкций, оружия и машин.</Steel.description>
+	<Steel.stuffProps.stuffAdjective>стали</Steel.stuffProps.stuffAdjective>
+	<!---->
+	<Gold.label>Золотой слиток</Gold.label>
+	<Gold.description>Отражатель богатства, тщеславия и жадности.</Gold.description>
+	<Gold.stuffProps.stuffAdjective>золота</Gold.stuffProps.stuffAdjective>
+	<!---->
+	<SilverIngot.label>Серебряный слиток</SilverIngot.label>
+	<SilverIngot.description>Слиток сверкающего металла, привлекающего своим видом.</SilverIngot.description>
+	<SilverIngot.stuffProps.stuffAdjective>серебра</SilverIngot.stuffProps.stuffAdjective>
+	<!---->
+	<LeadIngot.label>Свинцовый слиток</LeadIngot.label>
+	<LeadIngot.description>Слиток мягкого металла, легко поддающегося обработке. Свинец применяется для производства боеприпасов и в промышленной обработке.</LeadIngot.description>
+	<LeadIngot.stuffProps.stuffAdjective>свинца</LeadIngot.stuffProps.stuffAdjective>
+	<!---->
+	<Plasteel.label>Титановый слиток</Plasteel.label>
+	<Plasteel.description>Титан это крайне прочный металл, часто используемый в продвинутом машиностроении или оружейном деле.</Plasteel.description>
+	<Plasteel.stuffProps.stuffAdjective>титана</Plasteel.stuffProps.stuffAdjective>
+	<!---->
+	<Uranium.label>Инваровый слиток</Uranium.label>
+	<Uranium.description>Технический светлый металл. Крайне востребован в приборостроении и точном машиностроении.</Uranium.description>
+	<Uranium.stuffProps.stuffAdjective>инвара</Uranium.stuffProps.stuffAdjective>
+	<!---->
+	<AluminumIngot.label>Алюминиевый слиток</AluminumIngot.label>
+	<AluminumIngot.description>Относительно легкий металл, который повсеместно применяется в промышленности.</AluminumIngot.description>
+	<AluminumIngot.stuffProps.stuffAdjective>алюминия</AluminumIngot.stuffProps.stuffAdjective>
+	<!---->
+</LanguageData>

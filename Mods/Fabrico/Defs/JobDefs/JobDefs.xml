@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<JobDef>
+		<defName>CollectSand</defName>
+		<driverClass>SteamRim.AI.Jobs.JobDriver_CollectSand</driverClass>
+		<reportString>Collecting sand.</reportString>
+		<alwaysShowWeapon>true</alwaysShowWeapon>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<!---->
+	<JobDef>
+		<defName>CollectClay</defName>
+		<driverClass>SteamRim.AI.Jobs.JobDriver_CollectClay</driverClass>
+		<reportString>Collecting soft clay.</reportString>
+		<alwaysShowWeapon>true</alwaysShowWeapon>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<!---->
+	<JobDef>
+		<defName>CollectDirt</defName>
+		<driverClass>SteamRim.AI.Jobs.JobDriver_CollectDirt</driverClass>
+		<reportString>Collecting soft dirt.</reportString>
+		<alwaysShowWeapon>true</alwaysShowWeapon>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	<!---->
+</Defs>

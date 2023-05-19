@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[@Name="CentipedeMechanoidRecipe"]</xpath>
+				<value>
+					<SteamRim.Recipes.ExtendedRecipeDef Name="CentipedeMechanoidRecipe" ParentName="HeavyMechanoidRecipe" Abstract="True">
+						<gestationCycles>6</gestationCycles>
+						<researchPrerequisite>HighMechtech</researchPrerequisite>
+						<ingredients Inherit="False">
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Plasteel</li>
+									</thingDefs>
+								</filter>
+								<count>150</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>TechnicalPlates</li>
+									</thingDefs>
+								</filter>
+								<count>200</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>ComponentIndustrial</li>
+									</thingDefs>
+								</filter>
+								<count>8</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Mechanism</li>
+									</thingDefs>
+								</filter>
+								<count>8</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>SubcoreHigh</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+						<liquidsIngredients Inherit="False">
+							<Creosote>30</Creosote>
+							<Steam>3000</Steam>
+						</liquidsIngredients>
+					</SteamRim.Recipes.ExtendedRecipeDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAttributeSet">
+                <xpath>*/RecipeDef[defName="CentipedeBlaster"]</xpath>
+                <attribute>Class</attribute>
+                <value>SteamRim.Recipes.ExtendedRecipeDef</value>
+            </li>
+			<li Class="PatchOperationAttributeSet">
+                <xpath>*/RecipeDef[defName="CentipedeGunner"]</xpath>
+                <attribute>Class</attribute>
+                <value>SteamRim.Recipes.ExtendedRecipeDef</value>
+            </li>
+			<li Class="PatchOperationAttributeSet">
+                <xpath>*/RecipeDef[defName="CentipedeBurner"]</xpath>
+                <attribute>Class</attribute>
+                <value>SteamRim.Recipes.ExtendedRecipeDef</value>
+            </li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

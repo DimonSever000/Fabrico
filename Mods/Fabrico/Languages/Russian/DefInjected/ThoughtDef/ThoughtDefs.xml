@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<DeathOfDistantStar.stages.death_of_distant_star.label>Смерть далекой звезды</DeathOfDistantStar.stages.death_of_distant_star.label>
+	<DeathOfDistantStar.stages.death_of_distant_star.description>Чрезвычайно увлекательно наблюдать за смертью звезды спустя годы после ее реальной смерти.</DeathOfDistantStar.stages.death_of_distant_star.description>
+	<!---->
+	<ParadeOfPlanets.stages.parade_of_planets.label>Парад планет</ParadeOfPlanets.stages.parade_of_planets.label>
+	<ParadeOfPlanets.stages.parade_of_planets.description>Мне довелось увидеть парад планет. Интересное зрелище.</ParadeOfPlanets.stages.parade_of_planets.description>
+	<!---->
+	<CatJoin.stages.lost_cat.label>Заблудившийся кот</CatJoin.stages.lost_cat.label>
+	<CatJoin.stages.lost_cat.description>К нам присоединился брошенный кот. Мило.</CatJoin.stages.lost_cat.description>
+	<!---->
+</LanguageData>

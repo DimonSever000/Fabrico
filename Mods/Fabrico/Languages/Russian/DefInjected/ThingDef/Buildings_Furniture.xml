@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<LiquidFuelLamp.label>Жидкотопливная лампа</LiquidFuelLamp.label>
+	<LiquidFuelLamp.description>Механический светильник, сжигающий жидкое топливо для своей работы.</LiquidFuelLamp.description>
+	<!---->
+	<SolidFuelLamp.label>Твердотопливная лампа</SolidFuelLamp.label>
+	<SolidFuelLamp.description>Механический светильник, сжигающий твердое топливо для своей работы.</SolidFuelLamp.description>
+	<!---->
+</LanguageData>

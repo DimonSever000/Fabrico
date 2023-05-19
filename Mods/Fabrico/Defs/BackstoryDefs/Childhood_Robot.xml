@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Defs>
+	<!---->
+	<BackstoryDef>
+		<defName>Childhood_NewbornRobot</defName>
+		<title>Robot</title>
+		<titleFemale>Robot</titleFemale>
+		<titleShort>Robot</titleShort>
+		<titleShortFemale>Robot</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] is made in a factory for work.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>NewbornRobot</li>
+		</spawnCategories>
+	</BackstoryDef>
+	<!---->
+	<BackstoryDef>
+		<defName>Childhood_Robot</defName>
+		<title>Robot</title>
+		<titleFemale>Robot</titleFemale>
+		<titleShort>Robot</titleShort>
+		<titleShortFemale>Robot</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] is made in a factory for work.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Robot</li>
+		</spawnCategories>
+	</BackstoryDef>
+	<!---->
+</Defs>

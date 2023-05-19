@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<MineableTetrahedriteOre.label>Тетраэдритовая руда</MineableTetrahedriteOre.label>
+	<MineableTetrahedriteOre.description>Тетраэдритовая руда.</MineableTetrahedriteOre.description>
+	<TetrahedriteOre.label>Тетраэдритовая руда</TetrahedriteOre.label>
+	<TetrahedriteOre.description>Тетраэдрит это распространенная форма соединений меди в природе.</TetrahedriteOre.description>
+	<StalagmiteTetrahedriteOre.label>Тетраэдритовые сталагмиты</StalagmiteTetrahedriteOre.label>
+	<StalagmiteTetrahedriteOre.description>Тетраэдритовые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteTetrahedriteOre.description>
+	<!---->
+	<MineableGold.label>Золотая руда</MineableGold.label>
+	<MineableGold.description>Золотая руда.</MineableGold.description>
+	<GoldOre.label>Золотая руда</GoldOre.label>
+	<GoldOre.description>Золотая руда — источник золота для жадных людей.</GoldOre.description>
+	<StalagmiteGoldOre.label>Золотые сталагмиты</StalagmiteGoldOre.label>
+	<StalagmiteGoldOre.description>Золотые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteGoldOre.description>
+	<!---->
+	<MineableCassiteriteOre.label>Касситеритовая руда</MineableCassiteriteOre.label>
+	<MineableCassiteriteOre.description>Касситеритовая руда.</MineableCassiteriteOre.description>
+	<CassiteriteOre.label>Касситеритовая руда</CassiteriteOre.label>
+	<CassiteriteOre.description>Касситерит — природный оксид олова.</CassiteriteOre.description>
+	<StalagmiteCassiteriteOre.label>Касситеритовые сталагмиты</StalagmiteCassiteriteOre.label>
+	<StalagmiteCassiteriteOre.description>Касситеритовые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteCassiteriteOre.description>
+	<!---->
+	<MineableSteel.label>Лимонитовая руда</MineableSteel.label>
+	<MineableSteel.description>Лимонитовая руда.</MineableSteel.description>
+	<LimoniteOre.label>Лимонитовая руда</LimoniteOre.label>
+	<LimoniteOre.description>Руда, содержащая соединения железа и кислорода.</LimoniteOre.description>
+	<StalagmiteLimoniteOre.label>Лимонитовые сталагмиты</StalagmiteLimoniteOre.label>
+	<StalagmiteLimoniteOre.description>Лимонитовые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteLimoniteOre.description>
+	<!---->
+	<MineablePlasteel.label>Ильменитовая руда</MineablePlasteel.label>
+	<MineablePlasteel.description>Ильменитовая руда.</MineablePlasteel.description>
+	<IlmeniteOre.label>Ильменитовая руда</IlmeniteOre.label>
+	<IlmeniteOre.description>Соединения железа и титана, образованные под влиянием тектонических процессов.</IlmeniteOre.description>
+	<StalagmiteIlmeniteOre.label>Ильменитовые сталагмиты</StalagmiteIlmeniteOre.label>
+	<StalagmiteIlmeniteOre.description>Ильменитовые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteIlmeniteOre.description>
+	<!---->
+	<MineableBauxiteOre.label>Бокситовая руда</MineableBauxiteOre.label>
+	<MineableBauxiteOre.description>Бокситовая руда.</MineableBauxiteOre.description>
+	<BauxiteOre.label>Бокситовая руда</BauxiteOre.label>
+	<BauxiteOre.description>Оксиды алюминия, заключенные в рудные кластеры.</BauxiteOre.description>
+	<StalagmiteBauxiteOre.label>Бокситовые сталагмиты</StalagmiteBauxiteOre.label>
+	<StalagmiteBauxiteOre.description>Бокситовые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteBauxiteOre.description>
+	<!---->
+	<MineableCoalOre.label>Угольная руда</MineableCoalOre.label>
+	<MineableCoalOre.description>Угольная руда.</MineableCoalOre.description>
+	<Coal.label>Каменный уголь</Coal.label>
+	<Coal.description>Природный каменный уголь, встречающийся повсеместно. Основной источник топлива.</Coal.description>
+	<StalagmiteCoal.label>Угольные сталагмиты</StalagmiteCoal.label>
+	<StalagmiteCoal.description>Угольные сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteCoal.description>
+	<!---->
+	<MineableSulfurOre.label>Серная руда</MineableSulfurOre.label>
+	<MineableSulfurOre.description>Серная руда.</MineableSulfurOre.description>
+	<Sulfur.label>Сера</Sulfur.label>
+	<Sulfur.description>Горючее вещество, которое может применяться в производстве химических реагентов и оружия.</Sulfur.description>
+	<StalagmiteSulfur.label>Серные сталагмиты</StalagmiteSulfur.label>
+	<StalagmiteSulfur.description>Серные сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteSulfur.description>
+	<!---->
+	<MineableJade.label>Алмазная руда</MineableJade.label>
+	<MineableJade.description>Алмазная руда.</MineableJade.description>
+	<DiamondOre.label>Алмазная руда</DiamondOre.label>
+	<DiamondOre.description>Крайне прочные кристаллы углерода, образованные в недрах.</DiamondOre.description>
+	<StalagmiteDiamondOre.label>Алмазные сталагмиты</StalagmiteDiamondOre.label>
+	<StalagmiteDiamondOre.description>Алмазные сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteDiamondOre.description>
+	<!---->
+	<MineableSilver.label>Серебряная руда</MineableSilver.label>
+	<MineableSilver.description>Серебряная руда.</MineableSilver.description>
+	<SilverOre.label>Серебряная руда</SilverOre.label>
+	<SilverOre.description>Драгоценная руда, содержащая вкрапления оксидов серебра.</SilverOre.description>
+	<StalagmiteSilverOre.label>Серебряные сталагмиты</StalagmiteSilverOre.label>
+	<StalagmiteSilverOre.description>Серебряные сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteSilverOre.description>
+	<!---->
+	<MineableUranium.label>Селитровая руда</MineableUranium.label>
+	<MineableUranium.description>Селитровая руда.</MineableUranium.description>
+	<Saltpeter.label>Селитра</Saltpeter.label>
+	<Saltpeter.description>Взрывоопасные кристаллы, применяемые в оружейной промышленности.</Saltpeter.description>
+	<StalagmiteSaltpeter.label>Селитровые сталагмиты</StalagmiteSaltpeter.label>
+	<StalagmiteSaltpeter.description>Селитровые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteSaltpeter.description>
+	<!---->
+	<MineableComponentsIndustrial.label>Галенитовая руда</MineableComponentsIndustrial.label>
+	<MineableComponentsIndustrial.description>Галенитовая руда.</MineableComponentsIndustrial.description>
+	<GalenaOre.label>Галенитовая руда</GalenaOre.label>
+	<GalenaOre.description>Соединения свинца и серы.</GalenaOre.description>
+	<StalagmiteGalenaOre.label>Галенитовые сталагмиты</StalagmiteGalenaOre.label>
+	<StalagmiteGalenaOre.description>Галенитовые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteGalenaOre.description>
+	<!---->
+	<MineableClay.label>Глина</MineableClay.label>
+	<MineableClay.description>Скопления глинистых пород.</MineableClay.description>
+	<StalagmiteClay.label>Глиняные сталагмиты</StalagmiteClay.label>
+	<StalagmiteClay.description>Глиняные сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteClay.description>
+	<!---->
+	<MineableSalt.label>Каменная соль</MineableSalt.label>
+	<MineableSalt.description>Каменная соль.</MineableSalt.description>
+	<Salt.label>Соль</Salt.label>
+	<Salt.description>Соединения натрия и хлора. Применяется в консервации продуктов. Соль хороший источник хлора.</Salt.description>
+	<StalagmiteSalt.label>Солевые сталагмиты</StalagmiteSalt.label>
+	<StalagmiteSalt.description>Солевые сталагмиты. Сталагмиты возникают в местах высокой концентрации подземной руды.</StalagmiteSalt.description>
+	<!---->
+</LanguageData>

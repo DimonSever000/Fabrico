@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>MineralScanner_SubsoilAnalysis</defName>
+		<label>Subsoil analysis</label>
+		<description>Subsoil analysis.</description>
+		<jobString>Analyzes the subsoil.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>30000</workAmount>
+		<recipeUsers>
+			<li>GroundPenetratingScanner</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>300</Steam>
+		</liquidsIngredients>
+		<researchPrerequisite>GroundPenetratingScanner</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LongRangeMineralScanner_SubsoilAnalysis</defName>
+		<label>Subsoil analysis</label>
+		<description>Subsoil analysis.</description>
+		<jobString>Analyzes the subsoil.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>60000</workAmount>
+		<recipeUsers>
+			<li>LongRangeMineralScanner</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>600</Steam>
+		</liquidsIngredients>
+		<researchPrerequisite>LongRangeMineralScanner</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

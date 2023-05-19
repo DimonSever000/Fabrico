@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Make_Glass.label>Выплавить стекло</Make_Glass.label>
+	<Make_Glass.description>Выплавка стекло.</Make_Glass.description>
+	<Make_Glass.jobString>Выплавляет стекло</Make_Glass.jobString>
+	<!---->
+	<Make_Copper.label>Выплавить медные слитки</Make_Copper.label>
+	<Make_Copper.description>Выплавка медных слитков.</Make_Copper.description>
+	<Make_Copper.jobString>Выплавляет медные слитки</Make_Copper.jobString>
+	<!---->
+	<Make_Tin.label>Выплавить оловянные слитки</Make_Tin.label>
+	<Make_Tin.description>Выплавка оловянных слитков.</Make_Tin.description>
+	<Make_Tin.jobString>Выплавляет оловянные слитки</Make_Tin.jobString>
+	<!---->
+	<Make_Bronze.label>Выплавить бронзовые слитки</Make_Bronze.label>
+	<Make_Bronze.description>Выплавка бронзовых слитков.</Make_Bronze.description>
+	<Make_Bronze.jobString>Выплавляет бронзовые слитки</Make_Bronze.jobString>
+	<!---->
+	<Make_Steel.label>Выплавить стальные слитки</Make_Steel.label>
+	<Make_Steel.description>Выплавка стальных слитков.</Make_Steel.description>
+	<Make_Steel.jobString>Выплавляет стальные слитки</Make_Steel.jobString>
+	<!---->
+	<Make_ComponentIndustrial.label>Выковать компонент</Make_ComponentIndustrial.label>
+	<Make_ComponentIndustrial.description>Ковка компонентов.</Make_ComponentIndustrial.description>
+	<Make_ComponentIndustrial.jobString>Кует компоненты</Make_ComponentIndustrial.jobString>
+	<!---->
+	<Make_Mechanism.label>Выковать механизм</Make_Mechanism.label>
+	<Make_Mechanism.description>Ковка механизмов.</Make_Mechanism.description>
+	<Make_Mechanism.jobString>Кует механизмы</Make_Mechanism.jobString>
+	<!---->
+	<Make_SimplePlates.label>Выковать простые пластины</Make_SimplePlates.label>
+	<Make_SimplePlates.description>Ковка простых пластин.</Make_SimplePlates.description>
+	<Make_SimplePlates.jobString>Кует простые пластины</Make_SimplePlates.jobString>
+	<!---->
+	<Make_StrongPlates.label>Выковать прочные пластины</Make_StrongPlates.label>
+	<Make_StrongPlates.description>Ковка прочных пластин.</Make_StrongPlates.description>
+	<Make_StrongPlates.jobString>Кует прочные пластины</Make_StrongPlates.jobString>
+	<!---->
+	<Make_TechnicalPlates.label>Выковать технические пластины</Make_TechnicalPlates.label>
+	<Make_TechnicalPlates.description>Ковка технических пластин.</Make_TechnicalPlates.description>
+	<Make_TechnicalPlates.jobString>Кует технические пластины</Make_TechnicalPlates.jobString>
+	<!---->
+	<Crush_StoneChunks.label>Раскрошить каменные обломки</Crush_StoneChunks.label>
+	<Crush_StoneChunks.description>Раскрошить каменные обломки.</Crush_StoneChunks.description>
+	<Crush_StoneChunks.jobString>Крошит каменные обломки</Crush_StoneChunks.jobString>
+	<!---->
+	<Produce_Concrete.label>Произвести бетон</Produce_Concrete.label>
+	<Produce_Concrete.description>Произвести бетон.</Produce_Concrete.description>
+	<Produce_Concrete.jobString>Производит бетон</Produce_Concrete.jobString>
+	<!---->
+	<Produce_Cloth.label>Произвести ткань</Produce_Cloth.label>
+	<Produce_Cloth.description>Произвести ткань.</Produce_Cloth.description>
+	<Produce_Cloth.jobString>Производит ткань</Produce_Cloth.jobString>
+	<!---->
+	<Produce_DevilstrandCloth.label>Произвести дьявлоткань</Produce_DevilstrandCloth.label>
+	<Produce_DevilstrandCloth.description>Произвести дьявлоткань.</Produce_DevilstrandCloth.description>
+	<Produce_DevilstrandCloth.jobString>Производит дьявлоткань</Produce_DevilstrandCloth.jobString>
+	<!---->
+	<Make_MechanismSpacer.label>Изготовить продвинутый механизм</Make_MechanismSpacer.label>
+	<Make_MechanismSpacer.description>Изготовить продвинутый механизм.</Make_MechanismSpacer.description>
+	<Make_MechanismSpacer.jobString>Изготавливает продвинутый механизм</Make_MechanismSpacer.jobString>
+	<!---->
+	<Make_LeadIngot.label>Выплавить свинцовые слитки</Make_LeadIngot.label>
+	<Make_LeadIngot.description>Выплавка свинцовых слитков.</Make_LeadIngot.description>
+	<Make_LeadIngot.jobString>Выплавляет свинцовые слитки</Make_LeadIngot.jobString>
+	<!---->
+	<Make_Plasteel.label>Выплавить титановые слитки</Make_Plasteel.label>
+	<Make_Plasteel.description>Выплавка титановых слитков.</Make_Plasteel.description>
+	<Make_Plasteel.jobString>Выплавляет титановые слитки</Make_Plasteel.jobString>
+	<!---->
+	<Make_AluminumIngot.label>Выплавить алюминиевые слитки</Make_AluminumIngot.label>
+	<Make_AluminumIngot.description>Выплавка алюминиевых слитков.</Make_AluminumIngot.description>
+	<Make_AluminumIngot.jobString>Выплавляет алюминиевые слитки</Make_AluminumIngot.jobString>
+	<!---->
+	<Make_Uranium.label>Выплавить инваровые слитки</Make_Uranium.label>
+	<Make_Uranium.description>Выплавка инваровых слитков.</Make_Uranium.description>
+	<Make_Uranium.jobString>Выплавляет инваровые слитки</Make_Uranium.jobString>
+	<!---->
+	<Repair.label>Ремонт снаряжения</Repair.label>
+	<Repair.description>Ремонт снаряжения.</Repair.description>
+	<Repair.jobString>Ремонтирует снаряжение</Repair.jobString>
+	<!---->
+	<Make_RepairKit.label>Изготовить набор для ремонта</Make_RepairKit.label>
+	<Make_RepairKit.description>Изготовить набор для ремонта.</Make_RepairKit.description>
+	<Make_RepairKit.jobString>Изготавливает набор для ремонта</Make_RepairKit.jobString>
+	<!---->
+	<Make_SolarCell.label>Изготовить солнечную ячейку</Make_SolarCell.label>
+	<Make_SolarCell.description>Изготовить солнечную ячейку.</Make_SolarCell.description>
+	<Make_SolarCell.jobString>Изготавливает солнечную ячейку</Make_SolarCell.jobString>
+	<!---->
+	<Recycle.label>Переработка снаряжения</Recycle.label>
+	<Recycle.description>Переработка снаряжения.</Recycle.description>
+	<Recycle.jobString>Перерабатывает снаряжение</Recycle.jobString>
+	<!---->
+</LanguageData>

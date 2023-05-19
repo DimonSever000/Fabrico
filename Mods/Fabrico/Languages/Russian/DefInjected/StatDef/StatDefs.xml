@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<BurningDuration.label>Время горения</BurningDuration.label>
+	<BurningDuration.description>Множитель времени горения в различных печах, кострах или других строениях.</BurningDuration.description>
+	<!---->
+	<PollutionFactor.label>Множитель загрязнения</PollutionFactor.label>
+	<PollutionFactor.description>Множитель показывает на сколько опасно использовать этот вид топлива для сжигания в больших промышленных строениях. Чем выше значение, тем сильнее будет влияние загрязнения.</PollutionFactor.description>
+	<!---->
+	<ProstheticsEfficiency.label>Эффективность при протезировании</ProstheticsEfficiency.label>
+	<ProstheticsEfficiency.description>Множитель показывает на сколько эффективен будет протез из этого материала.</ProstheticsEfficiency.description>
+	<!---->
+	<ProstheticsHitPoints.label>Здоровье при протезировании</ProstheticsHitPoints.label>
+	<ProstheticsHitPoints.description>Множитель показывает сколько здоровья будет иметь часть тела, замененная протезом из этого материала.</ProstheticsHitPoints.description>
+	<!---->
+</LanguageData>

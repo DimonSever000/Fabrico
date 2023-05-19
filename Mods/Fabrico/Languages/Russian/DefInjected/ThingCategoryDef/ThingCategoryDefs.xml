@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Ores.label>Руды</Ores.label>
+	<!---->
+	<Ingots.label>Слитки</Ingots.label>
+	<SimpleIngots.label>Простые слитки</SimpleIngots.label>
+	<StrongIngots.label>Прочные слитки</StrongIngots.label>
+	<TechnicalIngots.label>Технические слитки</TechnicalIngots.label>
+	<!---->
+	<Powders.label>Порошки</Powders.label>
+	<!---->
+	<Books.label>Книги</Books.label>
+	<!---->
+</LanguageData>

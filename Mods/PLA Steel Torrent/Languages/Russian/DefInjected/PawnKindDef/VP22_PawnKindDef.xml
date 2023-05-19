@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/VP22.xml-->
+                <!-- VP-22 truck -->
+<PLA_VP22Truck.label>VP-22 грузовик</PLA_VP22Truck.label>
+                      <!-- Plural VP-22 truck -->
+<PLA_VP22Truck.labelPlural>VP-22 грузовики</PLA_VP22Truck.labelPlural>
+                    <!-- Male VP-22 truck -->
+<PLA_VP22Truck.labelMale>VP-22 грузовик</PLA_VP22Truck.labelMale>
+                          <!-- Male Plural VP-22 truck -->
+<PLA_VP22Truck.labelMalePlural>VP-22 грузовики</PLA_VP22Truck.labelMalePlural>
+                      <!-- Female VP-22 truck -->
+<PLA_VP22Truck.labelFemale>VP-22 грузовик</PLA_VP22Truck.labelFemale>
+                            <!-- Female Plural VP-22 truck -->
+<PLA_VP22Truck.labelFemalePlural>VP-22 грузовики</PLA_VP22Truck.labelFemalePlural>
+
+</LanguageData>

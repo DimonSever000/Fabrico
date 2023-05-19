@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SteamTurbine_ProduceElectricity.label>Производство электроэнергии</SteamTurbine_ProduceElectricity.label>
+	<SteamTurbine_ProduceElectricity.description>Производство электроэнергии.</SteamTurbine_ProduceElectricity.description>
+	<SteamTurbine_ProduceElectricity.jobString>Производит электроэнергию</SteamTurbine_ProduceElectricity.jobString>
+	<!---->
+	<SteamReactor_ProduceElectricity.label>Производство электроэнергии</SteamReactor_ProduceElectricity.label>
+	<SteamReactor_ProduceElectricity.description>Производство электроэнергии.</SteamReactor_ProduceElectricity.description>
+	<SteamReactor_ProduceElectricity.jobString>Производит электроэнергию</SteamReactor_ProduceElectricity.jobString>
+	<!---->
+</LanguageData>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<EggBarnOwlUnfertilized.label>Яйцо совы (неопл.)</EggBarnOwlUnfertilized.label>
+	<EggBarnOwlUnfertilized.description>Неоплодотворённое яйцо совы. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggBarnOwlUnfertilized.description>
+	<EggBarnOwlFertilized.label>Яйцо совы (опл.)</EggBarnOwlFertilized.label>
+	<EggBarnOwlFertilized.description>Оплодотворённое яйцо совы. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggBarnOwlFertilized.description>
+	<!---->
+	<EggEagleOwlUnfertilized.label>Яйцо филина (неопл.)</EggEagleOwlUnfertilized.label>
+	<EggEagleOwlUnfertilized.description>Неоплодотворённое яйцо филина. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggEagleOwlUnfertilized.description>
+	<EggEagleOwlFertilized.label>Яйцо филина (опл.)</EggEagleOwlFertilized.label>
+	<EggEagleOwlFertilized.description>Оплодотворённое яйцо филина. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggEagleOwlFertilized.description>
+	<!---->
+	<EggKestrelUnfertilized.label>Яйцо пустельги (неопл.)</EggKestrelUnfertilized.label>
+	<EggKestrelUnfertilized.description>Неоплодотворённое яйцо пустельги. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggKestrelUnfertilized.description>
+	<EggKestrelFertilized.label>Яйцо пустельги (опл.)</EggKestrelFertilized.label>
+	<EggKestrelFertilized.description>Оплодотворённое яйцо пустельги. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggKestrelFertilized.description>
+	<!---->
+	<EggCrowUnfertilized.label>Яйцо ворона (неопл.)</EggCrowUnfertilized.label>
+	<EggCrowUnfertilized.description>Неоплодотворённое яйцо ворона. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCrowUnfertilized.description>
+	<EggCrowFertilized.label>Яйцо ворона (опл.)</EggCrowFertilized.label>
+	<EggCrowFertilized.description>Оплодотворённое яйцо ворона. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCrowFertilized.description>
+	<!---->
+	<EggCockatooUnfertilized.label>Яйцо какаду (неопл.)</EggCockatooUnfertilized.label>
+	<EggCockatooUnfertilized.description>Неоплодотворённое яйцо какаду. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCockatooUnfertilized.description>
+	<EggCockatooFertilized.label>Яйцо какаду (опл.)</EggCockatooFertilized.label>
+	<EggCockatooFertilized.description>Оплодотворённое яйцо какаду. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggCockatooFertilized.description>
+	<!---->
+	<EggHornbillUnfertilized.label>Яйцо птицы-носорога (неопл.)</EggHornbillUnfertilized.label>
+	<EggHornbillUnfertilized.description>Неоплодотворённое яйцо птицы-носорога. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggHornbillUnfertilized.description>
+	<EggHornbillFertilized.label>Яйцо птицы-носорога (опл.)</EggHornbillFertilized.label>
+	<EggHornbillFertilized.description>Оплодотворённое яйцо птицы-носорога. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggHornbillFertilized.description>
+	<!---->
+	<EggParrotUnfertilized.label>Яйцо папугая (неопл.)</EggParrotUnfertilized.label>
+	<EggParrotUnfertilized.description>Неоплодотворённое яйцо папугая. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggParrotUnfertilized.description>
+	<EggParrotFertilized.label>Яйцо папугая (опл.)</EggParrotFertilized.label>
+	<EggParrotFertilized.description>Оплодотворённое яйцо папугая. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggParrotFertilized.description>
+	<!---->
+	<EggToucanUnfertilized.label>Яйцо тукана (неопл.)</EggToucanUnfertilized.label>
+	<EggToucanUnfertilized.description>Неоплодотворённое яйцо тукана. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggToucanUnfertilized.description>
+	<EggToucanFertilized.label>Яйцо тукана (опл.)</EggToucanFertilized.label>
+	<EggToucanFertilized.description>Оплодотворённое яйцо тукана. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggToucanFertilized.description>
+	<!---->
+	<Meat_Animal.label>Мясо животных</Meat_Animal.label>
+	<Meat_Animal.description>Мясо животных является богатым источником пищи и довольно быстро портится.</Meat_Animal.description>
+	<!---->
+	<Meat_Megaspider.label>Мясо насекомых</Meat_Megaspider.label>
+	<Meat_Megaspider.description>Мясо насекомых — спорный источник пищи, но если есть нечего, можно пожертвовать комфортом ради выживания.</Meat_Megaspider.description>
+	<!---->
+	<EggGreatBustardUnfertilized.label>Яйцо дрофы (неопл.)</EggGreatBustardUnfertilized.label>
+	<EggGreatBustardUnfertilized.description>Неоплодотворённое яйцо дрофы. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggGreatBustardUnfertilized.description>
+	<EggGreatBustardFertilized.label>Яйцо дрофы (опл.)</EggGreatBustardFertilized.label>
+	<EggGreatBustardFertilized.description>Оплодотворённое яйцо дрофы. Может быть съедено сырым, но приготовленное оно гораздо вкуснее.</EggGreatBustardFertilized.description>
+	<!---->
+</LanguageData>

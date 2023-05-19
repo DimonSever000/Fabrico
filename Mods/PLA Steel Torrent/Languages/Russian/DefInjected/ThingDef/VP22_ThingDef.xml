@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/VP22.xml-->
+                <!-- VP-22 truck -->
+<PLA_VP22Truck.label>VP-22 грузовик</PLA_VP22Truck.label>
+                      <!-- A transport vehicle developed by NORINCO. -->
+<PLA_VP22Truck.description>Транспортная техника разработанная NORINCO.</PLA_VP22Truck.description>
+                        <!-- Body -->
+<PLA_VP22Truck.tools.0.label>Корпус</PLA_VP22Truck.tools.0.label>
+
+</LanguageData>

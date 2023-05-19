@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Defs>
+	<!---->
+	<BackstoryDef>
+		<defName>Childhood_NewbornAutomaton</defName>
+		<title>Automaton</title>
+		<titleFemale>Automaton</titleFemale>
+		<titleShort>Automaton</titleShort>
+		<titleShortFemale>Automaton</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] is made in a factory for work.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>NewbornAutomaton</li>
+		</spawnCategories>
+	</BackstoryDef>
+	<!---->
+	<BackstoryDef>
+		<defName>Childhood_Automaton</defName>
+		<title>Automaton</title>
+		<titleFemale>Automaton</titleFemale>
+		<titleShort>Automaton</titleShort>
+		<titleShortFemale>Automaton</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] is made in a factory for work.</baseDesc>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>Automaton</li>
+		</spawnCategories>
+	</BackstoryDef>
+	<!---->
+</Defs>

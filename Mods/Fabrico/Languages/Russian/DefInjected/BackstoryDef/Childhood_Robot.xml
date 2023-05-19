@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!---->
+	<Childhood_Robot.title>Робот</Childhood_Robot.title>
+	<Childhood_Robot.titleFemale>Робот</Childhood_Robot.titleFemale>
+	<Childhood_Robot.titleShort>Робот</Childhood_Robot.titleShort>
+	<Childhood_Robot.titleShortFemale>Робот</Childhood_Robot.titleShortFemale>
+	<Childhood_Robot.baseDesc>[PAWN_nameDef] {PAWN_gender ? произведен : произведена} на фабрике для работы.</Childhood_Robot.baseDesc>
+	<!---->
+	<Childhood_NewbornRobot.title>Робот</Childhood_NewbornRobot.title>
+	<Childhood_NewbornRobot.titleFemale>Робот</Childhood_NewbornRobot.titleFemale>
+	<Childhood_NewbornRobot.titleShort>Робот</Childhood_NewbornRobot.titleShort>
+	<Childhood_NewbornRobot.titleShortFemale>Робот</Childhood_NewbornRobot.titleShortFemale>
+	<Childhood_NewbornRobot.baseDesc>[PAWN_nameDef] {PAWN_gender ? произведен : произведена} на фабрике для работы.</Childhood_NewbornRobot.baseDesc>
+	<!---->
+</LanguageData>

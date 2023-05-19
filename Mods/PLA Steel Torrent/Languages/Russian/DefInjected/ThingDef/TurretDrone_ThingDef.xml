@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/TurretDrone.xml-->
+                  <!-- turret drone -->
+<PLA_TurretDrone.label>Мобильная турель</PLA_TurretDrone.label>
+                        <!-- A drone with 5.8mm machine gun turret. -->
+<PLA_TurretDrone.description>Мобильная турель с 5.8мм пулемётом</PLA_TurretDrone.description>
+                          <!-- Body -->
+<PLA_TurretDrone.tools.0.label>Корпус</PLA_TurretDrone.tools.0.label>
+                          <!-- type 88 light machine gun -->
+<PLA_Gun88GPMGForVehicle.label>Лёгкий пулемёт Тип-88</PLA_Gun88GPMGForVehicle.label>
+                                  <!-- barrel -->
+<PLA_Gun88GPMGForVehicle.tools.0.label>ствол</PLA_Gun88GPMGForVehicle.tools.0.label>
+                    <!-- assault rifle bullet -->
+<PLA_Bullet_88GPMG.label>промежуточный патрон</PLA_Bullet_88GPMG.label>
+
+</LanguageData>

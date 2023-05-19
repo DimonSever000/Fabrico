@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>WasteRecycler_RecycleWastepack</defName>
+		<label>Recycle wastepack</label>
+		<description>Recycle wastepack.</description>
+		<jobString>Recycling wastepack.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>30000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wastepack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Wastepack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>ToxifierGenerator</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>200</Steam>
+		</liquidsIngredients>
+		<liquidsProducts>
+			<Chlorine>5</Chlorine>
+		</liquidsProducts>
+		<researchPrerequisite>ToxifierGenerator</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

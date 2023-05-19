@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+	<NeedDef>
+		<defName>Need_SolidFuel</defName>
+		<needClass>SteamRim.Needs.Need_SolidFuel</needClass>
+		<label>solid fuel</label>
+		<description>The creature consumes solid fuel to sustain life.</description>
+		<minIntelligence>Humanlike</minIntelligence>
+		<listPriority>610</listPriority>
+		<fallPerDay>1</fallPerDay>
+		<developmentalStageFilter>Newborn,Baby,Child,Adult</developmentalStageFilter>
+		<major>true</major>
+	</NeedDef>
+	-->
+</Defs>

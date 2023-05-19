@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<BookNameMaker.rulePack.rulesStrings>
+		<li>r_art_name(p=5)->[book] [ofThing]</li>
+		<li>r_art_name(p=3)->[adjective] [book]</li>
+		<li>r_art_name(p=2)->[adjective] [book] [ofThing]</li>
+		<li>r_art_name(p=2)->[Color] [book]</li>
+		<li>r_art_name(p=2)->[book] о [NaturalObject]</li>
+		<li>r_art_name->[customName]</li>
+		<!---->
+		<li>book->Книга</li>
+		<li>book->Повесть</li>
+		<li>book->История</li>
+		<li>book->Новелла</li>
+		<li>book->Поэма</li>
+		<li>book->Статья</li>
+		<li>book->Рукопись</li>
+		<!---->
+		<li>adjective->Странная</li>
+		<li>adjective->Страшная</li>
+		<li>adjective->Оригинальная</li>
+		<li>adjective->Неоригинальная</li>
+		<li>adjective->Простая</li>
+		<li>adjective->Сложная</li>
+		<li>adjective->Классическая</li>
+		<li>adjective->Современная</li>
+		<li>adjective->Символическая</li>
+		<li>adjective->Абстрактная</li>
+		<li>adjective->Священная</li>
+		<li>adjective->Идеологическая</li>
+		<li>adjective->Упадническая</li>
+		<li>adjective->Футуристичная</li>
+		<li>adjective->Трагичная</li>
+		<li>adjective->Веселая</li>
+		<li>adjective->Старая</li>
+		<li>adjective->Древняя</li>
+		<li>ofThing->Рыцаря</li>
+		<li>ofThing->Крестьянина</li>
+		<li>ofThing->Жертвы</li>
+		<li>ofThing->Убийцы</li>
+		<li>ofThing->Горожанина</li>
+		<li>ofThing->Священника</li>
+		<li>ofThing->Вельможи</li>
+		<li>ofThing->Охотника</li>
+		<li>ofThing->Исследователя</li>
+		<li>ofThing->Техники</li>
+		<li>ofThing->Инженерии</li>
+		<li>ofThing->Механики</li>
+		<li>customName->Ересь Хоруса</li>
+		<li>customName->Стальное сердце</li>
+		<li>customName->Поступь машин</li>
+	</BookNameMaker.rulePack.rulesStrings>
+	<!---->
+</LanguageData>

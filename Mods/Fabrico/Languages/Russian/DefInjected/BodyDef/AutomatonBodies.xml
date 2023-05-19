@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Automaton.label>Автоматон</Automaton.label>
+	<Automaton.corePart.parts.main_frame.customLabel>центральный каркас</Automaton.corePart.parts.main_frame.customLabel>
+	<Automaton.corePart.parts.sternum_frame.customLabel>грудной каркас</Automaton.corePart.parts.sternum_frame.customLabel>
+	<Automaton.corePart.parts.pelvis_frame.customLabel>нижний каркас</Automaton.corePart.parts.pelvis_frame.customLabel>
+	<Automaton.corePart.parts.boiler.customLabel>бойлер</Automaton.corePart.parts.boiler.customLabel>
+	<Automaton.corePart.parts.control_block.customLabel>контрольный модуль</Automaton.corePart.parts.control_block.customLabel>
+	<Automaton.corePart.parts.left_ventilation.customLabel>левая вентиляция</Automaton.corePart.parts.left_ventilation.customLabel>
+	<Automaton.corePart.parts.right_ventilation.customLabel>правая вентиляция</Automaton.corePart.parts.right_ventilation.customLabel>
+	<Automaton.corePart.parts.utilization_block.customLabel>утилизационный модуль</Automaton.corePart.parts.utilization_block.customLabel>
+	<Automaton.corePart.parts.fuel_tank.customLabel>топливный модуль</Automaton.corePart.parts.fuel_tank.customLabel>
+	<!---->
+	<Automaton.corePart.parts.Neck.parts.Head.parts.Skull.parts.program_block.customLabel>программный модуль</Automaton.corePart.parts.Neck.parts.Head.parts.Skull.parts.program_block.customLabel>
+	<Automaton.corePart.parts.Neck.parts.Head.parts.sensory_panel.customLabel>сенсорная панель</Automaton.corePart.parts.Neck.parts.Head.parts.sensory_panel.customLabel>
+	<Automaton.corePart.parts.Neck.parts.Head.parts.sound_interpreter.customLabel>звуковой интерпретатор</Automaton.corePart.parts.Neck.parts.Head.parts.sound_interpreter.customLabel>
+	<Automaton.corePart.parts.Neck.parts.Head.parts.Jaw.parts.sound_block.customLabel>звуковой модуль</Automaton.corePart.parts.Neck.parts.Head.parts.Jaw.parts.sound_block.customLabel>
+	<!---->
+	<Automaton.corePart.parts.left_shoulder.customLabel>левое плечо</Automaton.corePart.parts.left_shoulder.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.customLabel>левая рука</Automaton.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>левая плечевой каркас</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>левое предплечье</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>левая кисть</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>мизинец левой руки</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>безымянный палец левой руки</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>средний палец левой руки</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>указательный палец левой руки</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+	<Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>большой палец левой руки</Automaton.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+	<!---->
+	<Automaton.corePart.parts.right_shoulder.customLabel>правое плечо</Automaton.corePart.parts.right_shoulder.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.customLabel>правая рука</Automaton.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>правая плечевой каркас</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>правое предплечье</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>правая кисть</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>мизинец правой руки</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>безымянный палец правой руки</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>средний палец правой руки</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>указательный палец правой руки</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+	<Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>большой палец правой руки</Automaton.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+	<!---->
+	<Automaton.corePart.parts.left_leg.customLabel>левая нога</Automaton.corePart.parts.left_leg.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_femur.customLabel>левое бедро</Automaton.corePart.parts.left_leg.parts.left_femur.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_tibia.customLabel>левая голень</Automaton.corePart.parts.left_leg.parts.left_tibia.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_foot.customLabel>левая стопа</Automaton.corePart.parts.left_leg.parts.left_foot.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>левый мизинец</Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>левый безымянный палец</Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>левый средний палец</Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>левый указательный палец</Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+	<Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>левый большой палец</Automaton.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+	<!---->
+	<Automaton.corePart.parts.right_leg.customLabel>правая нога</Automaton.corePart.parts.right_leg.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_femur.customLabel>правое бедро</Automaton.corePart.parts.right_leg.parts.right_femur.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_tibia.customLabel>правая голень</Automaton.corePart.parts.right_leg.parts.right_tibia.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_foot.customLabel>правая стопа</Automaton.corePart.parts.right_leg.parts.right_foot.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>правый мизинец</Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>правый безымянный палец</Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>правый средний палец</Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>правый указательный палец</Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+	<Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>правый большой палец</Automaton.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+	<!---->
+	<!---->
+	<!---->
+	<Robot.label>Робот</Robot.label>
+	<Robot.corePart.parts.main_frame.customLabel>центральный каркас</Robot.corePart.parts.main_frame.customLabel>
+	<Robot.corePart.parts.sternum_frame.customLabel>грудной каркас</Robot.corePart.parts.sternum_frame.customLabel>
+	<Robot.corePart.parts.pelvis_frame.customLabel>нижний каркас</Robot.corePart.parts.pelvis_frame.customLabel>
+	<Robot.corePart.parts.boiler.customLabel>бойлер</Robot.corePart.parts.boiler.customLabel>
+	<Robot.corePart.parts.control_block.customLabel>контрольный модуль</Robot.corePart.parts.control_block.customLabel>
+	<Robot.corePart.parts.left_ventilation.customLabel>левая вентиляция</Robot.corePart.parts.left_ventilation.customLabel>
+	<Robot.corePart.parts.right_ventilation.customLabel>правая вентиляция</Robot.corePart.parts.right_ventilation.customLabel>
+	<Robot.corePart.parts.utilization_block.customLabel>утилизационный модуль</Robot.corePart.parts.utilization_block.customLabel>
+	<Robot.corePart.parts.fuel_tank.customLabel>топливный модуль</Robot.corePart.parts.fuel_tank.customLabel>
+	<!---->
+	<Robot.corePart.parts.Neck.parts.Head.parts.Skull.parts.program_block.customLabel>программный модуль</Robot.corePart.parts.Neck.parts.Head.parts.Skull.parts.program_block.customLabel>
+	<Robot.corePart.parts.Neck.parts.Head.parts.sensory_panel.customLabel>сенсорная панель</Robot.corePart.parts.Neck.parts.Head.parts.sensory_panel.customLabel>
+	<Robot.corePart.parts.Neck.parts.Head.parts.sound_interpreter.customLabel>звуковой интерпретатор</Robot.corePart.parts.Neck.parts.Head.parts.sound_interpreter.customLabel>
+	<Robot.corePart.parts.Neck.parts.Head.parts.Jaw.parts.sound_block.customLabel>звуковой модуль</Robot.corePart.parts.Neck.parts.Head.parts.Jaw.parts.sound_block.customLabel>
+	<!---->
+	<Robot.corePart.parts.left_shoulder.customLabel>левое плечо</Robot.corePart.parts.left_shoulder.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.customLabel>левая рука</Robot.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>левая плечевой каркас</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>левое предплечье</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>левая кисть</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>мизинец левой руки</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>безымянный палец левой руки</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>средний палец левой руки</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>указательный палец левой руки</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+	<Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>большой палец левой руки</Robot.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+	<!---->
+	<Robot.corePart.parts.right_shoulder.customLabel>правое плечо</Robot.corePart.parts.right_shoulder.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.customLabel>правая рука</Robot.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>правая плечевой каркас</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>правое предплечье</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>правая кисть</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>мизинец правой руки</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>безымянный палец правой руки</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>средний палец правой руки</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>указательный палец правой руки</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+	<Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>большой палец правой руки</Robot.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+	<!---->
+	<Robot.corePart.parts.left_leg.customLabel>левая нога</Robot.corePart.parts.left_leg.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_femur.customLabel>левое бедро</Robot.corePart.parts.left_leg.parts.left_femur.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_tibia.customLabel>левая голень</Robot.corePart.parts.left_leg.parts.left_tibia.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_foot.customLabel>левая стопа</Robot.corePart.parts.left_leg.parts.left_foot.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>левый мизинец</Robot.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>левый безымянный палец</Robot.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>левый средний палец</Robot.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>левый указательный палец</Robot.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+	<Robot.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>левый большой палец</Robot.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+	<!---->
+	<Robot.corePart.parts.right_leg.customLabel>правая нога</Robot.corePart.parts.right_leg.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_femur.customLabel>правое бедро</Robot.corePart.parts.right_leg.parts.right_femur.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_tibia.customLabel>правая голень</Robot.corePart.parts.right_leg.parts.right_tibia.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_foot.customLabel>правая стопа</Robot.corePart.parts.right_leg.parts.right_foot.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>правый мизинец</Robot.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>правый безымянный палец</Robot.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>правый средний палец</Robot.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>правый указательный палец</Robot.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+	<Robot.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>правый большой палец</Robot.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+	<!---->
+</LanguageData>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<BodyModificationBodyPurist.label>Биоконсерватор</BodyModificationBodyPurist.label>
+	<BodyModificationBodyPurist.description>Биоконсерватор</BodyModificationBodyPurist.description>
+	<!---->
+	<BodyModificationTranshumanist.label>Трансгуманист</BodyModificationTranshumanist.label>
+	<BodyModificationTranshumanist.description>Трансгуманист</BodyModificationTranshumanist.description>
+	<!---->
+	<VeryFastGrowthRate.label>Очень быстрый рост</VeryFastGrowthRate.label>
+	<VeryFastGrowthRate.description>Очень быстрый рост</VeryFastGrowthRate.description>
+	<!---->
+	<FastGrowthRate.label>Быстрый рост</FastGrowthRate.label>
+	<FastGrowthRate.description>Быстрый рост</FastGrowthRate.description>
+	<!---->
+	<SlowGrowthRate.label>Медленный рост</SlowGrowthRate.label>
+	<SlowGrowthRate.description>Медленный рост</SlowGrowthRate.description>
+	<!---->
+	<VerySlowGrowthRate.label>Очень медленный рост</VerySlowGrowthRate.label>
+	<VerySlowGrowthRate.description>Очень медленный рост</VerySlowGrowthRate.description>
+	<!---->
+	<ExtremelySlowGrowthRate.label>Экстремально медленный рост</ExtremelySlowGrowthRate.label>
+	<ExtremelySlowGrowthRate.description>Экстремально медленный рост</ExtremelySlowGrowthRate.description>
+	<!---->
+	<LifespanVeryShort.label>Очень короткая продолжительность жизни</LifespanVeryShort.label>
+	<LifespanVeryShort.description>Очень короткая продолжительность жизни</LifespanVeryShort.description>
+	<!---->
+	<LifespanShort.label>Короткая продолжительность жизни</LifespanShort.label>
+	<LifespanShort.description>Короткая продолжительность жизни</LifespanShort.description>
+	<!---->
+	<LifespanLong.label>Длинная продолжительность жизни</LifespanLong.label>
+	<LifespanLong.description>Длинная продолжительность жизни</LifespanLong.description>
+	<!---->
+	<LifespanVeryLong.label>Очень длинная продолжительность жизни</LifespanVeryLong.label>
+	<LifespanVeryLong.description>Очень длинная продолжительность жизни</LifespanVeryLong.description>
+	<!---->
+	<LifespanExtremelyLong.label>Экстремальная продолжительность жизни</LifespanExtremelyLong.label>
+	<LifespanExtremelyLong.description>Экстремальная продолжительность жизни</LifespanExtremelyLong.description>
+	<!---->
+	<SmallStomach.label>Маленький желудок</SmallStomach.label>
+	<SmallStomach.description>Маленький желудок</SmallStomach.description>
+	<!---->
+	<LargeStomach.label>Большой желудок</LargeStomach.label>
+	<LargeStomach.description>Большой желудок</LargeStomach.description>
+	<!---->
+	<NerveVolatile.label>Эмоциональная нестабильность</NerveVolatile.label>
+	<NerveVolatile.description>Эмоциональная нестабильность</NerveVolatile.description>
+	<!---->
+	<NerveNervous.label>Нервозность</NerveNervous.label>
+	<NerveNervous.description>Нервозность</NerveNervous.description>
+	<!---->
+	<NerveSteadfast.label>Стрессоустойчивость</NerveSteadfast.label>
+	<NerveSteadfast.description>Стрессоустойчивость</NerveSteadfast.description>
+	<!---->
+	<NerveIronWilled.label>Железные нервы</NerveIronWilled.label>
+	<NerveIronWilled.description>Железные нервы</NerveIronWilled.description>
+	<!---->
+	<HealthTough.label>Жесткая кожа</HealthTough.label>
+	<HealthTough.description>Жесткая кожа</HealthTough.description>
+	<!---->
+	<NightOwl.label>Сова</NightOwl.label>
+	<NightOwl.description>Сова</NightOwl.description>
+	<!---->
+	<Undergrounder.label>Подземник</Undergrounder.label>
+	<Undergrounder.description>Подземник</Undergrounder.description>
+	<!---->
+	<Nimble.label>Ловкость</Nimble.label>
+	<Nimble.description>Ловкость</Nimble.description>
+	<!---->
+	<Masochist.label>Мазохизм</Masochist.label>
+	<Masochist.description>Мазохизм</Masochist.description>
+	<!---->
+	<GreatMemory.label>Хорошая память</GreatMemory.label>
+	<GreatMemory.description>Хорошая память</GreatMemory.description>
+	<!---->
+	<Cannibal.label>Каннибализм</Cannibal.label>
+	<Cannibal.description>Каннибализм</Cannibal.description>
+	<!---->
+	<Aggression_Bloodlust.label>Кровожадность</Aggression_Bloodlust.label>
+	<Aggression_Bloodlust.description>Кровожадность</Aggression_Bloodlust.description>
+	<!---->
+	<Pyromaniac.label>Пиромания</Pyromaniac.label>
+	<Pyromaniac.description>Пиромания</Pyromaniac.description>
+	<!---->
+	<Psychopath.label>Психопатия</Psychopath.label>
+	<Psychopath.description>Психопатия</Psychopath.description>
+	<!---->
+	<Gourmand.label>Обжорство</Gourmand.label>
+	<Gourmand.description>Обжорство</Gourmand.description>
+	<!---->
+	<TooSmart.label>Горе от ума</TooSmart.label>
+	<TooSmart.description>Горе от ума</TooSmart.description>
+	<!---->
+	<Nudist.label>Нудист</Nudist.label>
+	<Nudist.description>Нудист</Nudist.description>
+	<!---->
+	<QuickSleeper.label>Быстрый сон</QuickSleeper.label>
+	<QuickSleeper.description>Быстрый сон</QuickSleeper.description>
+	<!---->
+	<TorturedArtist.label>Непонятый творец</TorturedArtist.label>
+	<TorturedArtist.description>Непонятый творец</TorturedArtist.description>
+	<!---->
+	<Neurotic.label>Легкая неврастения</Neurotic.label>
+	<Neurotic.description>Легкая неврастения</Neurotic.description>
+	<!---->
+	<VeryNeurotic.label>Тяжелая неврастения</VeryNeurotic.label>
+	<VeryNeurotic.description>Тяжелая неврастения</VeryNeurotic.description>
+	<!---->
+	<PsychicallySensitive.label>Психочувствительность</PsychicallySensitive.label>
+	<PsychicallySensitive.description>Психочувствительность</PsychicallySensitive.description>
+	<!---->
+	<PsychicallyHypersensitive.label>Гиперчувствительность</PsychicallyHypersensitive.label>
+	<PsychicallyHypersensitive.description>Гиперчувствительность</PsychicallyHypersensitive.description>
+	<!---->
+	<NeuralSensitivity.label>Нейтральная чувствительность</NeuralSensitivity.label>
+	<NeuralSensitivity.description>Нейтральная чувствительность</NeuralSensitivity.description>
+	<!---->
+	<Abrasive.label>Грубость</Abrasive.label>
+	<Abrasive.description>Грубость</Abrasive.description>
+	<!---->
+	<AnnoyingVoice.label>Раздражающий голос</AnnoyingVoice.label>
+	<AnnoyingVoice.description>Раздражающий голос</AnnoyingVoice.description>
+	<!---->
+	<CreepyBreathing.label>Жуткое дыхание</CreepyBreathing.label>
+	<CreepyBreathing.description>Жуткое дыхание</CreepyBreathing.description>
+	<!---->
+	<DislikesMen.label>Ненависть к мужчинам</DislikesMen.label>
+	<DislikesMen.description>Ненависть к мужчинам</DislikesMen.description>
+	<!---->
+	<DislikesWomen.label>Ненависть к женщинам</DislikesWomen.label>
+	<DislikesWomen.description>Ненависть к женщинам</DislikesWomen.description>
+	<!---->
+	<Brawler.label>Драчливость</Brawler.label>
+	<Brawler.description>Драчливость</Brawler.description>
+	<!---->
+	<CarefulShooter.label>Аккуратный стрелок</CarefulShooter.label>
+	<CarefulShooter.description>Аккуратный стрелок</CarefulShooter.description>
+	<!---->
+	<TriggerHappy.label>Беспечный стрелок</TriggerHappy.label>
+	<TriggerHappy.description>Беспечный стрелок</TriggerHappy.description>
+	<!---->
+	<WorksSlothful.label>Праздность</WorksSlothful.label>
+	<WorksSlothful.description>Праздность</WorksSlothful.description>
+	<!---->
+	<WorksLazy.label>Ленность</WorksLazy.label>
+	<WorksLazy.description>Ленность</WorksLazy.description>
+	<!---->
+	<WorksHardWorker.label>Трудолюбие</WorksHardWorker.label>
+	<WorksHardWorker.description>Трудолюбие</WorksHardWorker.description>
+	<!---->
+	<WorksIndustrious.label>Усердие</WorksIndustrious.label>
+	<WorksIndustrious.description>Усердие</WorksIndustrious.description>
+	<!---->
+</LanguageData>

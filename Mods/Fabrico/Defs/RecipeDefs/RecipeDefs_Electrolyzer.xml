@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>Electrolyzer_Chlorine</defName>
+		<label>Produce chlorine</label>
+		<description>Produce chlorine.</description>
+		<jobString>Produces chlorine.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>15000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Electrolyzer</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Water>20</Water>
+			<Steam>150</Steam>
+		</liquidsIngredients>
+		<liquidsProducts>
+			<Chlorine>10</Chlorine>
+		</liquidsProducts>
+		<researchPrerequisite>Chemistry</researchPrerequisite>
+		<pollutionProgressPerIteration>0.5</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>Electrolyzer_Aluminum</defName>
+		<label>Produce aluminum</label>
+		<description>Produce aluminum.</description>
+		<jobString>Produces aluminum.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>30000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BauxiteOre</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BauxiteOre</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Electrolyzer</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Water>30</Water>
+			<Steam>200</Steam>
+		</liquidsIngredients>
+		<products>
+			<AluminumPowder>20</AluminumPowder>
+		</products>
+		<researchPrerequisite>Chemistry</researchPrerequisite>
+		<pollutionProgressPerIteration>0.3</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>Electrolyzer_Titan</defName>
+		<label>Produce titan</label>
+		<description>Produce titan.</description>
+		<jobString>Produces titan.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>45000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>IlmeniteOre</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>IlmeniteOre</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Electrolyzer</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Water>30</Water>
+			<Steam>300</Steam>
+		</liquidsIngredients>
+		<products>
+			<TitanPowder>10</TitanPowder>
+			<IronPowder>10</IronPowder>
+		</products>
+		<researchPrerequisite>Chemistry</researchPrerequisite>
+		<pollutionProgressPerIteration>0.3</pollutionProgressPerIteration>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

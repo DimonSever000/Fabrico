@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SimpleProstheticLung.label>Простой протез легкого</SimpleProstheticLung.label>
+	<SimpleProstheticLung.description>Легкий металлический каркас удерживает сложную систему вентиляции, которая позволяет носителю нормально дышать.</SimpleProstheticLung.description>
+	<!---->
+	<SimpleProstheticKidney.label>Простой протез почки</SimpleProstheticKidney.label>
+	<SimpleProstheticKidney.description>Система фильтрации жидкости из шестеренок и часовых механизмов.</SimpleProstheticKidney.description>
+	<!---->
+	<SimpleProstheticLiver.label>Простой протез печени</SimpleProstheticLiver.label>
+	<SimpleProstheticLiver.description>Система очищения, состоящая из шестеренок и часовых механизмов.</SimpleProstheticLiver.description>
+	<!---->
+	<!---->
+	<!---->
+	<BionicKidney.label>Бионическая почка</BionicKidney.label>
+	<BionicKidney.description>Продвинутый протез для замены функций почки.</BionicKidney.description>
+	<!---->
+	<BionicLung.label>Бионическое легкое</BionicLung.label>
+	<BionicLung.description>Система фильтрации воздуха, его прогрева и охлаждения.</BionicLung.description>
+	<!---->
+	<BionicLiver.label>Бионическая печень</BionicLiver.label>
+	<BionicLiver.description>Продвинутая система очищения.</BionicLiver.description>
+	<!---->
+	<!---->
+	<!---->
+	<SyntheticEye.label>Синтетический глаз</SyntheticEye.label>
+	<SyntheticEye.description>Продвинутый синтетический протез.</SyntheticEye.description>
+	<!---->
+	<SyntheticArm.label>Синтетическая рука</SyntheticArm.label>
+	<SyntheticArm.description>Продвинутый синтетический протез.</SyntheticArm.description>
+	<!---->
+	<SyntheticLeg.label>Синтетическая нога</SyntheticLeg.label>
+	<SyntheticLeg.description>Продвинутый синтетический протез.</SyntheticLeg.description>
+	<!---->
+	<SyntheticSpine.label>Синтетический позвоночник</SyntheticSpine.label>
+	<SyntheticSpine.description>Продвинутый синтетический протез.</SyntheticSpine.description>
+	<!---->
+	<SyntheticHeart.label>Синтетическое сердце</SyntheticHeart.label>
+	<SyntheticHeart.description>Продвинутый синтетический протез.</SyntheticHeart.description>
+	<!---->
+	<SyntheticStomach.label>Синтетический желудок</SyntheticStomach.label>
+	<SyntheticStomach.description>Продвинутый синтетический протез.</SyntheticStomach.description>
+	<!---->
+	<SyntheticEar.label>Синтетическое ухо</SyntheticEar.label>
+	<SyntheticEar.description>Продвинутый синтетический протез.</SyntheticEar.description>
+	<!---->
+	<SyntheticTongue.label>Синтетический язык</SyntheticTongue.label>
+	<SyntheticTongue.description>Продвинутый синтетический протез.</SyntheticTongue.description>
+	<!---->
+	<SyntheticKidney.label>Синтетическая почка</SyntheticKidney.label>
+	<SyntheticKidney.description>Продвинутый синтетический протез.</SyntheticKidney.description>
+	<!---->
+	<SyntheticLung.label>Синтетическое легкое</SyntheticLung.label>
+	<SyntheticLung.description>Продвинутый синтетический протез.</SyntheticLung.description>
+	<!---->
+	<SyntheticLiver.label>Синтетическая печень</SyntheticLiver.label>
+	<SyntheticLiver.description>Продвинутый синтетический протез.</SyntheticLiver.description>
+	<!---->
+</LanguageData>

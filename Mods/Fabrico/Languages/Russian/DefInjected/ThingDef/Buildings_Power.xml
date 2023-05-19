@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<WindTurbine.label>Паровая турбина</WindTurbine.label>
+	<WindTurbine.description>Огромный и сложный механизм, основанный на вращении вала движущей силой пара. Производит электричество для нужд промышленности.</WindTurbine.description>
+	<!---->
+	<SolarGenerator.label>Паровой реактор</SolarGenerator.label>
+	<SolarGenerator.description>Большой паровой генератор электричества, использующий огромное количество пара. Реактор инертный и требует больших усилий для доведения эффективности до нормального уровня.</SolarGenerator.description>
+	<!---->
+</LanguageData>

@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef Name="LightMechanoidRecipe" ParentName="BaseMechanoidRecipe" Abstract="True">
+		<researchPrerequisite>BasicMechtech</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>StrongPlates</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreBasic</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients>
+			<Creosote>5</Creosote>
+			<Steam>600</Steam>
+		</liquidsIngredients>
+		<manualWork>true</manualWork>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="LightMechanoidRecipe">
+		<defName>Militor</defName>
+		<label>gestate militor</label>
+		<description>Gestate a militor mechanoid.</description>
+		<products>
+			<Mech_Militor>1</Mech_Militor>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Militor</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="LightMechanoidRecipe">
+		<defName>Lifter</defName>
+		<label>gestate lifter</label>
+		<description>Gestate a lifter mechanoid.</description>
+		<products>
+			<Mech_Lifter>1</Mech_Lifter>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Lifter</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="LightMechanoidRecipe">
+		<defName>Constructoid</defName>
+		<label>gestate constructoid</label>
+		<description>Gestate a constructoid mechanoid.</description>
+		<products>
+			<Mech_Constructoid>1</Mech_Constructoid>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Constructoid</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="LightMechanoidRecipe">
+		<defName>Fabricor</defName>
+		<label>gestate fabricor</label>
+		<description>Gestate a fabricor mechanoid.</description>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>StrongPlates</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>10</Creosote>
+			<Steam>1200</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Fabricor>1</Mech_Fabricor>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Fabricor</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="LightMechanoidRecipe">
+		<defName>Agrihand</defName>
+		<label>gestate agrihand</label>
+		<description>Gestate an agrihand mechanoid.</description>
+		<researchPrerequisite>BasicMechtech</researchPrerequisite>
+		<products>
+			<Mech_Agrihand>1</Mech_Agrihand>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Agrihand</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="LightMechanoidRecipe">
+		<defName>Cleansweeper</defName>
+		<label>gestate cleansweeper</label>
+		<description>Gestate a cleansweeper mechanoid.</description>
+		<researchPrerequisite>BasicMechtech</researchPrerequisite>
+		<products>
+			<Mech_Cleansweeper>1</Mech_Cleansweeper>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Cleansweeper</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="LightMechanoidRecipe">
+		<defName>Paramedic</defName>
+		<label>gestate paramedic</label>
+		<description>Gestate a paramedic mechanoid.</description>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>StrongPlates</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>10</Creosote>
+			<Steam>1200</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Paramedic>1</Mech_Paramedic>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Paramedic</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="MediumMechanoidRecipe">
+		<defName>Scyther</defName>
+		<label>gestate scyther</label>
+		<description>Gestate a scyther mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>20</Creosote>
+			<Steam>2000</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Scyther>1</Mech_Scyther>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Scyther</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="MediumMechanoidRecipe">
+		<defName>Pikeman</defName>
+		<label>gestate pikeman</label>
+		<description>Gestate a pikeman mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>20</Creosote>
+			<Steam>2000</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Pikeman>1</Mech_Pikeman>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Pikeman</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="MediumMechanoidRecipe">
+		<defName>Lancer</defName>
+		<label>gestate lancer</label>
+		<description>Gestate a lancer mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>20</Creosote>
+			<Steam>2000</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Lancer>1</Mech_Lancer>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Lancer</ThingDef>
+		</descriptionHyperlinks>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="CentipedeMechanoidRecipe">
+		<defName>CentipedeBlaster</defName>
+		<label>gestate centipede blaster</label>
+		<description>Gestate a centipede mechanoid armed with a heavy charge blaster.</description>
+		<researchPrerequisite>UltraMechtech</researchPrerequisite>
+		<products>
+			<Mech_CentipedeBlaster>1</Mech_CentipedeBlaster>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_CentipedeBlaster</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef Name="WalkerMediumMechanoidRecipe" ParentName="MediumMechanoidRecipe" Abstract="True">
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>30</Creosote>
+			<Steam>2500</Steam>
+		</liquidsIngredients>
+		<researchPrerequisite>UltraMechtech</researchPrerequisite>
+		<gestationCycles>4</gestationCycles>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="WalkerMediumMechanoidRecipe">
+		<defName>Legionary</defName>
+		<label>gestate legionary</label>
+		<description>Gestate a legionary mechanoid.</description>
+		<products>
+			<Mech_Legionary>1</Mech_Legionary>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Legionary</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="WalkerMediumMechanoidRecipe">
+		<defName>Tesseron</defName>
+		<label>gestate tesseron</label>
+		<description>Gestate a tesseron mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>30</Creosote>
+			<Steam>2500</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Tesseron>1</Mech_Tesseron>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Tesseron</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="MediumMechanoidRecipe">
+		<defName>Scorcher</defName>
+		<label>gestate scorcher</label>
+		<description>Gestate a scorcher mechanoid.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>10</Creosote>
+			<Steam>1500</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Scorcher>1</Mech_Scorcher>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Scorcher</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="HeavyMechanoidRecipe">
+		<defName>Tunneler</defName>
+		<label>gestate tunneler</label>
+		<description>Gestate a tunneler mechanoid.</description>
+		<researchPrerequisite>StandardMechtech</researchPrerequisite>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreRegular</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>20</Creosote>
+			<Steam>2000</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Tunneler>1</Mech_Tunneler>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Tunneler</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="HeavyMechanoidRecipe">
+		<defName>Diabolus</defName>
+		<label>gestate diabolus</label>
+		<description>Gestate a diabolus mech.</description>
+		<gestationCycles>12</gestationCycles>
+		<researchPrerequisite>HighMechtech</researchPrerequisite>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>200</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mechanism</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SignalChip</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>30</Creosote>
+			<Steam>3000</Steam>
+		</liquidsIngredients>
+		<products>
+			<Mech_Diabolus>1</Mech_Diabolus>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Diabolus</ThingDef>
+		</descriptionHyperlinks>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+		<defName>ResurrectLightMech</defName>
+		<label>resurrect light mechanoid</label>
+		<description>Resurrect a friendly mechanoid of the light weight class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>StrongIngots</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Steam>500</Steam>
+		</liquidsIngredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Corpse_Mech_Lifter</li>
+				<li>Corpse_Mech_Constructoid</li>
+				<li>Corpse_Mech_Agrihand</li>
+				<li>Corpse_Mech_Militor</li>
+				<li>Corpse_Mech_Cleansweeper</li>
+				<li>Corpse_Mech_Paramedic</li>
+				<li>Corpse_Mech_Fabricor</li>
+			</thingDefs>
+			<categories>
+				<li>StrongIngots</li>
+			</categories>
+		</fixedIngredientFilter>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+		<defName>ResurrectMediumMech</defName>
+		<label>resurrect medium mechanoid</label>
+		<description>Resurrect a friendly mechanoid of the medium weight class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>StrongIngots</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Steam>750</Steam>
+		</liquidsIngredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Corpse_Mech_Pikeman</li>
+				<li>Corpse_Mech_Scorcher</li>
+				<li>Corpse_Mech_Scyther</li>
+				<li>Corpse_Mech_Lancer</li>
+				<li>Corpse_Mech_Tesseron</li>
+				<li>Corpse_Mech_Legionary</li>
+			</thingDefs>
+			<categories>
+				<li>StrongIngots</li>
+			</categories>
+		</fixedIngredientFilter>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+		<defName>ResurrectHeavyMech</defName>
+		<label>resurrect heavy mechanoid</label>
+		<description>Resurrect a friendly mechanoid of the heavy weight class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>StrongIngots</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Steam>1000</Steam>
+		</liquidsIngredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Corpse_Mech_Tunneler</li>
+				<li>Corpse_Mech_CentipedeGunner</li>
+				<li>Corpse_Mech_CentipedeBurner</li>
+				<li>Corpse_Mech_CentipedeBlaster</li>
+			</thingDefs>
+			<categories>
+				<li>StrongIngots</li>
+			</categories>
+		</fixedIngredientFilter>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+		<defName>ResurrectUltraheavyMech</defName>
+		<label>resurrect ultraheavy mechanoid</label>
+		<description>Resurrect a friendly mechanoid of the ultraheavy weight class. So long as the mechanoid's body is not completely destroyed, it can be resurrected.</description>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>StrongIngots</li>
+					</categories>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Steam>1500</Steam>
+		</liquidsIngredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Corpse_Mech_Diabolus</li>
+				<li>Corpse_Mech_Centurion</li>
+				<li>Corpse_Mech_Warqueen</li>
+			</thingDefs>
+			<categories>
+				<li>StrongIngots</li>
+			</categories>
+		</fixedIngredientFilter>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="SuperHeavyMechanoidRecipe">
+		<defName>Centurion</defName>
+		<label>gestate centurion</label>
+		<description>Gestate a centurion mechanoid.</description>
+		<products>
+			<Mech_Centurion>1</Mech_Centurion>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Centurion</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>250</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanismSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerfocusChip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>50</Creosote>
+			<Chlorine>20</Chlorine>
+			<Steam>5000</Steam>
+		</liquidsIngredients>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef ParentName="SuperHeavyMechanoidRecipe">
+		<defName>Warqueen</defName>
+		<label>gestate war queen</label>
+		<description>Gestate a war queen mechanoid.</description>
+		<products>
+			<Mech_Warqueen>1</Mech_Warqueen>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Mech_Warqueen</ThingDef>
+		</descriptionHyperlinks>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>300</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TechnicalPlates</li>
+					</thingDefs>
+				</filter>
+				<count>300</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanismSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NanostructuringChip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SubcoreHigh</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<liquidsIngredients Inherit="False">
+			<Creosote>50</Creosote>
+			<Chlorine>20</Chlorine>
+			<Steam>5000</Steam>
+		</liquidsIngredients>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

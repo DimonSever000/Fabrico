@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<TerrainDef Name="FloorBaseWood" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<tags>
+			<li>Floor</li>
+		</tags>
+		<statBases>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>80</WorkToBuild>
+			<Beauty>1</Beauty>
+		</statBases>
+		<designationCategory>Floors</designationCategory>
+		<fertility>0</fertility>
+		<constructEffect>ConstructWood</constructEffect>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<isPaintable>true</isPaintable>
+		<renderPrecedence>250</renderPrecedence>
+		<uiOrder>2000</uiOrder>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<researchPrerequisites>
+			<li>WoodenFloors</li>
+		</researchPrerequisites>
+	</TerrainDef>
+	<!---->
+	<TerrainDef ParentName="FloorBaseWood">
+		<defName>WoodPlankFloor</defName>
+		<label>wood floor</label>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(108,78,55)</color>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	</TerrainDef>
+	<!---->
+	<TerrainDef ParentName="FloorBaseWood">
+		<defName>WoodenFloorboards</defName>
+		<label>wooden floorboards</label>
+		<description>Rough oak boards in the form of a covering. Stylish in a way.</description>
+		<texturePath>Terrains/Surfaces/WoodenFloorboards</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	</TerrainDef>
+	<!---->
+	<TerrainDef ParentName="FloorBaseWood">
+		<defName>SmallFloorboards</defName>
+		<label>small floorboards</label>
+		<description>Brickwork style combined with dark wood.</description>
+		<texturePath>Terrains/Surfaces/SmallFloorboards</texturePath>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	</TerrainDef>
+	<!---->
+	<TerrainDef ParentName="FloorBaseWood">
+		<defName>LightFloorboards</defName>
+		<label>light floorboards</label>
+		<description>Brickwork style combined with light wood.</description>
+		<texturePath>Terrains/Surfaces/LightFloorboards</texturePath>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	</TerrainDef>
+	<!---->
+	<TerrainDef ParentName="FloorBaseWood">
+		<defName>DirectionalFloorboards</defName>
+		<label>Directional floorboards</label>
+		<description>Multidirectional boards that create a pattern.</description>
+		<texturePath>Terrains/Surfaces/DirectionalFloorboards</texturePath>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	</TerrainDef>
+	<!---->
+	<TerrainDef ParentName="FloorBaseWood">
+		<defName>DarkParquet</defName>
+		<label>dark parquet</label>
+		<description>Organized dark wood parquet.</description>
+		<texturePath>Terrains/Surfaces/DarkParquet</texturePath>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	</TerrainDef>
+	<!---->
+	<TerrainDef ParentName="FloorBaseWood">
+		<defName>LightParquet</defName>
+		<label>light parquet</label>
+		<description>Organized light wood parquet.</description>
+		<texturePath>Terrains/Surfaces/LightParquet</texturePath>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+	</TerrainDef>
+	<!---->
+</Defs>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<GeneCategoryDef>
+		<defName>WeaponPreference</defName>
+		<label>Weapon preference</label>
+		<displayPriorityInXenotype>-1000</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>VerbalConflict</defName>
+		<label>Verbal conflict</label>
+		<displayPriorityInXenotype>-1010</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Psychopath</defName>
+		<label>Psychopath</label>
+		<displayPriorityInXenotype>-1020</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>DislikesMen</defName>
+		<label>Dislikes men</label>
+		<displayPriorityInXenotype>-1030</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>DislikesWomen</defName>
+		<label>Dislikes women</label>
+		<displayPriorityInXenotype>-1040</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>BodyStrength</defName>
+		<label>Body strength</label>
+		<displayPriorityInXenotype>-1050</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Gourmand</defName>
+		<label>Gourmand</label>
+		<displayPriorityInXenotype>-1060</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>YouthAging</defName>
+		<label>Youth aging</label>
+		<displayPriorityInXenotype>-1070</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>AdultAging</defName>
+		<label>Adult aging</label>
+		<displayPriorityInXenotype>-1080</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Pyromaniac</defName>
+		<label>Pyromaniac</label>
+		<displayPriorityInXenotype>-1090</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>PsychicTraits</defName>
+		<label>Psychic traits</label>
+		<displayPriorityInXenotype>-1100</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>SlowLearner</defName>
+		<label>Slow learner</label>
+		<displayPriorityInXenotype>-1110</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>BodyModification</defName>
+		<label>Body modification</label>
+		<displayPriorityInXenotype>-1130</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>GrowthRate</defName>
+		<label>Growth rate</label>
+		<displayPriorityInXenotype>-1140</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Lifespan</defName>
+		<label>Lifespan</label>
+		<displayPriorityInXenotype>-1150</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Mental</defName>
+		<label>Mental thresholds</label>
+		<displayPriorityInXenotype>-1160</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Relationship</defName>
+		<label>Relationship</label>
+		<displayPriorityInXenotype>-1170</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Works</defName>
+		<label>Works</label>
+		<displayPriorityInXenotype>-1180</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Living</defName>
+		<label>Living</label>
+		<displayPriorityInXenotype>-1190</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Neurotic</defName>
+		<label>Neurotic</label>
+		<displayPriorityInXenotype>-1200</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Speed</defName>
+		<label>Walk speed</label>
+		<displayPriorityInXenotype>-1210</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+</Defs>

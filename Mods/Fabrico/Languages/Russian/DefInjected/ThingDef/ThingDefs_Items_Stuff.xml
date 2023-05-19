@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Sand.label>Песок</Sand.label>
+	<Sand.description>Мелкий каменный песок, используемый для литья стекла.</Sand.description>
+	<!---->
+	<Clay.label>Глина</Clay.label>
+	<Clay.description>Мягкая глина, подходящая для изготовления заготовок и посуды.</Clay.description>
+	<!---->
+	<Dirt.label>Земля</Dirt.label>
+	<Dirt.description>Обычный планетарный грунт, пригодный для выращивания растений.</Dirt.description>
+	<!---->
+	<CokeCoal.label>Коксовый уголь</CokeCoal.label>
+	<CokeCoal.description>Коксовый уголь получается в результате коксования в печи при высокой температуре.</CokeCoal.description>
+	<!---->
+	<Silver.label>Серебряные монеты</Silver.label>
+	<Silver.description>Звонкие монеты используются в качестве валюты на большинстве миров людей.</Silver.description>
+	<!---->
+	<Concrete.label>Бетон</Concrete.label>
+	<Concrete.description>Бетон это незаменимый элемент большого строительства.</Concrete.description>
+	<!---->
+	<Flour.label>Мука</Flour.label>
+	<Flour.description>Измельченые зерна пшеницы, пригодные для выпечки.</Flour.description>
+	<!---->
+	<Biosolids.label>Удобрения</Biosolids.label>
+	<Biosolids.description>Вещества для удобрения почвы и ускорения роста культур.</Biosolids.description>
+	<!---->
+	<Gunpowder.label>Порох</Gunpowder.label>
+	<Gunpowder.description>Взрывоопасное вещество, полученное как смесь серы, угля и селитры. Широко применяется в военной промышленности.</Gunpowder.description>
+	<!---->
+	<Glass.label>Стекло</Glass.label>
+	<Glass.description>Обработанный высокой температурой песок. Стекло прозрачно и непрочно.</Glass.description>
+	<!---->
+</LanguageData>

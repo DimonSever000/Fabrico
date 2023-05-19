@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!---->
+	<Childhood_Automaton.title>Автоматон</Childhood_Automaton.title>
+	<Childhood_Automaton.titleFemale>Автоматон</Childhood_Automaton.titleFemale>
+	<Childhood_Automaton.titleShort>Автоматон</Childhood_Automaton.titleShort>
+	<Childhood_Automaton.titleShortFemale>Автоматон</Childhood_Automaton.titleShortFemale>
+	<Childhood_Automaton.baseDesc>[PAWN_nameDef] {PAWN_gender ? произведен : произведена} на фабрике для работы.</Childhood_Automaton.baseDesc>
+	<!---->
+	<Childhood_NewbornAutomaton.title>Автоматон</Childhood_NewbornAutomaton.title>
+	<Childhood_NewbornAutomaton.titleFemale>Автоматон</Childhood_NewbornAutomaton.titleFemale>
+	<Childhood_NewbornAutomaton.titleShort>Автоматон</Childhood_NewbornAutomaton.titleShort>
+	<Childhood_NewbornAutomaton.titleShortFemale>Автоматон</Childhood_NewbornAutomaton.titleShortFemale>
+	<Childhood_NewbornAutomaton.baseDesc>[PAWN_nameDef] {PAWN_gender ? произведен : произведена} на фабрике для работы.</Childhood_NewbornAutomaton.baseDesc>
+	<!---->
+</LanguageData>

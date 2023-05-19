@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/General.xml-->
+                                  <!-- advanced advanced-fire control computer -->
+<PLA_AdvancedFireControlComputer.label>Усовершенственная СУО</PLA_AdvancedFireControlComputer.label>
+                                        <!-- An advanced fire-control computer, it can improve the aming acuracy of vehicle. -->
+<PLA_AdvancedFireControlComputer.description>Усовершенственная СУО, которая может улучшить точность прицеливания техники</PLA_AdvancedFireControlComputer.description>
+                     <!-- composite armor -->
+<PLA_CompositeArmor.label>композитная броня</PLA_CompositeArmor.label>
+                           <!-- The composite armor, it can give better protection for vehicle. -->
+<PLA_CompositeArmor.description>Композитная броня, которая может улучшить защиту техники</PLA_CompositeArmor.description>
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Wool.label>Шерсть</Wool.label>
+	<Wool.description>Теплая шерсть животных, защищающая в холодную погоду. Хорошо подходит для пошива одежды.</Wool.description>
+	<!---->
+	<Fur.label>Мех</Fur.label>
+	<Fur.description>Грубоватый мех животных, обработанный для пошива одежды.</Fur.description>
+	<!---->
+	<WarmFur.label>Теплый мех</WarmFur.label>
+	<WarmFur.description>Мягкий и теплый мех животных. Выглядит стильно и согреет зимой.</WarmFur.description>
+	<!---->
+	<ThrumboFur.label>Мех трумбо</ThrumboFur.label>
+	<ThrumboFur.description>Чрезвычайно прочный и теплый мех огромного трумбо. Внешняя жесткость и твердость позволяют использовать мех в качестве защитного покрытия.</ThrumboFur.description>
+	<!---->
+	<Leather_Patch.label>Прочная кожа</Leather_Patch.label>
+	<Leather_Patch.description>Прочная кожа животных, отлично подходит для изготовления одежды и доспехов.</Leather_Patch.description>
+	<!---->
+	<Leather_Light.label>Легкая кожа</Leather_Light.label>
+	<Leather_Light.description>Легкая кожа животных, которую можно использовать для пошива одежды или изготовления мебели.</Leather_Light.description>
+	<!---->
+	<Leather_Plain.label>Обычная кожа</Leather_Plain.label>
+	<Leather_Plain.description>Кожа животных, которую можно использовать для пошива одежды или изготовления мебели.</Leather_Plain.description>
+	<!---->
+</LanguageData>

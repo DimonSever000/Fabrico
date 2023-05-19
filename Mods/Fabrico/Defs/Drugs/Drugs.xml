@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>GoJuice</defName>
+		<label>go-juice</label>
+		<description>A synthetic performance-enhancing drug developed for space marines during the early days of interplanetary warfare. Go-juice blocks pain, increases movement speed, and improves the user's melee and shooting abilities.\n\nThe military chemists who created it were never able to remove its addictiveness. Some saw this as a downside; others saw it as a benefit.</description>
+		<descriptionHyperlinks>
+			<HediffDef>GoJuiceHigh</HediffDef>
+			<HediffDef>GoJuiceAddiction</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/GoJuice</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<MarketValue>53</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<joyKind>Chemical</joyKind>
+			<joy>0.40</joy>
+			<drugCategory>Hard</drugCategory>
+			<foodType>Processed, Fluid</foodType>
+			<baseIngestTicks>80</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Inject {0}</ingestCommandString>
+			<ingestReportString>Injecting {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoJuiceHigh</hediffDef>
+					<severity>0.5</severity>
+					<toleranceChemical>GoJuice</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.4</offset>
+					<toleranceChemical>GoJuice</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+					<offset>0.15</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker Class="SteamRim.Recipes.RecipeMakerPropertiesExtended">
+			<recipeDefType>SteamRim.Recipes.ExtendedRecipeDef</recipeDefType>
+			<manualWork>true</manualWork>
+			<liquidsIngredients>
+				<Water>1</Water>
+				<Chlorine>1</Chlorine>
+			</liquidsIngredients>
+			<defaultIngredientFilter>
+			</defaultIngredientFilter>
+			<researchPrerequisite>GoJuiceProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<soundWorking>Recipe_Drug</soundWorking>
+		</recipeMaker>
+		<costList>
+			<Neutroamine>2</Neutroamine>
+			<Yayo>1</Yayo>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>GoJuice</chemical>
+				<addictiveness>0.026</addictiveness>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+				<listOrder>200</listOrder>
+				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
+				<largeOverdoseChance>0.005</largeOverdoseChance>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>PsychiteTea</defName>
+		<label>psychite tea</label>
+		<description>A fragrant tea infused with leaves of the psychoid plant. Drinking it induces a subtle psychite euphoria. This tea is easy to produce at cooking facilities, but can produce psychite addiction if consumed too often.\n\nMany tribes use psychoid tea, both as a daily energizer and as part of social and religious rituals.</description>
+		<descriptionHyperlinks>
+			<HediffDef>PsychiteTeaHigh</HediffDef>
+			<HediffDef>PsychiteTolerance</HediffDef>
+			<HediffDef>PsychiteAddiction</HediffDef>
+			<HediffDef>ChemicalDamageSevere</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Tea</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.88</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>400</WorkToMake>
+			<MarketValue>10</MarketValue>
+			<Mass>0.05</Mass>
+			<DeteriorationRate>6</DeteriorationRate>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.40</joy>
+			<baseIngestTicks>210</baseIngestTicks>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>PsychiteTeaHigh</hediffDef>
+					<severity>0.75</severity>
+					<toleranceChemical>Psychite</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
+					<toleranceChemical>Psychite</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>PsychiteTolerance</hediffDef>
+					<severity>0.03</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+			<skillRequirements>
+				<Cooking>2</Cooking>
+			</skillRequirements>
+			<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+			<displayPriority>1460</displayPriority>
+		</recipeMaker>
+		<costList>
+			<PsychoidLeaves>4</PsychoidLeaves>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Psychite</chemical>
+				<addictiveness>0.02</addictiveness>
+				<minToleranceToAddict>0.10</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>110</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>Yayo</defName>
+		<label>yayo</label>
+		<description>A refined powdery preparation of the psychite drug. When snorted, it produces a rapid euphoric high, dramatically reduces the user's need for rest, and suppresses pain. Like all forms of psychite, it is addictive, though it is not as addictive as the cruder flake.\n\nBecause of its high cost and refined appearance, many cultures associate yayo with degenerate wealth. Whether in the throneroom or the boardroom, many hare-brained policy schemes have been developed during yayo-fueled binge parties.</description>
+		<descriptionHyperlinks>
+			<HediffDef>YayoHigh</HediffDef>
+			<HediffDef>PsychiteTolerance</HediffDef>
+			<HediffDef>PsychiteAddiction</HediffDef>
+			<HediffDef>ChemicalDamageSevere</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Yayo</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>350</WorkToMake>
+			<MarketValue>21</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<minRewardCount>10</minRewardCount>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.80</joy>
+			<drugCategory>Hard</drugCategory>
+			<baseIngestTicks>150</baseIngestTicks>
+			<ingestSound>Ingest_Snort</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.21,0,0.05)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Snort {0}</ingestCommandString>
+			<ingestReportString>Snorting {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>YayoHigh</hediffDef>
+					<severity>0.75</severity>
+					<toleranceChemical>Psychite</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.4</offset>
+					<toleranceChemical>Psychite</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>PsychiteTolerance</hediffDef>
+					<severity>0.040</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker Class="SteamRim.Recipes.RecipeMakerPropertiesExtended">
+			<recipeDefType>SteamRim.Recipes.ExtendedRecipeDef</recipeDefType>
+			<manualWork>true</manualWork>
+			<liquidsIngredients>
+				<Water>1</Water>
+			</liquidsIngredients>
+			<defaultIngredientFilter>
+			</defaultIngredientFilter>
+			<researchPrerequisite>PsychiteRefining</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<soundWorking>Recipe_Drug</soundWorking>
+		</recipeMaker>
+		<costList>
+			<PsychoidLeaves>8</PsychoidLeaves>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Psychite</chemical>
+				<addictiveness>0.01</addictiveness>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+				<listOrder>100</listOrder>
+				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
+				<largeOverdoseChance>0.01</largeOverdoseChance>
+			</li>
+		</comps>
+		<allowedArchonexusCount>200</allowedArchonexusCount>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>Flake</defName>
+		<label>flake</label>
+		<description>A flaky white preparation of psychite that can be smoked to induce a short but powerful euphoric state. While it is cheap to produce and extremely pleasurable to use, it is exceptionally addictive. Flake is known for destroying lives, communities, and entire societies.</description>
+		<descriptionHyperlinks>
+			<HediffDef>FlakeHigh</HediffDef>
+			<HediffDef>PsychiteTolerance</HediffDef>
+			<HediffDef>PsychiteAddiction</HediffDef>
+			<HediffDef>ChemicalDamageSevere</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Yayo</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(150,170,150)</color>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>250</WorkToMake>
+			<MarketValue>14</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<minRewardCount>10</minRewardCount>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.70</joy>
+			<baseIngestTicks>650</baseIngestTicks>
+			<nurseable>true</nurseable>
+			<drugCategory>Hard</drugCategory>
+			<ingestSound>Ingest_Smoke</ingestSound>
+			<ingestEffect>Smoke_Flake</ingestEffect>
+			<ingestEffectEat>EatVegetarian</ingestEffectEat>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.23,0,0.065)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Smoke {0}</ingestCommandString>
+			<ingestReportString>Smoking {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>FlakeHigh</hediffDef>
+					<severity>0.75</severity>
+					<toleranceChemical>Psychite</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.2</offset>
+					<toleranceChemical>Psychite</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>PsychiteTolerance</hediffDef>
+					<severity>0.04</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker Class="SteamRim.Recipes.RecipeMakerPropertiesExtended">
+			<recipeDefType>SteamRim.Recipes.ExtendedRecipeDef</recipeDefType>
+			<manualWork>true</manualWork>
+			<liquidsIngredients>
+				<Water>1</Water>
+			</liquidsIngredients>
+			<defaultIngredientFilter>
+			</defaultIngredientFilter>
+			<researchPrerequisite>PsychiteRefining</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<soundWorking>Recipe_Drug</soundWorking>
+		</recipeMaker>
+		<costList>
+			<PsychoidLeaves>4</PsychoidLeaves>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Psychite</chemical>
+				<addictiveness>0.05</addictiveness>
+				<existingAddictionSeverityOffset>0.30</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>110</listOrder>
+				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
+				<largeOverdoseChance>0.015</largeOverdoseChance>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>SmokeleafJoint</defName>
+		<label>smokeleaf joint</label>
+		<description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency.\n\nJoints can be produced at a crafting spot without equipment, and are a fixture in many traditional low-industriousness cultures.</description>
+		<possessionCount>5</possessionCount>
+		<descriptionHyperlinks>
+			<HediffDef>SmokeleafHigh</HediffDef>
+			<HediffDef>SmokeleafTolerance</HediffDef>
+			<HediffDef>SmokeleafAddiction</HediffDef>
+			<HediffDef>Carcinoma</HediffDef>
+			<HediffDef>Asthma</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Joint</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>450</WorkToMake>
+			<MarketValue>11</MarketValue>
+			<Mass>0.05</Mass>
+			<DeteriorationRate>6</DeteriorationRate>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<foodType>Plant, Processed</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.80</joy>
+			<baseIngestTicks>720</baseIngestTicks>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Smoke</ingestSound>
+			<ingestEffect>Smoke_Joint</ingestEffect>
+			<ingestEffectEat>EatVegetarian</ingestEffectEat>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.27,0,0.08)</offset>
+					<behind>true</behind>
+				</northDefault>
+				<east>
+					<offset>(0.45,0,0.08)</offset>
+				</east>
+				<south>
+					<offset>(0.27,0,0.08)</offset>
+				</south>
+				<west>
+					<offset>(-0.50,0,0.08)</offset>
+					<flip>true</flip>
+				</west>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Smoke {0}</ingestCommandString>
+			<ingestReportString>Smoking {0}.</ingestReportString>
+			<ingestReportStringEat>Consuming {0}.</ingestReportStringEat>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>SmokeleafHigh</hediffDef>
+					<severity>0.5</severity>
+					<toleranceChemical>Smokeleaf</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>-0.1</offset>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>SmokeleafTolerance</hediffDef>
+					<severity>0.030</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker Class="SteamRim.Recipes.RecipeMakerPropertiesExtended">
+			<recipeDefType>SteamRim.Recipes.ExtendedRecipeDef</recipeDefType>
+			<manualWork>true</manualWork>
+			<liquidsIngredients>
+				<Water>1</Water>
+			</liquidsIngredients>
+			<defaultIngredientFilter>
+			</defaultIngredientFilter>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+		</recipeMaker>
+		<costList>
+			<SmokeleafLeaves>4</SmokeleafLeaves>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Smokeleaf</chemical>
+				<addictiveness>0.020</addictiveness>
+				<minToleranceToAddict>0.15</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.06</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>20</listOrder>
+			</li>
+		</comps>
+		<allowedArchonexusCount>50</allowedArchonexusCount>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MakeableDrugPillBase">
+		<defName>WakeUp</defName>
+		<label>wake-up</label>
+		<description>A synthetic stimulant. Wake-up fills the user's need for rest, allowing them to work for extended periods without getting tired. However, taking wake-up runs the risk of developing an addiction.\n\nIn the most competitive universities and companies of many worlds, high-achievers are sometimes called 'wake-ups' because of the association with this drug.</description>
+		<descriptionHyperlinks>
+			<HediffDef>WakeUpHigh</HediffDef>
+			<HediffDef>WakeUpAddiction</HediffDef>
+			<HediffDef>HeartAttack</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/WakeUp</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>900</WorkToMake>
+			<MarketValue>35</MarketValue>
+			<Mass>0.005</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<joyKind>Chemical</joyKind>
+			<joy>0.40</joy>
+			<drugCategory>Hard</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WakeUpHigh</hediffDef>
+					<severity>0.75</severity>
+					<toleranceChemical>WakeUp</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>1.0</offset>
+					<toleranceChemical>WakeUp</toleranceChemical>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker Class="SteamRim.Recipes.RecipeMakerPropertiesExtended">
+			<recipeDefType>SteamRim.Recipes.ExtendedRecipeDef</recipeDefType>
+			<manualWork>true</manualWork>
+			<liquidsIngredients>
+				<Water>1</Water>
+				<Chlorine>1</Chlorine>
+			</liquidsIngredients>
+			<defaultIngredientFilter>
+			</defaultIngredientFilter>
+			<researchPrerequisite>WakeUpProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Neutroamine>2</Neutroamine>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>WakeUp</chemical>
+				<addictiveness>0.02</addictiveness>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>210</listOrder>
+				<overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
+				<largeOverdoseChance>0.005</largeOverdoseChance>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MakeableDrugPillBase">
+		<defName>Penoxycyline</defName>
+		<label>penoxycyline</label>
+		<description>A drug for preventing infections before they take hold. Blocks malaria, sleeping sickness, plague. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</description>
+		<possessionCount>10</possessionCount>
+		<descriptionHyperlinks>
+			<HediffDef>PenoxycylineHigh</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Penoxycyline</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>600</WorkToMake>
+			<MarketValue>18</MarketValue>
+			<Mass>0.005</Mass>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>PenoxycylineHigh</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker Class="SteamRim.Recipes.RecipeMakerPropertiesExtended">
+			<recipeDefType>SteamRim.Recipes.ExtendedRecipeDef</recipeDefType>
+			<manualWork>true</manualWork>
+			<liquidsIngredients>
+				<Water>1</Water>
+				<Chlorine>2</Chlorine>
+			</liquidsIngredients>
+			<defaultIngredientFilter>
+			</defaultIngredientFilter>
+			<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Neutroamine>2</Neutroamine>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="MedicineBase">
+		<defName>MedicineIndustrial</defName>
+		<label>medicine</label>
+		<description>A kit of industrial-era medical equipment. It contains basic drugs, tools for suturing and bone setting, diagnostic devices, and various pads and fluids.</description>
+		<possessionCount>3</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/Medicine/MedicineIndustrial</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>18</MarketValue>
+			<Mass>0.50</Mass>
+			<Flammability>0.7</Flammability>
+			<MedicalPotency>1.00</MedicalPotency>
+			<MedicalQualityMax>1.00</MedicalQualityMax>
+			<DeteriorationRate>2</DeteriorationRate>
+			<WorkToMake>700</WorkToMake>
+		</statBases>
+		<costList>
+			<MedicineHerbal>1</MedicineHerbal>
+			<Neutroamine>1</Neutroamine>
+			<Cloth>3</Cloth>
+		</costList>
+		<recipeMaker Class="SteamRim.Recipes.RecipeMakerPropertiesExtended">
+			<recipeDefType>SteamRim.Recipes.ExtendedRecipeDef</recipeDefType>
+			<manualWork>true</manualWork>
+			<liquidsIngredients>
+				<Water>2</Water>
+				<Chlorine>2</Chlorine>
+			</liquidsIngredients>
+			<defaultIngredientFilter>
+			</defaultIngredientFilter>
+			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+			<workSkill>Intellectual</workSkill>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<researchPrerequisite>MedicineProduction</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+				<Intellectual>4</Intellectual>
+			</skillRequirements>
+			<bulkRecipeCount>4</bulkRecipeCount>
+		</recipeMaker>
+		<allowedArchonexusCount>10</allowedArchonexusCount>
+	</ThingDef>
+	<!---->
+</Defs>

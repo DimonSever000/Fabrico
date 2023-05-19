@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<ThingCategoryDef>
+		<defName>Ores</defName>
+		<label>ores</label>
+		<parent>ResourcesRaw</parent>
+		<iconPath>UI/Icons/ThingCategories/Ores</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<!---->
+	<ThingCategoryDef>
+		<defName>Ingots</defName>
+		<label>Ingots</label>
+		<parent>ResourcesRaw</parent>
+		<iconPath>UI/Icons/ThingCategories/Ingots</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<!---->
+	<ThingCategoryDef>
+		<defName>SimpleIngots</defName>
+		<label>Simple ingots</label>
+		<parent>Ingots</parent>
+		<iconPath>UI/Icons/ThingCategories/Ingots</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<!---->
+	<ThingCategoryDef>
+		<defName>StrongIngots</defName>
+		<label>Strong ingots</label>
+		<parent>Ingots</parent>
+		<iconPath>UI/Icons/ThingCategories/Ingots</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<!---->
+	<ThingCategoryDef>
+		<defName>TechnicalIngots</defName>
+		<label>Technical ingots</label>
+		<parent>Ingots</parent>
+		<iconPath>UI/Icons/ThingCategories/Ingots</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<!---->
+	<ThingCategoryDef>
+		<defName>Powders</defName>
+		<label>Powders</label>
+		<parent>ResourcesRaw</parent>
+		<iconPath>UI/Icons/ThingCategories/OreDust</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<!---->
+	<ThingCategoryDef>
+		<defName>Books</defName>
+		<label>Books</label>
+		<parent>Manufactured</parent>
+		<iconPath>UI/Icons/ThingCategories/Books</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+	<!---->
+</Defs>

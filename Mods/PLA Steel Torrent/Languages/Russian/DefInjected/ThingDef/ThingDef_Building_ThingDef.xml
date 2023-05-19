@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/ThingDef_Building.xml-->
+                          <!-- turret drone -->
+<PLA_BuildingTurretDrone.label>мобильная турель</PLA_BuildingTurretDrone.label>
+                                <!-- A drone with 5.8mm machine gun turret. -->
+<PLA_BuildingTurretDrone.description>Мобильная турель с 5.8мм пулемётом</PLA_BuildingTurretDrone.description>
+                        <!-- Lynx6x6 ultra light -->
+<PLA_BuildingLynx6x6UL.label>Lynx6x6 ЛМВ</PLA_BuildingLynx6x6UL.label>
+                              <!-- A vehicle lightweight multi-purpose all-terrain vehicle developed by NORINCO. it was proposed to mount various artillery and rocket weapons on it. -->
+<PLA_BuildingLynx6x6UL.description>Лёгкий Многофункциональный Вездеход, разработанный компанией NORINCO. На нем предлагается устанавливать различное артиллерийское и ракетное вооружение.</PLA_BuildingLynx6x6UL.description>
+                            <!-- CSZ-181 off-road -->
+<PLA_BuildingCSZ181OffRoad.label>CSZ-181 вездеход</PLA_BuildingCSZ181OffRoad.label>
+                                  <!-- A off-road vehicles developed by Dongfeng Motor Group. -->
+<PLA_BuildingCSZ181OffRoad.description>Вездеход, разработанный Dongfeng Motor Group.</PLA_BuildingCSZ181OffRoad.description>
+                        <!-- VP-22 truck -->
+<PLA_BuildingVP22Truck.label>VP-22 грузовик</PLA_BuildingVP22Truck.label>
+                              <!-- A transport vehicle developed by NORINCO. -->
+<PLA_BuildingVP22Truck.description>Транспортная техника, разработанная NORINCO.</PLA_BuildingVP22Truck.description>
+                        <!-- ZTL-11 infantry fighting vehicle -->
+<PLA_BuildingZTLL11IFV.label>ZTL-11 БМП</PLA_BuildingZTLL11IFV.label>
+                              <!-- A infantry fighting vehicle. -->
+<PLA_BuildingZTLL11IFV.description>Боевая Машина Пехоты</PLA_BuildingZTLL11IFV.description>
+                     <!-- ZTZ-99A main battle tank -->
+<PLA_BuildingZTZ99A.label>ZTZ-99A ОБТ</PLA_BuildingZTZ99A.label>
+                           <!-- A main battle tank with 125mm cannon. -->
+<PLA_BuildingZTZ99A.description>Основной боевой танк с 125мм пушкой.</PLA_BuildingZTZ99A.description>
+                 <!-- parking lot -->
+<PLA_ParkingLot.label>стоянка</PLA_ParkingLot.label>
+                       <!-- A place for parking the vehicle, the vehicle will return to the parking lot when undrafted. -->
+<PLA_ParkingLot.description>Место для парковки транспортного средства. Транспортное средство вернется на стоянку, когда оно перестанет быть нужным.</PLA_ParkingLot.description>
+
+</LanguageData>

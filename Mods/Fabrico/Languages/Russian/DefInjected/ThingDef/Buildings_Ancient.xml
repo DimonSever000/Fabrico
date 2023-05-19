@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<AncientSystemRack.label>Древняя груда кирпичей (3x1)</AncientSystemRack.label>
+	<AncientSystemRack.description>Старые каменные кирпичи, сложенные в подобие стены. Время не пожалело постройку, но каркас сохранился.</AncientSystemRack.description>
+	<!---->
+	<AncientEquipmentBlocks.label>Древняя груда кирпичей (4x2)</AncientEquipmentBlocks.label>
+	<AncientEquipmentBlocks.description>Старые каменные кирпичи, сложенные в подобие стены. Время не пожалело постройку, но каркас сохранился.</AncientEquipmentBlocks.description>
+	<!---->
+	<AncientStorageCylinder.label>Древние бочки</AncientStorageCylinder.label>
+	<AncientStorageCylinder.description>Старые металлические бочки. Когда-то они служили для хранения полезных предметов, но теперь они хранят в себе лишь прах прошлого.</AncientStorageCylinder.description>
+	<!---->
+	<AncientDisplayBank.label>Древние металлические ящики</AncientDisplayBank.label>
+	<AncientDisplayBank.description>Металлические старые ящики, хранившие в своих чертогах ценности.</AncientDisplayBank.description>
+	<!---->
+</LanguageData>

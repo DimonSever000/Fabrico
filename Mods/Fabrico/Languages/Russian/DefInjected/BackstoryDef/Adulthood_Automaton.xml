@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!---->
+	<Adulthood_AutomatonWorker.title>Автоматон рабочий</Adulthood_AutomatonWorker.title>
+	<Adulthood_AutomatonWorker.titleFemale>Автоматон рабочий</Adulthood_AutomatonWorker.titleFemale>
+	<Adulthood_AutomatonWorker.titleShort>Автоматон</Adulthood_AutomatonWorker.titleShort>
+	<Adulthood_AutomatonWorker.titleShortFemale>Автоматон</Adulthood_AutomatonWorker.titleShortFemale>
+	<Adulthood_AutomatonWorker.baseDesc>[PAWN_nameDef] {PAWN_gender ? был собран : была собрана} на фабрике, как и остальные автоматоны.</Adulthood_AutomatonWorker.baseDesc>
+	<!---->
+	<Adulthood_AutomatonSoldier.title>Автоматон солдат</Adulthood_AutomatonSoldier.title>
+	<Adulthood_AutomatonSoldier.titleFemale>Автоматон солдат</Adulthood_AutomatonSoldier.titleFemale>
+	<Adulthood_AutomatonSoldier.titleShort>Автоматон</Adulthood_AutomatonSoldier.titleShort>
+	<Adulthood_AutomatonSoldier.titleShortFemale>Автоматон</Adulthood_AutomatonSoldier.titleShortFemale>
+	<Adulthood_AutomatonSoldier.baseDesc>[PAWN_nameDef] {PAWN_gender ? был собран : была собрана} на фабрике, как и остальные автоматоны.</Adulthood_AutomatonSoldier.baseDesc>
+	<!---->
+	<Adulthood_AutomatonMedic.title>Автоматон медик</Adulthood_AutomatonMedic.title>
+	<Adulthood_AutomatonMedic.titleFemale>Автоматон медик</Adulthood_AutomatonMedic.titleFemale>
+	<Adulthood_AutomatonMedic.titleShort>Автоматон</Adulthood_AutomatonMedic.titleShort>
+	<Adulthood_AutomatonMedic.titleShortFemale>Автоматон</Adulthood_AutomatonMedic.titleShortFemale>
+	<Adulthood_AutomatonMedic.baseDesc>[PAWN_nameDef] {PAWN_gender ? был собран : была собрана} на фабрике, как и остальные автоматоны.</Adulthood_AutomatonMedic.baseDesc>
+	<!---->
+</LanguageData>

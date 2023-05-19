@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<MeleeWeapon_BlacksmithHammer.label>Кузнечный молот</MeleeWeapon_BlacksmithHammer.label>
+	<MeleeWeapon_BlacksmithHammer.description>Небольшой молот кузнеца для обработки металлов и ковки. Пробивает не только металлы, но и черепа.</MeleeWeapon_BlacksmithHammer.description>
+	<!---->
+	<MeleeWeapon_ChefCleaver.label>Тесак повара</MeleeWeapon_ChefCleaver.label>
+	<MeleeWeapon_ChefCleaver.description>Металлический тесак, отлично разрубающий мясо и кости.</MeleeWeapon_ChefCleaver.description>
+	<!---->
+	<MeleeWeapon_Handaxe.label>Ручной топорик</MeleeWeapon_Handaxe.label>
+	<MeleeWeapon_Handaxe.description>Топор, предназначенный для быстрого повала дерева.</MeleeWeapon_Handaxe.description>
+	<!---->
+	<MeleeWeapon_Pickaxe.label>Кирка</MeleeWeapon_Pickaxe.label>
+	<MeleeWeapon_Pickaxe.description>Гораздо удобнее копать киркой, а не голыми руками.</MeleeWeapon_Pickaxe.description>
+	<!---->
+</LanguageData>

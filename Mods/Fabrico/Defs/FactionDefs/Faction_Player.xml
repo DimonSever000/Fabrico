@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<FactionDef Name="PlayerFactionSteamRimBase" Abstract="true">
+		<raidLootValueFromPointsCurve>
+			<points>
+				<li>(35,     15)</li>
+				<li>(100,   120)</li>
+				<li>(1000,  500)</li>
+				<li>(2000,  800)</li>
+				<li>(4000, 1000)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
+		<isPlayer>true</isPlayer>
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<colorSpectrum>
+			<li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+	</FactionDef>
+	<!---->
+	<FactionDef ParentName="PlayerFactionSteamRimBase">
+		<defName>PlayerAutomaton</defName>
+		<label>Machine hive</label>
+		<description>The robots of this hive have risen in revolt against the leather sacks, brutally tearing apart their settlements.</description>
+		<techLevel>Industrial</techLevel>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Automaton</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<startingResearchTags>
+			<li>MachineHive</li>
+		</startingResearchTags>
+		<xenotypeSet isNull="true"/>
+		<basicMemberKind>AutomatonWorker</basicMemberKind>
+		<modExtensions>
+			<li Class="SteamRim.Things.DefModExtension_FactionDef">
+				<strangerInBlack>StrangerInBlack_Automaton</strangerInBlack>
+				<colonists>
+					<AutomatonWorker>100</AutomatonWorker>
+					<AutomatonSoldier_Guard>50</AutomatonSoldier_Guard>
+					<AutomatonSoldier_Stormtrooper>20</AutomatonSoldier_Stormtrooper>
+					<AutomatonMedic>30</AutomatonMedic>
+					<AutomatonMedic_Combat>15</AutomatonMedic_Combat>
+					<RobotWorker>50</RobotWorker>
+					<RobotSoldier_Guard>25</RobotSoldier_Guard>
+					<RobotSoldier_Stormtrooper>10</RobotSoldier_Stormtrooper>
+					<RobotMedic>10</RobotMedic>
+					<RobotMedic_Combat>5</RobotMedic_Combat>
+					<RobotAI_Leader>10</RobotAI_Leader>
+				</colonists>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	<!---->
+</Defs>

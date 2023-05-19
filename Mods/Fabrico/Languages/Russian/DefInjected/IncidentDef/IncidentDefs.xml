@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<DeathOfDistantStar.label>Смерть далекой звезды</DeathOfDistantStar.label>
+	<DeathOfDistantStar.letterLabel>Смерть далекой звезды</DeathOfDistantStar.letterLabel>
+	<DeathOfDistantStar.letterText>Вы можете наблюдать в небе далекую и красивую картину гибели звезды, которая предстала перед вами много лет спустя после ее реальной смерти.</DeathOfDistantStar.letterText>
+	<!---->
+	<ParadeOfPlanets.label>Парад планет</ParadeOfPlanets.label>
+	<ParadeOfPlanets.letterLabel>Парад планет</ParadeOfPlanets.letterLabel>
+	<ParadeOfPlanets.letterText>Планеты вашей звездной системы выстроены в одну линию с небольшими отклонениями.</ParadeOfPlanets.letterText>
+	<!---->
+	<IceStorm.label>Ледяной шторм</IceStorm.label>
+	<IceStorm.letterLabel>Ледяной шторм</IceStorm.letterLabel>
+	<!---->
+	<RatInfestation.label>Нашествие крыс</RatInfestation.label>
+	<RatInfestation.letterLabel>Нашествие крыс</RatInfestation.letterLabel>
+	<RatInfestation.letterText>Множество крыс вылезают из под земли и атакуют ваши посевы! Истребите их если не хотите лишиться посевов.</RatInfestation.letterText>
+	<!---->
+	<TurtleInvasion.label>Вторжение черепах</TurtleInvasion.label>
+	<TurtleInvasion.letterLabel>Вторжение черепах</TurtleInvasion.letterLabel>
+	<TurtleInvasion.letterText>Множество агрессивных черепах выходят из под воды и атакуют нас!</TurtleInvasion.letterText>
+	<!---->
+	<AlliesGift.label>Подарок союзников</AlliesGift.label>
+	<AlliesGift.letterLabel>Подарок союзников</AlliesGift.letterLabel>
+	<AlliesGift.letterText>Ваши союзники, фракция {0} отправила вам небольшой символический подарок в знак дружбы.</AlliesGift.letterText>
+	<!---->
+	<CatJoin.label>Заблудившийся кот</CatJoin.label>
+	<CatJoin.letterLabel>Заблудившийся кот</CatJoin.letterLabel>
+	<CatJoin.letterText>На нашу территорию пришел потерявшийся кот и сразу признал в нас хозяев.</CatJoin.letterText>
+	<!---->
+</LanguageData>

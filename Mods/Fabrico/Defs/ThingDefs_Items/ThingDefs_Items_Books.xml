@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="ResourceBase" Name="BookBase" Abstract="true">
+		<techLevel>Medieval</techLevel>
+		<thingCategories>
+			<li>Books</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Artifact</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<stackLimit>1</stackLimit>
+		<tradeNeverStack>true</tradeNeverStack>
+		<useHitPoints>true</useHitPoints>
+		<relicChance>0</relicChance>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<comps>
+			<li Class="CompProperties_UseEffectDestroySelf">
+				<compClass>CompUseEffect_DestroySelf</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BookBase">
+		<defName>SkillBook</defName>
+		<label>Skill book</label>
+		<description>Fragmentary information about some of the techniques in the work that can help to master the specialty.</description>
+		<graphicData>
+			<texPath>Things/Books/SkillBook</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>300</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>1</Mass>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Usable">
+				<useJob>UseArtifact</useJob>
+				<useLabel>Read</useLabel>
+				<useDuration>2500</useDuration>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>BookNameMaker</nameMaker>
+				<descriptionMaker>TalelessImages</descriptionMaker>
+				<minQualityForArtistic>Awful</minQualityForArtistic>
+			</li>
+			<li Class="SteamRim.Things.CompProperties_UseEffectSkillBook">
+				<compClass>SteamRim.Things.CompSkillBook</compClass>
+				<qualityCurvePoints>
+					<points>
+						<li>(0, 0.5)</li>
+						<li>(5, 2)</li>
+					</points>
+				</qualityCurvePoints>
+				<skillPoints>5000~8000</skillPoints>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BookBase">
+		<defName>TechnologyBook</defName>
+		<label>Technology book</label>
+		<description>The complex of knowledge set out on paper. After studying the book, you can quickly master the technology.</description>
+		<graphicData>
+			<texPath>Things/Books/TechnologyBook/TechnologyBook</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>700</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>1</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseArtifact</useJob>
+				<useLabel>Read</useLabel>
+				<useDuration>2500</useDuration>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>BookNameMaker</nameMaker>
+				<descriptionMaker>TalelessImages</descriptionMaker>
+			</li>
+			<li Class="SteamRim.Things.CompProperties_UseEffectTechnologyBook">
+				<compClass>SteamRim.Things.CompTechnologyBook</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	<!---->
+	<RulePackDef>
+		<defName>BookNameMaker</defName>
+		<include>
+			<li>ArtNameUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_art_name(p=5)->[book] [ofThing]</li>
+				<li>r_art_name(p=3)->[adjective] [book]</li>
+				<li>r_art_name(p=2)->[adjective] [book] [ofThing]</li>
+				<li>r_art_name(p=2)->[Color] [book]</li>
+				<li>r_art_name(p=2)->[book] about [NaturalObject]</li>
+				<li>r_art_name->[customName]</li>
+				<!---->
+				<li>book->Book</li>
+				<li>book->Story</li>
+				<li>book->History</li>
+				<li>book->Novel</li>
+				<li>book->Poem</li>
+				<li>book->Article</li>
+				<li>book->Manuscript</li>
+				<!---->
+				<li>adjective->Weird</li>
+				<li>adjective->Scary</li>
+				<li>adjective->Original</li>
+				<li>adjective->Unoriginal</li>
+				<li>adjective->Simple</li>
+				<li>adjective->Complex</li>
+				<li>adjective->Classic</li>
+				<li>adjective->Modern</li>
+				<li>adjective->Symbolic</li>
+				<li>adjective->Abstract</li>
+				<li>adjective->Sacred</li>
+				<li>adjective->Ideological</li>
+				<li>adjective->Decadent</li>
+				<li>adjective->Futuristic</li>
+				<li>adjective->Tragic</li>
+				<li>adjective->Cheerful</li>
+				<li>adjective->Old</li>
+				<li>adjective->Ancient</li>
+				<li>ofThing->Knight</li>
+				<li>ofThing->Peasant</li>
+				<li>ofThing->Victims</li>
+				<li>ofThing->Killers</li>
+				<li>ofThing->Citizen</li>
+				<li>ofThing->Priest</li>
+				<li>ofThing->Nobles</li>
+				<li>ofThing->Hunter</li>
+				<li>ofThing->Explorer</li>
+				<li>ofThing->Techniques</li>
+				<li>ofThing->Engineering</li>
+				<li>ofThing->Mechanics</li>
+				<li>customName->The Horus Heresy</li>
+				<li>customName->Steelheart</li>
+				<li>customName->Tread of machines</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	<!---->
+</Defs>

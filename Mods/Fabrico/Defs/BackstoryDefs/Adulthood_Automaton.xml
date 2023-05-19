@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<BackstoryDef>
+		<defName>Adulthood_AutomatonWorker</defName>
+		<title>Automaton worker</title>
+		<titleFemale>Automaton worker</titleFemale>
+		<titleShort>Automaton</titleShort>
+		<titleShortFemale>Automaton</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] was assembled at the factory, like the rest of the automatons.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>AutomatonWorker</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Caring</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	<!---->
+	<BackstoryDef>
+		<defName>Adulthood_AutomatonSoldier</defName>
+		<title>Automaton soldier</title>
+		<titleFemale>Automaton soldier</titleFemale>
+		<titleShort>Automaton</titleShort>
+		<titleShortFemale>Automaton</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] was assembled at the factory, like the rest of the automatons.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>AutomatonSoldier</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	<!---->
+	<BackstoryDef>
+		<defName>Adulthood_AutomatonMedic</defName>
+		<title>Automaton medic</title>
+		<titleFemale>Automaton medic</titleFemale>
+		<titleShort>Automaton</titleShort>
+		<titleShortFemale>Automaton</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] was assembled at the factory, like the rest of the automatons.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>AutomatonMedic</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	<!---->
+</Defs>

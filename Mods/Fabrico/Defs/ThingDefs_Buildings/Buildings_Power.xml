@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="BenchBase">
+		<defName>WindTurbine</defName>
+		<label>Steam turbine</label>
+		<description>Produces power by consuming chemfuel. Must be periodically refueled by hand.</description>
+		<thingClass>SteamRim.Things.Building_SteamTurbine</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Buildings/SteamTurbine/SteamTurbine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(9,5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.93,1,1.69)</volume>
+				<offset>(-0.03,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>30000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(7,3)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>300</costStuffCount>
+		<costList>
+			<Concrete>300</Concrete>
+			<StrongPlates>50</StrongPlates>
+			<ComponentIndustrial>16</ComponentIndustrial>
+			<Mechanism>10</Mechanism>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>SteamRim.Things.CompPowerTraderExtended</compClass>
+				<basePowerConsumption>-1000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>SteamRim.Things.CompHeatPusherExtended</compClass>
+				<heatPerSecond>4</heatPerSecond>
+				<heatPushMaxTemperature>50</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe"/>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_SteamTurbine</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<hasInteractionCell>false</hasInteractionCell>
+		<minifiedDef/>
+		<thingCategories Inherit="false"/>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase" Name="PowerConduit">
+		<defName>PowerConduit</defName>
+		<label>power conduit</label>
+		<description>A bundle of electrical cables for moving power around. Can be placed under walls and other buildings.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/PowerConduit_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Transmitter</linkType>
+			<linkFlags>
+				<li>PowerConduit</li>
+			</linkFlags>
+			<damageData>
+				<rect>(0,0.35,1,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/PowerConduit_MenuIcon</uiIconPath>
+		<uiIconScale>0.7</uiIconScale>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<drawerType>MapMeshOnly</drawerType>
+		<altitudeLayer>Conduits</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0.7</Flammability>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<costList>
+			<CopperIngot>2</CopperIngot>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_Conduit</li>
+		</placeWorkers>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<uiOrder>2000</uiOrder>
+		<constructEffect>ConstructMetal</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+		<designationHotKey>Misc1</designationHotKey>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowerConduit">
+		<defName>WaterproofConduit</defName>
+		<label>waterproof conduit</label>
+		<description>Insulated electrical cables for transmitting power under shallow water.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/WaterproofConduit_Atlas</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/WaterproofConduit_MenuIcon</uiIconPath>
+		<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+		<designationHotKey>Misc8</designationHotKey>
+		<costList>
+			<CopperIngot>2</CopperIngot>
+			<Concrete>10</Concrete>
+		</costList>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>PowerSwitch</defName>
+		<label>power switch</label>
+		<description>Switches power on/off.</description>
+		<thingClass>Building_PowerSwitch</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Power/PowerSwitch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<allowWireConnection>false</allowWireConnection>
+		</building>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-2</Beauty>
+		</statBases>
+		<placingDraggableDimensions>0</placingDraggableDimensions>
+		<costList>
+			<CopperIngot>20</CopperIngot>
+			<Mechanism>2</Mechanism>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<tickerType>Normal</tickerType>
+		<designationCategory>Power</designationCategory>
+		<uiOrder>2010</uiOrder>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BuildingBase">
+		<defName>Battery</defName>
+		<label>battery</label>
+		<description>Stores electricity for later use. Charged batteries explode when exposed to rain or fire.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Battery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.40</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Mass>20</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>-15</Beauty>
+		</statBases>
+		<size>(1,2)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<costList>
+			<LeadIngot>50</LeadIngot>
+			<CopperIngot>25</CopperIngot>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>600</storedEnergyMax>
+				<efficiency>0.5</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<uiOrder>2020</uiOrder>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotKey>Misc4</designationHotKey>
+		<canOverlapZones>false</canOverlapZones>
+		<researchPrerequisites>
+			<li>Batteries</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BenchBase">
+		<defName>SolarGenerator</defName>
+		<label>Steam reactor</label>
+		<description>A large steam generator of electricity that uses a huge amount of steam.</description>
+		<thingClass>SteamRim.Things.Building_SteamReactor</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Buildings/SteamReactor/SteamReactor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(9.15,9.15)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.93,1,1.69)</volume>
+				<offset>(-0.03,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<fillPercent>1.0</fillPercent>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>60000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(5,5)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<Concrete>250</Concrete>
+			<StrongPlates>100</StrongPlates>
+			<ComponentSpacer>4</ComponentSpacer>
+			<MechanismSpacer>4</MechanismSpacer>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>SteamRim.Things.CompPowerTraderExtended</compClass>
+				<basePowerConsumption>-2500</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>SteamRim.Things.CompHeatPusherExtended</compClass>
+				<heatPerSecond>20</heatPerSecond>
+				<heatPushMaxTemperature>100</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="SteamRim.LiquidSystem.CompProperties_Pipe"/>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<researchPrerequisites>
+			<li>SteamReactors</li>
+		</researchPrerequisites>
+		<inspectorTabs>
+			<li>SteamRim.ITabs.ITab_SteamReactor</li>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<hasInteractionCell>false</hasInteractionCell>
+		<minifiedDef/>
+		<thingCategories Inherit="false"/>
+	</ThingDef>
+	<!---->
+</Defs>

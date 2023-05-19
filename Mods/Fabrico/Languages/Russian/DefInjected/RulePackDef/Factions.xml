@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<FactionKingdomNamer.rulePack.rulesStrings>
+		<li>r_name->[kingdom] [ofThing]</li>
+		<li>r_name->The [Color] [kingdom] [ofThing]</li>
+		<li>r_name->The [Color] [kingdom]</li>
+		<li>kingdom->Королевство</li>
+		<li>kingdom->Империум</li>
+		<li>kingdom->Царство</li>
+		<li>kingdom->Графство</li>
+		<li>kingdom->Герцогство</li>
+		<li>ofThing->[WordImperial]</li>
+	</FactionKingdomNamer.rulePack.rulesStrings>
+	<!---->
+</LanguageData>

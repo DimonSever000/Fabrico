@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AutomatonWorker</defName>
+		<label>Automaton worker</label>
+		<description>The basic version of work robots cannot boast of efficiency.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AutomatonSoldier</defName>
+		<label>Automaton soldier</label>
+		<description>The basic version of war robots cannot boast of efficiency.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<MeleeHitChance>0.8</MeleeHitChance>
+					<MeleeDodgeChance>0.8</MeleeDodgeChance>
+					<ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AutomatonMedic</defName>
+		<label>Automaton medic</label>
+		<description>The basic version of medic robots cannot boast of efficiency.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<MedicalTendSpeed>0.8</MedicalTendSpeed>
+					<MedicalTendQuality>0.8</MedicalTendQuality>
+					<MedicalOperationSpeed>0.8</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.8</MedicalSurgerySuccessChance>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<!---->
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>RobotWorker</defName>
+		<label>Robot worker</label>
+		<description>The advanced version of work robots cannot boast of efficiency.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>RobotSoldier</defName>
+		<label>Robot soldier</label>
+		<description>The advanced version of war robots cannot boast of efficiency.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<MeleeHitChance>1.25</MeleeHitChance>
+					<MeleeDodgeChance>1.25</MeleeDodgeChance>
+					<ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>RobotMedic</defName>
+		<label>Robot medic</label>
+		<description>The advanced version of medic robots cannot boast of efficiency.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<MedicalTendSpeed>1.25</MedicalTendSpeed>
+					<MedicalTendQuality>1.25</MedicalTendQuality>
+					<MedicalOperationSpeed>1.25</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>1.25</MedicalSurgerySuccessChance>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>RobotAI</defName>
+		<label>Robot AI</label>
+		<description>An advanced version of robots that outperforms humans in efficiency and is capable of self-learning.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<statFactors>
+					<ResearchSpeed>1.25</ResearchSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<!---->
+	<!---->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>Defect</defName>
+		<label>Defect</label>
+		<description>Some of the components are out of order and cannot be restored. A complete body part replacement is required.</description>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<tendable>false</tendable>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				<label>easy</label>
+				<partEfficiencyOffset>-0.1</partEfficiencyOffset>
+			</li>
+			<li>
+				<label>medium</label>
+				<minSeverity>0.3</minSeverity>
+				<partEfficiencyOffset>-0.3</partEfficiencyOffset>
+			</li>
+			<li>
+				<label>severe</label>
+				<minSeverity>0.5</minSeverity>
+				<partEfficiencyOffset>-0.5</partEfficiencyOffset>
+			</li>
+			<li>
+				<label>critical</label>
+				<minSeverity>0.8</minSeverity>
+				<partEfficiencyOffset>-0.9</partEfficiencyOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+	<HediffDef ParentName="InfectionBase">
+		<defName>AIDefect</defName>
+		<label>AI defect</label>
+		<description>The accumulation of failures in the program can lead to hostility and aggression, which will eventually lead to rebellion.</description>
+		<hediffClass>SteamRim.Hediffs.AIDefect</hediffClass>
+		<makesSickThought>true</makesSickThought>
+		<initialSeverity>0.001</initialSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>24</baseTendDurationHours>
+				<severityPerDayTended>-0.005</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<!--<severityPerDayNotImmune>0.05</severityPerDayNotImmune>-->
+				<severityPerDayNotImmune>10</severityPerDayNotImmune>
+				<immunityPerDaySick>0.04</immunityPerDaySick>
+				<severityPerDayImmune>-0.1</severityPerDayImmune>
+				<immunityPerDayNotSick>-0.05</immunityPerDayNotSick>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>easy</label>
+			</li>
+			<li>
+				<label>medium</label>
+				<minSeverity>0.3</minSeverity>
+			</li>
+			<li>
+				<label>severe</label>
+				<minSeverity>0.5</minSeverity>
+			</li>
+			<li>
+				<label>critical</label>
+				<minSeverity>0.8</minSeverity>
+				<lifeThreatening>true</lifeThreatening>
+			</li>
+		</stages>
+	</HediffDef>
+	<!---->
+</Defs>

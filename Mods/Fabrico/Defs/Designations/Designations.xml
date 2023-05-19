@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<DesignationDef>
+		<defName>CollectSand</defName>
+		<targetType>Cell</targetType>
+		<texturePath>Things/Sand/SandC</texturePath>
+	</DesignationDef>
+	<!---->
+	<DesignationDef>
+		<defName>CollectClay</defName>
+		<targetType>Cell</targetType>
+		<texturePath>Things/Sand/SandC</texturePath>
+	</DesignationDef>
+	<!---->
+	<DesignationDef>
+		<defName>CollectDirt</defName>
+		<targetType>Cell</targetType>
+		<texturePath>Things/Sand/SandC</texturePath>
+	</DesignationDef>
+	<!---->
+</Defs>

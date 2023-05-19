@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<BackstoryDef>
+		<defName>Adulthood_RobotWorker</defName>
+		<title>Robot worker</title>
+		<titleFemale>Robot worker</titleFemale>
+		<titleShort>Robot</titleShort>
+		<titleShortFemale>Robot</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] was assembled at the factory, like the rest of the robots.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>RobotWorker</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Caring</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	<!---->
+	<BackstoryDef>
+		<defName>Adulthood_RobotSoldier</defName>
+		<title>Robot soldier</title>
+		<titleFemale>Robot soldier</titleFemale>
+		<titleShort>Robot</titleShort>
+		<titleShortFemale>Robot</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] was assembled at the factory, like the rest of the robots.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>RobotSoldier</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>Caring</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	<!---->
+	<BackstoryDef>
+		<defName>Adulthood_RobotMedic</defName>
+		<title>Robot medic</title>
+		<titleFemale>Robot medic</titleFemale>
+		<titleShort>Robot</titleShort>
+		<titleShortFemale>Robot</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] was assembled at the factory, like the rest of the robots.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>RobotMedic</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	<!---->
+	<BackstoryDef>
+		<defName>Adulthood_RobotAI</defName>
+		<title>Robot AI</title>
+		<titleFemale>Robot AI</titleFemale>
+		<titleShort>Robot</titleShort>
+		<titleShortFemale>Robot</titleShortFemale>
+		<baseDesc>[PAWN_nameDef] was assembled at the factory, like the rest of the robots.</baseDesc>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>RobotAI</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Animals</li>
+			<li>Caring</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	<!---->
+</Defs>

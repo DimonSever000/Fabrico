@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/General/WorkGiver&Job.xml-->
+                         <!-- modify vehicle -->
+<PLA_DoBilModifyVehicle.label>модифицировать технику</PLA_DoBilModifyVehicle.label>
+                          <!-- modifying -->
+<PLA_DoBilModifyVehicle.gerund>модифицирует технику</PLA_DoBilModifyVehicle.gerund>
+                             <!-- repair vehicle -->
+<PLA_WorkGiverRepairVehicle.label>чинить технику</PLA_WorkGiverRepairVehicle.label>
+                              <!-- repairing -->
+<PLA_WorkGiverRepairVehicle.gerund>чинит технику</PLA_WorkGiverRepairVehicle.gerund>
+
+</LanguageData>

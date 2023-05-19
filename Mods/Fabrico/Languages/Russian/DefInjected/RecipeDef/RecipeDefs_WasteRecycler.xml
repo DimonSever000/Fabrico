@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<WasteRecycler_RecycleWastepack.label>Переработка отходов</WasteRecycler_RecycleWastepack.label>
+	<WasteRecycler_RecycleWastepack.description>Переработка отходов.</WasteRecycler_RecycleWastepack.description>
+	<WasteRecycler_RecycleWastepack.jobString>Перерабатывает отходы</WasteRecycler_RecycleWastepack.jobString>
+	<!---->
+</LanguageData>

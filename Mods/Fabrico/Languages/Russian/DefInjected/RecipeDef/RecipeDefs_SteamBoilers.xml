@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<SolidFuelSteamBoilers_ProduceSteam.label>Производство пара</SolidFuelSteamBoilers_ProduceSteam.label>
+	<SolidFuelSteamBoilers_ProduceSteam.description>Производство пара.</SolidFuelSteamBoilers_ProduceSteam.description>
+	<SolidFuelSteamBoilers_ProduceSteam.jobString>Производит пар</SolidFuelSteamBoilers_ProduceSteam.jobString>
+	<!---->
+	<LiquidSteamBoilers_ProduceSteam.label>Производство пара</LiquidSteamBoilers_ProduceSteam.label>
+	<LiquidSteamBoilers_ProduceSteam.description>Производство пара.</LiquidSteamBoilers_ProduceSteam.description>
+	<LiquidSteamBoilers_ProduceSteam.jobString>Производит пар</LiquidSteamBoilers_ProduceSteam.jobString>
+	<!---->
+	<GeothermalGenerator_ProduceSteam.label>Производство пара</GeothermalGenerator_ProduceSteam.label>
+	<GeothermalGenerator_ProduceSteam.description>Производство пара.</GeothermalGenerator_ProduceSteam.description>
+	<GeothermalGenerator_ProduceSteam.jobString>Производит пар</GeothermalGenerator_ProduceSteam.jobString>
+	<!---->
+</LanguageData>

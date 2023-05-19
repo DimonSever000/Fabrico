@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/ZTL11.xml-->
+                               <!-- install 105mm cannon -->
+<PLA_InstallWeapon105mmCannon.label>установить 105мм пушку</PLA_InstallWeapon105mmCannon.label>
+                                     <!-- Install the 105mm cannon on vehicle. -->
+<PLA_InstallWeapon105mmCannon.description>Установить 105мм пушку на технику</PLA_InstallWeapon105mmCannon.description>
+                                   <!-- Installing 105mm cannon -->
+<PLA_InstallWeapon105mmCannon.jobString>Устанавливаю 105мм пушку</PLA_InstallWeapon105mmCannon.jobString>
+                                  <!-- install 40mm auto CT cannon -->
+<PLA_InstallWeapon40mmAutoCannon.label>установить 40мм CT автопушку</PLA_InstallWeapon40mmAutoCannon.label>
+                                        <!-- Install the 40mm auto CT cannon on vehicle. -->
+<PLA_InstallWeapon40mmAutoCannon.description>Установить 40мм CT автопушку на технику</PLA_InstallWeapon40mmAutoCannon.description>
+                                      <!-- Installing 40mm auto CT cannon -->
+<PLA_InstallWeapon40mmAutoCannon.jobString>Устанавливаю 40мм CT автопушку</PLA_InstallWeapon40mmAutoCannon.jobString>
+
+</LanguageData>

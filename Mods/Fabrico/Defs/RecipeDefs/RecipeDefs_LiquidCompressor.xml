@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LiquidCompressor_CompressionBiofuel</defName>
+		<label>Compression of biofuel</label>
+		<description>Compression of biofuel.</description>
+		<jobString>Compression biofuel.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<products>
+			<Biofuel>10</Biofuel>
+		</products>
+		<recipeUsers>
+			<li>LiquidCompressor</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>10</Steam>
+			<Biofuel>10</Biofuel>
+		</liquidsIngredients>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LiquidCompressor_CompressionChemfuel</defName>
+		<label>Compression of chemfuel</label>
+		<description>Compression of chemfuel.</description>
+		<jobString>Compression chemfuel.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<products>
+			<Chemfuel>10</Chemfuel>
+		</products>
+		<recipeUsers>
+			<li>LiquidCompressor</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>10</Steam>
+			<Chemfuel>10</Chemfuel>
+		</liquidsIngredients>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+	<SteamRim.Recipes.ExtendedRecipeDef>
+		<defName>LiquidCompressor_CompressionCreosote</defName>
+		<label>Compression of creosote</label>
+		<description>Compression of creosote.</description>
+		<jobString>Compression creosote.</jobString>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<products>
+			<Creosote>10</Creosote>
+		</products>
+		<recipeUsers>
+			<li>LiquidCompressor</li>
+		</recipeUsers>
+		<liquidsIngredients>
+			<Steam>10</Steam>
+			<Creosote>10</Creosote>
+		</liquidsIngredients>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+	</SteamRim.Recipes.ExtendedRecipeDef>
+	<!---->
+</Defs>

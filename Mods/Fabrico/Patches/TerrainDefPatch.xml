@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterShallow"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>SoftSand</terrainDef>
+									<costList>
+										<Sand>30</Sand>
+									</costList>
+									<workAmount>1000</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterShallow"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterDeep"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>WaterShallow</terrainDef>
+									<costList>
+										<Sand>75</Sand>
+									</costList>
+									<workAmount>1200</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterOceanShallow"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>SoftSand</terrainDef>
+									<costList>
+										<Sand>30</Sand>
+									</costList>
+									<workAmount>1000</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterOceanShallow"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterOceanDeep"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>WaterOceanShallow</terrainDef>
+									<costList>
+										<Sand>75</Sand>
+									</costList>
+									<workAmount>1200</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterMovingShallow"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>SoftSand</terrainDef>
+									<costList>
+										<Sand>30</Sand>
+									</costList>
+									<workAmount>1000</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterMovingShallow"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="WaterMovingChestDeep"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>WaterMovingShallow</terrainDef>
+									<costList>
+										<Sand>75</Sand>
+									</costList>
+									<workAmount>1200</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="SoftSand"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>Sand</terrainDef>
+									<costList>
+										<Sand>20</Sand>
+									</costList>
+									<workAmount>800</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+						<li Class="SteamRim.Things.DefModExtension_TerrainCollect">
+							<thingDef>Sand</thingDef>
+							<count>30</count>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="SoftSand"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Sand"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>Gravel</terrainDef>
+									<costList>
+										<Clay>30</Clay>
+									</costList>
+									<workAmount>800</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+						<li Class="SteamRim.Things.DefModExtension_TerrainCollect">
+							<thingDef>Sand</thingDef>
+							<count>40</count>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Sand"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Gravel"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>Sand</terrainDef>
+									<costList>
+										<Sand>30</Sand>
+									</costList>
+									<workAmount>800</workAmount>
+								</li>
+								<li>
+									<terrainDef>Soil</terrainDef>
+									<costList>
+										<Dirt>30</Dirt>
+									</costList>
+									<workAmount>500</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+						<li Class="SteamRim.Things.DefModExtension_TerrainCollect">
+							<thingDef>Clay</thingDef>
+							<count>20</count>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Gravel"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Soil"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>Gravel</terrainDef>
+									<costList>
+										<Clay>30</Clay>
+									</costList>
+									<workAmount>500</workAmount>
+								</li>
+								<li>
+									<terrainDef>MossyTerrain</terrainDef>
+									<costList>
+										<Clay>30</Clay>
+									</costList>
+									<workAmount>800</workAmount>
+								</li>
+								<li>
+									<terrainDef>SoilRich</terrainDef>
+									<costList>
+										<Dirt>30</Dirt>
+										<Biosolids>50</Biosolids>
+									</costList>
+									<workAmount>1000</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+						<li Class="SteamRim.Things.DefModExtension_TerrainCollect">
+							<thingDef>Dirt</thingDef>
+							<count>20</count>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Soil"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="SoilRich"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>Soil</terrainDef>
+									<costList>
+										<Clay>20</Clay>
+									</costList>
+									<workAmount>1000</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+						<li Class="SteamRim.Things.DefModExtension_TerrainCollect">
+							<thingDef>Dirt</thingDef>
+							<count>30</count>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="SoilRich"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="MossyTerrain"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>Soil</terrainDef>
+									<costList>
+										<Dirt>30</Dirt>
+									</costList>
+									<workAmount>800</workAmount>
+								</li>
+								<li>
+									<terrainDef>Mud</terrainDef>
+									<costList>
+										<Dirt>20</Dirt>
+									</costList>
+									<workAmount>800</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+						<li Class="SteamRim.Things.DefModExtension_TerrainCollect">
+							<thingDef>Clay</thingDef>
+							<count>20</count>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="MossyTerrain"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Mud"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>MossyTerrain</terrainDef>
+									<costList>
+										<Clay>30</Clay>
+									</costList>
+									<workAmount>1000</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+						<li Class="SteamRim.Things.DefModExtension_TerrainCollect">
+							<thingDef>Clay</thingDef>
+							<count>20</count>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Mud"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="MarshyTerrain"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>Mud</terrainDef>
+									<costList>
+										<Clay>30</Clay>
+									</costList>
+									<workAmount>1000</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="MarshyTerrain"]</xpath>
+				<value>
+					<designationCategory>Terraforming</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Marsh"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>MarshyTerrain</terrainDef>
+									<costList>
+										<Sand>30</Sand>
+									</costList>
+									<workAmount>1200</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[@Name="WaterDeepBase"]/changeable</xpath>
+				<value>
+					<changeable>true</changeable>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/TerrainDef[defName="Ice"]</xpath>
+				<value>
+					<modExtensions>
+						<li Class="SteamRim.Things.DefModExtension_Terraform">
+							<terraformingOptions>
+								<li>
+									<terrainDef>SoftSand</terrainDef>
+									<costList>
+										<Sand>30</Sand>
+									</costList>
+									<workAmount>1500</workAmount>
+								</li>
+							</terraformingOptions>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<!---->
+			<!---->
+			<!---->
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="Boards_Totemic"]</xpath>
+				<value>
+					<TerrainDef ParentName="FloorBaseWood">
+						<defName>Boards_Totemic</defName>
+						<label>totemic boards</label>
+						<description>Fine wood boards decorated in a totemic style.</description>
+						<texturePath>Terrain/Surfaces/TotemicBoards</texturePath>
+						<renderPrecedence>250</renderPrecedence>
+						<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+						<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+						<dominantStyleCategory>Totemic</dominantStyleCategory>
+						<color>(133,97,67)</color>
+						<costList>
+							<WoodLog>20</WoodLog>
+						</costList>
+						<statBases>
+							<WorkToBuild>5000</WorkToBuild>
+							<Beauty>3</Beauty>
+							<StyleDominance>1</StyleDominance>
+							<Flammability>0.22</Flammability>
+						</statBases>
+						<tags>
+							<li>FineFloor</li>
+						</tags>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[@Name="FineTileStoneBase"]</xpath>
+				<value>
+					<TerrainDef Abstract="True" ParentName="FloorBase" Name="FineTileStoneBase">
+						<renderPrecedence>220</renderPrecedence>
+						<description>Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct.</description>
+						<texturePath>Terrain/Surfaces/TileStoneFine</texturePath>
+						<pollutionTintColor>(0.95, 0.95, 0.93, 1)</pollutionTintColor>
+						<isPaintable>true</isPaintable>
+						<statBases>
+							<WorkToBuild>5000</WorkToBuild>
+							<Beauty>3</Beauty>
+							<CleaningTimeFactor>0.8</CleaningTimeFactor>
+						</statBases>
+						<designatorDropdown>Floor_Tile_Fine</designatorDropdown>
+						<researchPrerequisites inherit="false">
+							<li>StoneFloors</li>
+						</researchPrerequisites>
+						<tags>
+							<li>FineFloor</li>
+						</tags>
+						<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+						<uiOrder>2080</uiOrder>
+					</TerrainDef>
+					<!---->
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[@Name="IdeoStoneTileBase"]</xpath>
+				<value>
+					<TerrainDef ParentName="FloorBaseStone" Name="IdeoStoneTileBase" Abstract="True">
+						<statBases>
+							<WorkToBuild>5000</WorkToBuild>
+							<Beauty>3</Beauty>
+							<StyleDominance>1</StyleDominance>
+						</statBases>
+						<renderPrecedence>220</renderPrecedence>
+						<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+						<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+						<researchPrerequisites inherit="false">
+							<li>StoneFloors</li>
+						</researchPrerequisites>
+						<tags>
+							<li>FineFloor</li>
+						</tags>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[@Name="TileStoneBase"]</xpath>
+				<value>
+					<TerrainDef Abstract="True" ParentName="FloorBaseStone" Name="TileStoneBase">
+						<description>Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay.</description>
+						<texturePath>Terrain/Surfaces/TileStone</texturePath>
+						<designatorDropdown>Floor_Tile</designatorDropdown>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[@Name="FlagstoneBase"]</xpath>
+				<value>
+					<TerrainDef Abstract="True" ParentName="FloorBaseStone" Name="FlagstoneBase">
+						<description>Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources.</description>
+						<texturePath>Terrain/Surfaces/Flagstone</texturePath>
+						<designatorDropdown>Floor_Flagstone</designatorDropdown>
+						<tags>
+							<li>Road</li>
+						</tags>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="MetalTile"]</xpath>
+				<value>
+					<TerrainDef ParentName="TileMetalBase">
+						<defName>MetalTile</defName>
+						<label>metal tile</label>
+						<renderPrecedence>240</renderPrecedence>
+						<description>Steel tiles, for that spaceship look. They are quick to clean and get a bonus to cleanliness for use in medical settings.</description>
+						<color>(0.369, 0.369, 0.369)</color>
+						<statBases>
+							<WorkToBuild>800</WorkToBuild>
+							<Beauty>0</Beauty>
+							<Cleanliness>0.2</Cleanliness>
+							<CleaningTimeFactor>0.6</CleaningTimeFactor>
+						</statBases>
+						<costList>
+							<StrongPlates>2</StrongPlates>
+						</costList>
+						<researchPrerequisites inherit="false">
+							<li>MetallicFloors</li>
+						</researchPrerequisites>
+						<designationCategory>Floors</designationCategory>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="SterileTile"]</xpath>
+				<value>
+					<TerrainDef ParentName="FloorBase">
+						<defName>SterileTile</defName>
+						<label>sterile tile</label>
+						<renderPrecedence>243</renderPrecedence>
+						<description>Sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build, but quick to clean.</description>
+						<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+						<pollutionTintColor>(1, 1, 1, 1)</pollutionTintColor>
+						<isPaintable>true</isPaintable>
+						<color>(0.45, 0.45, 0.45)</color>
+						<statBases>
+							<WorkToBuild>1600</WorkToBuild>
+							<Cleanliness>0.6</Cleanliness>
+							<CleaningTimeFactor>0.6</CleaningTimeFactor>
+							<Beauty>-1</Beauty>
+						</statBases>
+						<costList>
+							<TechnicalPlates>2</TechnicalPlates>
+						</costList>
+						<constructEffect>ConstructMetal</constructEffect>
+						<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+						<researchPrerequisites inherit="false">
+							<li>SterileMaterials</li>
+						</researchPrerequisites>
+						<designationCategory>Floors</designationCategory>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="SilverTile"]</xpath>
+				<value>
+					<TerrainDef ParentName="TileMetalBase">
+						<defName>SilverTile</defName>
+						<label>silver tile</label>
+						<renderPrecedence>241</renderPrecedence>
+						<description>For a futuristic but royal look, silver tiles fit perfectly into luxurious rooms. They are quick to clean and get a bonus to cleanliness.</description>
+						<color>(0.45, 0.45, 0.45)</color>
+						<statBases>
+							<Beauty>5</Beauty>
+							<WorkToBuild>800</WorkToBuild>
+							<Cleanliness>0.2</Cleanliness>
+							<CleaningTimeFactor>0.6</CleaningTimeFactor>
+						</statBases>
+						<costList>
+							<Silver>10</Silver>
+						</costList>
+						<designationHotKey>Misc2</designationHotKey>
+						<tags>
+							<li>FineFloor</li>
+						</tags>
+						<designationCategory>Floors</designationCategory>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="GoldTile"]</xpath>
+				<value>
+					<TerrainDef ParentName="TileMetalBase">
+						<defName>GoldTile</defName>
+						<label>gold tile</label>
+						<renderPrecedence>242</renderPrecedence>
+						<description>For overbearing extravagance, nothing beats gold tiles. They are exceptionally expensive, and exceptionally beautiful, and people will think you're exceptionally snobbish if you actually live on them.</description>
+						<color>(0.65, 0.65, 0.35)</color>
+						<statBases>
+							<Beauty>10</Beauty>
+							<WorkToBuild>800</WorkToBuild>
+							<Cleanliness>0.2</Cleanliness>
+							<CleaningTimeFactor>0.6</CleaningTimeFactor>
+						</statBases>
+						<costList>
+							<Gold>10</Gold>
+						</costList>
+						<designationHotKey>Misc3</designationHotKey>
+						<tags>
+							<li>FineFloor</li>
+						</tags>
+						<designationCategory>Floors</designationCategory>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="Tile_Transhumanist"]</xpath>
+				<value>
+					<TerrainDef ParentName="FloorBase">
+						<defName>Tile_Transhumanist</defName>
+						<label>hex tile</label>
+						<description>Fine steel plates with a hexagonal pattern for that ultra-technological look.</description>
+						<texturePath>Terrain/Surfaces/HexTile</texturePath>
+						<renderPrecedence>228</renderPrecedence>
+						<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+						<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+						<dominantStyleCategory>Techist</dominantStyleCategory>
+						<costList>
+							<Steel>15</Steel>
+						</costList>
+						<isPaintable>true</isPaintable>
+						<statBases>
+							<WorkToBuild>5000</WorkToBuild>
+							<Beauty>3</Beauty>
+							<StyleDominance>1</StyleDominance>
+							<CleaningTimeFactor>0.6</CleaningTimeFactor>
+						</statBases>
+						<tags>
+							<li>FineFloor</li>
+						</tags>
+						<uiOrder>2055</uiOrder>
+						<researchPrerequisites inherit="false">
+							<li>MetallicFloors</li>
+						</researchPrerequisites>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="Plates_Spikecore"]</xpath>
+				<value>
+					<TerrainDef ParentName="FloorBase">
+						<defName>Plates_Spikecore</defName>
+						<label>spikecore plates</label>
+						<description>Fine steel plates decorated in an aggressive spikecore style.</description>
+						<texturePath>Terrain/Surfaces/SpikecorePlates</texturePath>
+						<renderPrecedence>240</renderPrecedence>
+						<canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+						<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+						<dominantStyleCategory>Spikecore</dominantStyleCategory>
+						<costList>
+							<Steel>15</Steel>
+						</costList>
+						<statBases>
+							<WorkToBuild>5000</WorkToBuild>
+							<Beauty>3</Beauty>
+							<StyleDominance>1</StyleDominance>
+							<CleaningTimeFactor>0.6</CleaningTimeFactor>
+						</statBases>
+						<tags>
+							<li>FineFloor</li>
+						</tags>
+						<researchPrerequisites inherit="false">
+							<li>MetallicFloors</li>
+						</researchPrerequisites>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="Concrete"]</xpath>
+				<value>
+					<TerrainDef ParentName="FloorBase">
+						<defName>Concrete</defName>
+						<label>concrete</label>
+						<description>Rough concrete. It is cheap and quick to build, but is also quite ugly.</description>
+						<texturePath>Terrain/Surfaces/Concrete</texturePath>
+						<color>(140,140,140)</color>
+						<edgeType>Hard</edgeType>
+						<renderPrecedence>70</renderPrecedence>
+						<isPaintable>true</isPaintable>
+						<statBases>
+							<Beauty>-1</Beauty>
+							<WorkToBuild>100</WorkToBuild>
+							<CleaningTimeFactor>0.8</CleaningTimeFactor>
+						</statBases>
+						<costList>
+							<Concrete>5</Concrete>
+						</costList>
+						<designationHotKey>Misc6</designationHotKey>
+						<researchPrerequisites>
+							<li>SteamMixer</li>
+						</researchPrerequisites>
+						<uiOrder>2020</uiOrder>
+					</TerrainDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/TerrainDef[defName="PavedTile"]</xpath>
+				<value>
+					<TerrainDef ParentName="FloorBase">
+						<defName>PavedTile</defName>
+						<label>paved tile</label>
+						<renderPrecedence>230</renderPrecedence>
+						<description>Concrete tiles. Cheap, but neutral in terms of looks and slow to build.</description>
+						<texturePath>Terrain/Surfaces/PavedTile</texturePath>
+						<color>(140,140,140)</color>
+						<isPaintable>true</isPaintable>
+						<statBases>
+							<WorkToBuild>300</WorkToBuild>
+							<CleaningTimeFactor>0.8</CleaningTimeFactor>
+						</statBases>
+						<costList>
+							<Concrete>10</Concrete>
+						</costList>
+						<designationHotKey>Misc8</designationHotKey>
+						<researchPrerequisites>
+							<li>SteamMixer</li>
+						</researchPrerequisites>
+						<uiOrder>2030</uiOrder>
+					</TerrainDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

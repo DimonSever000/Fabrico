@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<LiquidCompressor_CompressionChemfuel.label>Компрессия химического топлива</LiquidCompressor_CompressionChemfuel.label>
+	<LiquidCompressor_CompressionChemfuel.description>Компрессия химического топлива. Позволяет получить канистры с жидкостью.</LiquidCompressor_CompressionChemfuel.description>
+	<LiquidCompressor_CompressionChemfuel.jobString>Компрессирует химическое топливо</LiquidCompressor_CompressionChemfuel.jobString>
+	<!---->
+	<LiquidCompressor_CompressionBiofuel.label>Компрессия биотоплива</LiquidCompressor_CompressionBiofuel.label>
+	<LiquidCompressor_CompressionBiofuel.description>Компрессия биотоплива. Позволяет получить канистры с жидкостью.</LiquidCompressor_CompressionBiofuel.description>
+	<LiquidCompressor_CompressionBiofuel.jobString>Компрессирует биотопливо</LiquidCompressor_CompressionBiofuel.jobString>
+	<!---->
+	<LiquidCompressor_CompressionCreosote.label>Компрессия креозота</LiquidCompressor_CompressionCreosote.label>
+	<LiquidCompressor_CompressionCreosote.description>Компрессия креозота. Позволяет получить канистры с жидкостью.</LiquidCompressor_CompressionCreosote.description>
+	<LiquidCompressor_CompressionCreosote.jobString>Компрессирует креозот</LiquidCompressor_CompressionCreosote.jobString>
+	<!---->
+</LanguageData>

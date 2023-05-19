@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<CollectSand.label>Собирает песок</CollectSand.label>
+	<CollectSand.gerund>Собрать песок</CollectSand.gerund>
+	<CollectSand.verb>Собирает песок</CollectSand.verb>
+	<!---->
+	<CollectDirt.label>Собирает землю</CollectDirt.label>
+	<CollectDirt.gerund>Собрать землю</CollectDirt.gerund>
+	<CollectDirt.verb>Собирает землю</CollectDirt.verb>
+	<!---->
+	<CollectClay.label>Собирает глину</CollectClay.label>
+	<CollectClay.gerund>Собрать глину</CollectClay.gerund>
+	<CollectClay.verb>Собирает глину</CollectClay.verb>
+	<!---->
+</LanguageData>

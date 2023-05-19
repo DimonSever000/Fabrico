@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Agriculture</defName>
+		<label>Agriculture</label>
+		<description>Growing plants for the purpose of subsistence or production. The cultivation of plants and the improvement of their properties begins with agriculture.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>TreeSowing</defName>
+		<label>Tree sowing</label>
+		<description>Sow the local biome's natural trees in your fields.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Agriculture</li>
+		</prerequisites>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Fruits</defName>
+		<label>Fruits</label>
+		<description>Knowledge of small fruit-bearing plants and methods of their cultivation.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Cocoa</defName>
+		<label>Fruit trees</label>
+		<description>Knowledge of cultivated fruit plants and methods of their cultivation.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>TreeSowing</li>
+			<li>Fruits</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Vegetables</defName>
+		<label>Vegetables</label>
+		<description>Vegetables are rich in fiber and trace elements. In addition, they are relatively easy to cultivate on a large scale.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Mushrooms</defName>
+		<label>Mushrooms</label>
+		<description>Mushroom growing is a complex but potentially profitable occupation that allows you to get mushrooms in cultivation conditions.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Melons</defName>
+		<label>Melons</label>
+		<description>Gourds grow long enough, but their fruits grow to enormous sizes.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Vegetables</li>
+			<li>Fruits</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Cereals</defName>
+		<label>Cereals</label>
+		<description>Cereal crops since the antiquity of mankind are in great demand and were cultivated everywhere.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>IndustrialCropsI</defName>
+		<label>Industrial crops I</label>
+		<description>Cotton and other industrial crops are not intended to feed the population, but will be useful for much more.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Devilstrand</defName>
+		<label>Industrial crops II</label>
+		<description>Industrial crops are necessary for the development of production, as well as their cultivation.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+		<prerequisites>
+			<li>IndustrialCropsI</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>DrugCropsI</defName>
+		<label>Drug crops I</label>
+		<description>Drugs have been used by mankind since antiquity as ritual potions. Now they can be used to treat diseases or relieve stress.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>DrugCropsII</defName>
+		<label>Drug crops II</label>
+		<description>Drugs have been used by mankind since antiquity as ritual potions. Now they can be used to treat diseases or relieve stress.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>DrugCropsI</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Storages</defName>
+		<label>Storages</label>
+		<description>Buildings for compact and secure storage of items.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<tags>
+			<li>MachineHive</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>WoodenFloors</defName>
+		<label>Wooden floors</label>
+		<description>Wooden coverings of different configurations can create an interior and ennoble the premises.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<tags>
+			<li>MachineHive</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>StoneFloors</defName>
+		<label>Stone floors</label>
+		<description>Heat-resistant stone coatings are perfect for the workshop. In addition, they are very attractive.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>WoodenFloors</li>
+			<li>Stonecutting</li>
+		</prerequisites>
+		<tags>
+			<li>MachineHive</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>MetallicFloors</defName>
+		<label>Metallic floors</label>
+		<description>Durable floor coverings that are clean.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>StoneFloors</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<tags>
+			<li>MachineHive</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Instruments</defName>
+		<label>Instruments</label>
+		<description>Creating simple but useful tools will help you manage your time better and work more efficiently.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<tags>
+			<li>MachineHive</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>BasicsMechanics</defName>
+		<label>Basics mechanics</label>
+		<description>Knowledge of the operation of mechanical devices, their basic elements and their applications.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>Instruments</li>
+		</prerequisites>
+		<tags>
+			<li>MachineHive</li>
+		</tags>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>BasicsHydromechanics</defName>
+		<label>Basics hydromechanics</label>
+		<description>A system of knowledge about the behavior of fluids, the laws of physics and how to apply them.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>BasicsMechanics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>LiquidsStorages</defName>
+		<label>Liquids storages</label>
+		<description>Blueprints for assembling large liquid storage facilities.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>BasicsHydromechanics</li>
+			<li>IndustrialStorages</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>SteamMachines</defName>
+		<label>Steam machines</label>
+		<description>Steam is the main driving force for mechanisms. Some of them are capable of amazing things.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>BasicsHydromechanics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>IndustrialSteamBoilers</defName>
+		<label>Industrial steam boilers</label>
+		<description>Efficient use of coal and combustible liquids will help to avoid the rapid depletion of reserves.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>SteamMachines</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>IndustrialStorages</defName>
+		<label>Industrial storages</label>
+		<description>Construction technology of large and capacious storage facilities for industrial needs.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>BasicsMechanics</li>
+			<li>Storages</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>WaterProduction</defName>
+		<label>Water production</label>
+		<description>Machines for extracting water from under the earth's surface are necessary for the needs of the steam industry.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>BasicsHydromechanics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>DrillingWells</defName>
+		<label>Drilling of the wells</label>
+		<description>The wells are powered by steam, pumping water out of the ground steadily, regardless of wind speed.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>WaterProduction</li>
+			<li>SteamMachines</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>SteamMixer</defName>
+		<label>Mixer</label>
+		<description>The mixer can be used to produce concrete, or other things.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>WaterProduction</li>
+			<li>SteamMachines</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>IndustrialCooking</defName>
+		<label>Industrial cooking</label>
+		<description>Steam engines can also replace humans in food production, producing formulaic recipes.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>IndustrialSteamBoilers</li>
+			<li>WaterProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>FuelLamps</defName>
+		<label>Fuel lamps</label>
+		<description>Solid fuel and liquid lamps will make your life much better.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>BasicsMechanics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>BasicsBiology</defName>
+		<label>Basics biology</label>
+		<description>The system of knowledge about the structure of biological organisms.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Instruments</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>SteamFarm</defName>
+		<label>Steam farm</label>
+		<description>Automatic plant growing machine. Consumes steam, water, seeds and fertilizer to work.</description>
+		<baseCost>1300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Hydroponics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Chemistry</defName>
+		<label>Chemistry</label>
+		<description>Electrolysis, chemical reactions and processes are at the heart of progress and transformation.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>FertilizerProduction</defName>
+		<label>Fertilizer production</label>
+		<description>Fertilizers are used to improve soil fertility and for artificial growing environments.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>WaterProduction</li>
+			<li>SteamMachines</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>AutomatonProduction</defName>
+		<label>Automaton production</label>
+		<description>Automatons are soulless machines designed to serve man and do dirty work.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>AdvancedAlloys</defName>
+		<label>Advanced alloys</label>
+		<description>The development of alloy casting technologies makes it possible to produce high-quality technical alloys for complex tools and machines.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Chemistry</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>WeavingIndustry</defName>
+		<label>Weaving industry</label>
+		<description>The use of an automated mechanism is much more convenient and practical than the manual labor of a worker.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>SteamMachines</li>
+			<li>ComplexClothing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Synthetics</defName>
+		<label>Synthetics</label>
+		<description>Manufacture of artificial synthetic fibers for tailoring.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>WeavingIndustry</li>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>SteamReactors</defName>
+		<label>SteamReactors</label>
+		<description>Large reactors for the production of energy from the mechanical movement of the shafts.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>SyntheticProstheses</defName>
+		<label>Synthetic prostheses</label>
+		<description>Flexible, durable and almost perfect prostheses based on micromechanics technology.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Bionics</li>
+			<li>Synthetics</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>AutomatonWorkers</defName>
+		<label>Automaton workers</label>
+		<description>Basic work robots with a set of commands and instructions built using gears.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>AutomatonProduction</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>AutomatonSoldiers</defName>
+		<label>Automaton soldiers</label>
+		<description>Basic combat robots with a set of commands and instructions built using gears.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>AutomatonProduction</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>AutomatonMedics</defName>
+		<label>Automaton medics</label>
+		<description>Basic medical robots capable of treating wounds and performing surgeries.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>AutomatonProduction</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>RobotsProduction</defName>
+		<label>Robots production</label>
+		<description>Advanced robots with a wide range of tasks.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>AutomatonProduction</li>
+			<li>Synthetics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>RobotWorkers</defName>
+		<label>Robot workers</label>
+		<description>Advanced work robots capable of efficient and precise work.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>RobotsProduction</li>
+			<li>AutomatonWorkers</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>RobotSoldiers</defName>
+		<label>Robot soldiers</label>
+		<description>Advanced combat robots with additional sensors and a combat program.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>RobotsProduction</li>
+			<li>AutomatonSoldiers</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>RobotMedics</defName>
+		<label>Robot medics</label>
+		<description>Advanced robots that are engaged in treatment and operations.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>RobotsProduction</li>
+			<li>AutomatonMedics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>RobotAI</defName>
+		<label>Robot AI</label>
+		<description>Robots with a semblance of reason. It is difficult to say whether they are really intelligent. These robots are able to conduct research and experience emotions. Could it be dangerous for us?</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1</techprintCommonality>
+		<techprintMarketValue>2000</techprintMarketValue>
+		<prerequisites>
+			<li>RobotsProduction</li>
+		</prerequisites>
+		<heldByFactionCategoryTags>
+			<li>Empire</li>
+		</heldByFactionCategoryTags>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Airships</defName>
+		<label>Airships</label>
+		<description>Huge airships lifted into the air due to volatile gases. Such airships are driven by engines that consume fuel.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1</techprintCommonality>
+		<techprintMarketValue>1500</techprintMarketValue>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+			<li>AdvancedMechanicalEngineering</li>
+		</prerequisites>
+		<heldByFactionCategoryTags>
+			<li>Empire</li>
+		</heldByFactionCategoryTags>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>MechanicalEngineering</defName>
+		<label>Mechanical engineering</label>
+		<description>Fundamentals of industrial engineering. Allows you to collect small vehicles.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>Machining</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>AdvancedMechanicalEngineering</defName>
+		<label>Advanced mechanical engineering</label>
+		<description>Precise and complex engineering, allowing the construction of large vehicles.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+			<li>MechanicalEngineering</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+	<ResearchProjectDef>
+		<defName>Tanks</defName>
+		<label>Tanks</label>
+		<description>Huge war machines that destroy the battlefield with their guns.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+		<prerequisites>
+			<li>AdvancedMechanicalEngineering</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!---->
+</Defs>

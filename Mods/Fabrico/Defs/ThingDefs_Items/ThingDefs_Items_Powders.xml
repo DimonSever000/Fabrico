@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<ThingDef ParentName="ResourceBase" Name="PowderBase" Abstract="true">
+		<graphicData>
+			<texPath>Things/Sand</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<thingCategories>
+			<li>Powders</li>
+		</thingCategories>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<Mass>0.2</Mass>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>CopperPowder</defName>
+		<label>Copper powder</label>
+		<description>Copper powder.</description>
+		<graphicData>
+			<color>(200,120,40)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>TinPowder</defName>
+		<label>Tin powder</label>
+		<description>Tin powder.</description>
+		<graphicData>
+			<color>(220,220,220)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.75</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>GoldPowder</defName>
+		<label>Gold powder</label>
+		<description>Gold powder.</description>
+		<graphicData>
+			<color>(187,173,25)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>4</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>IronPowder</defName>
+		<label>Iron powder</label>
+		<description>Iron powder.</description>
+		<graphicData>
+			<color>(180,180,180)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>TitanPowder</defName>
+		<label>Titan powder</label>
+		<description>Titan powder.</description>
+		<graphicData>
+			<color>(140,140,140)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>6</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>AluminumPowder</defName>
+		<label>Aluminum powder</label>
+		<description>Aluminum powder.</description>
+		<graphicData>
+			<color>(172,220,220)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>4</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>DiamondPowder</defName>
+		<label>Diamond powder</label>
+		<description>Diamond powder.</description>
+		<graphicData>
+			<color>(130,200,200)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>SilverPowder</defName>
+		<label>Silver powder</label>
+		<description>Silver powder.</description>
+		<graphicData>
+			<color>(200,200,200)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>LeadPowder</defName>
+		<label>Lead powder</label>
+		<description>Lead powder.</description>
+		<graphicData>
+			<color>(160,134,170)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.5</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="PowderBase">
+		<defName>CoalPowder</defName>
+		<label>Coal powder</label>
+		<description>Coal powder.</description>
+		<graphicData>
+			<color>(90,90,90)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1</MarketValue>
+		</statBases>
+	</ThingDef>
+	<!---->
+</Defs>

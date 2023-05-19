@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Heater.label>Паровой обогреватель</Heater.label>
+	<Heater.description>Это устройство работает за счет горячего пара, циркулирующего внутри.</Heater.description>
+	<!---->
+	<Cooler.label>Паровой кондиционер</Cooler.label>
+	<Cooler.description>Механизм охлаждает воздух благодаря конденсации пара и использования некоторых газов.</Cooler.description>
+	<!---->
+</LanguageData>

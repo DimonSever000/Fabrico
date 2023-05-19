@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Vehicles/ZTL11.xml-->
+               <!-- ZTL-11 infantry fighting vehicle -->
+<PLA_ZTL11IFV.label>ZTL-11 боевая машина пехоты</PLA_ZTL11IFV.label>
+                     <!-- Plural ZTL-11 infantry fighting vehicle -->
+<PLA_ZTL11IFV.labelPlural>ZTL-11 боевые машины пехоты</PLA_ZTL11IFV.labelPlural>
+                   <!-- Male ZTL-11 infantry fighting vehicle -->
+<PLA_ZTL11IFV.labelMale>ZTL-11 боевая машина пехоты</PLA_ZTL11IFV.labelMale>
+                         <!-- Male Plural ZTL-11 infantry fighting vehicle -->
+<PLA_ZTL11IFV.labelMalePlural>ZTL-11 боевые машины пехоты</PLA_ZTL11IFV.labelMalePlural>
+                     <!-- Female ZTL-11 infantry fighting vehicle -->
+<PLA_ZTL11IFV.labelFemale>ZTL-11 боевая машина пехоты</PLA_ZTL11IFV.labelFemale>
+                           <!-- Female Plural ZTL-11 infantry fighting vehicle -->
+<PLA_ZTL11IFV.labelFemalePlural>ZTL-11 боевые машины пехоты</PLA_ZTL11IFV.labelFemalePlural>
+
+</LanguageData>

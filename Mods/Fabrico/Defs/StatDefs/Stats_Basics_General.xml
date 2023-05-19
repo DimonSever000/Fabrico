@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<StatDef>
+		<defName>BurningDuration</defName>
+		<label>Burning time</label>
+		<description>Burn time multiplier in various furnaces, campfires or other buildings.</description>
+		<category>BasicsNonPawnImportant</category>
+		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
+		<roundValue>false</roundValue>
+		<toStringStyle>FloatTwoOrThree</toStringStyle>
+		<scenarioRandomizable>false</scenarioRandomizable>
+		<showOnPawns>false</showOnPawns>
+		<showIfUndefined>false</showIfUndefined>
+		<formatString>x{0}</formatString>
+		<displayPriorityInCategory>99997</displayPriorityInCategory>
+	</StatDef>
+	<!---->
+	<StatDef>
+		<defName>PollutionFactor</defName>
+		<label>Pollution factor</label>
+		<description>The multiplier shows how dangerous it is to use this type of fuel for burning in large industrial buildings. The higher the value, the stronger the pollution effect will be.</description>
+		<category>BasicsNonPawnImportant</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<roundValue>false</roundValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<scenarioRandomizable>false</scenarioRandomizable>
+		<showOnPawns>false</showOnPawns>
+		<showIfUndefined>false</showIfUndefined>
+		<formatString>{0}</formatString>
+		<displayPriorityInCategory>99997</displayPriorityInCategory>
+	</StatDef>
+	<!---->
+	<StatDef>
+		<defName>ProstheticsEfficiency</defName>
+		<label>Prosthetics efficiency</label>
+		<description>The multiplier shows how effective the prosthesis from this material will be.</description>
+		<category>BasicsNonPawnImportant</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<roundValue>false</roundValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<scenarioRandomizable>false</scenarioRandomizable>
+		<showOnPawns>false</showOnPawns>
+		<showIfUndefined>false</showIfUndefined>
+		<formatString>{0}</formatString>
+		<displayPriorityInCategory>99997</displayPriorityInCategory>
+	</StatDef>
+	<!---->
+	<StatDef>
+		<defName>ProstheticsHitPoints</defName>
+		<label>Prosthetics hit points</label>
+		<description>The multiplier shows how much health a body part replaced with a prosthesis made of this material will have.</description>
+		<category>BasicsNonPawnImportant</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<roundValue>false</roundValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<scenarioRandomizable>false</scenarioRandomizable>
+		<showOnPawns>false</showOnPawns>
+		<showIfUndefined>false</showIfUndefined>
+		<formatString>{0}</formatString>
+		<displayPriorityInCategory>99997</displayPriorityInCategory>
+	</StatDef>
+	<!---->
+</Defs>

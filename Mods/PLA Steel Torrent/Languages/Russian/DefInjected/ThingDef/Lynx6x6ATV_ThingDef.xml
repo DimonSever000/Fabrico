@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/1.4/Defs/Modifications/Lynx6x6ATV.xml-->
+                                  <!-- vehicle modification kit - 23mm autocannon -->
+<PLA_VehicleWeapon23mmAutocannon.label>набор модификации Lynx6x6 - 23мм автопушка</PLA_VehicleWeapon23mmAutocannon.label>
+                                        <!-- A modification toolkit that can be used to install the 23mm autocannon on vehicle. -->
+<PLA_VehicleWeapon23mmAutocannon.description>Инструментарий для модификации, который можно использовать для установки 23мм автопушку на технику</PLA_VehicleWeapon23mmAutocannon.description>
+                              <!-- vehicle modification kit - 40mm CT cannon -->
+<PLA_VehicleWeapon40mmCannon.label>набор модификации Lynx6x6 - 40мм CT автопушка</PLA_VehicleWeapon40mmCannon.label>
+                                    <!-- A modification toolkit that can be used to install the 40mm CT cannon on vehicle. -->
+<PLA_VehicleWeapon40mmCannon.description>Инструментарий для модификации, который можно использовать для установки 40мм CT автопушки на технику</PLA_VehicleWeapon40mmCannon.description>
+                                       <!-- vehicle modification kit - 107mm rocket launcher -->
+<PLA_VehicleWeapon107mmRocketLauncher.label>набор модификации Lynx6x6 - 107мм гранатомёт</PLA_VehicleWeapon107mmRocketLauncher.label>
+                                             <!-- A modification toolkit that can be used to install the 107mm rocket launcher on vehicle. -->
+<PLA_VehicleWeapon107mmRocketLauncher.description>Инструментарий для модификации, который можно использовать для установки 107мм гранатомёта на технику</PLA_VehicleWeapon107mmRocketLauncher.description>
+
+
+<!--/1.4/Defs/Vehicles/Lynx6x6ATV.xml-->
+<!-- Lynx 6x6 ATV -->
+<PLA_Lynx6x6UltraLight.label>Lynx 6x6 ЛМВ</PLA_Lynx6x6UltraLight.label>
+<!-- A vehicle lightweight multi-purpose all-terrain vehicle developed by NORINCO. it was proposed to mount various artillery and rocket weapons on it. -->
+<PLA_Lynx6x6UltraLight.description>Лёгкий Многофункциональный Вездеход, разработанный компанией NORINCO. На нем предлагается устанавливать различное артиллерийское и ракетное вооружение.</PLA_Lynx6x6UltraLight.description>
+<!-- Body -->
+<PLA_Lynx6x6UltraLight.tools.0.label>Корпус</PLA_Lynx6x6UltraLight.tools.0.label>
+<!-- 23mm autocannon -->
+<PLA_Gun23mmAutocannon.label>23мм автопушка</PLA_Gun23mmAutocannon.label>
+<!-- barrel -->
+<PLA_Gun23mmAutocannon.tools.0.label>ствол</PLA_Gun23mmAutocannon.tools.0.label>
+<!-- 23mm Shell -->
+<PLA_Bullet_23mmShell.label>23мм снаряд</PLA_Bullet_23mmShell.label>
+<!-- 40mm CT cannon -->
+<PLA_Gun40mmCannon.label>40мм CT автопушка</PLA_Gun40mmCannon.label>
+<!-- barrel -->
+<PLA_Gun40mmCannon.tools.0.label>ствол</PLA_Gun40mmCannon.tools.0.label>
+<!-- 40mm CTA -->
+<PLA_Bullet_40mmCTA.label>40мм CTA</PLA_Bullet_40mmCTA.label>
+<!-- 107mm rocket launcher -->
+<PLA_Gun107mmRocketLauncher.label>107мм гранатомёт</PLA_Gun107mmRocketLauncher.label>
+<!-- barrel -->
+<PLA_Gun107mmRocketLauncher.tools.0.label>ствол</PLA_Gun107mmRocketLauncher.tools.0.label>
+<!-- 107mm rocket -->
+<PLA_Bullet_107mmRocket.label>107мм ракета</PLA_Bullet_107mmRocket.label>
+
+</LanguageData>
