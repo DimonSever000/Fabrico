@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<Genes.GeneDefExtended Name="GeneFleshBase" Abstract="True">
+		<displayCategory>Flesh</displayCategory>
+		<exclusionTags>
+			<li>Flesh</li>
+		</exclusionTags>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneFleshBase">
+		<defName>Flesh_WoodLog</defName>
+		<label>Woody flesh</label>
+		<labelShortAdj>Woody flesh</labelShortAdj>
+		<description>The flesh of a gene carrier is more like vegetable fibers. The host of the gene will still regard eating the flesh of his race as cannibalism.</description>
+		<iconPath>Things/Item/Resource/WoodLog/WoodLog_c</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<replaceMeatDef>WoodLog</replaceMeatDef>
+		<statFactors>
+			<Flammability>2</Flammability>
+		</statFactors>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneFleshBase">
+		<defName>Flesh_Insect</defName>
+		<label>Insectoid flesh</label>
+		<labelShortAdj>Insectoid flesh</labelShortAdj>
+		<description>The host's flesh is rather glandular flesh, like that of an insect. The host of the gene will still regard eating the flesh of his race as cannibalism.</description>
+		<iconPath>Things/Item/Resource/MeatFoodRaw/Meat_Insect/Meat_Insect_c</iconPath>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<replaceMeatDef>Meat_Megaspider</replaceMeatDef>
+	</Genes.GeneDefExtended>
+	<!---->
+</Defs>

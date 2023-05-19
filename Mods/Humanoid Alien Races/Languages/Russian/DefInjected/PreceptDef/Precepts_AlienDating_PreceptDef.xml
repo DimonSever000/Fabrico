@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<HAR_AlienDating_Prohibited.label>запрещено</HAR_AlienDating_Prohibited.label>
+
+<HAR_AlienDating_Prohibited.description>О романтических отношениях с ксеносами и речи быть не может, а мысль о совокуплении с одним из них донельзя отвратительна.</HAR_AlienDating_Prohibited.description>
+
+<HAR_AlienDating_Horrible.label>ужасно</HAR_AlienDating_Horrible.label>
+
+<HAR_AlienDating_Horrible.description>Сама идея спаривания с ксеносами нелепа, есть множество причин даже не думать об этом.</HAR_AlienDating_Horrible.description>
+
+<HAR_AlienDating_Horrible.comps.1.description>Встречается с ксеносом</HAR_AlienDating_Horrible.comps.1.description>
+
+<HAR_AlienDating_Acceptable.label>приемлемо</HAR_AlienDating_Acceptable.label>
+
+<HAR_AlienDating_Acceptable.description>Если вы с ксеносом подходите друг другу, то зачем нужно запрещать романтические отношения?</HAR_AlienDating_Acceptable.description>
+
+<HAR_AlienDating_Preferred.label>предпочтительно</HAR_AlienDating_Preferred.label>
+
+<HAR_AlienDating_Preferred.description>Роман с ксеносом может быть захватывающим опытом, и его следует поощрять.</HAR_AlienDating_Preferred.description>
+
+<HAR_AlienDating_Honorable.label>почетно</HAR_AlienDating_Honorable.label>
+
+<HAR_AlienDating_Honorable.description>Принятие любви и преданности ксеноса - невероятно волнующий и экзотичный опыт, и тех, кто решает сделать это, следует уважать за непредвзятость.</HAR_AlienDating_Honorable.description>
+
+</LanguageData>

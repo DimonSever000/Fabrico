@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef Abstract="True" Name="ProcessRaw">
+		<jobString>Processing fabrics.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workSkill>Crafting</workSkill>
+		<workAmount>800</workAmount>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>ExtractSeeds</defName>
+		<label>extract seeds</label>
+		<description>Extract seeds from produce.</description>
+		<jobString>Extracting seeds.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workSkill>Cooking</workSkill>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>SeedExtractionSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SeedExtractable</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SeedExtractable</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<disallowedCategories>
+				<li>SeedExtractable</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+		<workerCounterClass>SeedsPleaseLite.RecipeWorkerCounter_ExtractSeeds</workerCounterClass>
+	</RecipeDef>
+</Defs>

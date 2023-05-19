@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <MainButtonDef>
+		<defName>MintNeedsMenu</defName>
+		<label>mint needs menu</label>
+		<description>View all pawns needs.</description>
+		<tabWindowClass>DubsMintMenus.MintPawns_Needs</tabWindowClass>
+		<buttonVisible>true</buttonVisible>
+		<defaultHotKey>None</defaultHotKey>
+		<order>100</order>
+		<minimized>True</minimized>
+		<iconPath>Mint/UI/Global_bills</iconPath>
+		<validWithoutMap>false</validWithoutMap>
+	</MainButtonDef>
+
+	<MainButtonDef>
+		<defName>MintHealthMenu</defName>
+		<label>mint health menu</label>
+		<description>View all pawns health.</description>
+		<tabWindowClass>DubsMintMenus.MintPawns_Health</tabWindowClass>
+		<buttonVisible>true</buttonVisible>
+		<defaultHotKey>None</defaultHotKey>
+		<order>100</order>
+		<minimized>True</minimized>
+		<iconPath>Mint/UI/Global_bills</iconPath>
+		<validWithoutMap>false</validWithoutMap>
+	</MainButtonDef> -->
+
+  <MintMenus.label>Mint Menus</MintMenus.label>
+  <MintMenus.description>Сочетания клавиш для мода "Dubs Mint Menus".</MintMenus.description>
+
+
+</LanguageData>

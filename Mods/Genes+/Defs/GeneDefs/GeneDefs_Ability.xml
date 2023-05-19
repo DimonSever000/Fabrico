@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Ability_JellyExcretion</defName>
+		<label>Jelly excretion</label>
+		<labelShortAdj>The carrier's body secretes some nutrient jelly, as insects do.</labelShortAdj>
+		<description>TODO</description>
+		<displayCategory>Ability</displayCategory>
+		<geneClass>Genes.Gene_ForceHediff</geneClass>
+		<iconPath>Things/Item/Resource/AnimalProductRaw/InsectJelly/InsectJelly_c</iconPath>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<forcedHediffDef>JellyExcretion</forcedHediffDef>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Ability_ChemfuelExcretion</defName>
+		<label>Chemfuel excretion</label>
+		<labelShortAdj>Chemfuel excretion</labelShortAdj>
+		<description>The carrier's body secretes chemical fuel from special glands.</description>
+		<displayCategory>Ability</displayCategory>
+		<geneClass>Genes.Gene_ForceHediff</geneClass>
+		<iconPath>Things/Item/Resource/Chemfuel</iconPath>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<forcedHediffDef>ChemfuelExcretion</forcedHediffDef>
+	</Genes.GeneDefExtended>
+	<!---->
+</Defs>

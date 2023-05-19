@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<XenotypeDef>
+		<defName>Phytox</defName>
+		<label>Phytox</label>
+		<description>These strange representatives of the human race acquired the characteristics of plants to adapt to life on some planets. Phytoxes use photosynthesis as an additional source of nutrition and cannot live without sunlight. They can grow fruits of plants on themselves. In addition, phytoxes use local fauna for symbiosis, infecting them with parasites to grow food.</description>
+		<iconPath>Xenotypes/Phytox</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Green</li>
+			<li>Flesh_WoodLog</li>
+			<li>Leather_WoodLog</li>
+			<li>Plants_PlantMetabolism</li>
+			<li>Plants_Photosynthesis</li>
+			<li>Plants_SunRequirement</li>
+			<li>Plants_FruitBearing</li>
+			<li>Plants_Regrowing</li>
+			<li>Plants_Phytolysis</li>
+			<li>Plants_FearOfDarkness</li>
+			<li>Plants_SeasonHairColor</li>
+			<li>SenseOrgans_Deafness</li>
+			<li>SenseOrgans_Silence</li>
+		</genes>
+	</XenotypeDef>
+	<!---->
+	<XenotypeDef>
+		<defName>Photos</defName>
+		<label>Photos</label>
+		<description>These people have the ability to use photosynthesis to sustain life. In addition, photoses have special organs for growing fruits. All this makes the Photos actually an autonomous farm for the first colonization of planets. Unpretentious and naive.</description>
+		<iconPath>Xenotypes/Photos</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_DeepYellow</li>
+			<li>Flesh_WoodLog</li>
+			<li>Hibernation_SeasonHibernationWinter</li>
+			<li>Leather_WoodLog</li>
+			<li>Plants_PlantMetabolism</li>
+			<li>Plants_Photosynthesis</li>
+			<li>Plants_FruitBearing</li>
+			<li>Plants_SeasonHairColor</li>
+			<li>SenseOrgans_Silence</li>
+			<li>ViolenceDisabled</li>
+			<li>Learning_Slow</li>
+			<li>Mood_Sanguine</li>
+		</genes>
+	</XenotypeDef>
+	<!---->
+	<XenotypeDef>
+		<defName>Planter</defName>
+		<label>Planter</label>
+		<description>These human representatives possess some of the genes found in plants, but are independent of photosynthesis and sunlight. Their saliva contains a caustic chemical, which also makes them immune to toxins.</description>
+		<iconPath>Xenotypes/Planter</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Green</li>
+			<li>Flesh_WoodLog</li>
+			<li>Leather_WoodLog</li>
+			<li>Plants_PlantMetabolism</li>
+			<li>Plants_SeasonHairColor</li>
+			<li>AcidSpray</li>
+			<li>ToxResist_Total</li>
+			<li>SenseOrgans_Silence</li>
+		</genes>
+	</XenotypeDef>
+	<!---->
+</Defs>

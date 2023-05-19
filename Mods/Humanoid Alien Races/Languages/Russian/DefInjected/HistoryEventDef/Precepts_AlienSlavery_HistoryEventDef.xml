@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+                      <!-- sold slave -->
+<HAR_Alien_SoldSlave.label>продан раб</HAR_Alien_SoldSlave.label>
+                             <!-- enslaved prisoner -->
+<HAR_Alien_EnslavedPrisoner.label>порабощен пленник</HAR_Alien_EnslavedPrisoner.label>
+                                                  <!-- enslaved prisoner not previously enslaved -->
+<HAR_Alien_EnslavedPrisonerNotPreviouslyEnslaved.label>порабощен пленник, ранее не порабощенный</HAR_Alien_EnslavedPrisonerNotPreviouslyEnslaved.label>
+
+</LanguageData>

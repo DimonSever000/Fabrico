@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!---->
+	<Airship_Kirov.label>Дирижабль «Киров»</Airship_Kirov.label>
+	<Airship_Kirov.description>Огромная модель дирижабля, используемая древними в прошлом. Его оригинальный бомбодержатель не работает из-за утерянных технологий, но сам дирижабль очень взрывоопасен. Берегите его от огня.
+	
+Дирижабль имеет 8 посадочных мест и может нести до 600кг грузов.</Airship_Kirov.description>
+	<!---->
+	<Gun_KirovTurret.label>Паровые сопла</Gun_KirovTurret.label>
+	<Gun_KirovTurret.description>Дирижабль «Киров» может производить небольшой прорыв пара через внешние сопла, повреждая ближайшие цели. Это не очень эффективно в бою, но лучше чем ничего.</Gun_KirovTurret.description>
+	<!---->
+	<Bullet_KirovTurret.label>пар</Bullet_KirovTurret.label>
+	<!---->
+</LanguageData>

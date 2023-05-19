@@ -1,0 +1,17 @@
+<Defs>	
+	<!-- SeedsPlease :: RG-D_Plant_DesertPalmTree(regrowth.botr.desertexpansion)Inserted to Seed_RG-D_DesertPalm-->
+	<ThingDef ParentName="SeedBase">
+		<defName>Seed_RG-D_DesertPalm</defName>
+		<label>Desert palm seeds</label>
+		<descriptionHyperlinks>
+			<ThingDef>RG-D_Plant_DesertPalmTree</ThingDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="SeedsPleaseLite.Seed">
+				<sources>
+					<li>RG-D_Plant_DesertPalmTree</li>
+				</sources>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

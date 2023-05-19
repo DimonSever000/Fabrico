@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<GeneCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Religiosity</defName>
+		<label>Religiosity</label>
+		<displayPriorityInXenotype>-4050</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Flesh</defName>
+		<label>Flesh</label>
+		<displayPriorityInXenotype>-4100</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Leather</defName>
+		<label>Leather</label>
+		<displayPriorityInXenotype>-4110</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>SenseOrgans</defName>
+		<label>Sense organs</label>
+		<displayPriorityInXenotype>-4120</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Needs</defName>
+		<label>Needs</label>
+		<displayPriorityInXenotype>-4130</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Plants</defName>
+		<label>Plants</label>
+		<displayPriorityInXenotype>-4140</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+	<GeneCategoryDef>
+		<defName>Hibernation</defName>
+		<label>Hibernation</label>
+		<displayPriorityInXenotype>-4150</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	<!---->
+</Defs>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MechBuildingBase">
+		<defName>Psionic_ThingDef_EnergyHole</defName>
+		<label>Energy hole</label>
+		<description>An energy wormhole that spews out clots of matter and energy, which can also provoke fires.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Mote/SolarPinhole</texPath>
+			<shaderType>MoteGlowDistorted</shaderType>
+			<color>(100, 200, 245)</color>
+			<drawSize>8</drawSize>
+			<shaderParameters>
+				<_DistortionTex>/Other/Ripples</_DistortionTex>
+				<_distortionIntensity>0.0</_distortionIntensity>
+				<_DistortionScale>0.4</_DistortionScale>
+				<_distortionScrollSpeed>(0.0, 0.0, 0.0)</_distortionScrollSpeed>
+			</shaderParameters>
+		</graphicData>
+		<uiIconScale>0.125</uiIconScale>
+		<useHitPoints>false</useHitPoints>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>-1000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(160,217,208,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>10</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_DestroyAfterDelay">
+				<delayTicks>60000</delayTicks>
+				<countdownLabel>Burnout in</countdownLabel>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<explosiveRadius>3</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<explodeOnKilled>true</explodeOnKilled>
+			</li>
+			<li Class="CompProperties_Spawner">
+				<requiresPower>false</requiresPower>
+				<thingToSpawn>Fire</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<spawnIntervalRange>
+					<min>1000</min>
+					<max>3000</max>
+				</spawnIntervalRange>
+				<writeTimeLeftToSpawn>false</writeTimeLeftToSpawn>
+				<showMessageIfOwned>false</showMessageIfOwned>
+			</li>
+		</comps>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<Flammability>0</Flammability>
+			<Beauty>10</Beauty>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+		</building>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0</fillPercent>
+		<size>(1, 1)</size>
+		<passability>Impassable</passability>
+		<rotatable>false</rotatable>
+		<canOverlapZones>false</canOverlapZones>
+	</ThingDef>
+
+</Defs>

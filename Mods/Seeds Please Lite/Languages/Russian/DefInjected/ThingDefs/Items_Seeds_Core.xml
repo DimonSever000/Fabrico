@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!---->
+	<Seed_Rice.label>семена риса</Seed_Rice.label>
+	<!---->
+	<Seed_Potato.label>семена картофеля</Seed_Potato.label>
+	<!---->
+	<Seed_Corn.label>семена кукурузы</Seed_Corn.label>
+	<!---->
+	<Seed_Strawberry.label>семена клубники</Seed_Strawberry.label>
+	<!---->
+	<Seed_Haygrass.label>семена сенотравы</Seed_Haygrass.label>
+	<!---->
+	<Seed_Hops.label>семена хмеля</Seed_Hops.label>
+	<!---->
+	<Seed_Smokeleaf.label>семена дымолиста</Seed_Smokeleaf.label>
+	<!---->
+	<Seed_Psychoid.label>семена психолиста</Seed_Psychoid.label>
+	<!---->
+	<Seed_TreeDrago.label>семена драго</Seed_TreeDrago.label>
+	<!---->
+	<Seed_TreeWillow.label>семена ивы</Seed_TreeWillow.label>
+	<!---->
+	<Seed_TreeCypress.label>семена кипариса</Seed_TreeCypress.label>
+	<!---->
+	<Seed_TreeMaple.label>семена клёна</Seed_TreeMaple.label>
+	<!---->
+	<Seed_TreeOak.label>семена дуба</Seed_TreeOak.label>
+	<!---->
+	<Seed_TreePoplar.label>семена тополя</Seed_TreePoplar.label>
+	<!---->
+	<Seed_TreePine.label>семена сосны</Seed_TreePine.label>
+	<!---->
+	<Seed_TreeBirch.label>семена берёзы</Seed_TreeBirch.label>
+	<!---->
+	<Seed_TreeTeak.label>семена тикового дерева</Seed_TreeTeak.label>
+	<!---->
+	<Seed_TreeCecropia.label>семена цекропии</Seed_TreeCecropia.label>
+	<!---->
+	<Seed_TreePalm.label>семена пальмы</Seed_TreePalm.label>
+	<!---->
+	<Seed_SaguaroCactus.label>семена кактуса</Seed_SaguaroCactus.label>
+	<!---->
+	<Seed_Cotton.label>семена хлопка</Seed_Cotton.label>
+	<!---->
+	<Seed_Devilstrand.label>семена дьявлонитника</Seed_Devilstrand.label>
+	<!---->
+	<Seed_Healroot.label>семена лечебных трав</Seed_Healroot.label>
+	<!---->
+	<Seed_Cocoa.label>семена какао</Seed_Cocoa.label>
+	<!---->
+	<Seed_Tinctoria.label>семена красителя</Seed_Tinctoria.label>
+	<!---->
+	<Seed_Onions.label>семена лука</Seed_Onions.label>
+	<!---->
+	<Seed_Lentils.label>семена чечевицы</Seed_Lentils.label>
+	<!---->
+	<Seed_Mushrooms.label>споры грибов</Seed_Mushrooms.label>
+	<!---->
+	<Seed_SpruceOycher.label>споры вешенок</Seed_SpruceOycher.label>
+	<!---->
+	<Seed_Wheat.label>семена пшеницы</Seed_Wheat.label>
+	<!---->
+	<Seed_Sugarcane.label>семена тростника</Seed_Sugarcane.label>
+	<!---->
+	<Seed_Carrots.label>семена моркови</Seed_Carrots.label>
+	<!---->
+	<Seed_Grape.label>семена винограда</Seed_Grape.label>
+	<!---->
+	<Seed_Gooseberry.label>семена крыжовника</Seed_Gooseberry.label>
+	<!---->
+	<Seed_Tomatoes.label>семена томатов</Seed_Tomatoes.label>
+	<!---->
+	<Seed_Cucumbers.label>семена огурцов</Seed_Cucumbers.label>
+	<!---->
+	<Seed_Cabbages.label>семена капусты</Seed_Cabbages.label>
+	<!---->
+	<Seed_Pumpkins.label>семена тыквы</Seed_Pumpkins.label>
+	<!---->
+	<Seed_Melons.label>семена арбуза</Seed_Melons.label>
+	<!---->
+	<Seed_Apple.label>семена яблони</Seed_Apple.label>
+	<!---->
+	<Seed_Lemon.label>семена лимона</Seed_Lemon.label>
+	<!---->
+	<Seed_Orange.label>семена апельсина</Seed_Orange.label>
+	<!---->
+	<Seed_Banana.label>семена банана</Seed_Banana.label>
+	<!---->
+	<Seed_Macci.label>семена маиса</Seed_Macci.label>
+	<!---->
+	<Seed_Nutrifungus.label>споры нутригриба</Seed_Nutrifungus.label>
+	<!---->
+	<Seed_Fibercorn.label>семена волокноцвета</Seed_Fibercorn.label>
+	<!---->
+</LanguageData>

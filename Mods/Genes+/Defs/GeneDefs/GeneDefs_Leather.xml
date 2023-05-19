@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<Genes.GeneDefExtended Name="GeneLeatherBase" Abstract="True">
+		<displayCategory>Leather</displayCategory>
+		<exclusionTags>
+			<li>Leather</li>
+		</exclusionTags>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneLeatherBase">
+		<defName>Leather_WoodLog</defName>
+		<label>Woody leather</label>
+		<labelShortAdj>Woody leather</labelShortAdj>
+		<description>The creature's skin is made of tough sheets of tree bark. It is also quite flammable.</description>
+		<iconPath>Things/Item/Resource/WoodLog/WoodLog_c</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<replaceLeatherDef>WoodLog</replaceLeatherDef>
+		<statFactors>
+			<ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<Flammability>2</Flammability>
+		</statFactors>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneLeatherBase">
+		<defName>Leather_Steel</defName>
+		<label>Steel leather</label>
+		<labelShortAdj>Steel leather</labelShortAdj>
+		<description>The skin of the creature is a strong plate of steel.</description>
+		<iconPath>Things/Item/Resource/Steel/Steel_c</iconPath>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<replaceLeatherDef>Steel</replaceLeatherDef>
+		<statFactors>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+		</statFactors>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneLeatherBase">
+		<defName>Leather_Plasteel</defName>
+		<label>Plasteel leather</label>
+		<labelShortAdj>Plasteel leather</labelShortAdj>
+		<description>The creature's skin is tough plasteel plates.</description>
+		<iconPath>Things/Item/Resource/Plasteel/Plasteel_c</iconPath>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-4</biostatMet>
+		<replaceLeatherDef>Plasteel</replaceLeatherDef>
+		<statFactors>
+			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+		</statFactors>
+	</Genes.GeneDefExtended>
+	<!---->
+</Defs>

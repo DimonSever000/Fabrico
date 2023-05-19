@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<Genes.GeneDefExtended Name="GeneHibernationBase" Abstract="True">
+		<displayCategory>Hibernation</displayCategory>
+		<exclusionTags>
+			<li>Hibernation</li>
+		</exclusionTags>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneHibernationBase">
+		<defName>Hibernation_SeasonHibernationFall</defName>
+		<label>Fall hibernation</label>
+		<labelShortAdj>Fall hibernation</labelShortAdj>
+		<description>The creature will begin to gradually fall into hibernation with the onset of autumn. During this time, the pawn will be completely incapacitated.</description>
+		<geneClass>Genes.Gene_SeasonHibernation</geneClass>
+		<iconPath>UI/Icons/Genes/Gene_VerySleepy</iconPath>
+		<displayOrderInCategory>80</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>5</biostatMet>
+		<seasonForHibernation>Fall</seasonForHibernation>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneHibernationBase">
+		<defName>Hibernation_SeasonHibernationWinter</defName>
+		<label>Winter hibernation</label>
+		<labelShortAdj>Winter hibernation</labelShortAdj>
+		<description>The creature will begin to gradually fall into hibernation with the onset of winter. During this time, the pawn will be completely incapacitated. Hibernation can continue indefinitely on a map with eternal winter.</description>
+		<geneClass>Genes.Gene_SeasonHibernation</geneClass>
+		<iconPath>UI/Icons/Genes/Gene_VerySleepy</iconPath>
+		<displayOrderInCategory>90</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>5</biostatMet>
+		<seasonForHibernation>Winter, PermanentWinter</seasonForHibernation>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneHibernationBase">
+		<defName>Hibernation_SeasonHibernationSpring</defName>
+		<label>Spring hibernation</label>
+		<labelShortAdj>Spring hibernation</labelShortAdj>
+		<description>The creature will begin to gradually fall into hibernation with the onset of spring. During this time, the pawn will be completely incapacitated.</description>
+		<geneClass>Genes.Gene_SeasonHibernation</geneClass>
+		<iconPath>UI/Icons/Genes/Gene_VerySleepy</iconPath>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>5</biostatMet>
+		<seasonForHibernation>Spring</seasonForHibernation>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GeneHibernationBase">
+		<defName>Hibernation_SeasonHibernationSummer</defName>
+		<label>Summer hibernation</label>
+		<labelShortAdj>Summer hibernation</labelShortAdj>
+		<description>The creature will begin to gradually fall into hibernation with the onset of summer. During this time, the pawn will be completely incapacitated. Hibernation can continue indefinitely on a map with eternal summer.</description>
+		<geneClass>Genes.Gene_SeasonHibernation</geneClass>
+		<iconPath>UI/Icons/Genes/Gene_VerySleepy</iconPath>
+		<displayOrderInCategory>110</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>5</biostatMet>
+		<seasonForHibernation>Summer, PermanentSummer</seasonForHibernation>
+	</Genes.GeneDefExtended>
+	<!---->
+</Defs>

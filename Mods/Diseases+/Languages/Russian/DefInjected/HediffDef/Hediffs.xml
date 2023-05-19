@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<BipolarDisorder.label>Биполярное расстройство</BipolarDisorder.label>
+	<BipolarDisorder.description>Довольно редкое психическое расстройство, для которого характерны хаотичные перепады настроения или эпизоды чрезмерной активности.</BipolarDisorder.description>
+	<!---->
+	<Hypotimia.label>Гипотимия</Hypotimia.label>
+	<Hypotimia.description>Перепады настроения часто встречаются при биполярном расстройстве.</Hypotimia.description>
+	<!---->
+	<Hypomania.label>Гипомания</Hypomania.label>
+	<Hypomania.description>Перепады настроения часто встречаются при биполярном расстройстве.</Hypomania.description>
+	<!---->
+	<Schizophrenia.label>Шизофрения</Schizophrenia.label>
+	<Schizophrenia.description>Тяжелое психическое заболевание, вызывающее галлюцинации, приступы тревоги или атипичные позывы.</Schizophrenia.description>
+	<Schizophrenia.stages.calmness.label>спокойствие</Schizophrenia.stages.calmness.label>
+	<Schizophrenia.stages.anxiety.label>беспокойство</Schizophrenia.stages.anxiety.label>
+	<Schizophrenia.stages.hallucinations.label>галлюцинации</Schizophrenia.stages.hallucinations.label>
+	<!---->
+	<DiogenesSyndrome.label>Синдром Диогена</DiogenesSyndrome.label>
+	<DiogenesSyndrome.description>Синдром «старого убожества». Синдром типичен для пожилых людей и выражается в стремлении ограничить социализацию.</DiogenesSyndrome.description>
+	<!---->
+	<DepressiveSyndrome.label>Депрессивный синдром</DepressiveSyndrome.label>
+	<DepressiveSyndrome.description>Психическое расстройство, характеризующееся плохим настроением и усталостью.</DepressiveSyndrome.description>
+	<!---->
+	<ManicSyndrome.label>Маниакальный синдром</ManicSyndrome.label>
+	<ManicSyndrome.description>Психическое расстройство, характеризующееся перевозбуждением, перепадами настроения и ускоренной реакцией.</ManicSyndrome.description>
+	<ManicSyndrome.stages.agitation.label>волнение</ManicSyndrome.stages.agitation.label>
+	<ManicSyndrome.stages.hyperactivity.label>гиперактивность</ManicSyndrome.stages.hyperactivity.label>
+	<ManicSyndrome.stages.overexcitement.label>перевозбуждение</ManicSyndrome.stages.overexcitement.label>
+	<!---->
+	<ManicStupor.label>Маниакальный ступор</ManicStupor.label>
+	<ManicStupor.description>Временное нарушение двигательной активности, характерное для маниакального синдрома.</ManicStupor.description>
+	<!---->
+	<ConfusionSyndrome.label>Синдром помрачения сознания</ConfusionSyndrome.label>
+	<ConfusionSyndrome.description>Тяжелый и неизлечимый синдром потери памяти. Выражается в постепенной утрате личных интересов. Вы можете замедлить развитие болезни, но она будет неумолимо прогрессировать.</ConfusionSyndrome.description>
+	<ConfusionSyndrome.stages.detachment.label>отрешенность</ConfusionSyndrome.stages.detachment.label>
+	<ConfusionSyndrome.stages.thinking_disorder.label>затруднение мышления</ConfusionSyndrome.stages.thinking_disorder.label>
+	<ConfusionSyndrome.stages.disorientation.label>дезориентация</ConfusionSyndrome.stages.disorientation.label>
+	<ConfusionSyndrome.stages.amnesia.label>амнезия</ConfusionSyndrome.stages.amnesia.label>
+	<!---->
+	<Epilepsy.label>Эпилепсия</Epilepsy.label>
+	<Epilepsy.description>Тяжелое заболевание, характеризующееся различными припадками и эпизодами депрессии.</Epilepsy.description>
+	<!---->
+	<EpilepsySeizure.label>Эпилептический припадок</EpilepsySeizure.label>
+	<EpilepsySeizure.description>Обострение эпилепсии, вызывающее судороги, спутанность речи и сознания. Своевременное лечение позволит быстрее купировать приступ.</EpilepsySeizure.description>
+	<EpilepsySeizure.stages.initial.label>начальный</EpilepsySeizure.stages.initial.label>
+	<EpilepsySeizure.stages.medium.label>средний</EpilepsySeizure.stages.medium.label>
+	<EpilepsySeizure.stages.painful.label>болезненный</EpilepsySeizure.stages.painful.label>
+	<!---->
+	<Genius.label>Гениальность</Genius.label>
+	<Genius.description>Этот человек обладает невероятным интеллектом и тягой к знаниям, но очень уязвим для тяжелых нервных расстройств.</Genius.description>
+	<!---->
+	<Depression.label>Депрессия</Depression.label>
+	<Depression.description>Для этой болезни характерны утомляемость и грустные мысли.</Depression.description>
+	<Depression.stages.weariness.label>усталость</Depression.stages.weariness.label>
+	<Depression.stages.melancholy.label>меланхолия</Depression.stages.melancholy.label>
+	<Depression.stages.sadness.label>грусть</Depression.stages.sadness.label>
+	<Depression.stages.suicidal_thoughts.label>суицидальные мысли</Depression.stages.suicidal_thoughts.label>
+	<!---->
+	<Hallucinosis.label>Галлюциноз</Hallucinosis.label>
+	<Hallucinosis.description>Странное психическое расстройство, проявляющееся у людей с шизофренией или другим психическим заболеванием. Вызывает краткие галлюцинации.</Hallucinosis.description>
+	<!---->
+	<ParanoidSyndrome.label>Параноидный синдром</ParanoidSyndrome.label>
+	<ParanoidSyndrome.description>Состояние чрезмерной подозрительности по отношению к другим.</ParanoidSyndrome.description>
+	<ParanoidSyndrome.stages.suspicion.label>подозрительность</ParanoidSyndrome.stages.suspicion.label>
+	<ParanoidSyndrome.stages.paranoia.label>паранойя</ParanoidSyndrome.stages.paranoia.label>
+	<ParanoidSyndrome.stages.severe_paranoia.label>серьезная паранойя</ParanoidSyndrome.stages.severe_paranoia.label>
+	<!---->
+	<PsychosisOfHypersensitivity.label>Психоз гиперчувствительности</PsychosisOfHypersensitivity.label>
+	<PsychosisOfHypersensitivity.description>Нарушение работы мозга, вызывающее утомляемость и повышенную чувствительность.</PsychosisOfHypersensitivity.description>
+	<!---->
+	<Ravings.label>Бред</Ravings.label>
+	<Ravings.description>Странные бредовые мысли, слова и действия.</Ravings.description>
+	<!---->
+	<DeliriumTremens.label>Белая горячка</DeliriumTremens.label>
+	<DeliriumTremens.description>Болезнь, возникающая на стадии прекращения употребления алкоголя. Выражается в бредовых мыслях, ознобе и срывах гнева.</DeliriumTremens.description>
+	<!---->
+	<Inspiration.label>Вдохновение</Inspiration.label>
+	<Inspiration.description>Вдохновение, дающее энергию для достижения целей. Может быть следствием таких заболеваний головного мозга, как шизофрения, а также эффектом гениальности.</Inspiration.description>
+	<!---->
+	<Alienation.label>Отчуждение</Alienation.label>
+	<Alienation.description>Отчуждение, забирающее надежду и желание двигаться вперед. Может быть следствием таких заболеваний головного мозга, как шизофрения, а также эффектом гениальности.</Alienation.description>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<Deafness.label>Глухота</Deafness.label>
+	<Deafness.description>Комплексное нарушение работы слуховых путей, приводящее к полной глухоте.</Deafness.description>
+	<!---->
+	<NoiseInEars.label>Шум в ушах</NoiseInEars.label>
+	<NoiseInEars.description>Раздражающие процессы в ухе, вызывающие боль.</NoiseInEars.description>
+	<!---->
+	<Otitis.label>Отит</Otitis.label>
+	<Otitis.description>Инфекция в ушных каналах, вызывающая частичную потерю слуха и боль.</Otitis.description>
+	<Otitis.stages.easy.label>легкий</Otitis.stages.easy.label>
+	<Otitis.stages.medium.label>средний</Otitis.stages.medium.label>
+	<Otitis.stages.severe.label>серьезный</Otitis.stages.severe.label>
+	<!---->
+	<Glaucoma.label>Глаукома</Glaucoma.label>
+	<Glaucoma.description>Заболевание глаз, вызванное повышенным внутриглазным давлением. Постепенно приводит к полной слепоте.</Glaucoma.description>
+	<Glaucoma.stages.stage_I.label>I стадия</Glaucoma.stages.stage_I.label>
+	<Glaucoma.stages.stage_II.label>II стадия</Glaucoma.stages.stage_II.label>
+	<Glaucoma.stages.stage_III.label>III стадия</Glaucoma.stages.stage_III.label>
+	<Glaucoma.stages.stage_IV.label>IV стадия</Glaucoma.stages.stage_IV.label>
+	<!---->
+	<Strabismus.label>Косоглазие</Strabismus.label>
+	<Strabismus.description>Заболевание глаз, при котором пациент не может сосредоточиться на объекте. Возникает у молодых людей.</Strabismus.description>
+	<!---->
+	<Photophobia.label>Светобоязнь</Photophobia.label>
+	<Photophobia.description>Раздражение глаз, вызванное инфекционными заболеваниями. Больной болезненно реагирует на свет.</Photophobia.description>
+	<!---->
+	<Conjunctivitis.label>Конъюнктивит</Conjunctivitis.label>
+	<Conjunctivitis.description>Инфекция глазного яблока, вызывающая боль и раздражение.</Conjunctivitis.description>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<Diabetes.label>Диабет</Diabetes.label>
+	<Diabetes.description>Распространенное заболевание, характеризующееся повышением сахара в организме. Смертельно, если не принимать лекарства.</Diabetes.description>
+	<Diabetes.stages.easy.label>легкий</Diabetes.stages.easy.label>
+	<Diabetes.stages.medium.label>средний</Diabetes.stages.medium.label>
+	<Diabetes.stages.severe.label>серьезный</Diabetes.stages.severe.label>
+	<Diabetes.stages.hard.label>опасный</Diabetes.stages.hard.label>
+	<!---->
+	<Immunodeficiency.label>Иммунодефицит</Immunodeficiency.label>
+	<Immunodeficiency.description>Для болезни характерно медленное ослабление защитных функций организма.</Immunodeficiency.description>
+	<Immunodeficiency.stages.easy.label>легкий</Immunodeficiency.stages.easy.label>
+	<Immunodeficiency.stages.medium.label>средний</Immunodeficiency.stages.medium.label>
+	<Immunodeficiency.stages.severe.label>серьезный</Immunodeficiency.stages.severe.label>
+	<!---->
+	<PainNumbnessSyndrome.label>Синдром потери чувствительности</PainNumbnessSyndrome.label>
+	<PainNumbnessSyndrome.description>Синдром, характеризующийся постепенной потерей чувствительности пациента к боли. В молодом возрасте может возникать как редкое заболевание, часто вызывает частичный или полный паралич.</PainNumbnessSyndrome.description>
+	<PainNumbnessSyndrome.stages.easy.label>легкий</PainNumbnessSyndrome.stages.easy.label>
+	<PainNumbnessSyndrome.stages.medium.label>средний</PainNumbnessSyndrome.stages.medium.label>
+	<PainNumbnessSyndrome.stages.severe.label>серьезный</PainNumbnessSyndrome.stages.severe.label>
+	<PainNumbnessSyndrome.stages.complete_loss_of_sensitivity.label>полная потеря чувствительности</PainNumbnessSyndrome.stages.complete_loss_of_sensitivity.label>
+	<!---->
+	<MotorParalysis.label>Двигательный паралич</MotorParalysis.label>
+	<MotorParalysis.description>Гибель нейронов головного мозга и ткани костного мозга приводит к их замене соединительной тканью. Пациент постепенно теряет способность двигаться.</MotorParalysis.description>
+	<MotorParalysis.stages.easy.label>легкий</MotorParalysis.stages.easy.label>
+	<MotorParalysis.stages.medium.label>средний</MotorParalysis.stages.medium.label>
+	<MotorParalysis.stages.severe.label>серьезный</MotorParalysis.stages.severe.label>
+	<MotorParalysis.stages.extreme.label>экстремальный</MotorParalysis.stages.extreme.label>
+	<!---->
+	<SoreJoints.label>Больные суставы</SoreJoints.label>
+	<SoreJoints.description>Износ суставов приводит к болям и ухудшению общего состояния.</SoreJoints.description>
+	<!---->
+	<Numbness.label>Онемение</Numbness.label>
+	<Numbness.description>Временная потеря чувствительности конечностей, характерная для диабета и заболеваний мозга.</Numbness.description>
+	<!---->
+	<Coma.label>Кома</Coma.label>
+	<Coma.description>Состояние между жизнью и смертью. Для него характерно бессознательное состояние, резкое ослабление и отсутствие реакции на внешние раздражители.</Coma.description>
+	<!---->
+	<Sepsis.label>Сепсис</Sepsis.label>
+	<Sepsis.description>Смертельное заражение крови. Заражение часто происходит при чрезмерной кровопотере.</Sepsis.description>
+	<Sepsis.stages.minor.label>легкий</Sepsis.stages.minor.label>
+	<Sepsis.stages.medium.label>средний</Sepsis.stages.medium.label>
+	<Sepsis.stages.major.label>серьезный</Sepsis.stages.major.label>
+	<Sepsis.stages.severe.label>смертельный</Sepsis.stages.severe.label>
+	<!---->
+	<Fever.label>Лихорадка</Fever.label>
+	<Fever.description>Подавленное состояние организма и спутанность сознания, бред и повышение температуры тела.</Fever.description>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<Arrhythmia.label>Аритмия</Arrhythmia.label>
+	<Arrhythmia.description>Нарушение сердечного ритма, характеризующееся уменьшением или учащением пульса.</Arrhythmia.description>
+	<Arrhythmia.stages.easy.label>легкая</Arrhythmia.stages.easy.label>
+	<Arrhythmia.stages.medium.label>средняя</Arrhythmia.stages.medium.label>
+	<Arrhythmia.stages.severe.label>серьезная</Arrhythmia.stages.severe.label>
+	<!---->
+	<HeartDefect.label>Порок сердца</HeartDefect.label>
+	<HeartDefect.description>Врожденное или приобретенное заболевание, подрывающее работу сердечной мышцы.</HeartDefect.description>
+	<!---->
+	<Stenocardia.label>Стенокардия</Stenocardia.label>
+	<Stenocardia.description>Заболевание, вызывающее боли в сердечной мышце.</Stenocardia.description>
+	<Stenocardia.stages.easy.label>легкая</Stenocardia.stages.easy.label>
+	<Stenocardia.stages.medium.label>средняя</Stenocardia.stages.medium.label>
+	<Stenocardia.stages.severe.label>серьезная</Stenocardia.stages.severe.label>
+	<!---->
+	<CardiacAsthma.label>Сердечная астма</CardiacAsthma.label>
+	<CardiacAsthma.description>Нарушение работы сердца из-за его порока. Проявляется затруднением дыхания.</CardiacAsthma.description>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<KidneyFailure.label>Отказ почки</KidneyFailure.label>
+	<KidneyFailure.description>Полное нарушение функции почек.</KidneyFailure.description>
+	<!---->
+	<ChronicKidneyDisease.label>Хроническая болезнь почек</ChronicKidneyDisease.label>
+	<ChronicKidneyDisease.description>Хроническое заболевание выделительной системы, постепенно разрушающее почки.</ChronicKidneyDisease.description>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<ChronicHepatitis.label>Хронический гепатит</ChronicHepatitis.label>
+	<ChronicHepatitis.description>Хроническое заболевание, характеризующееся снижением функции печени.</ChronicHepatitis.description>
+	<!---->
+	<AcuteHepatitis.label>Острый гепатит</AcuteHepatitis.label>
+	<AcuteHepatitis.description>Острая форма течения гепатита. Как правило, проходит без последствий с формированием стойкого иммунитета.</AcuteHepatitis.description>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<Tuberculosis.label>Туберкулез</Tuberculosis.label>
+	<Tuberculosis.description>Смертельное заболевание легких, медленно прогрессирующее до самой смерти пациента. Усиленное и компетентное лечение может остановить болезнь.</Tuberculosis.description>
+	<Tuberculosis.stages.minor.label>легкий</Tuberculosis.stages.minor.label>
+	<Tuberculosis.stages.medium.label>средний</Tuberculosis.stages.medium.label>
+	<Tuberculosis.stages.major.label>тяжелый</Tuberculosis.stages.major.label>
+	<Tuberculosis.stages.severe.label>смертельный</Tuberculosis.stages.severe.label>
+	<!---->
+	<PulmonaryEdema.label>Отек легких</PulmonaryEdema.label>
+	<PulmonaryEdema.description>Скопление жидкости в области легких из-за болезни.</PulmonaryEdema.description>
+	<!---->
+	<Angina.label>Ангина</Angina.label>
+	<Angina.description>Боль в горле, затрудняющая речь.</Angina.description>
+	<!---->
+	<Pneumothorax.label>Пневмоторакс</Pneumothorax.label>
+	<Pneumothorax.description>Заболевание, которое часто возникает вследствие респираторных заболеваний. Также встречается у здоровых людей.</Pneumothorax.description>
+	<Pneumothorax.stages.easy.label>легкий</Pneumothorax.stages.easy.label>
+	<Pneumothorax.stages.medium.label>средний</Pneumothorax.stages.medium.label>
+	<Pneumothorax.stages.severe.label>серьезный</Pneumothorax.stages.severe.label>
+	<!---->
+	<Pneumonia.label>Пневмония</Pneumonia.label>
+	<Pneumonia.description>Тяжелая болезнь легких. Может вызвать множество осложнений при лечении.</Pneumonia.description>
+	<Pneumonia.stages.minor.label>легкая</Pneumonia.stages.minor.label>
+	<Pneumonia.stages.major.label>тяжелая</Pneumonia.stages.major.label>
+	<Pneumonia.stages.extreme.label>экстремальная</Pneumonia.stages.extreme.label>
+	<!---->
+	<CommonCold.label>Простуда</CommonCold.label>
+	<CommonCold.description>Легкая инфекция дыхательных путей.</CommonCold.description>
+	<CommonCold.stages.minor.label>легкая</CommonCold.stages.minor.label>
+	<CommonCold.stages.medium.label>средняя</CommonCold.stages.medium.label>
+	<CommonCold.stages.major.label>тяжелая</CommonCold.stages.major.label>
+	<CommonCold.stages.severe.label>серьезная</CommonCold.stages.severe.label>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<SpinalInstability.label>Нестабильность позвоночника</SpinalInstability.label>
+	<SpinalInstability.description>Травма позвоночника, вызванная чрезмерными нагрузками, генами или старением. Приводит к развитию дегенеративных заболеваний позвоночника.</SpinalInstability.description>
+	<!---->
+	<IntervertebralHernia.label>Межпозвоночная грыжа</IntervertebralHernia.label>
+	<IntervertebralHernia.description>Поражение позвоночника, вызванное дегенеративными процессами.</IntervertebralHernia.description>
+	<!---->
+	<Scoliosis.label>Сколиоз</Scoliosis.label>
+	<Scoliosis.description>Сложная деформация позвоночника, часто возникающая в молодом возрасте.</Scoliosis.description>
+	<Scoliosis.stages.stage_I.label>I степень</Scoliosis.stages.stage_I.label>
+	<Scoliosis.stages.stage_II.label>II степень</Scoliosis.stages.stage_II.label>
+	<Scoliosis.stages.stage_III.label>III степень</Scoliosis.stages.stage_III.label>
+	<Scoliosis.stages.stage_IV.label>IV степень</Scoliosis.stages.stage_IV.label>
+	<!---->
+	<FractureOfTheVertebrae.label>Перелом позвонков</FractureOfTheVertebrae.label>
+	<FractureOfTheVertebrae.description>Трещины в позвонках, вызванные нестабильностью позвоночника.</FractureOfTheVertebrae.description>
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<!---->
+	<StomachUlcer.label>Язва желудка</StomachUlcer.label>
+	<StomachUlcer.description>Заболевание желудка, вызывающее приступы боли.</StomachUlcer.description>
+	<!---->
+	<Dysbacteriosis.label>Дисбактериоз</Dysbacteriosis.label>
+	<Dysbacteriosis.description>Недостаток витаминов в организме.</Dysbacteriosis.description>
+	<!---->
+	<UlcerativeColitis.label>Язвенный колит</UlcerativeColitis.label>
+	<UlcerativeColitis.description>Хроническое заболевание желудка, вызывающее сильные приступы боли.</UlcerativeColitis.description>
+	<!---->
+	<ChronicGastritis.label>Хронический гастрит</ChronicGastritis.label>
+	<ChronicGastritis.description>Хроническое заболевание желудка, вызывающее рвоту и приступы боли.</ChronicGastritis.description>
+	<!---->
+</LanguageData>

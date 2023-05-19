@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DimonSever000_PainWave.label>Волна боли</DimonSever000_PainWave.label>
+	<DimonSever000_PainWave.description>Вызванная псиоником волна боли.</DimonSever000_PainWave.description>
+	
+	<DimonSever000_WordOfConfidence.label>Слово уверенности</DimonSever000_WordOfConfidence.label>
+	<DimonSever000_WordOfConfidence.description>Искусственно вызванная уверенность в себе.</DimonSever000_WordOfConfidence.description>
+	
+	<DimonSever000_Concentration.label>Концентрация</DimonSever000_Concentration.label>
+	<DimonSever000_Concentration.description>Искусственная активация нейронов.</DimonSever000_Concentration.description>
+	
+	<DimonSever000_Dash.label>Рывок</DimonSever000_Dash.label>
+	<DimonSever000_Dash.description>Мгновенное ускорение, создаваемое псионическими волнами.</DimonSever000_Dash.description>
+
+	<DimonSever000_BreathOfLife.label>Дыхание жизни</DimonSever000_BreathOfLife.label>
+	<DimonSever000_BreathOfLife.description>Подавление двигательных центров и ускорение регенерации.</DimonSever000_BreathOfLife.description>
+	
+</LanguageData>

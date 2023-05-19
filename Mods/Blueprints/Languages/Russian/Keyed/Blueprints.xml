@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Fluffy.Blueprints.Create>Создать шаблон</Fluffy.Blueprints.Create>
+	<Fluffy.Blueprints.CreateHelp>Чтобы загрузить шаблон, нужно нажать ПКМ на приказ.</Fluffy.Blueprints.CreateHelp>
+	<Fluffy.Blueprints.LoadFromXML>{0}</Fluffy.Blueprints.LoadFromXML>
+	<Fluffy.Blueprints.NoStoredBlueprints>Нет доступных шаблонов.</Fluffy.Blueprints.NoStoredBlueprints>
+	<Fluffy.Blueprints.CannotCreateBluePrint_NothingSelected/>
+	<Fluffy.Blueprints.NameAlreadyTaken>Название уже занято.</Fluffy.Blueprints.NameAlreadyTaken>
+	<Fluffy.Blueprints.InvalidBlueprintName>Недопустимое название.</Fluffy.Blueprints.InvalidBlueprintName>
+	<Fluffy.Blueprints.Rename>Переименовать</Fluffy.Blueprints.Rename>
+	<Fluffy.Blueprints.Remove>Удалить</Fluffy.Blueprints.Remove>
+	<Fluffy.Blueprints.SaveToXML>Сохранить</Fluffy.Blueprints.SaveToXML>
+	<Fluffy.Blueprints.RemoveAndDeleteXML>Удалить, а также удалить сохраненный</Fluffy.Blueprints.RemoveAndDeleteXML>
+	<Fluffy.Blueprint.Cost>Необходимые ресурсы</Fluffy.Blueprint.Cost>
+	<Fluffy.Blueprints.NothingAvailableInBlueprint>Нет доступных ресурсов.</Fluffy.Blueprints.NothingAvailableInBlueprint>
+	<Fluffy.Blueprints.UnFlippable.HasInteractionCell>Данный шаблон нельзя поворачивать.</Fluffy.Blueprints.UnFlippable.HasInteractionCell>
+	<Fluffy.Blueprints.UnRotatable.HasInteractionCell>Данный шаблон нельзя поворачивать.</Fluffy.Blueprints.UnRotatable.HasInteractionCell>
+	<Fluffy.Blueprints.UnRotatable.NonSquare>Данный шаблон нельзя поворачивать.</Fluffy.Blueprints.UnRotatable.NonSquare>
+	<Fluffy.Blueprints>Blueprints</Fluffy.Blueprints>
+	<Fluffy.Blueprints.CopyKey>Хоткей: Создать временный шаблон (нужно выделить минимум 3 проекта)</Fluffy.Blueprints.CopyKey>
+	<Fluffy.Blueprints.DefaultBlueprintName>Шаблон</Fluffy.Blueprints.DefaultBlueprintName>
+	<Fluffy.Blueprints.ExportedBlueprintWithThatNameAlreadyExists>Название уже занято.</Fluffy.Blueprints.ExportedBlueprintWithThatNameAlreadyExists>
+	<Fluffy.Blueprints.XNotAvailableInBlueprint>Не хватает некоторых ресурсов: {1}.</Fluffy.Blueprints.XNotAvailableInBlueprint>
+	<!-- copy command -->
+	<Fluffy.Blueprints.Copy>Copy</Fluffy.Blueprints.Copy>
+	<Fluffy.Blueprints.CreateFromSelection>Create blueprint</Fluffy.Blueprints.CreateFromSelection>
+	<Fluffy.Blueprints.CopyHelp>Create a temporary blueprint from the selected objects.\n\nRight-Click: Create a permanent blueprint from the currently selected buildings.</Fluffy.Blueprints.CopyHelp>
+	<!-- I'm aware this is a _very_ suboptimal solution, but short of writing a custom languageWorker like thing for each language, this will have to do. It's only for default blueprint names anyway. -->
+	<Fluffy.Blueprints.Plural>{0}s</Fluffy.Blueprints.Plural>
+</LanguageData>

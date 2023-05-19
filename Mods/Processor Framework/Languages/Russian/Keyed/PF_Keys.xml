@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Settings -->
+	<PF_SettingsCategory>Processor Framework</PF_SettingsCategory>
+	<PF_ShowProcessIcon>Показать иконку работы</PF_ShowProcessIcon>
+	<PF_ShowProcessIconTooltip>Если включено, показывает иконки процесса на постройках, в которых он есть, иначе иконки никогда не будут отображаться (по умолчанию: включено).</PF_ShowProcessIconTooltip>
+	<PF_ProcessIconSize>Размер иконки работы</PF_ProcessIconSize>
+	<PF_ProcessIconSizeTooltip>Определяет размер иконки процесса, который отображается на некоторых обрабатывающих постройках (по умолчанию: 60%).</PF_ProcessIconSizeTooltip>
+	<PF_ShowCurrentQualityIcon>Показать иконку текущего качества</PF_ShowCurrentQualityIcon>
+	<PF_ShowCurrentQualityIconTooltip>Отображает иконку рядом с индикатором выполнения, который указывает на текущее качество продукта (по умолчанию: включено).</PF_ShowCurrentQualityIconTooltip>
+	<PF_ShowTargetQualityIcon>Показать иконку заданного качества</PF_ShowTargetQualityIcon>
+	<PF_ShowTargetQualityIconTooltip>Отображает иконку рядом со иконкой процесса, который указывает на заданное качество, работает только если включен параметр «Показать иконку работы» (по умолчанию: выключено).</PF_ShowTargetQualityIconTooltip>
+	<PF_SingleItemIcon>Единая иконка</PF_SingleItemIcon>
+	<PF_SingleItemIconTooltip>Если включено, иконки будут похожи на единый элемент, в противном случае будут использоваться несколько разных иконок (по умолчанию: включено).</PF_SingleItemIconTooltip>
+  <PF_ProductIcon>Показать иконку продукта</PF_ProductIcon>
+  <PF_ProductIconTooltip>Отображает иконки рядом с продуктами во вкладке выбора процесса.</PF_ProductIconTooltip>
+  <PF_IngredientIcon>Показать иконку ингредиента</PF_IngredientIcon>
+  <PF_IngredientIconTooltip>Отображает иконки рядом с ингридиентами во вкладке выбора процесса.</PF_IngredientIconTooltip>
+  <PF_initialProcessState>Конфигурация процессов по умолчанию</PF_initialProcessState>
+  <PF_initialProcessStateTooltip>Этот параметр управляет тем, как переключаются процессы на вновь созданных аппаратах.</PF_initialProcessStateTooltip>
+  <PF_firstOnly>Первый процесс</PF_firstOnly>
+  <PF_firstOnlyTooltip>На вновь созданных аппаратах включен первый процесс.</PF_firstOnlyTooltip>
+  <PF_allEnabled>Включено</PF_allEnabled>
+  <PF_allEnabledTooltip>Включены все процессы на вновь созданных аппаратах.</PF_allEnabledTooltip>
+  <PF_allDisabled>Отключено</PF_allDisabled>
+  <PF_allDisabledTooltip>Отключены все процессы на вновь созданных аппаратах.</PF_allDisabledTooltip>
+  <PF_defaultQuality>Заданное по умолчанию качество</PF_defaultQuality>
+  <PF_defaultQualityTooltip>Значение устанавливаемого по умолчанию заданного качества процесса, в которых присутствует выбор качества.</PF_defaultQualityTooltip>
+  <PF_replaceDestroyedProcessors>Замена разрушенных аппаратов</PF_replaceDestroyedProcessors>
+  <PF_replaceDestroyedProcessorsTooltip>Некоторые процессы разрушают аппарат, включение этой опции позволит разместить чертёж, если это произойдет.</PF_replaceDestroyedProcessorsTooltip>
+	<PF_ReplaceVanillaBarrels>Заменить ванильные бочки</PF_ReplaceVanillaBarrels>
+	<PF_ReplaceVanillaBarrelsTooltip>Заменяет все ванильные бочки для брожения на бочки из данного мода, применяется, если данный мод был добавлен в уже существующую игру, не безопасно для многопользовательской игры.</PF_ReplaceVanillaBarrelsTooltip>
+	<PF_DefaultSettings>По умолчанию</PF_DefaultSettings>
+	<PF_DefaultSettingsTooltip>Сброс настроек до значений по умолчанию</PF_DefaultSettingsTooltip>
+
+  <!-- Gizmos -->
+  <PF_emptyNow>Опорожнить аппарат</PF_emptyNow>
+  <PF_emptyNowDescription>Определяет этот аппарат к опустошению колонистами, независимо от того, какое качество было достигнуто.</PF_emptyNowDescription>
+  <PF_dontEmpty>Отменить отметку на опорожнение</PF_dontEmpty>
+  <PF_dontEmptyDescription>Отменяет назначение для этого аппарата на опорожнение.</PF_dontEmptyDescription>
+
+	<!-- Inspector Strings -->
+	<PF_ContainsIngredientsGeneric>Содержит: {0} / {1}</PF_ContainsIngredientsGeneric>
+	<PF_ContainsIngredient>Содержит: {0} / {1} {INGREDIENTS}</PF_ContainsIngredient>
+	<PF_ContainsProduct>Содержит: {0} / {1} {PRODUCT_label} ({QUALITY})</PF_ContainsProduct>
+	<PF_NoIngredient>Отсутствуют ингредиенты</PF_NoIngredient>
+	<PF_Progress>Прогресс: {0} {1}</PF_Progress>
+
+	<PF_NumProcessing>{0} {STACKS} обрабатывается</PF_NumProcessing>
+  <PF_RunningStacksNoun>набор</PF_RunningStacksNoun>
+	<PF_RunningCountSlow>({0} медленно)</PF_RunningCountSlow>
+	<PF_RunningCountFinished>({0} завершено)</PF_RunningCountFinished>
+	<PF_RunningCountRuined>({0} испорчено)</PF_RunningCountRuined>
+
+	<PF_RunningInfo>Выполняется ({0} вып.)</PF_RunningInfo>
+	<PF_RunningSlow>Выполняется медленно: {0} скорость ({0} вып.)</PF_RunningSlow>
+  <PF_NonIdealInfluences>Неидеально {0}</PF_NonIdealInfluences>
+	<PF_NonIdealSpeedFactor>Скорость: {0}</PF_NonIdealSpeedFactor>
+	<PF_IdealSafeProductionTemperature>Идеальная(безопасная) темп. пр-ва</PF_IdealSafeProductionTemperature>
+	<PF_Finished>Завершено</PF_Finished>
+	<PF_Ideal>Идеально</PF_Ideal>
+	<PF_Safe>Безопасно</PF_Safe>
+	<PF_Ruined>Испорчено</PF_Ruined>
+	<PF_NA>-</PF_NA>
+	<PF_None>Отсутствует</PF_None>
+	
+	<PF_WeatherTemperature>температура</PF_WeatherTemperature>
+	<PF_WeatherSunshine>солнце</PF_WeatherSunshine>
+	<PF_WeatherRain>дождь</PF_WeatherRain>
+	<PF_WeatherSnow>снег</PF_WeatherSnow>
+	<PF_WeatherWind>ветер</PF_WeatherWind>
+
+	<PF_NextDesc>Произвести {0} из {1}.</PF_NextDesc>
+	<PF_SetQualityDesc>Установить заданное качество.</PF_SetQualityDesc>
+
+	<PF_OldBarrelInspectString>Старая ванильная бочка для брожения, установите её в любое место для получения универсального бродильного аппарата</PF_OldBarrelInspectString>
+
+  <!-- ITab Process Selection -->
+  <PF_ITab_ItemSelection>Процессы</PF_ITab_ItemSelection>
+  <PF_ApplySettings>Применить настройки</PF_ApplySettings>
+  <PF_DestroyChanceTooltip>Шанс того, что аппарат будет уничтожен после извлечения продукта</PF_DestroyChanceTooltip>
+  <PF_EfficiencyTooltip>Количество ингредиентов, необходимое для одного продукта</PF_EfficiencyTooltip>
+
+  <!-- ITab Process Contents -->
+  <PF_TabProductFilter>Продукт</PF_TabProductFilter>
+	<PF_TabIngredientFilter>Фильтр</PF_TabIngredientFilter>
+	<PF_TabContents>Работа</PF_TabContents>
+	<PF_FermentingItems>Ингредиенты</PF_FermentingItems>
+	<PF_Product>Продукт</PF_Product>
+	<PF_TargetQuality>Качество</PF_TargetQuality>
+  <PF_CreatingTooltip1>Получение {PRODUCT}{QUALITY} из {INGREDIENT}.\n</PF_CreatingTooltip1>
+	<PF_CreatingTooltip2_Quality>\nВремя переработки до ужасного качества: {TOAWFUL}.\n</PF_CreatingTooltip2_Quality>
+	<PF_CreatingTooltip2_NoQuality>\nВремя переработки: {TIME}.\n</PF_CreatingTooltip2_NoQuality>
+	<PF_CreatingTooltip3>\nИдеальная рабочая температура: {MIN}~{MAX}.\n</PF_CreatingTooltip3>
+	<PF_CreatingTooltip4>Безопасная температура: {MIN}~{MAX}.\nСкорость порчи: {PERHOUR} / градус / час\n</PF_CreatingTooltip4>
+	<PF_CreatingTooltip5>\nПродукт {0} испорчен.\n</PF_CreatingTooltip5>
+	<PF_CreatingTooltip6>Сейчас испортится! Температура — {0}!</PF_CreatingTooltip6>
+	<PF_SpeedTooltip1>{COMPLETEPERCENT} завешено\nСкорость: {SPEED}\n\n</PF_SpeedTooltip1>
+	<PF_SpeedTooltip2>Факторы влияющие на скорость:\nТемпература: {TEMPERATURE}\nВетер: {WIND}\nСолнце: {SUN}\nДождь: {RAIN}\nСнег: {SNOW}\n\n</PF_SpeedTooltip2>
+	<PF_SpeedTooltip3>До окончания примерно: {ESTIMATED}</PF_SpeedTooltip3>
+	<PF_QualityTooltip1>Заданное качество: {TARGET}\nТекущее качество: {CURRENT}\n\n</PF_QualityTooltip1>
+	<PF_QualityTooltip2>Времени на переработку:\nУжасное: {AWFUL}\nПлохое: {POOR}\nНормальное: {NORMAL}\nХорошее: {GOOD}\nОтличное: {EXCELLENT}\nШедевральное: {MASTERWORK}\nЛегендарное: {LEGENDARY}</PF_QualityTooltip2>
+	<PF_QualityTooltipNA>{PRODUCT_label} всегда одного качества.</PF_QualityTooltipNA>
+
+</LanguageData>

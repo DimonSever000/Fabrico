@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Flesh.label>Плоть</Flesh.label>
+	<!---->
+	<Leather.label>Кожа</Leather.label>
+	<!---->
+	<Plants.label>Растения</Plants.label>
+	<!---->
+	<Hibernation.label>Гибернация</Hibernation.label>
+	<!---->
+	<SenseOrgans.label>Органы чувств</SenseOrgans.label>
+	<!---->
+	<Needs.label>Потребности</Needs.label>
+	<!---->
+	<Religiosity.label>Религиозность</Religiosity.label>
+	<!---->
+</LanguageData>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <Fluffy.MusicManager>Music Manager</Fluffy.MusicManager>
+
+    <Fluffy.MusicManager.LockWidgetPosition>Фиксированное положение виджета</Fluffy.MusicManager.LockWidgetPosition>
+    <Fluffy.MusicManager.LockWidgetPosition.Tooltip>При фиксации виджет проигрывателя нельзя перемещать. Отключите возможность перетаскивания виджета в новое место.</Fluffy.MusicManager.LockWidgetPosition.Tooltip>
+    <Fluffy.MusicManager.Columns.Name.Label>Название</Fluffy.MusicManager.Columns.Name.Label>
+    <Fluffy.MusicManager.Columns.Name.Tooltip>&lt;b&gt;Клик&lt;/b&gt; для сортировки по названию.\n\n&lt;i&gt;Примечание: имена не всегда могут быть осмысленными, так как обычно они не видны.&lt;/i&gt;</Fluffy.MusicManager.Columns.Name.Tooltip>
+    <Fluffy.MusicManager.Columns.Length.Label>Длина</Fluffy.MusicManager.Columns.Length.Label>
+    <Fluffy.MusicManager.Columns.Length.Tooltip>&lt;b&gt;Клик&lt;/b&gt; для сортировки музыки по длине.</Fluffy.MusicManager.Columns.Length.Tooltip>
+    <Fluffy.MusicManager.Columns.TimeOfDay.Label>Время дня</Fluffy.MusicManager.Columns.TimeOfDay.Label>
+    <Fluffy.MusicManager.Columns.TimeOfDay.Tooltip>&lt;b&gt;Клик&lt;/b&gt; для сортировки по времени суток, когда разрешено воспроизведение этой музыки.
+&lt;b&gt;Alt-Клик&lt;/b&gt; для фильтрации видимых песен по времени суток, когда им разрешено играть.
+&lt;b&gt;Shift-Клик&lt;/b&gt; для массового назначения разрешенного времени суток для видимых песен.</Fluffy.MusicManager.Columns.TimeOfDay.Tooltip>
+    <Fluffy.MusicManager.Columns.Tense.Label>Для боя &amp; Вне боя</Fluffy.MusicManager.Columns.Tense.Label>
+    <Fluffy.MusicManager.Columns.Tense.Tooltip>&lt;b&gt;Клик&lt;/b&gt; для сортировки музыки в бою и вне боя.
+&lt;b&gt;Alt-Клик&lt;/b&gt; для фильтрации видимой музыки для боя или вне боя.
+&lt;b&gt;Shift-Клик&lt;/b&gt; для массового назначения музыки для боя или вне боя.</Fluffy.MusicManager.Columns.Tense.Tooltip>
+    <Fluffy.MusicManager.Columns.Seasons.Label>Времена года</Fluffy.MusicManager.Columns.Seasons.Label>
+    <Fluffy.MusicManager.Columns.Seasons.Tooltip>&lt;b&gt;Клик&lt;/b&gt; для сортировки по разрешенным временам года.
+&lt;b&gt;Alt-Клик&lt;/b&gt; для фильтрации видимой музыки для времен года.
+&lt;b&gt;Shift-Клик&lt;/b&gt; для массового назначения музыки для времен года.</Fluffy.MusicManager.Columns.Seasons.Tooltip>
+    <Fluffy.MusicManager.Filtered>В этом столбце есть активный фильтр.</Fluffy.MusicManager.Filtered>
+    <Fluffy.MusicManager.Sorted>Таблица отсортирована по этому столбцу.</Fluffy.MusicManager.Sorted>
+
+    <Fluffy.MusicManager.AllowedTimeOfDay>Разрешенное время суток: {0}</Fluffy.MusicManager.AllowedTimeOfDay>
+    <Fluffy.MusicManager.TimeOfDay.Night>ночь</Fluffy.MusicManager.TimeOfDay.Night>
+    <Fluffy.MusicManager.TimeOfDay.Day>день</Fluffy.MusicManager.TimeOfDay.Day>
+    <Fluffy.MusicManager.TimeOfDay.Any>когда угодно</Fluffy.MusicManager.TimeOfDay.Any>
+
+    <Fluffy.MusicManager.AllowedSeasons>Разрешенные сезоны: {0}</Fluffy.MusicManager.AllowedSeasons>
+    <Fluffy.MusicManager.Season.Undefined>не указано</Fluffy.MusicManager.Season.Undefined>
+    <Fluffy.MusicManager.Season.Winter>зима</Fluffy.MusicManager.Season.Winter>
+    <Fluffy.MusicManager.Season.Fall>осень</Fluffy.MusicManager.Season.Fall>
+    <Fluffy.MusicManager.Season.Summer>лето</Fluffy.MusicManager.Season.Summer>
+    <Fluffy.MusicManager.Season.Spring>весна</Fluffy.MusicManager.Season.Spring>
+    <Fluffy.MusicManager.Season.PermanentWinter>бесконечная зима</Fluffy.MusicManager.Season.PermanentWinter>
+    <Fluffy.MusicManager.Season.PermanentSummer>бесконечное лето</Fluffy.MusicManager.Season.PermanentSummer>
+    
+    <Fluffy.MusicManager.AllowedTense>Разрешено во время: {0}</Fluffy.MusicManager.AllowedTense>
+    <Fluffy.MusicManager.War>боя</Fluffy.MusicManager.War>
+    <Fluffy.MusicManager.Peace>вне боя</Fluffy.MusicManager.Peace>
+
+    <Fluffy.MusicManager.SongIntervalPeace>Время между музыкой (вне боя)</Fluffy.MusicManager.SongIntervalPeace>
+    <Fluffy.MusicManager.SongIntervalPeace.Tip>Интервал между музыкой, когда нет опасности.</Fluffy.MusicManager.SongIntervalPeace.Tip>
+    <Fluffy.MusicManager.SongIntervalWar>Время между музыкой (в бою)</Fluffy.MusicManager.SongIntervalWar>
+    <Fluffy.MusicManager.SongIntervalWar.Tip>Интервал между музыкой, когда есть опасность.</Fluffy.MusicManager.SongIntervalWar.Tip>
+
+    <Fluffy.MusicManager.ResetCustomMetaData>Сбросить данные</Fluffy.MusicManager.ResetCustomMetaData>
+</LanguageData>

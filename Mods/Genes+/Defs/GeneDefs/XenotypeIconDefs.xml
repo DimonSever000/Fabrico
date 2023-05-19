@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<XenotypeIconDef>
+		<defName>Phytox</defName>
+		<texPath>Xenotypes/Phytox</texPath>
+	</XenotypeIconDef>
+	<!---->
+	<XenotypeIconDef>
+		<defName>Photos</defName>
+		<texPath>Xenotypes/Photos</texPath>
+	</XenotypeIconDef>
+	<!---->
+	<XenotypeIconDef>
+		<defName>Planter</defName>
+		<texPath>Xenotypes/Planter</texPath>
+	</XenotypeIconDef>
+	<!---->
+</Defs>

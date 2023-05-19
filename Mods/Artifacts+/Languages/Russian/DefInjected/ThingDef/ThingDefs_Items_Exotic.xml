@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Serenitor.label>Умиротворитель</Serenitor.label>
+	<Serenitor.description>Артефакт архотеков, стирающий память о событиях и социальных взаимодействиях.</Serenitor.description>
+	<Serenitor.comps.CompUsable.useLabel>Использовать</Serenitor.comps.CompUsable.useLabel>
+	<!---->
+	<Indoctrinator.label>Индоктринатор</Indoctrinator.label>
+	<Indoctrinator.description>Индоктринация это процесс идеологической обработки. Архотеки создали эти устройства с неизвестной целью. Рой нанитов изменяет сознание, что приводит к безболезненному принятию новых доктрин. На внутренней стороне можно заметить подпись некоего Джека Харпера.</Indoctrinator.description>
+	<Indoctrinator.comps.CompUsable.useLabel>Использовать</Indoctrinator.comps.CompUsable.useLabel>
+	<!---->
+	<Absolver.label>Освободитель</Absolver.label>
+	<Absolver.description>Устройство архотеков, перепрограммирующее черты характера цели. Принцип выбора черт характера неизвестен, поэтому невозможно предугадать результат.</Absolver.description>
+	<Absolver.comps.CompUsable.useLabel>Использовать</Absolver.comps.CompUsable.useLabel>
+	<!---->
+	<Characterizer.label>Характеризатор</Characterizer.label>
+	<Characterizer.description>Устройство архотеков, записывающее в мозг цели паттерны поведения, соответствующие определенной черте характера.</Characterizer.description>
+	<Characterizer.comps.CompUsable.useLabel>Использовать</Characterizer.comps.CompUsable.useLabel>
+	<!---->
+	<Equalizer.label>Уравнитель</Equalizer.label>
+	<Equalizer.description>Артефакт архотеков, который перераспределяет навыки пользователя по неизвестному алгоритму. Предугадать результат невозможно.</Equalizer.description>
+	<Equalizer.comps.CompUsable.useLabel>Использовать</Equalizer.comps.CompUsable.useLabel>
+	<!---->
+	<OrbitalTargeterLanding.label>Указатель орбитальной высадки</OrbitalTargeterLanding.label>
+	<OrbitalTargeterLanding.description>Древний пульт управления десантным челноком на орбите планеты. Вероятно, солдаты десанта находятся в криптосне сотни или тысячи лет.</OrbitalTargeterLanding.description>
+	<OrbitalTargeterLanding.verbs.Verb_OrbitalTargeterLanding.label>Указатель орбитальной высадки</OrbitalTargeterLanding.verbs.Verb_OrbitalTargeterLanding.label>
+	<!---->
+	<Restorer.label>Восстановитель</Restorer.label>
+	<Restorer.description>Артефакт архотеков, изменяющий генетический код пользователя. Технология на столько сложна, что ее невозможно осмыслить.</Restorer.description>
+	<Restorer.comps.CompUsable.useLabel>Использовать</Restorer.comps.CompUsable.useLabel>
+	<!---->
+	<Igniter.label>Поджигатель</Igniter.label>
+	<Igniter.description>Разрушительный артефакт архотеков, подрывающий все взрывоопасные предметы в радиусе своего воздействия. Из искры разгорится пламя.</Igniter.description>
+	<Igniter.verbs.Verb_Igniter.label>Использовать</Igniter.verbs.Verb_Igniter.label>
+	<!---->
+	<Reaper.label>Жнец</Reaper.label>
+	<Reaper.description>Убийственный для всего живого артефакт, мгновенно разрушающий структуру тканей. Артефакт оставляет после цели только небольшую кучку пепла, плоти и кожи.</Reaper.description>
+	<Reaper.verbs.Verb_Reaper.label>Использовать</Reaper.verbs.Verb_Reaper.label>
+	<!---->
+</LanguageData>

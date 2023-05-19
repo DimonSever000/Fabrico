@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<ThingDef Name="CarryallBase" ParentName="BuildingBase" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.6</SellPriceFactor>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<stealable>false</stealable>
+		<inspectorTabs>
+			<li>ITab_ContentsTransporter</li>
+		</inspectorTabs>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>false</castEdgeShadows>
+		<designationCategory>PLA_DesignationCategory_Vehicle</designationCategory>
+		<killedLeavings>
+			<ChunkSlagSteel>12</ChunkSlagSteel>
+		</killedLeavings>
+		<holdsRoof>true</holdsRoof>
+		<uiIconScale>1.2</uiIconScale>
+		<damageMultipliers>
+			<li>
+				<damageDef>Lands_Carryall</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Steam_Carryall</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+		</damageMultipliers>
+		<building>
+			<claimable>false</claimable>
+			<soundAmbient>ShuttleIdle_Ambience</soundAmbient>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+			<expandHomeArea>false</expandHomeArea>
+			<ai_combatDangerous>true</ai_combatDangerous>
+		</building>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="CarryallBase">
+		<defName>Airship_Kirov</defName>
+		<label>Kirov airship</label>
+		<description>A huge model of an airship used by the ancients in the past. Its original bomb rack doesn't work due to lost technology, but the airship itself is highly explosive. Keep it away from fire.
+
+The airship has 8 seats and can carry up to 600 kg of cargo.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<fillPercent>0.95</fillPercent>
+		<pathCost>75</pathCost>
+		<blockWind>false</blockWind>
+		<rotatable>true</rotatable>
+		<canOverlapZones>true</canOverlapZones>
+		<preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+		<repairEffect>ConstructMetal</repairEffect>
+		<forceDebugSpawnable>true</forceDebugSpawnable>
+		<minifiedDef/>
+		<uiIconPath>Carryall/AirshipKirov</uiIconPath>
+		<graphicData>
+			<texPath>Carryall/AirshipKirov</texPath>
+			<shaderType>CutoutFlying</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(2.1, 2.1, 4.2)</volume>
+				<!--width, vertical, height-->
+				<offset>(0, 0, -0.2)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(3,3)</size>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToBuild>50000</WorkToBuild>
+			<Flammability>4</Flammability>
+			<Mass>1</Mass>
+			<Beauty>-10</Beauty>
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+		</statBases>
+		<costList>
+			<Cloth>500</Cloth>
+			<Steel>300</Steel>
+			<Plasteel>100</Plasteel>
+			<MechanismSpacer>8</MechanismSpacer>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Transporter">
+				<restEffectiveness>0.7</restEffectiveness>
+				<massCapacity>600</massCapacity>
+				<max1PerGroup>true</max1PerGroup>
+				<canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
+				<showOverallStats>true</showOverallStats>
+				<pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
+				<pawnExitSound>Shuttle_PawnExit</pawnExitSound>
+			</li>
+			<li Class="SRTS.CompProperties_LaunchableSRTS">
+				<eastSkyfaller>Airship_Kirov_Leaving</eastSkyfaller>
+				<westSkyfaller>Airship_Kirov_R_Leaving</westSkyfaller>
+				<eastSkyfallerIncoming>Airship_Kirov_Incoming</eastSkyfallerIncoming>
+				<westSkyfallerIncoming>Airship_Kirov_R_Incoming</westSkyfallerIncoming>
+				<eastSkyfallerActive>Airship_Kirov_Active</eastSkyfallerActive>
+				<westSkyfallerActive>Airship_Kirov_R_Active</westSkyfallerActive>
+				<needsConfirmation>true</needsConfirmation>
+				<hasSelfDestruct>true</hasSelfDestruct>
+				<travelSpeed>1</travelSpeed>
+				<fuelPerTile>1</fuelPerTile>
+				<minPassengers>1</minPassengers>
+				<maxPassengers>8</maxPassengers>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelCapacity>200</fuelCapacity>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+				<initialConfigurableTargetFuelLevel>150</initialConfigurableTargetFuelLevel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Coal</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<initialFuelPercent>0</initialFuelPercent>
+				<autoRefuelPercent>1</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+				<drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Explosive">
+				<wickTicks>240</wickTicks>
+				<damageAmountBase>400</damageAmountBase>
+				<explosiveRadius>10.9</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<chanceToStartFire>0.9</chanceToStartFire>
+				<startWickHitPointsPercent>0.4</startWickHitPointsPercent>
+				<explosionEffect>GiantExplosion</explosionEffect>
+			</li>
+		</comps>
+		<building>
+			<combatPower>300</combatPower>
+			<turretGunDef>Gun_KirovTurret</turretGunDef>
+			<turretBurstCooldownTime>7</turretBurstCooldownTime>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Airships</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<specialDisplayRadius>10.9</specialDisplayRadius>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_KirovTurret</defName>
+		<label>steam nozzle</label>
+		<description>The kirov airship can small vapor explosion at nearby targets via external nozzles. It's not very effective in combat, but it's worth a try.</description>
+		<graphicData>
+			<texPath>Misc/Blank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<uiIconPath>Misc/CarryallGas</uiIconPath>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>1</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_KirovTurret</defaultProjectile>
+				<warmupTime>7</warmupTime>
+				<range>2.9</range>
+				<forcedMissRadius>0.1</forcedMissRadius>
+				<soundCast>DropPod_Leaving</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>5</muzzleFlashScale>
+				<consumeFuelPerShot>3</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+	<!---->
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_KirovTurret</defName>
+		<label>vapor</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Misc/Blank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<projectile>
+			<explosionRadius>1.9</explosionRadius>
+			<damageDef>Steam_Carryall</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<speed>100</speed>
+			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+			<screenShakeFactor>0</screenShakeFactor>
+		</projectile>
+	</ThingDef>
+	<!---->
+</Defs>

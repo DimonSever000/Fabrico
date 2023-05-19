@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!---->
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>CureSymbioticParasite</defName>
+		<label>Remove symbiotic parasite</label>
+		<description>Remove symbiotic parasite.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing symbiotic parasite</jobString>
+		<workAmount>3000</workAmount>
+		<removesHediff>SymbioticParasite</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s symbiotic parasite.</successfullyRemovedHediffMessage>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>4</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>MedicineProduction</researchPrerequisite>
+	</RecipeDef>
+	<!---->
+</Defs>

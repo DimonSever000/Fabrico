@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.0.label>рабы-ксеносы в колонии</HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.0.label>
+
+<HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.0.description>Мы держим рабов-ксеносов. Это варварство.</HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.0.description>
+
+<HAR_Alien_SoldSlave_Know_Abhorrent.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Abhorrent.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.0.description>Мы продали ксеноса в рабство. Это отвратительный акт варварства.</HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.0.description>
+
+<HAR_Alien_EnslavedPrisoner_Know_Abhorrent.stages.0.label>порабощен пленник-ксенос</HAR_Alien_EnslavedPrisoner_Know_Abhorrent.stages.0.label>
+
+<HAR_Alien_Slavery_Horrible_SlavesInColony.stages.0.label>рабы-ксеносы в колонии</HAR_Alien_Slavery_Horrible_SlavesInColony.stages.0.label>
+
+<HAR_Alien_Slavery_Horrible_SlavesInColony.stages.0.description>Мы держим рабов-ксеносов. Это неправильно.</HAR_Alien_Slavery_Horrible_SlavesInColony.stages.0.description>
+
+<HAR_Alien_SoldSlave_Horrible.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Horrible.stages.0.label>
+
+<HAR_Alien_SoldSlave_Horrible.stages.0.description>Я продал ксеноса в рабство. Я не уверен, что смогу себе это простить.</HAR_Alien_SoldSlave_Horrible.stages.0.description>
+
+<HAR_Alien_EnslavedPrisoner_Horrible.stages.0.label>порабощен пленник-ксенос</HAR_Alien_EnslavedPrisoner_Horrible.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Horrible.stages.0.description>Я обратил ксеноса в рабство. Как я могу это оправдывать?</HAR_Alien_EnslavedPrisoner_Horrible.stages.0.description>
+
+<HAR_Alien_SoldSlave_Know_Horrible.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Horrible.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.0.description>Мы продали ксеноса в рабство. Что за ужасный поступок.</HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.0.description>
+
+<HAR_Alien_EnslavedPrisoner_Know_Horrible.stages.0.label>порабощен пленник-ксенос</HAR_Alien_EnslavedPrisoner_Know_Horrible.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Know_Horrible_Mood.stages.0.label>пленник-ксенос порабощен</HAR_Alien_EnslavedPrisoner_Know_Horrible_Mood.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Know_Horrible_Mood.stages.0.description>Мы поработили ксеноса. Как же ужасно поступать так с живым существом.</HAR_Alien_EnslavedPrisoner_Know_Horrible_Mood.stages.0.description>
+
+<HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.0.label>рабы-ксеносы в колонии</HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.0.label>
+
+<HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.0.description>Мы держим рабов-ксеносов. Даже если это необходимо, я бы предпочел этого не делать.</HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.0.description>
+
+<HAR_Alien_SoldSlave_Disapproved.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Disapproved.stages.0.label>
+
+<HAR_Alien_SoldSlave_Disapproved.stages.0.description>Я продал ксеноса в рабство. Надеюсь, с ним не случится ничего ужасного.</HAR_Alien_SoldSlave_Disapproved.stages.0.description>
+
+<HAR_Alien_EnslavedPrisoner_Disapproved.stages.0.label>порабощен пленник-ксенос</HAR_Alien_EnslavedPrisoner_Disapproved.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Disapproved.stages.0.description>Я поработил ксеноса. Трудно оправдать такие действия.</HAR_Alien_EnslavedPrisoner_Disapproved.stages.0.description>
+
+<HAR_Alien_SoldSlave_Know_Disapproved.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Disapproved.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.0.description>Мы продали ксеноса в рабство. Нам не следовало этого делать.</HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.0.description>
+
+<HAR_Alien_EnslavedPrisoner_Know_Disapproved.stages.0.label>порабощен пленник-ксенос</HAR_Alien_EnslavedPrisoner_Know_Disapproved.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Know_Disapproved_Mood.stages.0.label>пленник-ксенос порабощен</HAR_Alien_EnslavedPrisoner_Know_Disapproved_Mood.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Know_Disapproved_Mood.stages.0.description>Мы поработили ксеноса. Нам не следовало этого делать.</HAR_Alien_EnslavedPrisoner_Know_Disapproved_Mood.stages.0.description>
+
+<HAR_Alien_Slavery_Honorable_SlavesInColony.stages.0.label>рабы-ксеносы в колонии</HAR_Alien_Slavery_Honorable_SlavesInColony.stages.0.label>
+
+<HAR_Alien_Slavery_Honorable_SlavesInColony.stages.0.description>У нас есть рабы-ксеносы. Это значит, что мы на правильном пути.</HAR_Alien_Slavery_Honorable_SlavesInColony.stages.0.description>
+
+<HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.0.label>нет рабов-ксеносов в колонии</HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.0.label>
+
+<HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.0.description>Без рабов-ксеносов нас никто не будет уважать.</HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.0.description>
+
+<HAR_Alien_SoldSlave_Honorable.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Honorable.stages.0.label>
+
+<HAR_Alien_SoldSlave_Honorable.stages.0.description>Я продал ксеноса в рабство. Это заставит людей уважать меня.</HAR_Alien_SoldSlave_Honorable.stages.0.description>
+
+<HAR_Alien_EnslavedPrisoner_Honorable.stages.0.label>порабощен пленник-ксенос</HAR_Alien_EnslavedPrisoner_Honorable.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Honorable.stages.0.description>Я обратил ксеноса в рабство. У него не было иного выбора, кроме как подчиниться мне.</HAR_Alien_EnslavedPrisoner_Honorable.stages.0.description>
+
+<HAR_Alien_SoldSlave_Know_Honorable.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Honorable.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Honorable_Mood.stages.0.label>продан раб-ксенос</HAR_Alien_SoldSlave_Know_Honorable_Mood.stages.0.label>
+
+<HAR_Alien_SoldSlave_Know_Honorable_Mood.stages.0.description>Мы продали ксеноса в рабство! Великолепная демонстрация нашей чести и силы.</HAR_Alien_SoldSlave_Know_Honorable_Mood.stages.0.description>
+
+<HAR_Alien_EnslavedPrisoner_Know_Honorable.stages.0.label>порабощен пленник-ксенос</HAR_Alien_EnslavedPrisoner_Know_Honorable.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.0.label>пленник-ксенос порабощен</HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.0.label>
+
+<HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.0.description>Мы поработили ксеноса. Теперь они знают, насколько мы сильны и велики!</HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.0.description>
+
+</LanguageData>

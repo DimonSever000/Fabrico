@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<HAR_Xenophilia.label>ксенофилия</HAR_Xenophilia.label>
+
+<HAR_Xenophilia.description>Отношения с ксеносами нужно принимать и одобрять, чувство страха или враждебность по отношению к ним является лишь проявлением чей-то ограниченности.</HAR_Xenophilia.description>
+
+<HAR_Xenophilia.generalRules.rulesStrings>
+		<li>memeAdjective->универсальный</li>
+		<li>memeAdjective->открытый</li>
+		<li>memeAdjective->принимающий</li>
+		<li>memeAdjective->любящий ксеносов</li>
+		<li>memeLeaderAdjective->согласный</li>
+		<li>memeConcept->открытость</li>
+		<li>memeConcept->восприимчивость</li>
+</HAR_Xenophilia.generalRules.rulesStrings>
+
+<HAR_Xenophilia.descriptionMaker.rules.rulesStrings>
+		<li>creation(tag=meme_Xenophilia)        ->[deity0_name] сотворил множество рас, каждая из которых является манифестацией безупречого образа [deity0_possessive].</li>
+		<li>episode(uses=1,tag=meme_Xenophilia)  ->Наши биологи собрали для архива знания о множестве творений [deity0_name], что обрадовало [deity0_objective].</li>
+		<li>intro(tag=meme_Xenophilia)           ->На [place_summary] [place_name], [memberNamePlural] счёл слова [deity0_name] истинным проявлением непредвзятости.</li>
+		<li>conflict(tag=meme_Xenophilia)        ->Ксенофобный [foeLeader] презирал открытость общества [memberNamePlural], и поэтому [foeLeader_possessive] [foeSoldiers] разрушили их здания с помощью [place_personalWeapon].</li>
+		<li>founderJoin(tag=meme_Xenophilia)     ->Хитрый [place_job], именуемый [founderName] попросил представителей других рас о помощи, чтобы предупредить [memberNamePlural] о приближении [foeSoldiers].</li>
+		<li>victory(tag=meme_Xenophilia)         ->[founderName] распространил послание о принятии и любви по божественному приказанию [deity0_name], и использовал его для объединения всех рас мира [memberNamePlural] ради победы над [foeSoldiers].</li>
+		<li>setup(tag=meme_Xenophilia)           ->[founderName] был социологом в первые дни колонизации планеты. Видя безумную изоляционистскую политику большинства государств, [founder_pronoun] взял небольшой корабль для основания собственного движения [founder_possessive].</li>
+		<li>story(uses=1,tag=meme_Xenophilia)    ->[founderName] собрал команду великих ученых и социологов ради создания новой цивилизации, в которой все виды смогли бы жить в гармонии.</li>
+		<li>lessonIntro(tag=meme_Xenophilia)         ->Старейший социолог в моем университете преподавал мне историю жизни во Вселенной, намекая на то, что</li>
+		<li>lesson(tag=meme_Xenophilia)              ->мы не одиноки. Разум не является редкостью среди звезд, все мы братья и сестры</li>
+		<li>lessonReinforcement(tag=meme_Xenophilia) ->Только работая вместе, забыв о наших разногласиях, мы можем добиться успеха в любой поставленной задаче.</li>
+		<li>archistBasis(tag=meme_Xenophilia)    ->Что может подходить для наших внутренних разногласий больше, чем объединяющая постсингулярная архотехнология?</li>
+		<li>archistFact(tag=meme_Xenophilia)     ->В трансцендентности наши биологические истоки сливаются воедино.</li>
+		<li>archistProphecy(tag=meme_Xenophilia) ->[inTheEnd], мы все добьемся власти, если будем работать вместе.</li>
+		<li>animistBasis(tag=meme_Xenophilia)    ->Среди духов не существует самого концепта "расы".</li>
+		<li>animistProphecy(tag=meme_Xenophilia) ->Духи раскроют нам свою природу, когда мы сможем принять друг друга, как различные олицетворения одного и того же чистейшего идеала.</li>
+</HAR_Xenophilia.descriptionMaker.rules.rulesStrings>
+
+<HAR_Xenophilia.symbolPacks.0.ideoName>Ксенофилия</HAR_Xenophilia.symbolPacks.0.ideoName>
+
+<HAR_Xenophilia.symbolPacks.0.adjective>Ксенофильный</HAR_Xenophilia.symbolPacks.0.adjective>
+
+<HAR_Xenophilia.symbolPacks.0.member>ксенофил</HAR_Xenophilia.symbolPacks.0.member>
+
+<HAR_Xenophobia.label>ксенофобия</HAR_Xenophobia.label>
+
+<HAR_Xenophobia.description>Не позволяйте ксеносам жить, ведь само их существование представляет угрозу для нас. Такие виды лучше послужат нам в качестве слуг или пропитания. Умри, ксеносная мразь!</HAR_Xenophobia.description>
+
+<HAR_Xenophobia.generalRules.rulesStrings>
+		<li>memeAdjective->фанатичный</li>
+		<li>memeAdjective->этноцентричный</li>
+		<li>memeAdjective->нетерпимый</li>
+		<li>memeAdjective->предвзятый</li>
+		<li>memeLeaderAdjective->непреклонный</li>
+		<li>memeConcept->нетерпимость</li>
+		<li>memeConcept->предрассудки</li>
+</HAR_Xenophobia.generalRules.rulesStrings>
+
+<HAR_Xenophobia.descriptionMaker.rules.rulesStrings>
+		<li>creation(tag=meme_Xenophobia)        ->[deity0_name] создал нас в качестве идеальной манифестации божественного образа [deity0_possessive].</li>
+		<li>episode(uses=1,tag=meme_Xenophobia)  ->Остальные творения [deity0_name] созданы для служения нам. Наше отношение к  ним является проявлением воли [deity0_objective].</li>
+		<li>intro(tag=meme_Xenophobia)           ->На [place_summary] [place_name], [memberNamePlural] нашел слова [deity0_name], заявляющие, что мы являемся венцом творения.</li>
+		<li>conflict(tag=meme_Xenophobia)        ->Завидуя благосколонности божества к нам, инопланетянин [foeLeader] попытался завоевать сообщество [memberNamePlural], и [foeSoldiers] [foeLeader_possessive] превратили наш народ в рабов.</li>
+		<li>founderJoin(tag=meme_Xenophobia)     ->Хитрый [place_job], именуемый [founderName], восстал среди рабов, собрав [memberNamePlural] для борьбы с инопланетным агрессором.</li>
+		<li>victory(tag=meme_Xenophobia)         ->[founderName] уничтожил инопланетную нечисть по божественному приказу [deity0_name], и повёл [memberNamePlural] в новую эру прогресса и превосходства над остальными.</li>
+		<li>setup(tag=meme_Xenophobia)           ->[founderName] был социологом в первые дни колонизации планеты. Видя глупую политику толерантности многих государств, [founder_pronoun]  взял небольшой корабль для основания собственного движения [founder_possessive].</li>
+		<li>story(uses=1,tag=meme_Xenophobia)    ->[founderName] собрал команду великих ученых и социологов ради создания новой цивилизации, в которой потребности нашей расы будут стоять выше потребностей отвратительных инопланетян.</li>
+		<li>lessonIntro(tag=meme_Xenophobia)         ->Самый старый охотник в нашей эскадрилье рассказал мне историю жизни во Вселенной, намекнув, что</li>
+		<li>lesson(tag=meme_Xenophobia)              ->мы не одиноки. Разум не редкость среди звезд, само существование инопланетян является для нас угрозой</li>
+		<li>lessonReinforcement(tag=meme_Xenophobia) ->Выбора нет, инопланетная угроза должна быть устранена.</li>
+		<li>archistBasis(tag=meme_Xenophobia)    ->Архотехнология - это вершина биологической эволюции, и она должна быть достигнута только теми, кто действительно этого заслуживает.</li>
+		<li>archistFact(tag=meme_Xenophobia)     ->Можете ли вы представить себе угрозу, которую представлял бы для нас сбежавший постсингулярный инопланетный разум?</li>
+		<li>archistProphecy(tag=meme_Xenophobia) ->Выбора нет, инопланетяне должны быть уничтожены прежде, чем им позволят достичь этого.</li>
+		<li>animistBasis(tag=meme_Xenophobia)    ->У пришельцев нет души, настоящая скверна для мира духов.</li>
+		<li>animistProphecy(tag=meme_Xenophobia) ->Только уничтожение всех пришельцев заставит духов отнестись к нам благосклонно.</li>
+</HAR_Xenophobia.descriptionMaker.rules.rulesStrings>
+
+<HAR_Xenophobia.symbolPacks.0.ideoName>Ксенофобия</HAR_Xenophobia.symbolPacks.0.ideoName>
+
+<HAR_Xenophobia.symbolPacks.0.adjective>Ксенофобный</HAR_Xenophobia.symbolPacks.0.adjective>
+
+<HAR_Xenophobia.symbolPacks.0.member>ксенофоб</HAR_Xenophobia.symbolPacks.0.member>
+
+<HAR_Xenophilia.symbolPacks.0.theme>ксенофилия</HAR_Xenophilia.symbolPacks.0.theme>
+<HAR_Xenophobia.symbolPacks.0.theme>ксенофобия</HAR_Xenophobia.symbolPacks.0.theme>
+
+
+</LanguageData>

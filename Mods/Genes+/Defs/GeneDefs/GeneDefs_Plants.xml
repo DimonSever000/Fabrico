@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<Genes.GeneDefExtended Name="GenePlantsBase" Abstract="True">
+		<displayCategory>Plants</displayCategory>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_PlantMetabolism</defName>
+		<label>Plant metabolism</label>
+		<labelShortAdj>Plant metabolism</labelShortAdj>
+		<description>The creature's body resembles a living plant. Regeneration rate reduced.</description>
+		<iconPath>Genes/PlantMetabolism</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<statFactors>
+			<InjuryHealingFactor>0.7</InjuryHealingFactor>
+		</statFactors>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_Photosynthesis</defName>
+		<label>Photosynthesis</label>
+		<labelShortAdj>Photosynthesis</labelShortAdj>
+		<description>The creature produces nutrients while it is in the open sun. It also does not change the standard food intake.</description>
+		<geneClass>Genes.Gene_Photosynthesis</geneClass>
+		<iconPath>Genes/Photosynthesis</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_SunRequirement</defName>
+		<label>Sun requirement</label>
+		<labelShortAdj>Sun requirement</labelShortAdj>
+		<description>The creature cannot live long without direct sunlight.</description>
+		<iconPath>Genes/SunRequirement</iconPath>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>3</biostatMet>
+		<causesNeed>Need_Sun</causesNeed>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_FruitBearing</defName>
+		<label>Fruit bearing</label>
+		<labelShortAdj>Fruit bearing</labelShortAdj>
+		<description>The creature has additional organs that grow nutritious fruits in itself.</description>
+		<geneClass>Genes.Gene_ForceHediff</geneClass>
+		<iconPath>Genes/FruitBearing</iconPath>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<forcedHediffDef>FruitBranch</forcedHediffDef>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_Regrowing</defName>
+		<label>Regrowing</label>
+		<labelShortAdj>Regrowing</labelShortAdj>
+		<description>Carriers of this gene are able to regenerate lost limbs and organs over time.</description>
+		<geneClass>Genes.Gene_Regrowing</geneClass>
+		<iconPath>Genes/Regrowing</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_Phytolysis</defName>
+		<label>Phytolysis</label>
+		<labelShortAdj>Phytolysis</labelShortAdj>
+		<description>Carriers of this gene are able to infect animals and humans with a symbiotic parasite. This allows fruit to grow on their body, lowering the consciousness of the bearers.</description>
+		<iconPath>Genes/Phytolysis</iconPath>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<abilities>
+			<li>SymbioticParasite</li>
+		</abilities>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_FearOfDarkness</defName>
+		<label>Fear of darkness</label>
+		<labelShortAdj>Fear of darkness</labelShortAdj>
+		<description>The creature reacts painfully to the absence of direct sunlight, reducing its productivity.</description>
+		<geneClass>Genes.Gene_FearOfDarkness</geneClass>
+		<iconPath>Genes/FearOfDarkness</iconPath>
+		<displayOrderInCategory>60</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>2</biostatMet>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+	</Genes.GeneDefExtended>
+	<!---->
+	<Genes.GeneDefExtended ParentName="GenePlantsBase">
+		<defName>Plants_SeasonHairColor</defName>
+		<label>Season hair color</label>
+		<labelShortAdj>Season hair color</labelShortAdj>
+		<description>Carriers of this gene change their hair color according to the season on the map.</description>
+		<geneClass>Genes.Gene_PlantHair</geneClass>
+		<iconPath>UI/Icons/Genes/Gene_HairColor</iconPath>
+		<displayOrderInCategory>70</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<prerequisite>Plants_PlantMetabolism</prerequisite>
+		<iconColor>120,173,111</iconColor>
+	</Genes.GeneDefExtended>
+	<!---->
+</Defs>

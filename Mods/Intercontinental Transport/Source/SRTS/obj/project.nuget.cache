@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oLLw/+FSf2/S2XE4bv7F06BPcTISFyYv1/en/3rBKm64Udz7M6d0WUnLgNW43/tUvQg9FzMeU6pEI0VBE1A3SA==",
+  "success": true,
+  "projectFilePath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\Intercontinental Transport\\Source\\SRTS\\SRTS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dimon\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/ThingDefs_Buildings.xml-->
+                  <!-- fermenting barrel -->
+<BarrelProcessor.label>бочка для брожения</BarrelProcessor.label>
+                        <!-- A barrel for fermenting various things into other products. It is not limited to fermenting a specific thing, so you could call it a "universal fermenter". -->
+<BarrelProcessor.description>Бочка для получения одних продуктов из других, путём ферментации. Так как данная бочка не ограничивается какими-либо конкретными продуктами, её смело можно назвать «универсальный бродильный аппарат».</BarrelProcessor.description>
+
+</LanguageData>

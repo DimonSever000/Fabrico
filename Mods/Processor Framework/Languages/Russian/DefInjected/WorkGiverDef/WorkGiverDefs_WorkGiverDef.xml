@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/WorkGiverDefs.xml-->
+                 <!-- empty processor -->
+<EmptyProcessor.label>опустошить бочку</EmptyProcessor.label>
+                <!-- take product -->
+<EmptyProcessor.verb>слить содержимое</EmptyProcessor.verb>
+                  <!-- taking product from -->
+<EmptyProcessor.gerund>слить содержимое из</EmptyProcessor.gerund>
+                <!-- fill processor -->
+<FillProcessor.label>наполнить бочку</FillProcessor.label>
+               <!-- fill -->
+<FillProcessor.verb>наполнить</FillProcessor.verb>
+                 <!-- filling -->
+<FillProcessor.gerund>наполняет</FillProcessor.gerund>
+
+</LanguageData>

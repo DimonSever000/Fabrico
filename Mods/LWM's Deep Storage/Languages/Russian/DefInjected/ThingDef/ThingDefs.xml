@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!---->
+	<SmallCrate.label>Маленький ящик</SmallCrate.label>
+	<SmallCrate.description>Строение для компактного хранения множества предметов.</SmallCrate.description>
+	<!---->
+	<BigCrate.label>Большой ящик</BigCrate.label>
+	<BigCrate.description>Строение для компактного хранения множества предметов.</BigCrate.description>
+	<!---->
+	<LargeStorage.label>Большое хранилище</LargeStorage.label>
+	<LargeStorage.description>Строение для компактного хранения множества предметов.</LargeStorage.description>
+	<!---->
+</LanguageData>

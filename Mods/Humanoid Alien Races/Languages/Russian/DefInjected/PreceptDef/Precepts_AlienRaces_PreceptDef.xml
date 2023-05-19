@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<HAR_AlienRaces_Abhorrent.label>отвратительно</HAR_AlienRaces_Abhorrent.label>
+
+<HAR_AlienRaces_Abhorrent.description>Ксеносам не следует даже думать о том, чтобы наладить отношения с нашим видом. Они не желают ничего, кроме нашей гибели, и мы не потерпим подобного отношения.</HAR_AlienRaces_Abhorrent.description>
+
+<HAR_AlienRaces_Horrible.label>плохо</HAR_AlienRaces_Horrible.label>
+
+<HAR_AlienRaces_Horrible.description>Ксеносы отличаются от нас - слишком сильно отличаются. Мы должны быть настороже и удерживать их на расстоянии вытянутой руки.</HAR_AlienRaces_Horrible.description>
+
+<HAR_AlienRaces_Standard.label>нейтрально</HAR_AlienRaces_Standard.label>
+
+<HAR_AlienRaces_Standard.description>Ксеносы из сторонних миров должны рассматриваться не хуже, и не лучше нас самих.</HAR_AlienRaces_Standard.description>
+
+<HAR_AlienRaces_Respected.label>уважаемо</HAR_AlienRaces_Respected.label>
+
+<HAR_AlienRaces_Respected.description>Ксеносы из сторонних миров заслуживают нашего уважения.</HAR_AlienRaces_Respected.description>
+
+<HAR_AlienRaces_Exalted.label>почётно</HAR_AlienRaces_Exalted.label>
+
+<HAR_AlienRaces_Exalted.description>Ксеносы, явившиеся из-за пределов нашей солнечной системы невероятны, и нам повезло играть роль их радушных гостеприимных хозяев.</HAR_AlienRaces_Exalted.description>
+
+</LanguageData>

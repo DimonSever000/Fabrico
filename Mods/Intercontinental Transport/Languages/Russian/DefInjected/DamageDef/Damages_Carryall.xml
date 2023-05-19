@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lands_Carryall.label>авария</Lands_Carryall.label>
+  <Lands_Carryall.deathMessage>{0} {0_gender ? раздавлен : раздавлена : раздавлено} транспортом.</Lands_Carryall.deathMessage>
+
+  <Steam_Carryall.label>взрыв пара</Steam_Carryall.label>
+  <Steam_Carryall.deathMessage>{0} {0_gender ? убит : убита : убито} паровым взрывом.</Steam_Carryall.deathMessage>
+
+
+</LanguageData>

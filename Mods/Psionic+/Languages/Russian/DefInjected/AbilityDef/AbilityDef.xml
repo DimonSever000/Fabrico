@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!---->
+	<DimonSever000_PainImpulse.label>Импульс боли</DimonSever000_PainImpulse.label>
+	<DimonSever000_PainImpulse.description>Волна психического раздражения и боли окутывает разум цели, подавляя волю и двигательные функции на короткий период времени.</DimonSever000_PainImpulse.description>
+	<!---->
+	<DimonSever000_WordOfConfidence.label>Слово уверенности</DimonSever000_WordOfConfidence.label>
+	<DimonSever000_WordOfConfidence.description>Вы погружаетесь в доверие цели, действуете в соответствии с ее мыслями и заставляете ее поверить в себя. Увеличивается продуктивность работы цели.</DimonSever000_WordOfConfidence.description>
+	<!---->
+	<DimonSever000_MindControl.label>Контроль разума</DimonSever000_MindControl.label>
+	<DimonSever000_MindControl.description>Заставляет цель двигаться в выбранном направлении.</DimonSever000_MindControl.description>
+	<!---->
+	<DimonSever000_Concentration.label>Концентрация</DimonSever000_Concentration.label>
+	<DimonSever000_Concentration.description>Активация нейронов мозга, временно повышающая концентрацию псионика.</DimonSever000_Concentration.description>
+	<!---->
+	<DimonSever000_PainWave.label>Волна боли</DimonSever000_PainWave.label>
+	<DimonSever000_PainWave.description>Волна психического раздражения и боли окутывает разум цели, подавляя волю и двигательные функции на короткий период времени. Может воздействовать на несколько целей одновременно.</DimonSever000_PainWave.description>
+	<!---->
+	<DimonSever000_PanicScream.label>Крик паники</DimonSever000_PanicScream.label>
+	<DimonSever000_PanicScream.description>Вы испускаете ужасный пронзительный крик, заставляющий цель спасаться бегством.</DimonSever000_PanicScream.description>
+	<!---->
+	<DimonSever000_EchoOfPanic.label>Эхо паники</DimonSever000_EchoOfPanic.label>
+	<DimonSever000_EchoOfPanic.description>Вы создаете пронзительные колебания в воздухе, заставляя цели в некотором радиусе спасаться бегством.</DimonSever000_EchoOfPanic.description>
+	<!---->
+	<DimonSever000_Dash.label>Рывок</DimonSever000_Dash.label>
+	<DimonSever000_Dash.description>Вы придаете импульс движения цели, заставляя ее двигаться гораздо быстрее.</DimonSever000_Dash.description>
+	<!---->
+	<DimonSever000_Shelter.label>Укрытие</DimonSever000_Shelter.label>
+	<DimonSever000_Shelter.description>Создайте кратковременное укрытие из горных пород.</DimonSever000_Shelter.description>
+	<!---->
+	<DimonSever000_BreathOfLife.label>Дыхание жизни</DimonSever000_BreathOfLife.label>
+	<DimonSever000_BreathOfLife.description>Вы заставляете организм цели бороться за свою жизнь, отключая двигательные функции и ускоряя регенерацию тканей.</DimonSever000_BreathOfLife.description>
+	<!---->
+	<DimonSever000_EnergyBlast.label>Энергетический взрыв</DimonSever000_EnergyBlast.label>
+	<DimonSever000_EnergyBlast.description>Псионик способен вызвать взрыв внутренней энергии, который выводит из строя все цели в определенном радиусе. Это не проходит без последствий для псионика, погружая его в длительную психическую кому.</DimonSever000_EnergyBlast.description>
+	<!---->
+	<DimonSever000_EnergyCharge.label>Энергетический заряд</DimonSever000_EnergyCharge.label>
+	<DimonSever000_EnergyCharge.description>Псионик вызывает направленный взрыв энергии, который поражает цели в небольшом радиусе от себя. Таким образом псионик избегает перегрузки.</DimonSever000_EnergyCharge.description>
+	<!---->
+	<DimonSever000_EnergyHole.label>Энергетическая дыра</DimonSever000_EnergyHole.label>
+	<DimonSever000_EnergyHole.description>Псионик открывает пространственную брешь, из которой извергается энергия в течении некоторого времени. Энергетические всполохи проецируются на мир в виде вспышек огня.</DimonSever000_EnergyHole.description>
+	<!---->
+	<DimonSever000_PsyfocusDump.label>Получение концентрации</DimonSever000_PsyfocusDump.label>
+	<DimonSever000_PsyfocusDump.description>Вы получаете фокус другого псионика через псионическую передачу. Отправитель должен дать согласие на перевод. Перенос концентрации приводит к длительной коме для донора.</DimonSever000_PsyfocusDump.description>
+	<!---->
+</LanguageData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ApparelLayerDef>
+    <defName>Accessories</defName>
+    <label>accessories</label>
+    <drawOrder>350</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Shield</defName>
+    <label>Shield</label>
+    <drawOrder>600</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Underwear</defName>
+    <label>underwear</label>
+    <drawOrder>-25</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>UnderwearTop</defName>
+    <label>underwear top</label>
+    <drawOrder>-10</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>VFEC_OuterShell</defName>
+    <label>on top</label>
+    <drawOrder>500</drawOrder>
+  </ApparelLayerDef>
+  
+  <ApparelLayerDef>
+    <defName>OnSkin_A</defName>
+    <label>skin_a</label>
+    <drawOrder>0</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Middle_A</defName>
+    <label>middle_a</label>
+    <drawOrder>100</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Shell_A</defName>
+    <label>outer_a</label>
+    <drawOrder>200</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Belt_A</defName>
+    <label>utility_a</label>
+    <drawOrder>300</drawOrder>
+  </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>Overhead_A</defName>
+    <label>headgear_a</label>
+    <drawOrder>400</drawOrder>
+  </ApparelLayerDef>
+
+</Defs>

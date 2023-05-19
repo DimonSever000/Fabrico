@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Abhorrent -->
+
+  <HAR_AteAlienMeat_Abhorrent.stages.0.label>ел мясо ксеноса</HAR_AteAlienMeat_Abhorrent.stages.0.label>
+  <HAR_AteAlienMeat_Abhorrent.stages.0.description>Мне пришлось съесть мясо разумного ксеноса. Это идёт вразрез со всем, во что я верю.</HAR_AteAlienMeat_Abhorrent.stages.0.description>
+
+  <HAR_AteAlienMeat_Know_Abhorrent.stages.0.label>ел мясо ксеноса</HAR_AteAlienMeat_Know_Abhorrent.stages.0.label>
+
+  <HAR_ButcheredAlien_Abhorrent.stages.0.label>Я разделал ксеноса</HAR_ButcheredAlien_Abhorrent.stages.0.label>
+  <HAR_ButcheredAlien_Abhorrent.stages.0.description>Я разделал разумного ксеноса. Это идёт вразрез со всем, во что я верю.</HAR_ButcheredAlien_Abhorrent.stages.0.description>
+
+  <HAR_ButcheredAlien_Know_Abhorrent.stages.0.label>мы разделали ксеноса</HAR_ButcheredAlien_Know_Abhorrent.stages.0.label>
+  <HAR_ButcheredAlien_Know_Abhorrent.stages.0.description>Один из нас разделал разумного ксеноса. Это идёт вразрез со всем, во что я верю.</HAR_ButcheredAlien_Know_Abhorrent.stages.0.description>
+
+  <HAR_ButcheredAlien_Know_Abhorrent_Opinion.stages.0.label>разделал ксеноса</HAR_ButcheredAlien_Know_Abhorrent_Opinion.stages.0.label>
+
+
+  <!-- Disapproved -->
+
+  <HAR_AteAlienMeat_Disapproved.stages.0.label>ел мясо ксеноса</HAR_AteAlienMeat_Disapproved.stages.0.label>
+  <HAR_AteAlienMeat_Disapproved.stages.0.description>Мне пришлось есть мясо ксеноса. Я считаю подобные действия неправильными.</HAR_AteAlienMeat_Disapproved.stages.0.description>
+
+  <HAR_AteAlienMeat_Know_Disapproved.stages.0.label>ел мясо ксеноса</HAR_AteAlienMeat_Know_Disapproved.stages.0.label>
+
+  <HAR_ButcheredAlien_Disapproved.stages.0.label>Я разделал ксеноса</HAR_ButcheredAlien_Disapproved.stages.0.label>
+  <HAR_ButcheredAlien_Disapproved.stages.0.description>Я разделал разумного ксеноса. Я считаю подобные действия неправильными.</HAR_ButcheredAlien_Disapproved.stages.0.description>
+
+  <HAR_ButcheredAlien_Know_Disapproved.stages.0.label>мы разделали ксеноса</HAR_ButcheredAlien_Know_Disapproved.stages.0.label>
+  <HAR_ButcheredAlien_Know_Disapproved.stages.0.description>Один из нас разделал разумного ксеноса. Я считаю подобные действия неправильными.</HAR_ButcheredAlien_Know_Disapproved.stages.0.description>
+
+  <HAR_ButcheredAlien_Know_Disapproved_Opinion.stages.0.label>разделал ксеноса</HAR_ButcheredAlien_Know_Disapproved_Opinion.stages.0.label>
+
+
+  <!-- Preferred -->
+
+  <HAR_AteAlienMeat_Preferred.stages.0.label>ел мясо ксеноса</HAR_AteAlienMeat_Preferred.stages.0.label>
+  <HAR_AteAlienMeat_Preferred.stages.0.description>Я ел мясо ксеноса. Это заставляет меня чувствовать себя благородным и сильным.</HAR_AteAlienMeat_Preferred.stages.0.description>
+
+  <HAR_NoRecentAlienMeat_Preferred.stages.0.label>хочет мяса ксеноса</HAR_NoRecentAlienMeat_Preferred.stages.0.label>
+  <HAR_NoRecentAlienMeat_Preferred.stages.0.description>Прошло слишком много времени с тех пор, как я ел плоть ксеноса. Это кажется неправильным.</HAR_NoRecentAlienMeat_Preferred.stages.0.description>
+
+
+  <!-- Required -->
+
+  <HAR_AteNonAlienFood_Horrible.stages.0.label>ел не мясо ксеноса</HAR_AteNonAlienFood_Horrible.stages.0.label>
+  <HAR_AteNonAlienFood_Horrible.stages.0.description>Я был вынужден сьесть еду, не содержащую мясо ксеноса. Мои убеждения строго запрещают подобные действия.</HAR_AteNonAlienFood_Horrible.stages.0.description>
+
+  <HAR_AteNonAlienFood_Know_Horrible.stages.0.label>ел не мясо ксеноса</HAR_AteNonAlienFood_Know_Horrible.stages.0.label>
+
+  <HAR_AteAlienMeat_RequiredStrong.stages.0.label>ел мясо ксеноса</HAR_AteAlienMeat_RequiredStrong.stages.0.label>
+  <HAR_AteAlienMeat_RequiredStrong.stages.0.description>Я ел мясо ксеноса, как и подобает каждому настоящему человеку.</HAR_AteAlienMeat_RequiredStrong.stages.0.description>
+
+  <HAR_NoRecentAlienMeat_RequiredStrong.stages.0.label>хочет мясо ксеноса</HAR_NoRecentAlienMeat_RequiredStrong.stages.0.label>
+  <HAR_NoRecentAlienMeat_RequiredStrong.stages.0.description>Прошло слишком много времени с тех пор, как я ел плоть ксеноса. Я должен срочно её съесть.</HAR_NoRecentAlienMeat_RequiredStrong.stages.0.description>
+</LanguageData>

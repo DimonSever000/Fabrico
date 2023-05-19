@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Flesh_WoodLog.label>Древесная плоть</Flesh_WoodLog.label>
+	<Flesh_WoodLog.description>Плоть носителя гена больше походит на растительные волокна. Носитель гена по прежнему будет относиться к поеданию плоти своего вида как к каннибализму.</Flesh_WoodLog.description>
+	<!---->
+	<Flesh_Insect.label>Плоть насекомого</Flesh_Insect.label>
+	<Flesh_Insect.description>Плоть носителя представляет собой довольно железистую плоть, как у насекомого. Носитель гена по прежнему будет относиться к поеданию плоти своего вида как к каннибализму.</Flesh_Insect.description>
+	<!---->
+	<!---->
+	<!---->
+	<Hibernation_SeasonHibernationFall.label>Осенняя спячка</Hibernation_SeasonHibernationFall.label>
+	<Hibernation_SeasonHibernationFall.description>Существо начнет постепенно впадать в спячку с наступлением осени. В это время пешка будет полностью недееспособна.</Hibernation_SeasonHibernationFall.description>
+	<!---->
+	<Hibernation_SeasonHibernationWinter.label>Зимняя спячка</Hibernation_SeasonHibernationWinter.label>
+	<Hibernation_SeasonHibernationWinter.description>Существо начнет постепенно впадать в спячку с наступлением зимы. В это время пешка будет полностью недееспособна. Спячка может продолжаться бесконечно на карте с вечной зимой.</Hibernation_SeasonHibernationWinter.description>
+	<!---->
+	<Hibernation_SeasonHibernationSpring.label>Весенняя спячка</Hibernation_SeasonHibernationSpring.label>
+	<Hibernation_SeasonHibernationSpring.description>Существо начнет постепенно впадать в спячку с наступлением весны. В это время пешка будет полностью недееспособна.</Hibernation_SeasonHibernationSpring.description>
+	<!---->
+	<Hibernation_SeasonHibernationSummer.label>Летняя спячка</Hibernation_SeasonHibernationSummer.label>
+	<Hibernation_SeasonHibernationSummer.description>Существо начнет постепенно впадать в спячку с наступлением лета. В это время пешка будет полностью недееспособна. Спячка может продолжаться бесконечно на карте с вечным летом.</Hibernation_SeasonHibernationSummer.description>
+	<!---->
+	<!---->
+	<!---->
+	<Leather_WoodLog.label>Древесная кожа</Leather_WoodLog.label>
+	<Leather_WoodLog.description>Кожа существа представляет собой прочные пластины древесной коры. Это также довольно огнеопасно.</Leather_WoodLog.description>
+	<!---->
+	<Leather_Steel.label>Стальная кожа</Leather_Steel.label>
+	<Leather_Steel.description>Кожа существа представляет собой прочные пластины из стали.</Leather_Steel.description>
+	<!---->
+	<Leather_Plasteel.label>Пласталиевая кожа</Leather_Plasteel.label>
+	<Leather_Plasteel.description>Кожа существа представляет собой прочные пластины из пластали.</Leather_Plasteel.description>
+	<!---->
+	<!---->
+	<!---->
+	<Plants_PlantMetabolism.label>Растительный метаболизм</Plants_PlantMetabolism.label>
+	<Plants_PlantMetabolism.description>Организм существа напоминает живое растение. Скорость регенерации снижена.</Plants_PlantMetabolism.description>
+	<!---->
+	<Plants_Photosynthesis.label>Фотосинтез</Plants_Photosynthesis.label>
+	<Plants_Photosynthesis.description>Существо производит питательные вещества, пока находится на открытом солнце. Это также не отменяет стандартное потребление пищи.</Plants_Photosynthesis.description>
+	<!---->
+	<Plants_SunRequirement.label>Требование солнца</Plants_SunRequirement.label>
+	<Plants_SunRequirement.description>Существо не может долго жить без прямого солнечного света.</Plants_SunRequirement.description>
+	<!---->
+	<Plants_FruitBearing.label>Плодоношение</Plants_FruitBearing.label>
+	<Plants_FruitBearing.description>Существо обладает дополнительными органами, которые выращивают в себе питательные плоды.</Plants_FruitBearing.description>
+	<!---->
+	<Plants_Regrowing.label>Отрастание</Plants_Regrowing.label>
+	<Plants_Regrowing.description>Носители этого гена способны восстанавливать потерянные конечности и органы с течением времени.</Plants_Regrowing.description>
+	<!---->
+	<Plants_Phytolysis.label>Фитолиз</Plants_Phytolysis.label>
+	<Plants_Phytolysis.description>Носители этого гена способны заражать животных и людей симбиотическим паразитом. Это позволяет выращивать плоды на их теле, снижая сознание носителей.</Plants_Phytolysis.description>
+	<!---->
+	<Plants_FearOfDarkness.label>Боязнь тьмы</Plants_FearOfDarkness.label>
+	<Plants_FearOfDarkness.description>Существо болезненно реагирует на отсутствие прямых солнечных лучей, снижая свою продуктивность.</Plants_FearOfDarkness.description>
+	<!---->
+	<Plants_SeasonHairColor.label>Сезонный цвет волос</Plants_SeasonHairColor.label>
+	<Plants_SeasonHairColor.description>Носители этого гена меняют цвет волос в соответствии с сезоном на карте.</Plants_SeasonHairColor.description>
+	<!---->
+	<!---->
+	<!---->
+	<Ability_JellyExcretion.label>Секреция желе</Ability_JellyExcretion.label>
+	<Ability_JellyExcretion.description>Организм носителя выделяет некоторое количество питательного желе, как это делают насекомые.</Ability_JellyExcretion.description>
+	<!---->
+	<Ability_ChemfuelExcretion.label>Секреция хим. топлива</Ability_ChemfuelExcretion.label>
+	<Ability_ChemfuelExcretion.description>Организм носителя выделяет химическое топливо из специальных желез.</Ability_ChemfuelExcretion.description>
+	<!---->
+	<!---->
+	<!---->
+	<SenseOrgans_AdvancedSight.label>Улучшенное зрение</SenseOrgans_AdvancedSight.label>
+	<SenseOrgans_AdvancedSight.description>Носитель гена способен различать большее количество цветов и видит мир гораздо ярче.</SenseOrgans_AdvancedSight.description>
+	<!---->
+	<SenseOrgans_Blindness.label>Слепота</SenseOrgans_Blindness.label>
+	<SenseOrgans_Blindness.description>Глаза носителя неразвиты и не могут анализировать зрительную информацию.</SenseOrgans_Blindness.description>
+	<!---->
+	<SenseOrgans_AdvancedHearing.label>Улучшенный слух</SenseOrgans_AdvancedHearing.label>
+	<SenseOrgans_AdvancedHearing.description>Носитель гена имеет измененные уши, что позволяет им усваивать гораздо больше слуховой информации и двигаться по желанию носителя.</SenseOrgans_AdvancedHearing.description>
+	<!---->
+	<SenseOrgans_Deafness.label>Глухота</SenseOrgans_Deafness.label>
+	<SenseOrgans_Deafness.description>Существо абсолютно не воспринимает слуховую информацию на уровне мозга.</SenseOrgans_Deafness.description>
+	<!---->
+	<SenseOrgans_AdvancedTalking.label>Продвинутый речевой аппарат</SenseOrgans_AdvancedTalking.label>
+	<SenseOrgans_AdvancedTalking.description>Носитель гена может издавать звуки на большем числе тонов. Кроме того, голос может быть изменен по желанию.</SenseOrgans_AdvancedTalking.description>
+	<!---->
+	<SenseOrgans_Silence.label>Немота</SenseOrgans_Silence.label>
+	<SenseOrgans_Silence.description>Речевые органы носителя гена не функционируют.</SenseOrgans_Silence.description>
+	<!---->
+	<!---->
+	<!---->
+	<DisableMood.label>Безэмоциональность</DisableMood.label>
+	<DisableMood.description>Носитель гена просто не способен испытывать эмоции.</DisableMood.description>
+	<!---->
+	<DisableJoy.label>Без развлечений</DisableJoy.label>
+	<DisableJoy.description>Носитель гена не испытывает нужду в развлечениях.</DisableJoy.description>
+	<!---->
+	<DisableBeauty.label>Без красоты</DisableBeauty.label>
+	<DisableBeauty.description>Носителю гена абсолютно все равно как выглядит окружающее пространство.</DisableBeauty.description>
+	<!---->
+	<DisableComfort.label>Без комфорта</DisableComfort.label>
+	<DisableComfort.description>Носителю гена не требуется комфорт для нормальной жизни.</DisableComfort.description>
+	<!---->
+	<!---->
+	<!---->
+	<Hemogen_ColdBlood.label>Хладнокровие</Hemogen_ColdBlood.label>
+	<Hemogen_ColdBlood.description>Носитель гена не может поддерживать температуру тела без влияния окружающей среды. В случае продолжительной гипотермии существо впадет в оцепенение.</Hemogen_ColdBlood.description>
+	<!---->
+	<!---->
+	<!---->
+	<Religiosity_Fanatic.label>Фанатичность</Religiosity_Fanatic.label>
+	<Religiosity_Fanatic.description>Носитель гена всегда уверен в правильности своих убеждений.</Religiosity_Fanatic.description>
+	<!---->
+	<Religiosity_Certain.label>Убежденность</Religiosity_Certain.label>
+	<Religiosity_Certain.description>Носитель гена уверен в правильности своих убеждений.</Religiosity_Certain.description>
+	<!---->
+	<Religiosity_Uncertain.label>Неубежденность</Religiosity_Uncertain.label>
+	<Religiosity_Uncertain.description>Носитель гена не уверен в правильности своих убеждений.</Religiosity_Uncertain.description>
+	<!---->
+	<Religiosity_Doubting.label>Сомневающийся</Religiosity_Doubting.label>
+	<Religiosity_Doubting.description>Носитель гена всегда не уверен в правильности своих убеждений.</Religiosity_Doubting.description>
+	<!---->
+	<!---->
+	<!---->
+</LanguageData>

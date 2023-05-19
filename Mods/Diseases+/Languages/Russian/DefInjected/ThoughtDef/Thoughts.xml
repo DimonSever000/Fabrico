@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+	<Hypotimia.stages.change_of_mood.label>Гипотимия</Hypotimia.stages.change_of_mood.label>
+	<Hypotimia.stages.change_of_mood.description>Перепады настроения часто встречаются при биполярном расстройстве.</Hypotimia.stages.change_of_mood.description>
+	
+	<Hypomania.stages.change_of_mood.label>Гипомания</Hypomania.stages.change_of_mood.label>
+	<Hypomania.stages.change_of_mood.description>Перепады настроения часто встречаются при биполярном расстройстве.</Hypomania.stages.change_of_mood.description>
+	
+	
+	<Schizophrenia.stages.initial_schizophrenia.label>Начальная шизофрения</Schizophrenia.stages.initial_schizophrenia.label>
+	<Schizophrenia.stages.initial_schizophrenia.description>Вы тоже слышите эти голоса? Они шепчут мне прямо сейчас.</Schizophrenia.stages.initial_schizophrenia.description>
+	
+	<Schizophrenia.stages.schizophrenia.label>Шизофрения</Schizophrenia.stages.schizophrenia.label>
+	<Schizophrenia.stages.schizophrenia.description>Эти голоса! они шепчут мне на непонятном языке.</Schizophrenia.stages.schizophrenia.description>
+	
+	<Schizophrenia.stages.severe_schizophrenia.label>Серьезная шизофрения</Schizophrenia.stages.severe_schizophrenia.label>
+	<Schizophrenia.stages.severe_schizophrenia.description>Голоса в моей голове хотят, чтобы я всех убил! Мне трудно контролировать свои мысли.</Schizophrenia.stages.severe_schizophrenia.description>
+	
+	
+	<DiogenesSyndrome.stages.diogenes_syndrome.label>Синдром Диогена</DiogenesSyndrome.stages.diogenes_syndrome.label>
+	<DiogenesSyndrome.stages.diogenes_syndrome.description>Я чувствую себя ненужным.</DiogenesSyndrome.stages.diogenes_syndrome.description>
+	
+	
+	<DepressiveSyndrome.stages.depressive_syndrome.label>Депрессивный синдром</DepressiveSyndrome.stages.depressive_syndrome.label>
+	<DepressiveSyndrome.stages.depressive_syndrome.description>Я чувствую постоянную меланхолию.</DepressiveSyndrome.stages.depressive_syndrome.description>
+	
+	
+	<ManicSyndrome.stages.manic_syndrome.label>Маниакальный синдром</ManicSyndrome.stages.manic_syndrome.label>
+	<ManicSyndrome.stages.manic_syndrome.description>Я чувствую внутри себя бурлящую силу!</ManicSyndrome.stages.manic_syndrome.description>
+	
+	
+	<EpilepsySeizure.stages.onset_of_epileptic_seizure.label>Начало эпилептического припадка</EpilepsySeizure.stages.onset_of_epileptic_seizure.label>
+	<EpilepsySeizure.stages.onset_of_epileptic_seizure.description>Голова болит, опять этот непонятный шепот!</EpilepsySeizure.stages.onset_of_epileptic_seizure.description>
+	
+	<EpilepsySeizure.stages.epileptic_seizure.label>Эпилептический припадок</EpilepsySeizure.stages.epileptic_seizure.label>
+	<EpilepsySeizure.stages.epileptic_seizure.description>Голова раскалывается, ужасное чувство!</EpilepsySeizure.stages.epileptic_seizure.description>
+	
+	<EpilepsySeizure.stages.painful_epileptic_seizure.label>Болезненный эпилептический припадок</EpilepsySeizure.stages.painful_epileptic_seizure.label>
+	<EpilepsySeizure.stages.painful_epileptic_seizure.description>Голоса хотят меня похитить!</EpilepsySeizure.stages.painful_epileptic_seizure.description>
+	
+	
+	<Depression.stages.bad_mood.label>Плохое настроение</Depression.stages.bad_mood.label>
+	<Depression.stages.bad_mood.description>Я устал. Думаю, мне нужно отдохнуть...</Depression.stages.bad_mood.description>
+	
+	<Depression.stages.dispiritedness.label>Уныние</Depression.stages.dispiritedness.label>
+	<Depression.stages.dispiritedness.description>Все вокруг такие лживые! Я не могу расслабиться...</Depression.stages.dispiritedness.description>
+	
+	<Depression.stages.depressiveness.label>Подавленность</Depression.stages.depressiveness.label>
+	<Depression.stages.depressiveness.description>Я не чувствую радости от обычных вещей. Жизнь теряет цвет с каждым новым днем...</Depression.stages.depressiveness.description>
+	
+	<Depression.stages.severe_depression.label>Серьезная депрессия</Depression.stages.severe_depression.label>
+	<Depression.stages.severe_depression.description>Я не хочу так жить! Все слишком серое...</Depression.stages.severe_depression.description>
+	
+	
+	<Hallucinosis.stages.strange_hallucinations.label>Странные галлюцинации</Hallucinosis.stages.strange_hallucinations.label>
+	<Hallucinosis.stages.strange_hallucinations.description>Вы тоже это видите?</Hallucinosis.stages.strange_hallucinations.description>
+	
+	
+	<ParanoidSyndrome.stages.slight_paranoia.label>Легкая паранойя</ParanoidSyndrome.stages.slight_paranoia.label>
+	<ParanoidSyndrome.stages.slight_paranoia.description>Я чувствую, что кто-то наблюдает за мной.</ParanoidSyndrome.stages.slight_paranoia.description>
+	
+	<ParanoidSyndrome.stages.paranoia.label>Паранойя</ParanoidSyndrome.stages.paranoia.label>
+	<ParanoidSyndrome.stages.paranoia.description>Я знаю, что они что-то замышляют!</ParanoidSyndrome.stages.paranoia.description>
+	
+	<ParanoidSyndrome.stages.severe_paranoia.label>Серьезная паранойя</ParanoidSyndrome.stages.severe_paranoia.label>
+	<ParanoidSyndrome.stages.severe_paranoia.description>Я знаю, что они хотят от меня избавиться!</ParanoidSyndrome.stages.severe_paranoia.description>
+	
+	
+	<PsychosisOfHypersensitivity.stages.psychosis_of_hypersensitivity.label>Психоз гиперчувствительности</PsychosisOfHypersensitivity.stages.psychosis_of_hypersensitivity.label>
+	<PsychosisOfHypersensitivity.stages.psychosis_of_hypersensitivity.description>Я слишком устал...</PsychosisOfHypersensitivity.stages.psychosis_of_hypersensitivity.description>
+	
+	
+	<Ravings.stages.ravings.label>Бред</Ravings.stages.ravings.label>
+	<Ravings.stages.ravings.description>Они за мной охотятся!</Ravings.stages.ravings.description>
+	
+	<Fever.stages.fever.label>Лихорадка</Fever.stages.fever.label>
+	<Fever.stages.fever.description>Я чувствую себя просто ужасно. Моя голова раскалывается, и я не могу удерживать свое внимание.</Fever.stages.fever.description>
+	
+	
+	<Coma.stages.coma.label>Кома</Coma.stages.coma.label>
+	<Coma.stages.coma.description>Больной находится в стабильной коме, реакции на внешние раздражители нет.</Coma.stages.coma.description>
+	
+	<DeliriumTremens.stages.delirium_tremens.label>Белая горячка</DeliriumTremens.stages.delirium_tremens.label>
+	<DeliriumTremens.stages.delirium_tremens.description>Заболевание, возникающее на этапе прекращения употребления алкоголя. Это выражается в бредовых мыслях, ознобе и вспышках гнева.</DeliriumTremens.stages.delirium_tremens.description>
+	
+	
+	<Inspiration.stages.inspiration.label>Странное вдохновение</Inspiration.stages.inspiration.label>
+	<Inspiration.stages.inspiration.description>Я ощущаю необычный прилив сил.</Inspiration.stages.inspiration.description>
+	
+	<Alienation.stages.alienation.label>Странное отчуждение</Alienation.stages.alienation.label>
+	<Alienation.stages.alienation.description>Я как-будто вижу себя со стороны, действую на автомате.</Alienation.stages.alienation.description>
+	
+</LanguageData>

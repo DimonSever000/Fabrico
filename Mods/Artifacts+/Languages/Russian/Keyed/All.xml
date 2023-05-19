@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Artifacts.CompUseEffect_Indoctrinator.DoEffect>Идеология {0} успешно внедрена в сознание {1}.</Artifacts.CompUseEffect_Indoctrinator.DoEffect>
+	<Artifacts.CompUseEffect_Indoctrinator.SelectIdeoLabel>Идеология: {0}</Artifacts.CompUseEffect_Indoctrinator.SelectIdeoLabel>
+	<Artifacts.CompUseEffect_Indoctrinator.SelectIdeoDesc>Выберите идеологию для внедрения.</Artifacts.CompUseEffect_Indoctrinator.SelectIdeoDesc>
+	<!---->
+	<Artifacts.CompUseEffect_Absolver.DoEffect>{0} изменил свои черты характера на {1}.</Artifacts.CompUseEffect_Absolver.DoEffect>
+	<!---->
+	<Artifacts.CompUseEffect_Serenitor.DoEffect>{0} прошел процедуру стирания памяти.</Artifacts.CompUseEffect_Serenitor.DoEffect>
+	<!---->
+	<Artifacts.CompUseEffect_Equalizer.DoEffect>{0} прошел процедуру перераспределения навыков.</Artifacts.CompUseEffect_Equalizer.DoEffect>
+	<!---->
+	<Artifacts.CompUseEffect_Restorer.DoEffect>{0} изменил свой геном на {1}.</Artifacts.CompUseEffect_Restorer.DoEffect>
+	<Artifacts.CompUseEffect_Restorer.XenotypeDef>Ксенотип: {0}</Artifacts.CompUseEffect_Restorer.XenotypeDef>
+	<!---->
+	<Artifacts.CompUseEffect_Characterizer.DoEffect>{0} получает черту характера {1}.</Artifacts.CompUseEffect_Characterizer.DoEffect>
+	<Artifacts.CompUseEffect_Characterizer.TraitDef>Черта характера: {0}</Artifacts.CompUseEffect_Characterizer.TraitDef>
+	<Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitConflict>Конфликт черт характера</Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitConflict>
+	<Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitCount>Слишком много черт характера</Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitCount>
+	<!---->
+</LanguageData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<HAR_AlienSlavery_Abhorrent.label>отвратительно</HAR_AlienSlavery_Abhorrent.label>
+
+<HAR_AlienSlavery_Abhorrent.description>Владение ксеносами или торговля ими - проявлении чистейшего зла.</HAR_AlienSlavery_Abhorrent.description>
+
+<HAR_AlienSlavery_Abhorrent.comps.0.description>Каждый раб-ксенос в колонии</HAR_AlienSlavery_Abhorrent.comps.0.description>
+
+<HAR_AlienSlavery_Abhorrent.comps.5.description>Кто-то продал раба-ксеноса</HAR_AlienSlavery_Abhorrent.comps.5.description>
+
+<HAR_AlienSlavery_Horrible.label>ужасно</HAR_AlienSlavery_Horrible.label>
+
+<HAR_AlienSlavery_Horrible.description>Владение ксеносами или торговля ими - ужасная вещь.</HAR_AlienSlavery_Horrible.description>
+
+<HAR_AlienSlavery_Horrible.comps.0.description>Каждый раб-ксенос в колонии</HAR_AlienSlavery_Horrible.comps.0.description>
+
+<HAR_AlienSlavery_Horrible.comps.5.description>Кто-то продал раба-ксеноса</HAR_AlienSlavery_Horrible.comps.5.description>
+
+<HAR_AlienSlavery_Horrible.comps.6.description>Кто-то поработил ксеноса-пленника</HAR_AlienSlavery_Horrible.comps.6.description>
+
+<HAR_AlienSlavery_Disapproved.label>неодобрительно</HAR_AlienSlavery_Disapproved.label>
+
+<HAR_AlienSlavery_Disapproved.description>Порабощение ксеносов - не более чем неприятная часть нашей жизни.</HAR_AlienSlavery_Disapproved.description>
+
+<HAR_AlienSlavery_Disapproved.comps.0.description>Каждый раб-ксенос в колонии</HAR_AlienSlavery_Disapproved.comps.0.description>
+
+<HAR_AlienSlavery_Disapproved.comps.5.description>Кто-то продал раба-ксеноса</HAR_AlienSlavery_Disapproved.comps.5.description>
+
+<HAR_AlienSlavery_Disapproved.comps.6.description>Кто-то поработил ксеноса-пленника</HAR_AlienSlavery_Disapproved.comps.6.description>
+
+<HAR_AlienSlavery_Acceptable.label>приемлемо</HAR_AlienSlavery_Acceptable.label>
+
+<HAR_AlienSlavery_Acceptable.description>Порабощение инопланетных рас - нормальная, ничем не примечательная часть жизни.</HAR_AlienSlavery_Acceptable.description>
+
+<HAR_AlienSlavery_Honorable.label>почетно</HAR_AlienSlavery_Honorable.label>
+
+<HAR_AlienSlavery_Honorable.description>Тот, кто владеет рабами-ксеносами и торгует ими, должен быть почетаем и уважаем.</HAR_AlienSlavery_Honorable.description>
+
+<HAR_AlienSlavery_Honorable.comps.0.description>Каждый раб-ксенос в колонии</HAR_AlienSlavery_Honorable.comps.0.description>
+
+<HAR_AlienSlavery_Honorable.comps.6.description>Кто-то продал раба-ксеноса</HAR_AlienSlavery_Honorable.comps.6.description>
+
+<HAR_AlienSlavery_Honorable.comps.7.description>-то поработил ксеноса-пленника</HAR_AlienSlavery_Honorable.comps.7.description>
+
+</LanguageData>

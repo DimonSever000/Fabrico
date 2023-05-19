@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="Human"]/recipes</xpath>
+				<value>
+					<li>Lobotomy</li>
+					<li>BrainTreatment</li>
+					<li>CureDeafness</li>
+					<li>CureGlaucoma</li>
+					<li>CureStrabismus</li>
+					<li>CureDiabetes</li>
+					<li>CureImmunodeficiency</li>
+					<li>CureMotorParalysis</li>
+					<li>CurePainNumbnessSyndrome</li>
+					<li>CureSoreJoints</li>
+					<li>CureArrhythmia</li>
+					<li>CureHeartDefect</li>
+					<li>CureStenocardia</li>
+					<li>CureKidneyFailure</li>
+					<li>CureChronicKidneyDisease</li>
+					<li>CureChronicHepatitis</li>
+					<li>CureSpinalInstability</li>
+					<li>CureIntervertebralHernia</li>
+					<li>CureChronicGastritis</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

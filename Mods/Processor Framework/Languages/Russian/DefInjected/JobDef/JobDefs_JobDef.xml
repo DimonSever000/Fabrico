@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/JobDefs.xml-->
+                       <!-- filling TargetA. -->
+<FillProcessor.reportString>наполняет TargetA.</FillProcessor.reportString>
+                        <!-- taking product out of TargetA. -->
+<EmptyProcessor.reportString>сливает содержимое из TargetA.</EmptyProcessor.reportString>
+
+</LanguageData>

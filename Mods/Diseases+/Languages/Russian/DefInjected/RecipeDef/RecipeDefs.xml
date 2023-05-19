@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!---->
+	<Lobotomy.label>Лоботомия</Lobotomy.label>
+	<Lobotomy.description>Лоботомия, которая может излечить заболевание психики или привести к смерти.</Lobotomy.description>
+	<Lobotomy.jobString>Проводит лоботомию</Lobotomy.jobString>
+	<!---->
+	<BrainTreatment.label>Лечение мозга</BrainTreatment.label>
+	<BrainTreatment.description>Операция для лечения хронических заболеваний мозга. Опасна но эффективна.</BrainTreatment.description>
+	<BrainTreatment.jobString>Проводит лечение мозга</BrainTreatment.jobString>
+	<!---->
+	<CureDeafness.label>Вылечить глухоту</CureDeafness.label>
+	<CureDeafness.description>Вылечить глухоту.</CureDeafness.description>
+	<CureDeafness.jobString>Лечит глухоту</CureDeafness.jobString>
+	<!---->
+	<CureGlaucoma.label>Вылечить глаукому</CureGlaucoma.label>
+	<CureGlaucoma.description>Вылечить глаукому.</CureGlaucoma.description>
+	<CureGlaucoma.jobString>Лечит глаукому</CureGlaucoma.jobString>
+	<!---->
+	<CureStrabismus.label>Вылечить косоглазие</CureStrabismus.label>
+	<CureStrabismus.description>Вылечить косоглазие.</CureStrabismus.description>
+	<CureStrabismus.jobString>Лечит косоглазие</CureStrabismus.jobString>
+	<!---->
+	<CureDiabetes.label>Вылечить диабет</CureDiabetes.label>
+	<CureDiabetes.description>Вылечить диабет.</CureDiabetes.description>
+	<CureDiabetes.jobString>Лечит диабет</CureDiabetes.jobString>
+	<!---->
+	<CureImmunodeficiency.label>Вылечить иммунодефицит</CureImmunodeficiency.label>
+	<CureImmunodeficiency.description>Вылечить иммунодефицит.</CureImmunodeficiency.description>
+	<CureImmunodeficiency.jobString>Лечит иммунодефицит</CureImmunodeficiency.jobString>
+	<!---->
+	<CureMotorParalysis.label>Вылечить двигательный паралич</CureMotorParalysis.label>
+	<CureMotorParalysis.description>Вылечить двигательный паралич.</CureMotorParalysis.description>
+	<CureMotorParalysis.jobString>Лечит двигательный паралич</CureMotorParalysis.jobString>
+	<!---->
+	<CurePainNumbnessSyndrome.label>Вылечить синдром потери чувствительности</CurePainNumbnessSyndrome.label>
+	<CurePainNumbnessSyndrome.description>Вылечить синдром потери чувствительности.</CurePainNumbnessSyndrome.description>
+	<CurePainNumbnessSyndrome.jobString>Лечит синдром потери чувствительности</CurePainNumbnessSyndrome.jobString>
+	<!---->
+	<CureSoreJoints.label>Вылечить больные суставы</CureSoreJoints.label>
+	<CureSoreJoints.description>Вылечить больные суставы.</CureSoreJoints.description>
+	<CureSoreJoints.jobString>Лечит больные суставы</CureSoreJoints.jobString>
+	<!---->
+	<CureArrhythmia.label>Вылечить аритмию</CureArrhythmia.label>
+	<CureArrhythmia.description>Вылечить аритмию.</CureArrhythmia.description>
+	<CureArrhythmia.jobString>Лечит аритмию</CureArrhythmia.jobString>
+	<!---->
+	<CureHeartDefect.label>Вылечить порок сердца</CureHeartDefect.label>
+	<CureHeartDefect.description>Вылечить порок сердца.</CureHeartDefect.description>
+	<CureHeartDefect.jobString>Лечит порок сердца</CureHeartDefect.jobString>
+	<!---->
+	<CureStenocardia.label>Вылечить стенокардию</CureStenocardia.label>
+	<CureStenocardia.description>Вылечить стенокардию.</CureStenocardia.description>
+	<CureStenocardia.jobString>Лечит стенокардию</CureStenocardia.jobString>
+	<!---->
+	<CureKidneyFailure.label>Вылечить отказ почки</CureKidneyFailure.label>
+	<CureKidneyFailure.description>Вылечить отказ почки.</CureKidneyFailure.description>
+	<CureKidneyFailure.jobString>Лечит отказ почки</CureKidneyFailure.jobString>
+	<!---->
+	<CureChronicKidneyDisease.label>Вылечить хроническую болезнь почек</CureChronicKidneyDisease.label>
+	<CureChronicKidneyDisease.description>Вылечить хроническую болезнь почек.</CureChronicKidneyDisease.description>
+	<CureChronicKidneyDisease.jobString>Лечит хроническую болезнь почек</CureChronicKidneyDisease.jobString>
+	<!---->
+	<CureChronicHepatitis.label>Вылечить хронический гепатит</CureChronicHepatitis.label>
+	<CureChronicHepatitis.description>Вылечить хронический гепатит.</CureChronicHepatitis.description>
+	<CureChronicHepatitis.jobString>Лечит хронический гепатит</CureChronicHepatitis.jobString>
+	<!---->
+	<CureSpinalInstability.label>Вылечить нестабильность позвоночника</CureSpinalInstability.label>
+	<CureSpinalInstability.description>Вылечить нестабильность позвоночника.</CureSpinalInstability.description>
+	<CureSpinalInstability.jobString>Лечит нестабильность позвоночника</CureSpinalInstability.jobString>
+	<!---->
+	<CureIntervertebralHernia.label>Вылечить межпозвоночную грыжу</CureIntervertebralHernia.label>
+	<CureIntervertebralHernia.description>Вылечить межпозвоночную грыжу.</CureIntervertebralHernia.description>
+	<CureIntervertebralHernia.jobString>Лечит межпозвоночную грыжу</CureIntervertebralHernia.jobString>
+	<!---->
+	<CureChronicGastritis.label>Вылечить хронический гастрит</CureChronicGastritis.label>
+	<CureChronicGastritis.description>Вылечить хронический гастрит.</CureChronicGastritis.description>
+	<CureChronicGastritis.jobString>Лечит хронический гастрит</CureChronicGastritis.jobString>
+	<!---->
+</LanguageData>

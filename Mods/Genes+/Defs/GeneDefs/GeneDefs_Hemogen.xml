@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<Genes.GeneDefExtended>
+		<defName>Hemogen_ColdBlood</defName>
+		<label>Cold blood</label>
+		<labelShortAdj>Cold blood</labelShortAdj>
+		<description>The carrier of the gene cannot maintain body temperature without the influence of the environment. In case of prolonged hypothermia, the creature will go into a stupor.</description>
+		<geneClass>Genes.Gene_ColdBlood</geneClass>
+		<iconPath>Genes/ColdBlood</iconPath>
+		<displayOrderInCategory>1000</displayOrderInCategory>
+		<displayCategory>Hemogen</displayCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>1</biostatMet>
+		<exclusionTags>
+			<li>Plants</li>
+		</exclusionTags>
+	</Genes.GeneDefExtended>
+	<!---->
+</Defs>

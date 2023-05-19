@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MintMenus.label>постройки</MintMenus.label>
+  <MintMenus.description>Показать все постройки, в т.ч. из модов.</MintMenus.description>
+
+  <MintResearch.label>исследования</MintResearch.label>
+  <MintResearch.description>Показать исследовательские проекты.</MintResearch.description>
+
+  <MintDesignators.label>назначения</MintDesignators.label>
+  <MintDesignators.description>Быстро выбрать назначения.</MintDesignators.description>
+
+  <MintBillMenu.label>задания</MintBillMenu.label>
+  <MintBillMenu.description>Показать все задания.</MintBillMenu.description>
+
+  <MintGearMenu.label>снаряжение</MintGearMenu.label>
+  <MintGearMenu.description>Показать вещи, которые носят колонисты.</MintGearMenu.description>
+
+
+</LanguageData>

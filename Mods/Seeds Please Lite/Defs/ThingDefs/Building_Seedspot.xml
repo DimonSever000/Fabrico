@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>SeedExtractionSpot</defName>
+		<label>Seed processing table</label>
+		<description>A place for extracting the seeds of plants.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Buildings/seedextractor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>5.3,5.3</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Buildings/seedextractor_north</uiIconPath>
+		<drawerType>RealtimeOnly</drawerType>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<statBases>
+			<WorkToBuild>1200</WorkToBuild>
+		</statBases>
+		<uiIconScale>2</uiIconScale>
+		<size>3,1</size>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<researchPrerequisites>
+			<li>Agriculture</li>
+		</researchPrerequisites>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>true</useHitPoints>
+		<passability>Standable</passability>
+		<designationCategory>Production</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<clearBuildingArea>false</clearBuildingArea>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<recipes/>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<isEdifice>false</isEdifice>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<ai_chillDestination>false</ai_chillDestination>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+	</ThingDef>
+</Defs>

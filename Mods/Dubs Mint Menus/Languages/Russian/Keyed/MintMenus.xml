@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Mint.GearMenu>Меню снаряжения (эксп.)</Mint.GearMenu>
+  <Mint.GearMenuVisible>Вывести главную кнопку</Mint.GearMenuVisible>
+  <Mint.GearMenuDesc>Активируйте кнопку, чтобы открыть меню управления снаряжением, которое позволяет перетаскивать доступное снаряжение на любого колониста.</Mint.GearMenuDesc>
+  <Mint.Setup>Настройки</Mint.Setup>
+  <Mint.AssignMenu>Назначения</Mint.AssignMenu>
+  <Mint.AssignMenuDesc>Замените по умолчанию меню Назначений новой версией.</Mint.AssignMenuDesc>
+  <MessageCantEquipWhileDowned>Невозможно экипировать - колонист без сознания</MessageCantEquipWhileDowned>
+  <Mint.ShowMintBillsButton>Показать главную кнопку меню заданий</Mint.ShowMintBillsButton>
+  <Mint.ShowMintBillsButtonTip>Показать кнопку нового меню заданий в списке основных вкладок в нижней части экрана</Mint.ShowMintBillsButtonTip>
+  <ReplacePlantMenuTip>Открывать новое меню растений вместо выпадающего списка базовой игры. Если отключено, вы можете щелкнуть, удерживая клавишу Ctrl, чтобы открыть новое меню растений</ReplacePlantMenuTip>
+  <Mint.ShowBillWorkIcons>Показывать объем работы рядом с иконками</Mint.ShowBillWorkIcons>
+  <Mint.ShowBillIngredientIcons>Показывать иконки ингридиентов</Mint.ShowBillIngredientIcons>
+  <Mint.ConfirmDeleteTemplate>Подтверждение об удалении копии</Mint.ConfirmDeleteTemplate>
+  <Mint.RenameTemplateTip>Переименовать</Mint.RenameTemplateTip>
+  <Mint.Clones>Копии</Mint.Clones>
+  <Mint.Bills>Задания</Mint.Bills>
+  <Mint.PasteTemplateTip>Вставить несколько заданий для этого рабочего стола</Mint.PasteTemplateTip>
+  <Mint.CloneBills>Копировать задания</Mint.CloneBills>
+  <Mint.DeleteTemplate>Удалить шаблон</Mint.DeleteTemplate>
+  <Mint.CloneWorktable>Копировать несколько заданий с этого рабочего стола</Mint.CloneWorktable>
+  <Mint.SelectABenchToAddBills>Выбрать рабочие столы для добавления задания</Mint.SelectABenchToAddBills>
+  <AutoCloseArchitect>Закрыть при выборе</AutoCloseArchitect>
+  <AutoCloseArchitectDesc>Закрывать меню строительства при выборе постройки.</AutoCloseArchitectDesc>
+  <ResearchQueueTip>Текущая очередь исследований - перетащите для изменений</ResearchQueueTip>
+  <QueueResearchProj>Очередь исследований</QueueResearchProj>
+  <EnablePinningResources>Включить закрепление ресурсов</EnablePinningResources>
+  <EnablePinningResourcesTip>Удерживая нажатой клавишу Ctrl, щелкните элементы в меню ресурсов, чтобы закрепить нужные наверху (работает только в режиме категорий).</EnablePinningResourcesTip>
+  <ShowHideResourceList>Скрыть меню ресурсов</ShowHideResourceList>
+  <ShowHideResourceListTip>Скрыть меню ресурсов в левой части экрана.</ShowHideResourceListTip>
+  <dragdropdes>Перетащить\n&amp;\nОтпустить</dragdropdes>
+  <ReplacePlantMenu>Меню растений</ReplacePlantMenu>
+  <ResearchCompletionMode>Завершение исследования</ResearchCompletionMode>
+  <MintHelpLinks>Поддержка</MintHelpLinks>
+  <MintDiscord>Дискорд Dubs Mods</MintDiscord>
+  <ProjectStalled>Не выполнены условия исследовательского проекта</ProjectStalled>
+  <ProjectStopped>Проект остановлен</ProjectStopped>
+  <MintWiki>Вики Mint Menus</MintWiki>
+  <SetButtonsFromBuildo>Добавить кнопки, открывающие новое меню строительства (или удерживайте Ctrl в меню строительства для этого действия)</SetButtonsFromBuildo>
+  <BillSearchTip>Слова, доступные для поиска, включают:\n\nЛюбые слова из заданий, включая производственные задания. Например, штаны\n\nКатегории материалов, например, кожа\nЧасти тела, например, голова\n\nСвойства, например, промышленный\n\nСлои одежды, например, головной убор</BillSearchTip>
+  <NoActiveProject>Нет активных проектов</NoActiveProject>
+  <TargetProject>Целевой проект: {0}</TargetProject>
+  <MintWheelEditMode>Щелкните на приказы в меню строительства, чтобы добавить их в быстрое меню\nПеретащите и отпустите их, чтобы расположить в нужном порядке</MintWheelEditMode>
+  <MintWheelDesc>Быстрое меню {0}/{1} Ctrl+клик для назначения</MintWheelDesc>
+  <MintWheelMenu>Быстрое меню</MintWheelMenu>
+  <MintWheelonrightclick>Быстрое меню по правому щелчку мыши</MintWheelonrightclick>
+  <MintWheelRightClickDesc>Открывать быстрое меню щелчком правой кнопки мыши вместо открытия его через меню строительства.</MintWheelRightClickDesc>
+  <MintWheel>Быстрое меню</MintWheel>
+  <MintBuildMenu>Меню строительства</MintBuildMenu>
+  <AutoFocusSearch>Автовыделение строки поиска</AutoFocusSearch>
+  <AutoFocusSearchDesc>Автоматически выделить поле поиска, для ввода текста каждый раз, когда открывается меню строительства.</AutoFocusSearchDesc>
+  <OverrideArchitectTab>Включить вкладку строительства</OverrideArchitectTab>
+  <OverrideArchitectTabDesc>Сделать новое меню строительства вкладкой по умолчанию (или удерживайте Ctrl для этого действия).</OverrideArchitectTabDesc>
+  <ResearchMenu>Меню исследований</ResearchMenu>
+  <MintListWidth>Ширина списка</MintListWidth>
+  <OverrideResearchTab>Включить вкладку иседований</OverrideResearchTab>
+  <OverrideResearchTabDesc>Сделать новое меню исследований вкладкой по умолчанию (или удерживайте Ctrl для этого действия).</OverrideResearchTabDesc>
+  <UnlockedThings>Разблокировать вещи</UnlockedThings>
+  <HideFinishedProjects>Скрывать завершенные проекты</HideFinishedProjects>
+  <HideLockedProjects>Скрывать недоступные проекты</HideLockedProjects>
+  <PinnedRes>Закрепить</PinnedRes>
+  <MintResourceReadout>Меню ресурсов</MintResourceReadout>
+  <MintExperimental>Дополнительно</MintExperimental>
+  <Autoprojectstep>Автозапуск проекта</Autoprojectstep>
+  <AutoprojectstepDesc>Автоматически запускать следующий этап исследовательского проекта для завершения целевого проекта.</AutoprojectstepDesc>
+  <MintBills>Задания</MintBills>
+  <ListWidth>Ширина списка</ListWidth>
+  <RowHeight>Высота строки</RowHeight>
+  <InfocardWidth>Ширина меню</InfocardWidth>
+  <TopOffset>Смещение сверху</TopOffset>
+  <MaxHeight>Макс. высота</MaxHeight>
+  <MintPlants>Растения</MintPlants>
+  <BoxSizeX>Ширина списка</BoxSizeX>
+  <BoxSizeY>Высота списка</BoxSizeY>
+  <MintResetAll>Сбросить все</MintResetAll>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<CureSymbioticParasite.label>Извлечь симбиотического паразита</CureSymbioticParasite.label>
+	<CureSymbioticParasite.description>Извлечение симбиотического паразита.</CureSymbioticParasite.description>
+	<CureSymbioticParasite.jobString>Извлекает симбиотического паразита</CureSymbioticParasite.jobString>
+	<CureSymbioticParasite.successfullyRemovedHediffMessage>{0} успешно удаляет симбиотического паразита у {1}.</CureSymbioticParasite.successfullyRemovedHediffMessage>
+	<!---->
+</LanguageData>

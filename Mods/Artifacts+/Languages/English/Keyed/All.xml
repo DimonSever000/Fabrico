@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<Artifacts.CompUseEffect_Indoctrinator.DoEffect>Ideology {0} has been successfully introduced into the consciousness of {1}.</Artifacts.CompUseEffect_Indoctrinator.DoEffect>
+	<Artifacts.CompUseEffect_Indoctrinator.SelectIdeoLabel>Ideology: {0}</Artifacts.CompUseEffect_Indoctrinator.SelectIdeoLabel>
+	<Artifacts.CompUseEffect_Indoctrinator.SelectIdeoDesc>Choose an ideology to indoctrination.</Artifacts.CompUseEffect_Indoctrinator.SelectIdeoDesc>
+	<!---->
+	<Artifacts.CompUseEffect_Absolver.DoEffect>{0} changed their traits to {1}.</Artifacts.CompUseEffect_Absolver.DoEffect>
+	<!---->
+	<Artifacts.CompUseEffect_Serenitor.DoEffect>{0} has passed the memory erase process.</Artifacts.CompUseEffect_Serenitor.DoEffect>
+	<!---->
+	<Artifacts.CompUseEffect_Equalizer.DoEffect>{0} went through the skill redistribution process.</Artifacts.CompUseEffect_Equalizer.DoEffect>
+	<!---->
+	<Artifacts.CompUseEffect_Restorer.DoEffect>{0} has changed its xenotype to {1}.</Artifacts.CompUseEffect_Restorer.DoEffect>
+	<Artifacts.CompUseEffect_Restorer.XenotypeDef>Xenotype: {0}</Artifacts.CompUseEffect_Restorer.XenotypeDef>
+	<!---->
+	<Artifacts.CompUseEffect_Characterizer.DoEffect>{0} gains the trait {1}.</Artifacts.CompUseEffect_Characterizer.DoEffect>
+	<Artifacts.CompUseEffect_Characterizer.TraitDef>Trait: {0}</Artifacts.CompUseEffect_Characterizer.TraitDef>
+	<Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitConflict>Conflict of traits</Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitConflict>
+	<Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitCount>Too many traits</Artifacts.CompUseEffect_Characterizer.CanNotBeUsedBy_TraitCount>
+	<!---->
+</LanguageData>

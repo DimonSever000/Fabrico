@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+	
+	<DimonSever000_EnergyHole.label>Энергетическая дыра</DimonSever000_EnergyHole.label>
+	<DimonSever000_EnergyHole.description>Энергетическая червоточина, извергающая из себя сгустки материи и энергии, что также может провоцировать пожары.</DimonSever000_EnergyHole.description>
+	<DimonSever000_EnergyHole.comps.CompDestroyAfterDelay.countdownLabel>Сгорит через</DimonSever000_EnergyHole.comps.CompDestroyAfterDelay.countdownLabel>
+	
+</LanguageData>
